@@ -1,0 +1,40 @@
+{
+  "source_screenshot_count": 33,
+  "confirmed_destination_rows": 223,
+  "coverage": [
+    {
+      "origin_port": "Petit Anvers",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "New Brighton"
+      ]
+    },
+    {
+      "origin_port": "Sainte Rose",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ]
+    },
+    {
+      "origin_port": "Louisbourg",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ]
+    },
+    {
+      "origin_port": "Maurepas",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ]
+    }
+  ],
+  "status_policy": "Only visible screenshot observations are emitted; no missing rows are estimated or fabricated."
+}

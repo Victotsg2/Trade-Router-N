@@ -1,0 +1,340 @@
+{
+  "schema_version": "stage1-final-1.0",
+  "region": {
+    "region_id": "KIN",
+    "region_name": "Kingston",
+    "image_width_px": 1390,
+    "image_height_px": 1052,
+    "coordinate_origin": "top-left"
+  },
+  "geometry_policy": {
+    "raw_obstacle_mask": "authoritative; 255 obstacle, 0 non-obstacle",
+    "navigation_water_mask": "255 owned navigable water, 0 blocked/outside ownership",
+    "ownership_mask": "255 target-region playable ownership, 0 neighboring/excluded",
+    "clearance_buffer": "not baked into authoritative data"
+  },
+  "ports": [
+    {
+      "region_id": "KIN",
+      "port_id": "KIN-P01",
+      "display_name": "Port Royal",
+      "pixel_x": 771,
+      "pixel_y": 404,
+      "normalized_x": 0.554676,
+      "normalized_y": 0.38403,
+      "marker_pixel_x": 765,
+      "marker_pixel_y": 387,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "KIN",
+      "port_id": "KIN-P02",
+      "display_name": "Theresa",
+      "pixel_x": 547,
+      "pixel_y": 670,
+      "normalized_x": 0.393525,
+      "normalized_y": 0.636882,
+      "marker_pixel_x": 553,
+      "marker_pixel_y": 661,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "KIN",
+      "port_id": "KIN-P03",
+      "display_name": "Port Antonio",
+      "pixel_x": 672,
+      "pixel_y": 809,
+      "normalized_x": 0.483453,
+      "normalized_y": 0.769011,
+      "marker_pixel_x": 673,
+      "marker_pixel_y": 817,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "KIN",
+      "port_id": "KIN-P04",
+      "display_name": "Falmouth",
+      "pixel_x": 861,
+      "pixel_y": 827,
+      "normalized_x": 0.619424,
+      "normalized_y": 0.786122,
+      "marker_pixel_x": 873,
+      "marker_pixel_y": 821,
+      "confidence": "visually_verified"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "KIN-TP01",
+      "region_id": "KIN",
+      "destination_region_id": "IRV",
+      "polygon_coordinates": [
+        [
+          535,
+          1
+        ],
+        [
+          1054,
+          243
+        ],
+        [
+          1032,
+          288
+        ],
+        [
+          514,
+          47
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.384892,
+          0.000951
+        ],
+        [
+          0.758273,
+          0.230989
+        ],
+        [
+          0.742446,
+          0.273764
+        ],
+        [
+          0.369784,
+          0.044677
+        ]
+      ],
+      "paired_tp_id": "IRV-TP04",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "KIN-TP02",
+      "region_id": "KIN",
+      "destination_region_id": "GRF",
+      "polygon_coordinates": [
+        [
+          1057,
+          278
+        ],
+        [
+          1057,
+          639
+        ],
+        [
+          1106,
+          639
+        ],
+        [
+          1106,
+          278
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.760432,
+          0.264259
+        ],
+        [
+          0.760432,
+          0.607414
+        ],
+        [
+          0.795683,
+          0.607414
+        ],
+        [
+          0.795683,
+          0.264259
+        ]
+      ],
+      "paired_tp_id": "GRF-TP07",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "KIN-TP03",
+      "region_id": "KIN",
+      "destination_region_id": "SSA",
+      "polygon_coordinates": [
+        [
+          351,
+          46
+        ],
+        [
+          351,
+          891
+        ],
+        [
+          400,
+          891
+        ],
+        [
+          400,
+          46
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.252518,
+          0.043726
+        ],
+        [
+          0.252518,
+          0.846958
+        ],
+        [
+          0.28777,
+          0.846958
+        ],
+        [
+          0.28777,
+          0.043726
+        ]
+      ],
+      "paired_tp_id": "SSA-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "KIN-TP04",
+      "region_id": "KIN",
+      "destination_region_id": "STP",
+      "polygon_coordinates": [
+        [
+          1073,
+          797
+        ],
+        [
+          957,
+          925
+        ],
+        [
+          994,
+          959
+        ],
+        [
+          1110,
+          830
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.771942,
+          0.757605
+        ],
+        [
+          0.688489,
+          0.879278
+        ],
+        [
+          0.715108,
+          0.911597
+        ],
+        [
+          0.798561,
+          0.788973
+        ]
+      ],
+      "paired_tp_id": "STP-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "KIN-TP05",
+      "region_id": "KIN",
+      "destination_region_id": "CAY",
+      "polygon_coordinates": [
+        [
+          503,
+          945
+        ],
+        [
+          910,
+          945
+        ],
+        [
+          910,
+          994
+        ],
+        [
+          503,
+          994
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.361871,
+          0.898289
+        ],
+        [
+          0.654676,
+          0.898289
+        ],
+        [
+          0.654676,
+          0.944867
+        ],
+        [
+          0.361871,
+          0.944867
+        ]
+      ],
+      "paired_tp_id": "CAY-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "KIN-TP06",
+      "region_id": "KIN",
+      "destination_region_id": "ILB",
+      "polygon_coordinates": [
+        [
+          344,
+          910
+        ],
+        [
+          446,
+          1012
+        ],
+        [
+          411,
+          1048
+        ],
+        [
+          309,
+          945
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.247482,
+          0.865019
+        ],
+        [
+          0.320863,
+          0.961977
+        ],
+        [
+          0.295683,
+          0.996198
+        ],
+        [
+          0.222302,
+          0.898289
+        ]
+      ],
+      "paired_tp_id": "ILB-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    }
+  ],
+  "map_assets": {
+    "source": "source.png",
+    "raw_obstacle_mask": "raw_obstacle_mask.png",
+    "navigation_water_mask": "navigation_water_mask.png",
+    "ownership_mask": "ownership_mask.png",
+    "review_overlay": "review_overlay.png"
+  },
+  "status": "visually_verified"
+}

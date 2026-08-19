@@ -1,0 +1,592 @@
+[
+  {
+    "path": "stage1_data/ALL_REGIONS_REVIEW_CONTACT_SHEET.png",
+    "sha256": "0ebb42f05afde9c8ebcc002172300fd0b741d47e0930bf33330f99efc0fc6706",
+    "bytes": 1031494
+  },
+  {
+    "path": "stage1_data/map_assets.csv",
+    "sha256": "b16b372a8c093a9867fda6544216d59e668b2b93a93941cf3bb31602317101f8",
+    "bytes": 5525
+  },
+  {
+    "path": "stage1_data/PORT_ANCHOR_REVIEW_CONTACT_SHEET.png",
+    "sha256": "ae4f5dd05e9eb72cd855738af38c4a43459f46d6cbf21669ad8ea6b41f15a817",
+    "bytes": 1040986
+  },
+  {
+    "path": "stage1_data/ports.csv",
+    "sha256": "88043c684e0ec1bcc8e1dd89a4c3e304a5f37f9a95ce2e75e9113d5042165820",
+    "bytes": 4523
+  },
+  {
+    "path": "stage1_data/README.md",
+    "sha256": "cb5e5e0c156e9d22f8eb71a1954d83b7c08bca539f3007b6e1fb7e1a3a141fe9",
+    "bytes": 531
+  },
+  {
+    "path": "stage1_data/regions.csv",
+    "sha256": "eb2bbb4bcd6eb88a74919b7d77911546ed569e8da533845835d572bb4a27b6e1",
+    "bytes": 830
+  },
+  {
+    "path": "stage1_data/regions/BEL/geometry.json",
+    "sha256": "b4e62d3379bcad948e59daf22a8f3362cb9920b7491b3e45a9185b4e00bd27bd",
+    "bytes": 3772
+  },
+  {
+    "path": "stage1_data/regions/BEL/navigation_water_mask.png",
+    "sha256": "249aebf4706ec251587652fbe86a78ff07df055edf7edfe18892eca8ab7afe98",
+    "bytes": 8083
+  },
+  {
+    "path": "stage1_data/regions/BEL/ownership_mask.png",
+    "sha256": "6ef0921c64bd7a9205299ff325ea7bb35e646656248e34109923b3a67da01265",
+    "bytes": 3430
+  },
+  {
+    "path": "stage1_data/regions/BEL/raw_obstacle_mask.png",
+    "sha256": "4ebc6f1f16af6a16488325142e35483d0b8efd71f7726b2b5b8bf3d4e7104982",
+    "bytes": 6132
+  },
+  {
+    "path": "stage1_data/regions/BEL/review_overlay.png",
+    "sha256": "3b86f7802e1ef2d03993c9e220be110a72972667301834bb417ea7708e0cdacd",
+    "bytes": 165351
+  },
+  {
+    "path": "stage1_data/regions/BEL/source.png",
+    "sha256": "1c22994921c2d9ddd858be9ff893263b8f641add4f170a5d657aee50ecbe7cd2",
+    "bytes": 197840
+  },
+  {
+    "path": "stage1_data/regions/BTS/geometry.json",
+    "sha256": "e39c57d21f1b2ad14e166b58efdd700b74acc5ce7892624406e9bd1abc91408b",
+    "bytes": 6488
+  },
+  {
+    "path": "stage1_data/regions/BTS/navigation_water_mask.png",
+    "sha256": "4475a12fec3f62b415fc10d63c6ac4951e0e634d44d0afbd67a1c8a4e17e842f",
+    "bytes": 7559
+  },
+  {
+    "path": "stage1_data/regions/BTS/ownership_mask.png",
+    "sha256": "56e8f4f5799a6f21bcf5bfa76b462ad86d1fb380f89bfee5135516197129bd77",
+    "bytes": 5695
+  },
+  {
+    "path": "stage1_data/regions/BTS/raw_obstacle_mask.png",
+    "sha256": "8fb6e7a7ad020518c06bd5f0bf75055a93b4bb03b3d80db8cb24fe046e10088b",
+    "bytes": 3857
+  },
+  {
+    "path": "stage1_data/regions/BTS/review_overlay.png",
+    "sha256": "ecf0e807517e4ff8ed584dc7ddc6ea3ac7b194495bed9f1d1ee3668b3749e83b",
+    "bytes": 172003
+  },
+  {
+    "path": "stage1_data/regions/BTS/source.png",
+    "sha256": "8c57faab26f8236d79c0e98d5b0a76705c179f4af49e96b37862bf116577b2a5",
+    "bytes": 205577
+  },
+  {
+    "path": "stage1_data/regions/CAY/geometry.json",
+    "sha256": "02a346c1f53eb18c6ba403d5a30cc335ee1f1bacc5aeca6425c857678695f883",
+    "bytes": 4629
+  },
+  {
+    "path": "stage1_data/regions/CAY/navigation_water_mask.png",
+    "sha256": "1cc0b29dfa59f7d233a87c3c0bc98fecfcc0c683dba8fbadd64513a271da08b5",
+    "bytes": 7830
+  },
+  {
+    "path": "stage1_data/regions/CAY/ownership_mask.png",
+    "sha256": "890d238e3f6ebe13591e13e7ae2433660aec2bb3c7c8f723eda9c0042ac8c5b2",
+    "bytes": 5805
+  },
+  {
+    "path": "stage1_data/regions/CAY/raw_obstacle_mask.png",
+    "sha256": "b384ceaece11d7e65fa97317500d05ba31b5fc9a33f9f56f0d7aa4d070a75399",
+    "bytes": 4041
+  },
+  {
+    "path": "stage1_data/regions/CAY/review_overlay.png",
+    "sha256": "7fad45c1623b9531c48064e204380ef18724eb36fad7f798e91cbf5bf8a9abea",
+    "bytes": 306474
+  },
+  {
+    "path": "stage1_data/regions/CAY/source.png",
+    "sha256": "42d914a28771eccb4eb609a2b26c855f778a9751e5230be698f2d6e54b925c2a",
+    "bytes": 356194
+  },
+  {
+    "path": "stage1_data/regions/ESO/geometry.json",
+    "sha256": "f37306128b10f3440f9372caa75f9f38b4eb9a046867d64224390cd01eae87bf",
+    "bytes": 3395
+  },
+  {
+    "path": "stage1_data/regions/ESO/navigation_water_mask.png",
+    "sha256": "d3914110fa2fa7ec90bce6ced91f5f7c7c61da42f80ed09f095745f7452e5f2b",
+    "bytes": 6357
+  },
+  {
+    "path": "stage1_data/regions/ESO/ownership_mask.png",
+    "sha256": "c92ae894af158fd686cbad835128e2094df4c2305b7924250c06c4cbcf699ebd",
+    "bytes": 2921
+  },
+  {
+    "path": "stage1_data/regions/ESO/raw_obstacle_mask.png",
+    "sha256": "42c5ac94dd5738bc54084060e09b26d36f2573f11078f95054c70022d9b5c864",
+    "bytes": 4629
+  },
+  {
+    "path": "stage1_data/regions/ESO/review_overlay.png",
+    "sha256": "d694fc47b4170390db5fe405743a0b5900025a143000d0c28842b1db4f5907f0",
+    "bytes": 113492
+  },
+  {
+    "path": "stage1_data/regions/ESO/source.png",
+    "sha256": "f53b7ef31f085dfbe357d4d8201fac81e493b0dff8b042dc8b5ae0ac8f4cf84a",
+    "bytes": 140969
+  },
+  {
+    "path": "stage1_data/regions/GRF/geometry.json",
+    "sha256": "1adfdee52a9ef08f5d14a95a9dfed94d197e47a37f7a2ee1a561459a096962b8",
+    "bytes": 6591
+  },
+  {
+    "path": "stage1_data/regions/GRF/navigation_water_mask.png",
+    "sha256": "274126ae7aca1d9432e4a9dd2cd366a1b08e86ee3a01ae8ba6d083906cc98249",
+    "bytes": 5158
+  },
+  {
+    "path": "stage1_data/regions/GRF/ownership_mask.png",
+    "sha256": "1a527657ec56562f492006887c2f6ff633c11e82e7e80a4cd92336b089407749",
+    "bytes": 3852
+  },
+  {
+    "path": "stage1_data/regions/GRF/raw_obstacle_mask.png",
+    "sha256": "5572f9ebec7bf833dabbd10ad6a60ab1f95b065d109725e50fb6441a3fcd43c8",
+    "bytes": 2288
+  },
+  {
+    "path": "stage1_data/regions/GRF/review_overlay.png",
+    "sha256": "eb24a160eb315ed32f79dbe34c1a24b3ef082769b7ce73bf3ceefb107bbb73e8",
+    "bytes": 89363
+  },
+  {
+    "path": "stage1_data/regions/GRF/source.png",
+    "sha256": "da204cbdd560e6e69427d1a7156126802f9ea17f8f702fb744e0917aaac3a5bd",
+    "bytes": 110119
+  },
+  {
+    "path": "stage1_data/regions/IDL/geometry.json",
+    "sha256": "1684339efae537b3dbb6ec1e5ea776911fd9ce4cd3de3df0f19cd466875d664a",
+    "bytes": 6787
+  },
+  {
+    "path": "stage1_data/regions/IDL/navigation_water_mask.png",
+    "sha256": "2613b78bf8a1499a16b4d48623dd61d4a2e8ec09164f29d08d67561393ee6adb",
+    "bytes": 6703
+  },
+  {
+    "path": "stage1_data/regions/IDL/ownership_mask.png",
+    "sha256": "deffa5f8177b6a20cebf9fa01a82c5ec731b9ff8dd05e65d0339210ced387dc7",
+    "bytes": 3796
+  },
+  {
+    "path": "stage1_data/regions/IDL/raw_obstacle_mask.png",
+    "sha256": "9177e891779950390140780af2f15c72352ae8dbae4a3fd3fd021132e7c6bcfe",
+    "bytes": 3896
+  },
+  {
+    "path": "stage1_data/regions/IDL/review_overlay.png",
+    "sha256": "3bc86e2ac90fb9b78d897541927edbf6b8a0ec564586ca3679566e8aac094b69",
+    "bytes": 123335
+  },
+  {
+    "path": "stage1_data/regions/IDL/source.png",
+    "sha256": "06e10f1178282e87c35ac078c3ab5b69d041987faccc5472912b512adec693b4",
+    "bytes": 152118
+  },
+  {
+    "path": "stage1_data/regions/ILB/geometry.json",
+    "sha256": "5f443b6781488ec5124598abd73db2c86a3575ff0c2f2ef4d88a3bf2e1a9197e",
+    "bytes": 3711
+  },
+  {
+    "path": "stage1_data/regions/ILB/navigation_water_mask.png",
+    "sha256": "ed45e4c5d53725f07c67f8318a3292c5654d39a50032e11e957d9cb88ffef6c9",
+    "bytes": 5127
+  },
+  {
+    "path": "stage1_data/regions/ILB/ownership_mask.png",
+    "sha256": "51ee2891f2d81068d10dc86fec13bb63bff0ad771050b5187fe7de54ba7d208b",
+    "bytes": 3157
+  },
+  {
+    "path": "stage1_data/regions/ILB/raw_obstacle_mask.png",
+    "sha256": "730846705bbabaeef903488f478f76ec4965b3003358f976d1eeb9a5ab80f9a8",
+    "bytes": 3548
+  },
+  {
+    "path": "stage1_data/regions/ILB/review_overlay.png",
+    "sha256": "b971a6af707c55d7a104474eb637b1cad7aa01ba6dccee68bd3949ef2272f786",
+    "bytes": 112631
+  },
+  {
+    "path": "stage1_data/regions/ILB/source.png",
+    "sha256": "ca9993464f5be891c90940076981164efd3df9f409542f5c92843c210a77da15",
+    "bytes": 132160
+  },
+  {
+    "path": "stage1_data/regions/IRV/geometry.json",
+    "sha256": "7dfcd710facf0a83f5ce93290a8174ec9db0c8325678ac9a79b4c0fb371b8fc6",
+    "bytes": 4633
+  },
+  {
+    "path": "stage1_data/regions/IRV/navigation_water_mask.png",
+    "sha256": "09e677f36776036a855a7dfb27a44ded95d520737a3dbfa80eea92fdea262d25",
+    "bytes": 5316
+  },
+  {
+    "path": "stage1_data/regions/IRV/ownership_mask.png",
+    "sha256": "2299c09ed0978cfff4d7a3ca92c664b466c5aee5ad12148e6cd51ba0771cc437",
+    "bytes": 4110
+  },
+  {
+    "path": "stage1_data/regions/IRV/raw_obstacle_mask.png",
+    "sha256": "c8458c43a19f969f8a115d8162b6ea74cac4ca01d8e269ac11bf0fd3958cc27a",
+    "bytes": 2693
+  },
+  {
+    "path": "stage1_data/regions/IRV/review_overlay.png",
+    "sha256": "0b0ff83a69a984909af3084a434f159d5efb9e038228ed4d0d9cb02dd4bc5863",
+    "bytes": 159776
+  },
+  {
+    "path": "stage1_data/regions/IRV/source.png",
+    "sha256": "4e10cd1b40ebe4b04fcac361b5720144750284698366b7e24224582d254b1529",
+    "bytes": 191098
+  },
+  {
+    "path": "stage1_data/regions/KIN/geometry.json",
+    "sha256": "97f23ce058f6077b7cad1afe0083ebd862af5d25753fc9eb517f377f7b9b0d63",
+    "bytes": 6794
+  },
+  {
+    "path": "stage1_data/regions/KIN/navigation_water_mask.png",
+    "sha256": "e2c205296b138996cfd099d94dada1b4fb68ce0d728f02c23e1da9bf4eccf5a6",
+    "bytes": 7512
+  },
+  {
+    "path": "stage1_data/regions/KIN/ownership_mask.png",
+    "sha256": "485060495328a843ddfb4f8589c3905a722c833d8526532b89bdcba0d49e61bb",
+    "bytes": 4748
+  },
+  {
+    "path": "stage1_data/regions/KIN/raw_obstacle_mask.png",
+    "sha256": "339d056ddbeb4d2b5f83dbc36d77ad975d83b3e4a47c288b29ebb48cff1263e0",
+    "bytes": 4953
+  },
+  {
+    "path": "stage1_data/regions/KIN/review_overlay.png",
+    "sha256": "183cc1fc463110110087c83af7d679743db72638cdb5380d2bed8d860f3cc344",
+    "bytes": 164440
+  },
+  {
+    "path": "stage1_data/regions/KIN/source.png",
+    "sha256": "b499f512cac3b309b4fc27eb25603d5190afc4524a69920a10597efd1eae58af",
+    "bytes": 199626
+  },
+  {
+    "path": "stage1_data/regions/LEB/geometry.json",
+    "sha256": "68f0e72ceca5fc6848ab6016429358ff2da0dff6665f7894a73f75cc05a7fca1",
+    "bytes": 6609
+  },
+  {
+    "path": "stage1_data/regions/LEB/navigation_water_mask.png",
+    "sha256": "3ab55d587cdd1a5a3e7d288950bd070130ba897ff4d33fc3c6efa53bd178d7a3",
+    "bytes": 7318
+  },
+  {
+    "path": "stage1_data/regions/LEB/ownership_mask.png",
+    "sha256": "0c9126648e3daa41b4eb0ef8a15485148bc1de9f59805498485f985013147d72",
+    "bytes": 4573
+  },
+  {
+    "path": "stage1_data/regions/LEB/raw_obstacle_mask.png",
+    "sha256": "1cd32271054f496a7bba861e9c343e1573acf3aaf5f6b2834eb8ce20bde83b5b",
+    "bytes": 4537
+  },
+  {
+    "path": "stage1_data/regions/LEB/review_overlay.png",
+    "sha256": "f121e845b3b84b5f1f62cbe972d1cc4b102b43ebcf02f835a19f5608fb42b682",
+    "bytes": 185224
+  },
+  {
+    "path": "stage1_data/regions/LEB/source.png",
+    "sha256": "3b77bf340f14106bbb3764e8ae1c7b0e3e2a092440cf416358c66eee937f2c27",
+    "bytes": 224491
+  },
+  {
+    "path": "stage1_data/regions/NCA/geometry.json",
+    "sha256": "3b73f2cece858c540eddc5a4cae6bc2a9c9516ac95e9200619ed41cfef40391d",
+    "bytes": 3724
+  },
+  {
+    "path": "stage1_data/regions/NCA/navigation_water_mask.png",
+    "sha256": "8198e32b059c15704645f5a401596e3cb45b07c4fcf411a1b6142e9a1c8b5624",
+    "bytes": 5141
+  },
+  {
+    "path": "stage1_data/regions/NCA/ownership_mask.png",
+    "sha256": "9a18f0cddeddce52b3eeca34545f1285019f867c3c62f75445d80aca653e08f8",
+    "bytes": 3011
+  },
+  {
+    "path": "stage1_data/regions/NCA/raw_obstacle_mask.png",
+    "sha256": "ade818ddbff64006622d8adf03ea21db8b874e0112af96c0848c96ae80ec15db",
+    "bytes": 3498
+  },
+  {
+    "path": "stage1_data/regions/NCA/review_overlay.png",
+    "sha256": "5731d402d5837cff66194b990dfc5032048b37156663b12260b96a003730b612",
+    "bytes": 98594
+  },
+  {
+    "path": "stage1_data/regions/NCA/source.png",
+    "sha256": "44fee903da5d748758a17d0f3f6934da693ff0cd3b70350ac2bdb4787f7f0eb8",
+    "bytes": 118433
+  },
+  {
+    "path": "stage1_data/regions/SNI/geometry.json",
+    "sha256": "357554fb9d862bcb60b83bdfb1464876f2abea7810247c953e6a898a161520ef",
+    "bytes": 3818
+  },
+  {
+    "path": "stage1_data/regions/SNI/navigation_water_mask.png",
+    "sha256": "28964842c4d8dc231fbd9c19ca442e58ce564b31e89197386bc279c4280200c5",
+    "bytes": 4479
+  },
+  {
+    "path": "stage1_data/regions/SNI/ownership_mask.png",
+    "sha256": "a34394d8b67402cf9aa4779c3aa0796e8e2d9e929e495e38e41295624676bf4e",
+    "bytes": 2117
+  },
+  {
+    "path": "stage1_data/regions/SNI/raw_obstacle_mask.png",
+    "sha256": "527f5111db338a7a5c1264f3ad611ed1753a7115e6ef74c93cfdd86966a8eb9d",
+    "bytes": 3918
+  },
+  {
+    "path": "stage1_data/regions/SNI/review_overlay.png",
+    "sha256": "2c9fc995f075e4896bc4bde7efdabf483c7e231d996501a8571875804b2529b5",
+    "bytes": 112607
+  },
+  {
+    "path": "stage1_data/regions/SNI/source.png",
+    "sha256": "6669becd06e99d19132a6f7bed1c1f0201bed97255036a1794a0e6cc1757455f",
+    "bytes": 134677
+  },
+  {
+    "path": "stage1_data/regions/SPO/geometry.json",
+    "sha256": "88d19d776ff2bface350a0b6c03ec64cd5be816550906bd9b01f1ef83c0d7168",
+    "bytes": 3713
+  },
+  {
+    "path": "stage1_data/regions/SPO/navigation_water_mask.png",
+    "sha256": "c240b6faffef110cd6d72d978e86fc80433321686bc740711e1af159c0a9897f",
+    "bytes": 7826
+  },
+  {
+    "path": "stage1_data/regions/SPO/ownership_mask.png",
+    "sha256": "656f22ed0d8c03127774c4396dae3198b166097f4a6b3589e30dddcdf479871c",
+    "bytes": 4144
+  },
+  {
+    "path": "stage1_data/regions/SPO/raw_obstacle_mask.png",
+    "sha256": "6b34fb25ba00649710156fd3f8bdd7aabece6baa890cf44a9cdef8b6032b6808",
+    "bytes": 5491
+  },
+  {
+    "path": "stage1_data/regions/SPO/review_overlay.png",
+    "sha256": "26600f11dff16a67cc149d3a9b37a06a24588e5c667fc51f43137a1f3c69c9a9",
+    "bytes": 111179
+  },
+  {
+    "path": "stage1_data/regions/SPO/source.png",
+    "sha256": "6305029e1db2cc193b9bacd3f45d13766b6407b12c9a593c7bafa075654b997d",
+    "bytes": 135571
+  },
+  {
+    "path": "stage1_data/regions/SSA/geometry.json",
+    "sha256": "bd4c139b3ab824a6b2ab28f0472860cd55504d4e23647fdd173ebf5ada31b2bd",
+    "bytes": 3738
+  },
+  {
+    "path": "stage1_data/regions/SSA/navigation_water_mask.png",
+    "sha256": "ddc1e36754657280135475c33300f49c3cb22f2f5c79728a47205ea4fd478449",
+    "bytes": 3257
+  },
+  {
+    "path": "stage1_data/regions/SSA/ownership_mask.png",
+    "sha256": "fec6802b6cf43a0894959ac6b34d0cf105e6af82440e3d90c39353b3cb5c7d09",
+    "bytes": 2300
+  },
+  {
+    "path": "stage1_data/regions/SSA/raw_obstacle_mask.png",
+    "sha256": "e3bb64f5fb484e89fe5c62d72ca16acd070e626f12055c522c41a683bbd8a360",
+    "bytes": 1677
+  },
+  {
+    "path": "stage1_data/regions/SSA/review_overlay.png",
+    "sha256": "185b1285b1f66a1a5745cf543f9121b051ccde218bbf59f5dff20a6e7e09bc75",
+    "bytes": 80509
+  },
+  {
+    "path": "stage1_data/regions/SSA/source.png",
+    "sha256": "67ed06f65ed109709633e5f08d9064ce6e983e6454750be8764b97d97497d3a0",
+    "bytes": 96578
+  },
+  {
+    "path": "stage1_data/regions/STP/geometry.json",
+    "sha256": "bcd1a620ab8b6ba872edc1ca231939f7ee225eb2cef6a30d959d1917a10fe17d",
+    "bytes": 7242
+  },
+  {
+    "path": "stage1_data/regions/STP/navigation_water_mask.png",
+    "sha256": "cee6b181460d8f0e3e77c5306267747baef135a9984c68b453432aab0952096b",
+    "bytes": 6666
+  },
+  {
+    "path": "stage1_data/regions/STP/ownership_mask.png",
+    "sha256": "e9a1e012bc5eecb5f76eae3d122e80f05ad71b902304b688af2512d4ed1df68c",
+    "bytes": 4385
+  },
+  {
+    "path": "stage1_data/regions/STP/raw_obstacle_mask.png",
+    "sha256": "6676c1f89df3020c69f10a6000abdb59ef08801f446d9fa0ff606f67c1cd339d",
+    "bytes": 3743
+  },
+  {
+    "path": "stage1_data/regions/STP/review_overlay.png",
+    "sha256": "42433df457f7f89736eee7034f0909a75385ccf79d4451e167b1619cf7cc49f9",
+    "bytes": 168197
+  },
+  {
+    "path": "stage1_data/regions/STP/source.png",
+    "sha256": "5168c40ace783401c0acd32b993b8844b39c78d9bf086a84c7978ee18aed1964",
+    "bytes": 209539
+  },
+  {
+    "path": "stage1_data/regions/VYS/geometry.json",
+    "sha256": "5dcb707981a0627d8c78bc57513ad8b32407a2511f3b9d5f34e436771c0a8807",
+    "bytes": 3718
+  },
+  {
+    "path": "stage1_data/regions/VYS/navigation_water_mask.png",
+    "sha256": "de070bec33c55b0b1386e0a2d584cbd42302c763ac455358c349a7ae4ce4eeaa",
+    "bytes": 6332
+  },
+  {
+    "path": "stage1_data/regions/VYS/ownership_mask.png",
+    "sha256": "d2c2287921fb4c76cb66a93d9df3867182404a31599ba2765b33eb5f1822bcc8",
+    "bytes": 3119
+  },
+  {
+    "path": "stage1_data/regions/VYS/raw_obstacle_mask.png",
+    "sha256": "afc2c23410dc18b7cf07c68bfff2be01af754762a6a57e5bf487283e59669167",
+    "bytes": 4701
+  },
+  {
+    "path": "stage1_data/regions/VYS/review_overlay.png",
+    "sha256": "0d26cd7deca1fff8314066138a79d99e6f5152013915835ddb6dc9e06f2368a0",
+    "bytes": 233307
+  },
+  {
+    "path": "stage1_data/regions/VYS/source.png",
+    "sha256": "067706877c70302148afff94e6b92717053f53d5ae0a9b6b7eb1a4540ea48ba1",
+    "bytes": 273115
+  },
+  {
+    "path": "stage1_data/regions/WSO/geometry.json",
+    "sha256": "e2c3c56e4374d64238219cda5ee773fb1aabfd028d1d0008a367e1301e586def",
+    "bytes": 8480
+  },
+  {
+    "path": "stage1_data/regions/WSO/navigation_water_mask.png",
+    "sha256": "ffffa614c48ac3ff6937562c1298adb7b31cdcb391868a8c4f701f551bb488a6",
+    "bytes": 5298
+  },
+  {
+    "path": "stage1_data/regions/WSO/ownership_mask.png",
+    "sha256": "8cb985031a088909df131f717a8fdf1b95398991e26c2ac40286500fe6aed6b1",
+    "bytes": 2706
+  },
+  {
+    "path": "stage1_data/regions/WSO/raw_obstacle_mask.png",
+    "sha256": "34c0afc3ed430855709fe92d5a309ff2094ab78305d668a976c9fb353d73fc85",
+    "bytes": 4237
+  },
+  {
+    "path": "stage1_data/regions/WSO/review_overlay.png",
+    "sha256": "064e8f3e158e4c859ad7aa0f80f6678e873ad8218f3b4fbe5f1736f9e12a1e04",
+    "bytes": 163630
+  },
+  {
+    "path": "stage1_data/regions/WSO/source.png",
+    "sha256": "6d1adf429995e63ddb46495614ea7707605b7e9f1dc49e8623cdf9400f8a8b90",
+    "bytes": 209855
+  },
+  {
+    "path": "stage1_data/Stage1_World_Navigation_Final.xlsx",
+    "sha256": "82752cbd5bf866689eb5760317e4c832fce4373f2464a57fcc01bef140487405",
+    "bytes": 29137
+  },
+  {
+    "path": "stage1_data/Stage1_World_Navigation_Final.xlsx.inspect.ndjson",
+    "sha256": "e0904af5a0caeddc9599b867297c8318b6d08bb1ce7fb4918aa940b73ac3d252",
+    "bytes": 820698
+  },
+  {
+    "path": "stage1_data/teleport_pairs.csv",
+    "sha256": "daba0dff75ca2c0a1cb88ea44def0186e7ec83d13282d929782fd3e775bcf632",
+    "bytes": 2490
+  },
+  {
+    "path": "stage1_data/teleport_zones.csv",
+    "sha256": "fcf8f7b0883b779be04b870833661826c7081fdb2f57589faa2dbb876cd3f4d3",
+    "bytes": 13572
+  },
+  {
+    "path": "stage1_data/VALIDATION_REPORT_FINAL.md",
+    "sha256": "a49c0e225a14b69ecb451f2227c325a2b7a65422996d835095a434c1440d9f20",
+    "bytes": 1731
+  },
+  {
+    "path": "stage1_data/world_database.json",
+    "sha256": "56b75b96f58094cea65a03c99b5fcb17df61238803562ce872dbe0bffd55ecea",
+    "bytes": 103925
+  },
+  {
+    "path": "stage1_data/world_map_with_ports.png",
+    "sha256": "d7b74540ac60f3e955145a52482a02556fda0bbe26d93df928d7d9389c9abc9b",
+    "bytes": 233772
+  },
+  {
+    "path": "stage1_data/world_map.png",
+    "sha256": "049241ecb6a6927a3f4201e91c02e37afa2d456a65eb39210bceb64349c2e80c",
+    "bytes": 151382
+  },
+  {
+    "path": "tp_transforms.json",
+    "sha256": "9dc066a120146d3e9fff55901944f159f2cf07177d4fea3a6d9ee46b89d23c00",
+    "bytes": 289
+  },
+  {
+    "path": "world_alignment.json",
+    "sha256": "9c5435cf49b359ad636bc22797c5ffb1ff96654ff69093c283522eac744b2143",
+    "bytes": 1115
+  }
+]

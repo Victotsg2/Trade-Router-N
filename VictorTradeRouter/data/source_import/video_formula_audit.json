@@ -1,0 +1,1674 @@
+[
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Al-Jazair",
+    "recorded_value_gbp": 212,
+    "inferred_formula_value_gbp": 163,
+    "difference_gbp": 49,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Ashbourne",
+    "recorded_value_gbp": 287,
+    "inferred_formula_value_gbp": 221,
+    "difference_gbp": 66,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Bucket Bay",
+    "recorded_value_gbp": 231,
+    "inferred_formula_value_gbp": 177,
+    "difference_gbp": 54,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Caledonia",
+    "recorded_value_gbp": 270,
+    "inferred_formula_value_gbp": 208,
+    "difference_gbp": 62,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Castle Landing",
+    "recorded_value_gbp": 198,
+    "inferred_formula_value_gbp": 152,
+    "difference_gbp": 46,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Caveira",
+    "recorded_value_gbp": 310,
+    "inferred_formula_value_gbp": 239,
+    "difference_gbp": 71,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Caye Tiburon",
+    "recorded_value_gbp": 129,
+    "inferred_formula_value_gbp": 99,
+    "difference_gbp": 30,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Crownstead",
+    "recorded_value_gbp": 302,
+    "inferred_formula_value_gbp": 232,
+    "difference_gbp": 70,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Cumberland Hill",
+    "recorded_value_gbp": 258,
+    "inferred_formula_value_gbp": 198,
+    "difference_gbp": 60,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 277,
+    "inferred_formula_value_gbp": 213,
+    "difference_gbp": 64,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Fair Harbour",
+    "recorded_value_gbp": 245,
+    "inferred_formula_value_gbp": 188,
+    "difference_gbp": 57,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Falmouth",
+    "recorded_value_gbp": 216,
+    "inferred_formula_value_gbp": 166,
+    "difference_gbp": 50,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Gyldenvale",
+    "recorded_value_gbp": 323,
+    "inferred_formula_value_gbp": 248,
+    "difference_gbp": 75,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Jones' Outpost",
+    "recorded_value_gbp": 247,
+    "inferred_formula_value_gbp": 190,
+    "difference_gbp": 57,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Kandlerova",
+    "recorded_value_gbp": 239,
+    "inferred_formula_value_gbp": 184,
+    "difference_gbp": 55,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "La Povenglia",
+    "recorded_value_gbp": 184,
+    "inferred_formula_value_gbp": 142,
+    "difference_gbp": 42,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Lebarde",
+    "recorded_value_gbp": 165,
+    "inferred_formula_value_gbp": 127,
+    "difference_gbp": 38,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Lord Irving's Sacrifice",
+    "recorded_value_gbp": 147,
+    "inferred_formula_value_gbp": 113,
+    "difference_gbp": 34,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Louisbourg",
+    "recorded_value_gbp": 297,
+    "inferred_formula_value_gbp": 229,
+    "difference_gbp": 68,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Madalena",
+    "recorded_value_gbp": 348,
+    "inferred_formula_value_gbp": 268,
+    "difference_gbp": 80,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Mako's Outlook",
+    "recorded_value_gbp": 139,
+    "inferred_formula_value_gbp": 107,
+    "difference_gbp": 32,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Matthew's Rest",
+    "recorded_value_gbp": 230,
+    "inferred_formula_value_gbp": 177,
+    "difference_gbp": 53,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Maurepas",
+    "recorded_value_gbp": 282,
+    "inferred_formula_value_gbp": 217,
+    "difference_gbp": 65,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "New Brighton",
+    "recorded_value_gbp": 188,
+    "inferred_formula_value_gbp": 144,
+    "difference_gbp": 44,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "New Catalina",
+    "recorded_value_gbp": 250,
+    "inferred_formula_value_gbp": 193,
+    "difference_gbp": 57,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Pachard Town",
+    "recorded_value_gbp": 224,
+    "inferred_formula_value_gbp": 173,
+    "difference_gbp": 51,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Peter's Cove",
+    "recorded_value_gbp": 154,
+    "inferred_formula_value_gbp": 118,
+    "difference_gbp": 36,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Petit Anvers",
+    "recorded_value_gbp": 324,
+    "inferred_formula_value_gbp": 249,
+    "difference_gbp": 75,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Poblado de San Juan",
+    "recorded_value_gbp": 270,
+    "inferred_formula_value_gbp": 208,
+    "difference_gbp": 62,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Point Rocheux",
+    "recorded_value_gbp": 242,
+    "inferred_formula_value_gbp": 186,
+    "difference_gbp": 56,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Ponta Delgada",
+    "recorded_value_gbp": 363,
+    "inferred_formula_value_gbp": 279,
+    "difference_gbp": 84,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Port Antonio",
+    "recorded_value_gbp": 224,
+    "inferred_formula_value_gbp": 173,
+    "difference_gbp": 51,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Port Louis",
+    "recorded_value_gbp": 261,
+    "inferred_formula_value_gbp": 201,
+    "difference_gbp": 60,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Port Royal",
+    "recorded_value_gbp": 180,
+    "inferred_formula_value_gbp": 138,
+    "difference_gbp": 42,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Port-Au-Croix",
+    "recorded_value_gbp": 233,
+    "inferred_formula_value_gbp": 180,
+    "difference_gbp": 53,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Princeton",
+    "recorded_value_gbp": 190,
+    "inferred_formula_value_gbp": 146,
+    "difference_gbp": 44,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Puerto de San Fernando",
+    "recorded_value_gbp": 256,
+    "inferred_formula_value_gbp": 197,
+    "difference_gbp": 59,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Saint Vincent",
+    "recorded_value_gbp": 236,
+    "inferred_formula_value_gbp": 181,
+    "difference_gbp": 55,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Saint-Nicholas",
+    "recorded_value_gbp": 181,
+    "inferred_formula_value_gbp": 139,
+    "difference_gbp": 42,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Sainte Rose",
+    "recorded_value_gbp": 316,
+    "inferred_formula_value_gbp": 243,
+    "difference_gbp": 73,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "San Polo",
+    "recorded_value_gbp": 221,
+    "inferred_formula_value_gbp": 170,
+    "difference_gbp": 51,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "San Salvador",
+    "recorded_value_gbp": 246,
+    "inferred_formula_value_gbp": 189,
+    "difference_gbp": 57,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "San Vito",
+    "recorded_value_gbp": 164,
+    "inferred_formula_value_gbp": 126,
+    "difference_gbp": 38,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Sandy Settlement",
+    "recorded_value_gbp": 176,
+    "inferred_formula_value_gbp": 135,
+    "difference_gbp": 41,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Santa Maria",
+    "recorded_value_gbp": 261,
+    "inferred_formula_value_gbp": 201,
+    "difference_gbp": 60,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Sao Bento",
+    "recorded_value_gbp": 336,
+    "inferred_formula_value_gbp": 258,
+    "difference_gbp": 78,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Snake Prosper",
+    "recorded_value_gbp": 264,
+    "inferred_formula_value_gbp": 203,
+    "difference_gbp": 61,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Sugar Cove",
+    "recorded_value_gbp": 267,
+    "inferred_formula_value_gbp": 205,
+    "difference_gbp": 62,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Taylor's Town",
+    "recorded_value_gbp": 186,
+    "inferred_formula_value_gbp": 143,
+    "difference_gbp": 43,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Theresa",
+    "recorded_value_gbp": 217,
+    "inferred_formula_value_gbp": 167,
+    "difference_gbp": 50,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Thresher Point",
+    "recorded_value_gbp": 114,
+    "inferred_formula_value_gbp": 88,
+    "difference_gbp": 26,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Venta Nueva",
+    "recorded_value_gbp": 274,
+    "inferred_formula_value_gbp": 211,
+    "difference_gbp": 63,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Villarreal Del Mar",
+    "recorded_value_gbp": 251,
+    "inferred_formula_value_gbp": 193,
+    "difference_gbp": 58,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "White Hook",
+    "recorded_value_gbp": 287,
+    "inferred_formula_value_gbp": 221,
+    "difference_gbp": 66,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Wyntergard",
+    "recorded_value_gbp": 299,
+    "inferred_formula_value_gbp": 230,
+    "difference_gbp": 69,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Caledonia",
+    "destination_port": "Villarreal Del Mar",
+    "recorded_value_gbp": 280,
+    "inferred_formula_value_gbp": 103,
+    "difference_gbp": 177,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Caveira",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 288,
+    "inferred_formula_value_gbp": 143,
+    "difference_gbp": 145,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Cumberland Hill",
+    "destination_port": "San Polo",
+    "recorded_value_gbp": 250,
+    "inferred_formula_value_gbp": 120,
+    "difference_gbp": 130,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Cumberland Hill",
+    "destination_port": "Villarreal Del Mar",
+    "recorded_value_gbp": 234,
+    "inferred_formula_value_gbp": 104,
+    "difference_gbp": 130,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Deadman's Murcia",
+    "destination_port": "Sandy Settlement",
+    "recorded_value_gbp": 274,
+    "inferred_formula_value_gbp": 104,
+    "difference_gbp": 170,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Jones' Outpost",
+    "destination_port": "Sainte Rose",
+    "recorded_value_gbp": 336,
+    "inferred_formula_value_gbp": 141,
+    "difference_gbp": 195,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Jones' Outpost",
+    "destination_port": "Venta Nueva",
+    "recorded_value_gbp": 358,
+    "inferred_formula_value_gbp": 163,
+    "difference_gbp": 195,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Kandlerova",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 343,
+    "inferred_formula_value_gbp": 183,
+    "difference_gbp": 160,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Kandlerova",
+    "destination_port": "Fair Harbour",
+    "recorded_value_gbp": 211,
+    "inferred_formula_value_gbp": 84,
+    "difference_gbp": 127,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Kandlerova",
+    "destination_port": "Villarreal Del Mar",
+    "recorded_value_gbp": 260,
+    "inferred_formula_value_gbp": 100,
+    "difference_gbp": 160,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "La Povenglia",
+    "destination_port": "Cumberland Hill",
+    "recorded_value_gbp": 205,
+    "inferred_formula_value_gbp": 85,
+    "difference_gbp": 120,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "La Povenglia",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 224,
+    "inferred_formula_value_gbp": 104,
+    "difference_gbp": 120,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Lebarde",
+    "destination_port": "Kandlerova",
+    "recorded_value_gbp": 251,
+    "inferred_formula_value_gbp": 89,
+    "difference_gbp": 162,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Lebarde",
+    "destination_port": "Puerto de San Fernando",
+    "recorded_value_gbp": 258,
+    "inferred_formula_value_gbp": 96,
+    "difference_gbp": 162,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Madalena",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 294,
+    "inferred_formula_value_gbp": 157,
+    "difference_gbp": 137,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "New Catalina",
+    "destination_port": "Villarreal Del Mar",
+    "recorded_value_gbp": 309,
+    "inferred_formula_value_gbp": 137,
+    "difference_gbp": 172,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Peter's Cove",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 236,
+    "inferred_formula_value_gbp": 83,
+    "difference_gbp": 153,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Peter's Cove",
+    "destination_port": "Maurepas",
+    "recorded_value_gbp": 261,
+    "inferred_formula_value_gbp": 108,
+    "difference_gbp": 153,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Poblado de San Juan",
+    "destination_port": "Ashbourne",
+    "recorded_value_gbp": 283,
+    "inferred_formula_value_gbp": 128,
+    "difference_gbp": 155,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Poblado de San Juan",
+    "destination_port": "Castle Landing",
+    "recorded_value_gbp": 289,
+    "inferred_formula_value_gbp": 134,
+    "difference_gbp": 155,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Poblado de San Juan",
+    "destination_port": "Crownstead",
+    "recorded_value_gbp": 289,
+    "inferred_formula_value_gbp": 134,
+    "difference_gbp": 155,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Poblado de San Juan",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 316,
+    "inferred_formula_value_gbp": 161,
+    "difference_gbp": 155,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Poblado de San Juan",
+    "destination_port": "Sandy Settlement",
+    "recorded_value_gbp": 264,
+    "inferred_formula_value_gbp": 109,
+    "difference_gbp": 155,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Poblado de San Juan",
+    "destination_port": "Taylor's Town",
+    "recorded_value_gbp": 283,
+    "inferred_formula_value_gbp": 128,
+    "difference_gbp": 155,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Ponta Delgada",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 315,
+    "inferred_formula_value_gbp": 160,
+    "difference_gbp": 155,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Port Antonio",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 251,
+    "inferred_formula_value_gbp": 91,
+    "difference_gbp": 160,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Port Royal",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 300,
+    "inferred_formula_value_gbp": 105,
+    "difference_gbp": 195,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Puerto de San Fernando",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 270,
+    "inferred_formula_value_gbp": 123,
+    "difference_gbp": 147,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Puerto de San Fernando",
+    "destination_port": "Sandy Settlement",
+    "recorded_value_gbp": 248,
+    "inferred_formula_value_gbp": 100,
+    "difference_gbp": 148,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Saint-Nicholas",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 255,
+    "inferred_formula_value_gbp": 95,
+    "difference_gbp": 160,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Saint-Nicholas",
+    "destination_port": "Villarreal Del Mar",
+    "recorded_value_gbp": 275,
+    "inferred_formula_value_gbp": 115,
+    "difference_gbp": 160,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "San Polo",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 308,
+    "inferred_formula_value_gbp": 158,
+    "difference_gbp": 150,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "San Salvador",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 319,
+    "inferred_formula_value_gbp": 161,
+    "difference_gbp": 158,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "San Vito",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 315,
+    "inferred_formula_value_gbp": 135,
+    "difference_gbp": 180,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Sandy Settlement",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 371,
+    "inferred_formula_value_gbp": 118,
+    "difference_gbp": 253,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Sandy Settlement",
+    "destination_port": "Villarreal Del Mar",
+    "recorded_value_gbp": 388,
+    "inferred_formula_value_gbp": 158,
+    "difference_gbp": 230,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Santa Maria",
+    "destination_port": "Cumberland Hill",
+    "recorded_value_gbp": 331,
+    "inferred_formula_value_gbp": 173,
+    "difference_gbp": 158,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Santa Maria",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 315,
+    "inferred_formula_value_gbp": 157,
+    "difference_gbp": 158,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Santa Maria",
+    "destination_port": "Fair Harbour",
+    "recorded_value_gbp": 270,
+    "inferred_formula_value_gbp": 112,
+    "difference_gbp": 158,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Santa Maria",
+    "destination_port": "Sandy Settlement",
+    "recorded_value_gbp": 261,
+    "inferred_formula_value_gbp": 104,
+    "difference_gbp": 157,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Al-Jazair",
+    "recorded_value_gbp": 169,
+    "inferred_formula_value_gbp": 177,
+    "difference_gbp": -8,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Ashbourne",
+    "recorded_value_gbp": 213,
+    "inferred_formula_value_gbp": 223,
+    "difference_gbp": -10,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Belfry Heights",
+    "recorded_value_gbp": 297,
+    "inferred_formula_value_gbp": 311,
+    "difference_gbp": -14,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Bucket Bay",
+    "recorded_value_gbp": 204,
+    "inferred_formula_value_gbp": 214,
+    "difference_gbp": -10,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Caledonia",
+    "recorded_value_gbp": 119,
+    "inferred_formula_value_gbp": 124,
+    "difference_gbp": -5,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Castle Landing",
+    "recorded_value_gbp": 222,
+    "inferred_formula_value_gbp": 232,
+    "difference_gbp": -10,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Caveira",
+    "recorded_value_gbp": 435,
+    "inferred_formula_value_gbp": 454,
+    "difference_gbp": -19,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Caye Tiburon",
+    "recorded_value_gbp": 266,
+    "inferred_formula_value_gbp": 278,
+    "difference_gbp": -12,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Crownstead",
+    "recorded_value_gbp": 227,
+    "inferred_formula_value_gbp": 238,
+    "difference_gbp": -11,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Cumberland Hill",
+    "recorded_value_gbp": 203,
+    "inferred_formula_value_gbp": 212,
+    "difference_gbp": -9,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 129,
+    "inferred_formula_value_gbp": 135,
+    "difference_gbp": -6,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Fair Harbour",
+    "recorded_value_gbp": 178,
+    "inferred_formula_value_gbp": 186,
+    "difference_gbp": -8,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Falmouth",
+    "recorded_value_gbp": 315,
+    "inferred_formula_value_gbp": 330,
+    "difference_gbp": -15,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Gyldenvale",
+    "recorded_value_gbp": 229,
+    "inferred_formula_value_gbp": 239,
+    "difference_gbp": -10,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Jones' Outpost",
+    "recorded_value_gbp": 184,
+    "inferred_formula_value_gbp": 192,
+    "difference_gbp": -8,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Kandlerova",
+    "recorded_value_gbp": 457,
+    "inferred_formula_value_gbp": 478,
+    "difference_gbp": -21,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "La Povenglia",
+    "recorded_value_gbp": 395,
+    "inferred_formula_value_gbp": 413,
+    "difference_gbp": -18,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Lebarde",
+    "recorded_value_gbp": 240,
+    "inferred_formula_value_gbp": 251,
+    "difference_gbp": -11,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Lord Irving's Sacrifice",
+    "recorded_value_gbp": 329,
+    "inferred_formula_value_gbp": 344,
+    "difference_gbp": -15,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Louisbourg",
+    "recorded_value_gbp": 293,
+    "inferred_formula_value_gbp": 306,
+    "difference_gbp": -13,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Madalena",
+    "recorded_value_gbp": 470,
+    "inferred_formula_value_gbp": 492,
+    "difference_gbp": -22,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Mako's Outlook",
+    "recorded_value_gbp": 332,
+    "inferred_formula_value_gbp": 347,
+    "difference_gbp": -15,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Matthew's Rest",
+    "recorded_value_gbp": 224,
+    "inferred_formula_value_gbp": 234,
+    "difference_gbp": -10,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Maurepas",
+    "recorded_value_gbp": 277,
+    "inferred_formula_value_gbp": 289,
+    "difference_gbp": -12,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "New Brighton",
+    "recorded_value_gbp": 204,
+    "inferred_formula_value_gbp": 213,
+    "difference_gbp": -9,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "New Catalina",
+    "recorded_value_gbp": 211,
+    "inferred_formula_value_gbp": 220,
+    "difference_gbp": -9,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Pachard Town",
+    "recorded_value_gbp": 245,
+    "inferred_formula_value_gbp": 257,
+    "difference_gbp": -12,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Peter's Cove",
+    "recorded_value_gbp": 323,
+    "inferred_formula_value_gbp": 338,
+    "difference_gbp": -15,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Petit Anvers",
+    "recorded_value_gbp": 298,
+    "inferred_formula_value_gbp": 312,
+    "difference_gbp": -14,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Poblado de San Juan",
+    "recorded_value_gbp": 441,
+    "inferred_formula_value_gbp": 461,
+    "difference_gbp": -20,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Point Rocheux",
+    "recorded_value_gbp": 291,
+    "inferred_formula_value_gbp": 305,
+    "difference_gbp": -14,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Ponta Delgada",
+    "recorded_value_gbp": 450,
+    "inferred_formula_value_gbp": 471,
+    "difference_gbp": -21,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Port Antonio",
+    "recorded_value_gbp": 340,
+    "inferred_formula_value_gbp": 355,
+    "difference_gbp": -15,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Port Louis",
+    "recorded_value_gbp": 179,
+    "inferred_formula_value_gbp": 187,
+    "difference_gbp": -8,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Port Royal",
+    "recorded_value_gbp": 329,
+    "inferred_formula_value_gbp": 344,
+    "difference_gbp": -15,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Port-Au-Croix",
+    "recorded_value_gbp": 268,
+    "inferred_formula_value_gbp": 280,
+    "difference_gbp": -12,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Princeton",
+    "recorded_value_gbp": 200,
+    "inferred_formula_value_gbp": 209,
+    "difference_gbp": -9,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Puerto de San Fernando",
+    "recorded_value_gbp": 398,
+    "inferred_formula_value_gbp": 416,
+    "difference_gbp": -18,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Saint Vincent",
+    "recorded_value_gbp": 152,
+    "inferred_formula_value_gbp": 159,
+    "difference_gbp": -7,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Saint-Nicholas",
+    "recorded_value_gbp": 332,
+    "inferred_formula_value_gbp": 347,
+    "difference_gbp": -15,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Sainte Rose",
+    "recorded_value_gbp": 318,
+    "inferred_formula_value_gbp": 333,
+    "difference_gbp": -15,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "San Polo",
+    "recorded_value_gbp": 437,
+    "inferred_formula_value_gbp": 457,
+    "difference_gbp": -20,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "San Salvador",
+    "recorded_value_gbp": 436,
+    "inferred_formula_value_gbp": 455,
+    "difference_gbp": -19,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "San Vito",
+    "recorded_value_gbp": 371,
+    "inferred_formula_value_gbp": 388,
+    "difference_gbp": -17,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Sandy Settlement",
+    "recorded_value_gbp": 337,
+    "inferred_formula_value_gbp": 352,
+    "difference_gbp": -15,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Santa Maria",
+    "recorded_value_gbp": 432,
+    "inferred_formula_value_gbp": 452,
+    "difference_gbp": -20,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Sao Bento",
+    "recorded_value_gbp": 440,
+    "inferred_formula_value_gbp": 460,
+    "difference_gbp": -20,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Sugar Cove",
+    "recorded_value_gbp": 227,
+    "inferred_formula_value_gbp": 237,
+    "difference_gbp": -10,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Taylor's Town",
+    "recorded_value_gbp": 305,
+    "inferred_formula_value_gbp": 319,
+    "difference_gbp": -14,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Theresa",
+    "recorded_value_gbp": 353,
+    "inferred_formula_value_gbp": 369,
+    "difference_gbp": -16,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Thresher Point",
+    "recorded_value_gbp": 281,
+    "inferred_formula_value_gbp": 294,
+    "difference_gbp": -13,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Venta Nueva",
+    "recorded_value_gbp": 365,
+    "inferred_formula_value_gbp": 382,
+    "difference_gbp": -17,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Villarreal Del Mar",
+    "recorded_value_gbp": 339,
+    "inferred_formula_value_gbp": 354,
+    "difference_gbp": -15,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "White Hook",
+    "recorded_value_gbp": 137,
+    "inferred_formula_value_gbp": 143,
+    "difference_gbp": -6,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Wyntergard",
+    "recorded_value_gbp": 203,
+    "inferred_formula_value_gbp": 212,
+    "difference_gbp": -9,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Snake Prosper",
+    "destination_port": "Yorinobu's Settlement",
+    "recorded_value_gbp": 197,
+    "inferred_formula_value_gbp": 206,
+    "difference_gbp": -9,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Taylor's Town",
+    "destination_port": "Villarreal Del Mar",
+    "recorded_value_gbp": 245,
+    "inferred_formula_value_gbp": 102,
+    "difference_gbp": 143,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "Theresa",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 212,
+    "inferred_formula_value_gbp": 69,
+    "difference_gbp": 143,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Al-Jazair",
+    "recorded_value_gbp": 187,
+    "inferred_formula_value_gbp": 174,
+    "difference_gbp": 13,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Ashbourne",
+    "recorded_value_gbp": 212,
+    "inferred_formula_value_gbp": 196,
+    "difference_gbp": 16,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Belfry Heights",
+    "recorded_value_gbp": 309,
+    "inferred_formula_value_gbp": 287,
+    "difference_gbp": 22,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Bucket Bay",
+    "recorded_value_gbp": 216,
+    "inferred_formula_value_gbp": 200,
+    "difference_gbp": 16,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Caledonia",
+    "recorded_value_gbp": 123,
+    "inferred_formula_value_gbp": 114,
+    "difference_gbp": 9,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Castle Landing",
+    "recorded_value_gbp": 231,
+    "inferred_formula_value_gbp": 214,
+    "difference_gbp": 17,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Caveira",
+    "recorded_value_gbp": 436,
+    "inferred_formula_value_gbp": 405,
+    "difference_gbp": 31,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Caye Tiburon",
+    "recorded_value_gbp": 279,
+    "inferred_formula_value_gbp": 259,
+    "difference_gbp": 20,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Crownstead",
+    "recorded_value_gbp": 223,
+    "inferred_formula_value_gbp": 207,
+    "difference_gbp": 16,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Cumberland Hill",
+    "recorded_value_gbp": 200,
+    "inferred_formula_value_gbp": 186,
+    "difference_gbp": 14,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Deadman's Murcia",
+    "recorded_value_gbp": 125,
+    "inferred_formula_value_gbp": 116,
+    "difference_gbp": 9,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Fair Harbour",
+    "recorded_value_gbp": 188,
+    "inferred_formula_value_gbp": 175,
+    "difference_gbp": 13,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Falmouth",
+    "recorded_value_gbp": 324,
+    "inferred_formula_value_gbp": 301,
+    "difference_gbp": 23,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Gyldenvale",
+    "recorded_value_gbp": 217,
+    "inferred_formula_value_gbp": 202,
+    "difference_gbp": 15,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Jones' Outpost",
+    "recorded_value_gbp": 185,
+    "inferred_formula_value_gbp": 172,
+    "difference_gbp": 13,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Kandlerova",
+    "recorded_value_gbp": 461,
+    "inferred_formula_value_gbp": 428,
+    "difference_gbp": 33,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "La Povenglia",
+    "recorded_value_gbp": 402,
+    "inferred_formula_value_gbp": 373,
+    "difference_gbp": 29,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Lebarde",
+    "recorded_value_gbp": 252,
+    "inferred_formula_value_gbp": 234,
+    "difference_gbp": 18,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Lord Irving's Sacrifice",
+    "recorded_value_gbp": 339,
+    "inferred_formula_value_gbp": 315,
+    "difference_gbp": 24,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Louisbourg",
+    "recorded_value_gbp": 292,
+    "inferred_formula_value_gbp": 271,
+    "difference_gbp": 21,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Madalena",
+    "recorded_value_gbp": 469,
+    "inferred_formula_value_gbp": 435,
+    "difference_gbp": 34,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Mako's Outlook",
+    "recorded_value_gbp": 342,
+    "inferred_formula_value_gbp": 318,
+    "difference_gbp": 24,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Matthew's Rest",
+    "recorded_value_gbp": 234,
+    "inferred_formula_value_gbp": 218,
+    "difference_gbp": 16,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Maurepas",
+    "recorded_value_gbp": 278,
+    "inferred_formula_value_gbp": 259,
+    "difference_gbp": 19,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "New Brighton",
+    "recorded_value_gbp": 220,
+    "inferred_formula_value_gbp": 204,
+    "difference_gbp": 16,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "New Catalina",
+    "recorded_value_gbp": 209,
+    "inferred_formula_value_gbp": 194,
+    "difference_gbp": 15,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Pachard Town",
+    "recorded_value_gbp": 255,
+    "inferred_formula_value_gbp": 237,
+    "difference_gbp": 18,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Peter's Cove",
+    "recorded_value_gbp": 331,
+    "inferred_formula_value_gbp": 307,
+    "difference_gbp": 24,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Petit Anvers",
+    "recorded_value_gbp": 294,
+    "inferred_formula_value_gbp": 273,
+    "difference_gbp": 21,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Poblado de San Juan",
+    "recorded_value_gbp": 445,
+    "inferred_formula_value_gbp": 413,
+    "difference_gbp": 32,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Point Rocheux",
+    "recorded_value_gbp": 298,
+    "inferred_formula_value_gbp": 277,
+    "difference_gbp": 21,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Ponta Delgada",
+    "recorded_value_gbp": 447,
+    "inferred_formula_value_gbp": 415,
+    "difference_gbp": 32,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Port Antonio",
+    "recorded_value_gbp": 347,
+    "inferred_formula_value_gbp": 322,
+    "difference_gbp": 25,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Port Louis",
+    "recorded_value_gbp": 185,
+    "inferred_formula_value_gbp": 172,
+    "difference_gbp": 13,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Port Royal",
+    "recorded_value_gbp": 339,
+    "inferred_formula_value_gbp": 315,
+    "difference_gbp": 24,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Port-Au-Croix",
+    "recorded_value_gbp": 276,
+    "inferred_formula_value_gbp": 256,
+    "difference_gbp": 20,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Princeton",
+    "recorded_value_gbp": 214,
+    "inferred_formula_value_gbp": 199,
+    "difference_gbp": 15,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Puerto de San Fernando",
+    "recorded_value_gbp": 403,
+    "inferred_formula_value_gbp": 374,
+    "difference_gbp": 29,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Saint Vincent",
+    "recorded_value_gbp": 169,
+    "inferred_formula_value_gbp": 157,
+    "difference_gbp": 12,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Saint-Nicholas",
+    "recorded_value_gbp": 338,
+    "inferred_formula_value_gbp": 314,
+    "difference_gbp": 24,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Sainte Rose",
+    "recorded_value_gbp": 316,
+    "inferred_formula_value_gbp": 293,
+    "difference_gbp": 23,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "San Polo",
+    "recorded_value_gbp": 442,
+    "inferred_formula_value_gbp": 410,
+    "difference_gbp": 32,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "San Salvador",
+    "recorded_value_gbp": 441,
+    "inferred_formula_value_gbp": 409,
+    "difference_gbp": 32,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "San Vito",
+    "recorded_value_gbp": 379,
+    "inferred_formula_value_gbp": 352,
+    "difference_gbp": 27,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Sandy Settlement",
+    "recorded_value_gbp": 343,
+    "inferred_formula_value_gbp": 123,
+    "difference_gbp": 220,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Santa Maria",
+    "recorded_value_gbp": 437,
+    "inferred_formula_value_gbp": 405,
+    "difference_gbp": 32,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Sao Bento",
+    "recorded_value_gbp": 439,
+    "inferred_formula_value_gbp": 407,
+    "difference_gbp": 32,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Snake Prosper",
+    "recorded_value_gbp": 130,
+    "inferred_formula_value_gbp": 121,
+    "difference_gbp": 9,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Sugar Cove",
+    "recorded_value_gbp": 221,
+    "inferred_formula_value_gbp": 205,
+    "difference_gbp": 16,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Taylor's Town",
+    "recorded_value_gbp": 311,
+    "inferred_formula_value_gbp": 288,
+    "difference_gbp": 23,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Theresa",
+    "recorded_value_gbp": 361,
+    "inferred_formula_value_gbp": 335,
+    "difference_gbp": 26,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Thresher Point",
+    "recorded_value_gbp": 293,
+    "inferred_formula_value_gbp": 272,
+    "difference_gbp": 21,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Venta Nueva",
+    "recorded_value_gbp": 369,
+    "inferred_formula_value_gbp": 343,
+    "difference_gbp": 26,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Villarreal Del Mar",
+    "recorded_value_gbp": 345,
+    "inferred_formula_value_gbp": 125,
+    "difference_gbp": 220,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Wyntergard",
+    "recorded_value_gbp": 197,
+    "inferred_formula_value_gbp": 183,
+    "difference_gbp": 14,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  },
+  {
+    "origin_port": "White Hook",
+    "destination_port": "Yorinobu's Settlement",
+    "recorded_value_gbp": 213,
+    "inferred_formula_value_gbp": 198,
+    "difference_gbp": 15,
+    "note": "Audit flag only; recorded OCR observation was not replaced by the inferred formula."
+  }
+]

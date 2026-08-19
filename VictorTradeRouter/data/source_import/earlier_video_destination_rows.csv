@@ -1,0 +1,871 @@
+﻿cargo,cargo_distance_m,destination_port,displayed_sell_value_gbp,distance_status,distinct_ocr_tuples_seen,origin_port,origin_region,review_note,source_recording,supporting_frame_count,value_status
+Oil,5080.7,Al-Jazair,171,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,6,CONFIRMED_FROM_VIDEO
+Oil,9722.6,Belfry Heights,250,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,2894.9,Bucket Bay,134,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,4913.7,Caledonia,169,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,6,CONFIRMED_FROM_VIDEO
+Oil,8599.9,Castle Landing,231,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,11754.2,Caveira,285,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,3,CONFIRMED_FROM_VIDEO
+Oil,8105.6,Caye Tiburon,223,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,816.6,Crownstead,98,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,3,CONFIRMED_FROM_VIDEO
+Oil,8782.0,Cumberland Hill,234,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,Visually verified from a visible recording frame after OCR audit.,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,4213.4,Deadman's Murcia,157,CONFIRMED_FROM_VIDEO,2,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,2468.9,Fair Harbour,127,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,7316.7,Falmouth,209,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,1914.0,Gyldenvale,118,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,7833.1,Jones' Outpost,218,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,16254.2,Kandlerova,361,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,13953.5,La Povenglia,322,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,8620.3,Lebarde,232,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,9987.1,Lord Irving's Sacrifice,255,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,3,CONFIRMED_FROM_VIDEO
+Oil,3970.9,Louisbourg,153,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,13063.8,Madalena,307,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,10451.4,Mako's Outlook,263,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,3,CONFIRMED_FROM_VIDEO
+Oil,3196.3,Matthew's Rest,139,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,3468.0,Maurepas,144,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,6,CONFIRMED_FROM_VIDEO
+Oil,5327.0,New Brighton,176,CONFIRMED_FROM_VIDEO,2,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,9046.0,New Catalina,239,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,3996.0,Pachard Town,153,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,6,CONFIRMED_FROM_VIDEO
+Oil,11895.2,Peter's Cove,287,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,3,CONFIRMED_FROM_VIDEO
+Oil,3907.5,Petit Anvers,151,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,7,CONFIRMED_FROM_VIDEO
+Oil,13272.5,Poblado de San Juan,311,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,5342.3,Point Rocheux,176,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,11564.8,Ponta Delgada,282,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,3,CONFIRMED_FROM_VIDEO
+Oil,8363.0,Port Antonio,227,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,1788.6,Port Louis,115,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,9029.3,Port Royal,238,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,6,CONFIRMED_FROM_VIDEO
+Oil,4518.6,Port-Au-Croix,162,CONFIRMED_FROM_VIDEO,2,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,7049.0,Princeton,205,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,10917.9,Puerto de San Fernando,271,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,2,CONFIRMED_FROM_VIDEO
+Oil,3841.2,Saint Vincent,150,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,12790.8,Saint-Nicholas,302,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,5009.7,Sainte Rose,170,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,6,CONFIRMED_FROM_VIDEO
+Oil,15423.4,San Polo,347,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,13749.9,San Salvador,319,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,12458.6,San Vito,297,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,2,CONFIRMED_FROM_VIDEO
+Oil,12820.1,Sandy Settlement,303,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,12953.2,Santa Maria,305,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,11492.5,Sao Bento,280,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,4685.1,Snake Prosper,165,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,6,CONFIRMED_FROM_VIDEO
+Oil,9880.8,Sugar Cove,253,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,11921.5,Taylor's Town,288,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,3,CONFIRMED_FROM_VIDEO
+Oil,9324.2,Theresa,244,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,4,CONFIRMED_FROM_VIDEO
+Oil,9303.0,Thresher Point,243,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,8511.1,Venta Nueva,230,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,7614.0,Villarreal Del Mar,214,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,5,CONFIRMED_FROM_VIDEO
+Oil,5075.7,White Hook,171,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,6,CONFIRMED_FROM_VIDEO
+Oil,1114.1,Wyntergard,104,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,3,CONFIRMED_FROM_VIDEO
+Oil,4271.5,Yorinobu's Settlement,158,CONFIRMED_FROM_VIDEO,1,Ashbourne,Vysarian Isles,,Screen Recording 2026-08-16 105004.mp4,1,CONFIRMED_FROM_VIDEO
+Buckets,3048.9,Al-Jazair,105,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,6,CONFIRMED_FROM_VIDEO
+Buckets,2894.9,Ashbourne,103,CONFIRMED_FROM_VIDEO,2,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,5,CONFIRMED_FROM_VIDEO
+Buckets,6832.4,Belfry Heights,154,CONFIRMED_FROM_VIDEO,3,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,3,CONFIRMED_FROM_VIDEO
+Buckets,4667.4,Caledonia,126,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,6427.9,Castle Landing,149,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,5,CONFIRMED_FROM_VIDEO
+Buckets,10487.3,Caveira,201,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,6,CONFIRMED_FROM_VIDEO
+Buckets,5218.3,Caye Tiburon,133,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,3,CONFIRMED_FROM_VIDEO
+Buckets,3657.2,Crownstead,113,CONFIRMED_FROM_VIDEO,2,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,4365.0,Deadman's Murcia,122,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,5,CONFIRMED_FROM_VIDEO
+Buckets,1332.2,Fair Harbour,82,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,2,CONFIRMED_FROM_VIDEO
+Buckets,5249.2,Falmouth,133,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,4769.9,Gyldenvale,127,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,5,CONFIRMED_FROM_VIDEO
+Buckets,6528.2,Jones' Outpost,150,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,5,CONFIRMED_FROM_VIDEO
+Buckets,13433.7,Kandlerova,240,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,2,CONFIRMED_FROM_VIDEO
+Buckets,11068.0,La Povenglia,209,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,6069.6,Lebarde,144,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,1,CONFIRMED_FROM_VIDEO
+Buckets,7181.3,Lord Irving's Sacrifice,158,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,4634.5,Louisbourg,125,CONFIRMED_FROM_VIDEO,2,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,12084.9,Madalena,222,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,2,CONFIRMED_FROM_VIDEO
+Buckets,7601.1,Mako's Outlook,164,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,3,CONFIRMED_FROM_VIDEO
+Buckets,897.0,Matthew's Rest,77,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,2,CONFIRMED_FROM_VIDEO
+Buckets,3778.2,Maurepas,114,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,6,CONFIRMED_FROM_VIDEO
+Buckets,2614.3,New Brighton,99,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,5,CONFIRMED_FROM_VIDEO
+Buckets,7611.5,New Catalina,164,CONFIRMED_FROM_VIDEO,2,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,3,CONFIRMED_FROM_VIDEO
+Buckets,1885.1,Pachard Town,90,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,3,CONFIRMED_FROM_VIDEO
+Buckets,5488.5,Petit Anvers,136,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,11179.5,Poblado de San Juan,210,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,3,CONFIRMED_FROM_VIDEO
+Buckets,3948.9,Point Rocheux,116,CONFIRMED_FROM_VIDEO,2,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,5,CONFIRMED_FROM_VIDEO
+Buckets,11232.1,Ponta Delgada,211,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,2,CONFIRMED_FROM_VIDEO
+Buckets,6359.6,Port Antonio,148,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,5,CONFIRMED_FROM_VIDEO
+Buckets,1918.1,Port Louis,90,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,6463.3,Port Royal,149,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,5,CONFIRMED_FROM_VIDEO
+Buckets,2871.0,Port-Au-Croix,102,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,6,CONFIRMED_FROM_VIDEO
+Buckets,4768.7,Princeton,127,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,9029.2,Puerto de San Fernando,182,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,2494.6,Saint Vincent,97,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,5812.9,Sainte Rose,141,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,12585.1,San Polo,229,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,2,CONFIRMED_FROM_VIDEO
+Buckets,11322.7,San Salvador,212,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,2,CONFIRMED_FROM_VIDEO
+Buckets,9598.5,San Vito,190,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,9835.0,Sandy Settlement,193,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,5,CONFIRMED_FROM_VIDEO
+Buckets,10806.8,Santa Maria,205,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,10695.9,Sao Bento,204,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,3,CONFIRMED_FROM_VIDEO
+Buckets,4292.3,Snake Prosper,121,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,5,CONFIRMED_FROM_VIDEO
+Buckets,8569.8,Sugar Cove,176,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,3,CONFIRMED_FROM_VIDEO
+Buckets,9351.3,Taylor's Town,187,CONFIRMED_FROM_VIDEO,2,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,2,CONFIRMED_FROM_VIDEO
+Buckets,7133.7,Theresa,158,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,5,CONFIRMED_FROM_VIDEO
+Buckets,6442.0,Thresher Point,149,CONFIRMED_FROM_VIDEO,2,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,7317.8,Venta Nueva,160,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,6142.6,Villarreal Del Mar,145,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,5269.0,White Hook,133,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,4,CONFIRMED_FROM_VIDEO
+Buckets,3628.5,Wyntergard,112,CONFIRMED_FROM_VIDEO,1,Bucket Bay,Îles de Louis,,Screen Recording 2026-08-16 110602.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,5889.7,Al-Jazair,147,CONFIRMED_FROM_VIDEO,2,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,816.6,Ashbourne,79,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,2,CONFIRMED_FROM_VIDEO
+Bells,10489.0,Belfry Heights,209,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,3657.2,Bucket Bay,117,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,5529.6,Caledonia,142,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,9403.3,Castle Landing,194,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,3,CONFIRMED_FROM_VIDEO
+Bells,11905.7,Caveira,228,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,6,CONFIRMED_FROM_VIDEO
+Bells,8875.5,Caye Tiburon,187,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,4785.3,Deadman's Murcia,132,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,3,CONFIRMED_FROM_VIDEO
+Bells,3284.3,Fair Harbour,112,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,7762.6,Falmouth,172,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,1374.6,Gyldenvale,86,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,8553.1,Jones' Outpost,183,CONFIRMED_FROM_VIDEO,2,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,16925.0,Kandlerova,296,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,1,CONFIRMED_FROM_VIDEO
+Bells,14680.4,La Povenglia,266,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,1,CONFIRMED_FROM_VIDEO
+Bells,9436.9,Lebarde,195,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,10660.3,Lord Irving's Sacrifice,211,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,3,CONFIRMED_FROM_VIDEO
+Bells,3811.8,Louisbourg,119,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,13119.3,Madalena,245,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,11150.0,Mako's Outlook,218,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,3859.9,Matthew's Rest,120,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,6,CONFIRMED_FROM_VIDEO
+Bells,3479.3,Maurepas,114,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,6133.5,New Brighton,150,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,9773.2,New Catalina,199,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,4566.4,Pachard Town,129,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,12697.8,Peter's Cove,239,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,6,CONFIRMED_FROM_VIDEO
+Bells,3435.3,Petit Anvers,114,CONFIRMED_FROM_VIDEO,2,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,13663.4,Poblado de San Juan,252,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,5671.7,Point Rocheux,144,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,6,CONFIRMED_FROM_VIDEO
+Bells,11451.9,Ponta Delgada,222,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,8772.7,Port Antonio,186,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,2581.9,Port Louis,102,CONFIRMED_FROM_VIDEO,2,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,3,CONFIRMED_FROM_VIDEO
+Bells,9607.6,Port Royal,197,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,4955.2,Port-Au-Croix,134,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,7861.2,Princeton,174,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,6,CONFIRMED_FROM_VIDEO
+Bells,11262.3,Puerto de San Fernando,220,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,4629.2,Saint Vincent,130,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,3,CONFIRMED_FROM_VIDEO
+Bells,13603.8,Saint-Nicholas,251,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,4731.6,Sainte Rose,131,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,3,CONFIRMED_FROM_VIDEO
+Bells,16107.0,San Polo,285,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,1,CONFIRMED_FROM_VIDEO
+Bells,14252.0,San Salvador,260,CONFIRMED_FROM_VIDEO,2,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,2,CONFIRMED_FROM_VIDEO
+Bells,13161.4,San Vito,245,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,13629.3,Sandy Settlement,251,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,13363.3,Santa Maria,248,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,11511.6,Sao Bento,223,CONFIRMED_FROM_VIDEO,2,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,5334.9,Snake Prosper,140,CONFIRMED_FROM_VIDEO,2,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,10585.3,Sugar Cove,210,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,12738.1,Taylor's Town,239,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,9777.3,Theresa,199,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,10088.8,Thresher Point,204,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,8688.1,Venta Nueva,185,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,7888.1,Villarreal Del Mar,174,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,5,CONFIRMED_FROM_VIDEO
+Bells,5597.8,White Hook,143,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,4,CONFIRMED_FROM_VIDEO
+Bells,1267.1,Wyntergard,85,CONFIRMED_FROM_VIDEO,1,Crownstead,Vysarian Isles,,Screen Recording 2026-08-16 104608.mp4,3,CONFIRMED_FROM_VIDEO
+Paper,2629.0,Al-Jazair,74,CONFIRMED_FROM_VIDEO,2,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,3,CONFIRMED_FROM_VIDEO
+Paper,2468.9,Ashbourne,73,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,4,CONFIRMED_FROM_VIDEO
+Paper,7547.4,Belfry Heights,122,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,9,CONFIRMED_FROM_VIDEO
+Paper,1332.2,Bucket Bay,62,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,3,CONFIRMED_FROM_VIDEO
+Paper,3434.1,Caledonia,82,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,4,CONFIRMED_FROM_VIDEO
+Paper,6158.4,Castle Landing,109,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,5,CONFIRMED_FROM_VIDEO
+Paper,11790.4,Caveira,164,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,3,CONFIRMED_FROM_VIDEO
+Paper,5934.8,Caye Tiburon,107,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,5,CONFIRMED_FROM_VIDEO
+Paper,3284.3,Crownstead,81,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,4,CONFIRMED_FROM_VIDEO
+Paper,6697.3,Cumberland Hill,114,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,5,CONFIRMED_FROM_VIDEO
+Paper,3057.5,Deadman's Murcia,79,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,5,CONFIRMED_FROM_VIDEO
+Paper,6579.3,Falmouth,113,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,5,CONFIRMED_FROM_VIDEO
+Paper,4093.4,Gyldenvale,89,CONFIRMED_FROM_VIDEO,2,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,3,CONFIRMED_FROM_VIDEO
+Paper,5716.5,Jones' Outpost,104,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,5,CONFIRMED_FROM_VIDEO
+Paper,14423.5,Kandlerova,189,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,1,CONFIRMED_FROM_VIDEO
+Paper,11916.6,La Povenglia,165,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,3,CONFIRMED_FROM_VIDEO
+Paper,6160.0,Lebarde,109,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,7,CONFIRMED_FROM_VIDEO
+Paper,8228.2,Lord Irving's Sacrifice,129,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,6,CONFIRMED_FROM_VIDEO
+Paper,5364.3,Louisbourg,101,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,3,CONFIRMED_FROM_VIDEO
+Paper,13356.0,Madalena,179,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,2,CONFIRMED_FROM_VIDEO
+Paper,8574.1,Mako's Outlook,132,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,4,CONFIRMED_FROM_VIDEO
+Paper,2195.6,Matthew's Rest,70,CONFIRMED_FROM_VIDEO,2,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,3,CONFIRMED_FROM_VIDEO
+Paper,4577.8,Maurepas,93,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,5,CONFIRMED_FROM_VIDEO
+Paper,2978.7,New Brighton,78,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,5,CONFIRMED_FROM_VIDEO
+Paper,6879.5,New Catalina,116,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,7,CONFIRMED_FROM_VIDEO
+Paper,3205.3,Pachard Town,80,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,4,CONFIRMED_FROM_VIDEO
+Paper,9525.7,Peter's Cove,142,CONFIRMED_FROM_VIDEO,2,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,4,CONFIRMED_FROM_VIDEO
+Paper,5895.1,Petit Anvers,106,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,5,CONFIRMED_FROM_VIDEO
+Paper,12494.9,Poblado de San Juan,171,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,2,CONFIRMED_FROM_VIDEO
+Paper,5219.3,Point Rocheux,100,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,5,CONFIRMED_FROM_VIDEO
+Paper,12376.9,Ponta Delgada,169,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,2,CONFIRMED_FROM_VIDEO
+Paper,7690.1,Port Antonio,124,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,8,CONFIRMED_FROM_VIDEO
+Paper,829.5,Port Louis,57,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,3,CONFIRMED_FROM_VIDEO
+Paper,7689.6,Port Royal,124,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,8,CONFIRMED_FROM_VIDEO
+Paper,4155.6,Port-Au-Croix,89,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,3,CONFIRMED_FROM_VIDEO
+Paper,4584.4,Princeton,93,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,5,CONFIRMED_FROM_VIDEO
+Paper,10360.5,Puerto de San Fernando,150,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,3,CONFIRMED_FROM_VIDEO
+Paper,1543.8,Saint Vincent,64,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,3,CONFIRMED_FROM_VIDEO
+Paper,10360.2,Saint-Nicholas,150,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,4,CONFIRMED_FROM_VIDEO
+Paper,6540.4,Sainte Rose,113,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,6,CONFIRMED_FROM_VIDEO
+Paper,13549.8,San Polo,181,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,2,CONFIRMED_FROM_VIDEO
+Paper,12572.4,San Salvador,171,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,2,CONFIRMED_FROM_VIDEO
+Paper,10535.0,San Vito,151,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,4,CONFIRMED_FROM_VIDEO
+Paper,10412.5,Sandy Settlement,150,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,4,CONFIRMED_FROM_VIDEO
+Paper,12116.5,Santa Maria,167,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,2,CONFIRMED_FROM_VIDEO
+Paper,11932.5,Sao Bento,165,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,2,CONFIRMED_FROM_VIDEO
+Paper,3079.9,Snake Prosper,79,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,4,CONFIRMED_FROM_VIDEO
+Paper,7787.3,Sugar Cove,125,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,6,CONFIRMED_FROM_VIDEO
+Paper,9457.8,Taylor's Town,141,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,3,CONFIRMED_FROM_VIDEO
+Paper,8447.8,Theresa,131,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,6,CONFIRMED_FROM_VIDEO
+Paper,7034.2,Thresher Point,117,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,7,CONFIRMED_FROM_VIDEO
+Paper,8598.3,Venta Nueva,133,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,4,CONFIRMED_FROM_VIDEO
+Paper,7449.8,Villarreal Del Mar,121,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,7,CONFIRMED_FROM_VIDEO
+Paper,3974.7,White Hook,88,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,5,CONFIRMED_FROM_VIDEO
+Paper,2813.0,Wyntergard,76,CONFIRMED_FROM_VIDEO,1,Fair Harbour,Îles de Louis,,Screen Recording 2026-08-16 110227.mp4,5,CONFIRMED_FROM_VIDEO
+Grapes,4495.6,Al-Jazair,166,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,3,CONFIRMED_FROM_VIDEO
+Grapes,6578.2,Ashbourne,203,CONFIRMED_FROM_VIDEO,2,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,8,CONFIRMED_FROM_VIDEO
+Grapes,3669.0,Belfry Heights,152,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,6,CONFIRMED_FROM_VIDEO
+Grapes,3774.3,Bucket Bay,154,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,3,CONFIRMED_FROM_VIDEO
+Grapes,7396.0,Caledonia,217,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,7,CONFIRMED_FROM_VIDEO
+Grapes,6143.0,Castle Landing,195,CONFIRMED_FROM_VIDEO,3,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,6,CONFIRMED_FROM_VIDEO
+Grapes,8678.8,Caveira,239,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,3,CONFIRMED_FROM_VIDEO
+Grapes,2363.0,Caye Tiburon,129,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,2,CONFIRMED_FROM_VIDEO
+Grapes,7265.3,Crownstead,215,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,7,CONFIRMED_FROM_VIDEO
+Grapes,7429.5,Deadman's Murcia,218,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,6,CONFIRMED_FROM_VIDEO
+Grapes,4880.9,Fair Harbour,173,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,3,CONFIRMED_FROM_VIDEO
+Grapes,3088.1,Falmouth,142,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,4,CONFIRMED_FROM_VIDEO
+Grapes,8488.4,Gyldenvale,236,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,7,CONFIRMED_FROM_VIDEO
+Grapes,7722.1,Jones' Outpost,223,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,6,CONFIRMED_FROM_VIDEO
+Grapes,9677.6,Kandlerova,257,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,2,CONFIRMED_FROM_VIDEO
+Grapes,7460.3,La Povenglia,218,CONFIRMED_FROM_VIDEO,2,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,5,CONFIRMED_FROM_VIDEO
+Grapes,4866.0,Lebarde,173,CONFIRMED_FROM_VIDEO,2,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,2,CONFIRMED_FROM_VIDEO
+Grapes,3413.2,Lord Irving's Sacrifice,147,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,6,CONFIRMED_FROM_VIDEO
+Grapes,6582.4,Louisbourg,203,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,7,CONFIRMED_FROM_VIDEO
+Grapes,10545.9,Madalena,272,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,2,CONFIRMED_FROM_VIDEO
+Grapes,3887.0,Mako's Outlook,156,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,4,CONFIRMED_FROM_VIDEO
+Grapes,3406.7,Matthew's Rest,147,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,6,CONFIRMED_FROM_VIDEO
+Grapes,5783.1,Maurepas,189,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,3,CONFIRMED_FROM_VIDEO
+Grapes,2839.2,New Brighton,137,CONFIRMED_FROM_VIDEO,2,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,2,CONFIRMED_FROM_VIDEO
+Grapes,8407.9,New Catalina,235,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,7,CONFIRMED_FROM_VIDEO
+Grapes,2915.1,Pachard Town,139,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,4,CONFIRMED_FROM_VIDEO
+Grapes,6430.7,Peter's Cove,200,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,7,CONFIRMED_FROM_VIDEO
+Grapes,7983.2,Petit Anvers,227,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,7,CONFIRMED_FROM_VIDEO
+Grapes,8109.5,Poblado de San Juan,229,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,6,CONFIRMED_FROM_VIDEO
+Grapes,3826.9,Point Rocheux,154,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,4,CONFIRMED_FROM_VIDEO
+Grapes,10658.7,Ponta Delgada,274,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,2,CONFIRMED_FROM_VIDEO
+Grapes,3974.2,Port Antonio,157,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,4,CONFIRMED_FROM_VIDEO
+Grapes,5630.2,Port Louis,186,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,4,CONFIRMED_FROM_VIDEO
+Grapes,2942.8,Port Royal,139,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,4,CONFIRMED_FROM_VIDEO
+Grapes,3301.6,Port-Au-Croix,145,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,6,CONFIRMED_FROM_VIDEO
+Grapes,4779.5,Princeton,171,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,3,CONFIRMED_FROM_VIDEO
+Grapes,6418.1,Puerto de San Fernando,200,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,7,CONFIRMED_FROM_VIDEO
+Grapes,5143.2,Saint Vincent,178,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,3,CONFIRMED_FROM_VIDEO
+Grapes,7732.2,Saint-Nicholas,223,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,6,CONFIRMED_FROM_VIDEO
+Grapes,7528.3,Sainte Rose,219,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,6,CONFIRMED_FROM_VIDEO
+Grapes,8845.9,San Polo,242,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,4,CONFIRMED_FROM_VIDEO
+Grapes,7811.9,San Salvador,224,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,6,CONFIRMED_FROM_VIDEO
+Grapes,5899.9,San Vito,191,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,4,CONFIRMED_FROM_VIDEO
+Grapes,7540.6,Sandy Settlement,219,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,5,CONFIRMED_FROM_VIDEO
+Grapes,7678.9,Santa Maria,222,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,6,CONFIRMED_FROM_VIDEO
+Grapes,9541.6,Sao Bento,254,CONFIRMED_FROM_VIDEO,2,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,2,CONFIRMED_FROM_VIDEO
+Grapes,7004.3,Snake Prosper,210,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,6,CONFIRMED_FROM_VIDEO
+Grapes,9397.1,Sugar Cove,252,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,3,CONFIRMED_FROM_VIDEO
+Grapes,7527.2,Taylor's Town,219,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,6,CONFIRMED_FROM_VIDEO
+Grapes,4236.8,Theresa,162,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,4,CONFIRMED_FROM_VIDEO
+Grapes,3674.1,Thresher Point,152,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,4,CONFIRMED_FROM_VIDEO
+Grapes,6108.9,Venta Nueva,194,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,4,CONFIRMED_FROM_VIDEO
+Grapes,4800.4,Villarreal Del Mar,172,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,3,CONFIRMED_FROM_VIDEO
+Grapes,8188.4,White Hook,231,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,5,CONFIRMED_FROM_VIDEO
+Grapes,7397.7,Wyntergard,217,CONFIRMED_FROM_VIDEO,1,Griffard's Rock,Griffard's Rock,,Screen Recording 2026-08-16 205504.mp4,7,CONFIRMED_FROM_VIDEO
+Wheat,6535.7,Al-Jazair,205,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,6,CONFIRMED_FROM_VIDEO
+Wheat,1914.0,Ashbourne,123,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,2,CONFIRMED_FROM_VIDEO
+Wheat,11560.9,Belfry Heights,294,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,4769.9,Bucket Bay,173,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,5493.9,Caledonia,186,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,6,CONFIRMED_FROM_VIDEO
+Wheat,9951.0,Castle Landing,265,CONFIRMED_FROM_VIDEO,2,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,3,CONFIRMED_FROM_VIDEO
+Wheat,13226.9,Caveira,324,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,9941.2,Caye Tiburon,265,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,1374.6,Crownstead,113,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,2,CONFIRMED_FROM_VIDEO
+Wheat,4686.6,Deadman's Murcia,172,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,3,CONFIRMED_FROM_VIDEO
+Wheat,4093.4,Fair Harbour,161,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,2,CONFIRMED_FROM_VIDEO
+Wheat,9130.6,Falmouth,251,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,8726.9,Jones' Outpost,244,CONFIRMED_FROM_VIDEO,2,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,18165.6,Kandlerova,411,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,2,CONFIRMED_FROM_VIDEO
+Wheat,15837.7,La Povenglia,370,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,10193.5,Lebarde,270,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,11899.1,Lord Irving's Sacrifice,300,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,6,CONFIRMED_FROM_VIDEO
+Wheat,5002.5,Louisbourg,178,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,14387.2,Madalena,344,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,6,CONFIRMED_FROM_VIDEO
+Wheat,12355.4,Mako's Outlook,308,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,5110.1,Matthew's Rest,179,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,4781.7,Maurepas,174,CONFIRMED_FROM_VIDEO,2,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,7062.9,New Brighton,214,CONFIRMED_FROM_VIDEO,2,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,9954.3,New Catalina,265,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,5885.8,Pachard Town,193,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,6,CONFIRMED_FROM_VIDEO
+Wheat,13619.2,Peter's Cove,330,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,6,CONFIRMED_FROM_VIDEO
+Wheat,4299.6,Petit Anvers,165,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,3,CONFIRMED_FROM_VIDEO
+Wheat,15037.9,Poblado de San Juan,356,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,7045.8,Point Rocheux,214,CONFIRMED_FROM_VIDEO,2,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,12596.8,Ponta Delgada,312,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,10145.8,Port Antonio,269,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,3281.7,Port Louis,147,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,2,CONFIRMED_FROM_VIDEO
+Wheat,10927.8,Port Royal,283,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,6322.1,Port-Au-Croix,201,CONFIRMED_FROM_VIDEO,3,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,6,CONFIRMED_FROM_VIDEO
+Wheat,8511.3,Princeton,240,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,12635.6,Puerto de San Fernando,313,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,3,CONFIRMED_FROM_VIDEO
+Wheat,5173.4,Saint Vincent,181,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,14431.2,Saint-Nicholas,345,CONFIRMED_FROM_VIDEO,2,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,6,CONFIRMED_FROM_VIDEO
+Wheat,5787.8,Sainte Rose,191,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,6,CONFIRMED_FROM_VIDEO
+Wheat,17331.7,San Polo,396,CONFIRMED_FROM_VIDEO,2,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,2,CONFIRMED_FROM_VIDEO
+Wheat,15609.1,San Salvador,366,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,14359.7,San Vito,344,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,14498.4,Sandy Settlement,346,CONFIRMED_FROM_VIDEO,2,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,7,CONFIRMED_FROM_VIDEO
+Wheat,14737.1,Santa Maria,350,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,6,CONFIRMED_FROM_VIDEO
+Wheat,12759.7,Sao Bento,315,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,5391.8,Snake Prosper,184,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,6,CONFIRMED_FROM_VIDEO
+Wheat,10681.4,Sugar Cove,278,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,13464.4,Taylor's Town,328,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,11144.9,Theresa,287,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,11098.5,Thresher Point,286,CONFIRMED_FROM_VIDEO,2,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,10025.5,Venta Nueva,267,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,4,CONFIRMED_FROM_VIDEO
+Wheat,9253.7,Villarreal Del Mar,253,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,5,CONFIRMED_FROM_VIDEO
+Wheat,5349.6,White Hook,184,CONFIRMED_FROM_VIDEO,2,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,3,CONFIRMED_FROM_VIDEO
+Wheat,1312.6,Wyntergard,112,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,,Screen Recording 2026-08-16 104156.mp4,2,CONFIRMED_FROM_VIDEO
+Wheat,6045.3,Yorinobu's Settlement,196,CONFIRMED_FROM_VIDEO,1,Gyldenvale,Vysarian Isles,Visually verified from a visible recording frame after OCR audit.,Screen Recording 2026-08-16 104156.mp4,1,CONFIRMED_FROM_VIDEO
+Wool,7267.7,Al-Jazair,169,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,4,CONFIRMED_FROM_VIDEO
+Wool,9987.1,Ashbourne,206,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,2548.2,Belfry Heights,104,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,7181.3,Bucket Bay,167,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,10324.8,Caledonia,211,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,4,CONFIRMED_FROM_VIDEO
+Wool,7456.4,Castle Landing,171,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,8559.1,Caveira,186,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,3056.3,Caye Tiburon,111,CONFIRMED_FROM_VIDEO,2,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,5,CONFIRMED_FROM_VIDEO
+Wool,10660.3,Crownstead,215,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,10425.6,Cumberland Hill,212,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,10507.3,Deadman's Murcia,213,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,Visually verified from a visible recording frame after OCR audit.,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,8228.2,Fair Harbour,182,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,4417.9,Falmouth,129,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,11899.1,Gyldenvale,232,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,1,CONFIRMED_FROM_VIDEO
+Wool,9784.9,Jones' Outpost,203,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,4,CONFIRMED_FROM_VIDEO
+Wool,6267.2,Kandlerova,155,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,4288.3,La Povenglia,128,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,5791.4,Lebarde,148,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,4,CONFIRMED_FROM_VIDEO
+Wool,9490.8,Louisbourg,199,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,4,CONFIRMED_FROM_VIDEO
+Wool,10493.2,Madalena,213,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,772.3,Mako's Outlook,79,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,8793.2,Maurepas,190,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,4,CONFIRMED_FROM_VIDEO
+Wool,5704.1,New Brighton,147,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,10116.9,New Catalina,208,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,4,CONFIRMED_FROM_VIDEO
+Wool,6184.8,Pachard Town,154,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,5054.2,Peter's Cove,138,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,11011.9,Petit Anvers,220,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,6325.6,Poblado de San Juan,156,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,6341.0,Point Rocheux,156,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,11525.5,Ponta Delgada,227,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,1,CONFIRMED_FROM_VIDEO
+Wool,4492.9,Port Antonio,131,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,9005.7,Port Louis,193,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,5,CONFIRMED_FROM_VIDEO
+Wool,2046.6,Port Royal,97,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,6257.9,Port-Au-Croix,155,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,6703.2,Princeton,161,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,5692.4,Puerto de San Fernando,147,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,8235.6,Saint Vincent,182,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,6533.2,Saint-Nicholas,159,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,10248.2,Sainte Rose,210,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,4,CONFIRMED_FROM_VIDEO
+Wool,5450.2,San Polo,144,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,5189.4,San Salvador,140,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,2605.4,San Vito,105,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,4,CONFIRMED_FROM_VIDEO
+Wool,6136.5,Sandy Settlement,153,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,5850.1,Santa Maria,149,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,9992.9,Sao Bento,206,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,4,CONFIRMED_FROM_VIDEO
+Wool,9952.5,Snake Prosper,206,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,3,CONFIRMED_FROM_VIDEO
+Wool,11014.5,Sugar Cove,220,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,7022.0,Taylor's Town,165,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,4,CONFIRMED_FROM_VIDEO
+Wool,3835.2,Theresa,121,CONFIRMED_FROM_VIDEO,2,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,3307.7,Thresher Point,114,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,7116.6,Venta Nueva,167,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,4,CONFIRMED_FROM_VIDEO
+Wool,6084.7,Villarreal Del Mar,152,CONFIRMED_FROM_VIDEO,2,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,2,CONFIRMED_FROM_VIDEO
+Wool,11163.1,White Hook,222,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,1,CONFIRMED_FROM_VIDEO
+Wool,10808.3,Wyntergard,217,CONFIRMED_FROM_VIDEO,1,Lord Irving's Sacrifice,Irving's Reach,,Screen Recording 2026-08-16 113109.mp4,1,CONFIRMED_FROM_VIDEO
+Spyglasses,7388.8,Al-Jazair,198,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,10451.4,Ashbourne,247,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,2,CONFIRMED_FROM_VIDEO
+Spyglasses,2117.0,Belfry Heights,114,CONFIRMED_FROM_VIDEO,2,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,7601.1,Bucket Bay,202,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,10450.6,Caledonia,247,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,7207.0,Castle Landing,195,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,9272.8,Caveira,228,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,3026.2,Caye Tiburon,128,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,11150.0,Crownstead,258,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,2,CONFIRMED_FROM_VIDEO
+Spyglasses,10690.0,Deadman's Murcia,251,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,2,CONFIRMED_FROM_VIDEO
+Spyglasses,8574.1,Fair Harbour,217,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,5173.5,Falmouth,163,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,4,CONFIRMED_FROM_VIDEO
+Spyglasses,12355.4,Gyldenvale,278,CONFIRMED_FROM_VIDEO,2,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,1,CONFIRMED_FROM_VIDEO
+Spyglasses,9661.2,Jones' Outpost,235,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,5849.6,Kandlerova,174,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,3625.8,La Povenglia,138,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,4,CONFIRMED_FROM_VIDEO
+Spyglasses,5520.6,Lebarde,168,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,4,CONFIRMED_FROM_VIDEO
+Spyglasses,772.3,Lord Irving's Sacrifice,92,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,10157.6,Louisbourg,243,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,11200.9,Madalena,259,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,2,CONFIRMED_FROM_VIDEO
+Spyglasses,7293.2,Matthew's Rest,197,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,9437.8,Maurepas,231,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,2,CONFIRMED_FROM_VIDEO
+Spyglasses,5900.1,New Brighton,174,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,2,CONFIRMED_FROM_VIDEO
+Spyglasses,9901.9,New Catalina,238,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,2,CONFIRMED_FROM_VIDEO
+Spyglasses,6745.7,Pachard Town,188,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,4373.0,Peter's Cove,150,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,5,CONFIRMED_FROM_VIDEO
+Spyglasses,11659.5,Petit Anvers,267,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,2,CONFIRMED_FROM_VIDEO
+Spyglasses,6828.7,Poblado de San Juan,189,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,7041.1,Point Rocheux,193,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,12287.3,Ponta Delgada,277,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,2,CONFIRMED_FROM_VIDEO
+Spyglasses,5265.0,Port Antonio,164,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,5,CONFIRMED_FROM_VIDEO
+Spyglasses,9371.8,Port Louis,230,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,2,CONFIRMED_FROM_VIDEO
+Spyglasses,2818.6,Port Royal,125,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,6,CONFIRMED_FROM_VIDEO
+Spyglasses,6896.0,Port-Au-Croix,190,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,6618.2,Princeton,186,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,2,CONFIRMED_FROM_VIDEO
+Spyglasses,6380.8,Puerto de San Fernando,182,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,8449.0,Saint Vincent,215,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,2,CONFIRMED_FROM_VIDEO
+Spyglasses,5848.0,Saint-Nicholas,174,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,10946.6,Sainte Rose,255,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,1,CONFIRMED_FROM_VIDEO
+Spyglasses,4985.7,San Polo,160,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,4,CONFIRMED_FROM_VIDEO
+Spyglasses,5475.0,San Salvador,168,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,4,CONFIRMED_FROM_VIDEO
+Spyglasses,2013.1,San Vito,112,CONFIRMED_FROM_VIDEO,2,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,5431.1,Sandy Settlement,167,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,4,CONFIRMED_FROM_VIDEO
+Spyglasses,6354.5,Santa Maria,182,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,10739.3,Sao Bento,252,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,10089.3,Snake Prosper,241,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,10766.2,Sugar Cove,252,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,6431.3,Taylor's Town,183,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,4587.9,Theresa,153,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,4,CONFIRMED_FROM_VIDEO
+Spyglasses,2954.2,Thresher Point,127,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,6,CONFIRMED_FROM_VIDEO
+Spyglasses,7888.5,Venta Nueva,206,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,6854.1,Villarreal Del Mar,190,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,3,CONFIRMED_FROM_VIDEO
+Spyglasses,11298.6,White Hook,261,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,2,CONFIRMED_FROM_VIDEO
+Spyglasses,11226.1,Wyntergard,260,CONFIRMED_FROM_VIDEO,1,Mako's Outlook,Irving's Reach,,Screen Recording 2026-08-16 113333.mp4,2,CONFIRMED_FROM_VIDEO
+Shale,3789.1,Al-Jazair,160,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,4,CONFIRMED_FROM_VIDEO
+Shale,3196.3,Ashbourne,150,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,6,CONFIRMED_FROM_VIDEO
+Shale,6773.1,Belfry Heights,215,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,8,CONFIRMED_FROM_VIDEO
+Shale,897.0,Bucket Bay,108,CONFIRMED_FROM_VIDEO,3,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,1,CONFIRMED_FROM_VIDEO
+Shale,5564.1,Caledonia,193,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,7,CONFIRMED_FROM_VIDEO
+Shale,7014.3,Castle Landing,219,CONFIRMED_FROM_VIDEO,2,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,7,CONFIRMED_FROM_VIDEO
+Shale,9598.9,Caveira,266,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,6,CONFIRMED_FROM_VIDEO
+Shale,5197.7,Caye Tiburon,186,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,5,CONFIRMED_FROM_VIDEO
+Shale,3859.9,Crownstead,162,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,4,CONFIRMED_FROM_VIDEO
+Shale,8313.6,Cumberland Hill,243,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,Visually verified from a visible recording frame after OCR audit.,Screen Recording 2026-08-16 110744.mp4,5,CONFIRMED_FROM_VIDEO
+Shale,5248.1,Deadman's Murcia,187,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,8,CONFIRMED_FROM_VIDEO
+Shale,2195.6,Fair Harbour,131,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,3,CONFIRMED_FROM_VIDEO
+Shale,4444.3,Falmouth,172,CONFIRMED_FROM_VIDEO,2,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,4,CONFIRMED_FROM_VIDEO
+Shale,5110.1,Gyldenvale,185,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,4,CONFIRMED_FROM_VIDEO
+Shale,7336.4,Jones' Outpost,225,CONFIRMED_FROM_VIDEO,2,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,6,CONFIRMED_FROM_VIDEO
+Shale,13068.2,Kandlerova,330,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,1,CONFIRMED_FROM_VIDEO
+Shale,10845.2,La Povenglia,289,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,3,CONFIRMED_FROM_VIDEO
+Shale,6468.7,Lebarde,209,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,8,CONFIRMED_FROM_VIDEO
+Shale,6801.9,Lord Irving's Sacrifice,215,CONFIRMED_FROM_VIDEO,2,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,5,CONFIRMED_FROM_VIDEO
+Shale,4026.9,Louisbourg,165,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,4,CONFIRMED_FROM_VIDEO
+Shale,11188.5,Madalena,295,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,2,CONFIRMED_FROM_VIDEO
+Shale,7293.2,Mako's Outlook,224,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,7,CONFIRMED_FROM_VIDEO
+Shale,3150.7,Maurepas,149,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,5,CONFIRMED_FROM_VIDEO
+Shale,3016.6,New Brighton,146,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,4,CONFIRMED_FROM_VIDEO
+Shale,8385.2,New Catalina,244,CONFIRMED_FROM_VIDEO,2,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,6,CONFIRMED_FROM_VIDEO
+Shale,1015.0,Pachard Town,110,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,2,CONFIRMED_FROM_VIDEO
+Shale,9221.1,Peter's Cove,260,CONFIRMED_FROM_VIDEO,2,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,5,CONFIRMED_FROM_VIDEO
+Shale,5076.9,Petit Anvers,184,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,4,CONFIRMED_FROM_VIDEO
+Shale,10411.8,Poblado de San Juan,281,CONFIRMED_FROM_VIDEO,3,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,4,CONFIRMED_FROM_VIDEO
+Shale,3052.0,Point Rocheux,147,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,5,CONFIRMED_FROM_VIDEO
+Shale,10357.0,Ponta Delgada,280,CONFIRMED_FROM_VIDEO,2,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,4,CONFIRMED_FROM_VIDEO
+Shale,5548.9,Port Antonio,193,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,7,CONFIRMED_FROM_VIDEO
+Shale,2657.4,Port Louis,140,CONFIRMED_FROM_VIDEO,2,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,3,CONFIRMED_FROM_VIDEO
+Shale,5869.8,Port Royal,198,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,8,CONFIRMED_FROM_VIDEO
+Shale,1974.6,Port-Au-Croix,127,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,2,CONFIRMED_FROM_VIDEO
+Shale,5348.6,Princeton,189,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,8,CONFIRMED_FROM_VIDEO
+Shale,8208.6,Puerto de San Fernando,241,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,5,CONFIRMED_FROM_VIDEO
+Shale,3377.0,Saint Vincent,153,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,4,CONFIRMED_FROM_VIDEO
+Shale,10304.7,Saint-Nicholas,279,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,5,CONFIRMED_FROM_VIDEO
+Shale,5180.4,Sainte Rose,186,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,4,CONFIRMED_FROM_VIDEO
+Shale,12247.2,San Polo,315,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,2,CONFIRMED_FROM_VIDEO
+Shale,10669.9,San Salvador,286,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,2,CONFIRMED_FROM_VIDEO
+Shale,9305.7,San Vito,261,CONFIRMED_FROM_VIDEO,2,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,5,CONFIRMED_FROM_VIDEO
+Shale,10241.7,Sandy Settlement,278,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,6,CONFIRMED_FROM_VIDEO
+Shale,10052.7,Santa Maria,275,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,7,CONFIRMED_FROM_VIDEO
+Shale,9800.1,Sao Bento,270,CONFIRMED_FROM_VIDEO,2,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,6,CONFIRMED_FROM_VIDEO
+Shale,5189.3,Snake Prosper,186,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,6,CONFIRMED_FROM_VIDEO
+Shale,9357.1,Sugar Cove,262,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,6,CONFIRMED_FROM_VIDEO
+Shale,9691.7,Taylor's Town,268,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,6,CONFIRMED_FROM_VIDEO
+Shale,6378.0,Theresa,208,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,8,CONFIRMED_FROM_VIDEO
+Shale,6490.3,Thresher Point,210,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,6,CONFIRMED_FROM_VIDEO
+Shale,6422.2,Venta Nueva,208,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,9,CONFIRMED_FROM_VIDEO
+Shale,5256.0,Villarreal Del Mar,187,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,9,CONFIRMED_FROM_VIDEO
+Shale,6157.7,White Hook,204,CONFIRMED_FROM_VIDEO,2,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,8,CONFIRMED_FROM_VIDEO
+Shale,4105.7,Wyntergard,166,CONFIRMED_FROM_VIDEO,1,Matthew's Rest,Îles de Louis,,Screen Recording 2026-08-16 110744.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,4513.3,Al-Jazair,216,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,5,CONFIRMED_FROM_VIDEO
+Jewelry,3996.0,Ashbourne,205,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,2,CONFIRMED_FROM_VIDEO
+Jewelry,6508.9,Belfry Heights,262,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,1885.1,Bucket Bay,157,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,6536.7,Caledonia,262,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,7490.6,Castle Landing,284,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,8604.6,Caveira,310,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,5020.1,Caye Tiburon,228,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,4566.4,Crownstead,218,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,6250.0,Deadman's Murcia,256,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,3205.3,Fair Harbour,187,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,5,CONFIRMED_FROM_VIDEO
+Jewelry,3446.7,Falmouth,192,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,6,CONFIRMED_FROM_VIDEO
+Jewelry,5885.8,Gyldenvale,248,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,8103.9,Jones' Outpost,298,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,12418.5,Kandlerova,396,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,Visually verified from a visible recording frame after OCR audit.,Screen Recording 2026-08-16 111220.mp4,2,CONFIRMED_FROM_VIDEO
+Jewelry,10353.0,La Povenglia,349,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,2,CONFIRMED_FROM_VIDEO
+Jewelry,6732.4,Lebarde,267,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,6184.8,Lord Irving's Sacrifice,254,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,3821.9,Louisbourg,201,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,10223.0,Madalena,346,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,2,CONFIRMED_FROM_VIDEO
+Jewelry,6745.7,Mako's Outlook,267,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,1015.0,Matthew's Rest,137,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,2969.3,Maurepas,181,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,3427.0,New Brighton,192,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,6,CONFIRMED_FROM_VIDEO
+Jewelry,9094.7,New Catalina,321,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,9128.6,Peter's Cove,321,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,5114.0,Petit Anvers,230,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,9426.1,Poblado de San Juan,328,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,2119.7,Point Rocheux,162,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,9516.2,Ponta Delgada,330,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,4545.8,Port Antonio,217,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,5,CONFIRMED_FROM_VIDEO
+Jewelry,3662.8,Port Louis,197,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,6,CONFIRMED_FROM_VIDEO
+Jewelry,5043.3,Port Royal,228,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,1044.3,Port-Au-Croix,138,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,5847.2,Princeton,247,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,7199.4,Puerto de San Fernando,278,CONFIRMED_FROM_VIDEO,2,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,2,CONFIRMED_FROM_VIDEO
+Jewelry,4298.8,Saint Vincent,212,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,10311.2,Saint-Nicholas,348,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,2,CONFIRMED_FROM_VIDEO
+Jewelry,4889.0,Sainte Rose,225,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,11628.4,San Polo,378,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,2,CONFIRMED_FROM_VIDEO
+Jewelry,9764.8,San Salvador,336,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,8751.9,San Vito,313,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,10195.1,Sandy Settlement,346,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,2,CONFIRMED_FROM_VIDEO
+Jewelry,9075.5,Santa Maria,320,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,8869.7,Sao Bento,316,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,6155.8,Snake Prosper,254,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,10082.1,Sugar Cove,343,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,2,CONFIRMED_FROM_VIDEO
+Jewelry,9841.0,Taylor's Town,338,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,2,CONFIRMED_FROM_VIDEO
+Jewelry,5406.4,Theresa,237,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,6353.3,Thresher Point,258,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,5453.4,Venta Nueva,238,CONFIRMED_FROM_VIDEO,2,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,3,CONFIRMED_FROM_VIDEO
+Jewelry,4259.5,Villarreal Del Mar,211,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,7153.5,White Hook,276,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Jewelry,4986.8,Wyntergard,227,CONFIRMED_FROM_VIDEO,1,Pachard Town,Saint-Pierre,,Screen Recording 2026-08-16 111220.mp4,4,CONFIRMED_FROM_VIDEO
+Candles,6603.9,Al-Jazair,131,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,4,CONFIRMED_FROM_VIDEO
+Candles,5342.3,Ashbourne,116,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,5,CONFIRMED_FROM_VIDEO
+Candles,7424.4,Belfry Heights,140,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,7,CONFIRMED_FROM_VIDEO
+Candles,3948.9,Bucket Bay,101,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,3,CONFIRMED_FROM_VIDEO
+Candles,8615.7,Caledonia,153,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,6,CONFIRMED_FROM_VIDEO
+Candles,9382.2,Castle Landing,162,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,7,CONFIRMED_FROM_VIDEO
+Candles,6592.4,Caveira,130,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,6,CONFIRMED_FROM_VIDEO
+Candles,6188.0,Caye Tiburon,126,CONFIRMED_FROM_VIDEO,2,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,4,CONFIRMED_FROM_VIDEO
+Candles,5671.7,Crownstead,120,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,5,CONFIRMED_FROM_VIDEO
+Candles,8275.7,Deadman's Murcia,149,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,7,CONFIRMED_FROM_VIDEO
+Candles,5219.3,Fair Harbour,115,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,4,CONFIRMED_FROM_VIDEO
+Candles,2288.2,Falmouth,82,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,1,CONFIRMED_FROM_VIDEO
+Candles,7045.8,Gyldenvale,136,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,6,CONFIRMED_FROM_VIDEO
+Candles,10196.8,Jones' Outpost,171,CONFIRMED_FROM_VIDEO,2,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,6,CONFIRMED_FROM_VIDEO
+Candles,12237.8,Kandlerova,194,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,2,CONFIRMED_FROM_VIDEO
+Candles,10628.1,La Povenglia,176,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,7,CONFIRMED_FROM_VIDEO
+Candles,8418.3,Lebarde,151,CONFIRMED_FROM_VIDEO,2,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,7,CONFIRMED_FROM_VIDEO
+Candles,6341.0,Lord Irving's Sacrifice,128,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,5,CONFIRMED_FROM_VIDEO
+Candles,3223.3,Louisbourg,93,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,2,CONFIRMED_FROM_VIDEO
+Candles,8139.2,Madalena,148,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,6,CONFIRMED_FROM_VIDEO
+Candles,7041.1,Mako's Outlook,135,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,6,CONFIRMED_FROM_VIDEO
+Candles,3052.0,Matthew's Rest,91,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,Visually verified from a visible recording frame after OCR audit.,Screen Recording 2026-08-16 111947.mp4,2,CONFIRMED_FROM_VIDEO
+Candles,2684.8,Maurepas,86,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,2,CONFIRMED_FROM_VIDEO
+Candles,5369.8,New Brighton,117,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,5,CONFIRMED_FROM_VIDEO
+Candles,11155.1,New Catalina,182,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,6,CONFIRMED_FROM_VIDEO
+Candles,2119.7,Pachard Town,80,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,1,CONFIRMED_FROM_VIDEO
+Candles,10242.0,Peter's Cove,171,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,8,CONFIRMED_FROM_VIDEO
+Candles,4803.4,Petit Anvers,110,CONFIRMED_FROM_VIDEO,2,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,3,CONFIRMED_FROM_VIDEO
+Candles,8000.7,Poblado de San Juan,146,CONFIRMED_FROM_VIDEO,3,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,4,CONFIRMED_FROM_VIDEO
+Candles,7419.9,Ponta Delgada,140,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,7,CONFIRMED_FROM_VIDEO
+Candles,3157.1,Port Antonio,92,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,2,CONFIRMED_FROM_VIDEO
+Candles,5534.9,Port Louis,119,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,5,CONFIRMED_FROM_VIDEO
+Candles,4643.1,Port Royal,108,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,4,CONFIRMED_FROM_VIDEO
+Candles,1082.4,Port-Au-Croix,68,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,1,CONFIRMED_FROM_VIDEO
+Candles,7783.9,Princeton,144,CONFIRMED_FROM_VIDEO,2,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,5,CONFIRMED_FROM_VIDEO
+Candles,5591.7,Puerto de San Fernando,119,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,4,CONFIRMED_FROM_VIDEO
+Candles,6409.4,Saint Vincent,128,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,4,CONFIRMED_FROM_VIDEO
+Candles,11558.9,Saint-Nicholas,186,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,4,CONFIRMED_FROM_VIDEO
+Candles,3907.4,Sainte Rose,100,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,3,CONFIRMED_FROM_VIDEO
+Candles,11549.5,San Polo,186,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,3,CONFIRMED_FROM_VIDEO
+Candles,8773.9,San Salvador,155,CONFIRMED_FROM_VIDEO,2,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,8,CONFIRMED_FROM_VIDEO
+Candles,8929.6,San Vito,157,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,7,CONFIRMED_FROM_VIDEO
+Candles,11359.2,Sandy Settlement,184,CONFIRMED_FROM_VIDEO,3,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,5,CONFIRMED_FROM_VIDEO
+Candles,7716.2,Santa Maria,143,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,7,CONFIRMED_FROM_VIDEO
+Candles,6754.9,Sao Bento,132,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,6,CONFIRMED_FROM_VIDEO
+Candles,8241.2,Snake Prosper,149,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,6,CONFIRMED_FROM_VIDEO
+Candles,12148.8,Sugar Cove,193,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,2,CONFIRMED_FROM_VIDEO
+Candles,11311.7,Taylor's Town,184,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,4,CONFIRMED_FROM_VIDEO
+Candles,4237.9,Theresa,104,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,3,CONFIRMED_FROM_VIDEO
+Candles,7499.4,Thresher Point,141,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,8,CONFIRMED_FROM_VIDEO
+Candles,3379.4,Venta Nueva,94,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,3,CONFIRMED_FROM_VIDEO
+Candles,2297.8,Villarreal Del Mar,82,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,1,CONFIRMED_FROM_VIDEO
+Candles,9193.9,White Hook,160,CONFIRMED_FROM_VIDEO,2,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,4,CONFIRMED_FROM_VIDEO
+Candles,6441.7,Wyntergard,129,CONFIRMED_FROM_VIDEO,1,Point Rocheux,Saint-Pierre,,Screen Recording 2026-08-16 111947.mp4,6,CONFIRMED_FROM_VIDEO
+Pelts,3319.5,Al-Jazair,137,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,6,CONFIRMED_FROM_VIDEO
+Pelts,1788.6,Ashbourne,112,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,2,CONFIRMED_FROM_VIDEO
+Pelts,8375.5,Belfry Heights,221,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,5,CONFIRMED_FROM_VIDEO
+Pelts,1918.1,Bucket Bay,114,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,3,CONFIRMED_FROM_VIDEO
+Pelts,3429.0,Caledonia,139,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,6,CONFIRMED_FROM_VIDEO
+Pelts,6822.6,Castle Landing,195,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,3,CONFIRMED_FROM_VIDEO
+Pelts,12126.6,Caveira,283,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,3,CONFIRMED_FROM_VIDEO
+Pelts,6761.8,Caye Tiburon,194,CONFIRMED_FROM_VIDEO,2,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,4,CONFIRMED_FROM_VIDEO
+Pelts,2581.9,Crownstead,125,CONFIRMED_FROM_VIDEO,2,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,4,CONFIRMED_FROM_VIDEO
+Pelts,7067.7,Cumberland Hill,199,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,Visually verified from a visible recording frame after OCR audit.,Screen Recording 2026-08-16 110000.mp4,3,CONFIRMED_FROM_VIDEO
+Pelts,2879.2,Deadman's Murcia,130,CONFIRMED_FROM_VIDEO,2,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,6,CONFIRMED_FROM_VIDEO
+Pelts,829.5,Fair Harbour,96,CONFIRMED_FROM_VIDEO,2,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,1,CONFIRMED_FROM_VIDEO
+Pelts,7101.7,Falmouth,200,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,3,CONFIRMED_FROM_VIDEO
+Pelts,3281.7,Gyldenvale,137,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,6,CONFIRMED_FROM_VIDEO
+Pelts,6103.6,Jones' Outpost,183,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,5,CONFIRMED_FROM_VIDEO
+Pelts,15221.0,Kandlerova,334,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,1,CONFIRMED_FROM_VIDEO
+Pelts,12737.2,La Povenglia,293,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,2,CONFIRMED_FROM_VIDEO
+Pelts,6929.7,Lebarde,197,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,3,CONFIRMED_FROM_VIDEO
+Pelts,9005.7,Lord Irving's Sacrifice,231,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,3,CONFIRMED_FROM_VIDEO
+Pelts,5179.7,Louisbourg,168,CONFIRMED_FROM_VIDEO,2,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,4,CONFIRMED_FROM_VIDEO
+Pelts,13619.6,Madalena,307,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,2,CONFIRMED_FROM_VIDEO
+Pelts,9371.8,Mako's Outlook,237,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,5,CONFIRMED_FROM_VIDEO
+Pelts,2657.4,Matthew's Rest,125,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,4,CONFIRMED_FROM_VIDEO
+Pelts,4469.0,Maurepas,156,CONFIRMED_FROM_VIDEO,2,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,6,CONFIRMED_FROM_VIDEO
+Pelts,3806.0,New Brighton,145,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,5,CONFIRMED_FROM_VIDEO
+Pelts,7303.4,New Catalina,203,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,3,CONFIRMED_FROM_VIDEO
+Pelts,3662.8,Pachard Town,143,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,5,CONFIRMED_FROM_VIDEO
+Pelts,10342.1,Peter's Cove,253,CONFIRMED_FROM_VIDEO,2,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,4,CONFIRMED_FROM_VIDEO
+Pelts,5493.5,Petit Anvers,173,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,4,CONFIRMED_FROM_VIDEO
+Pelts,13064.5,Poblado de San Juan,298,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,2,CONFIRMED_FROM_VIDEO
+Pelts,5534.9,Point Rocheux,174,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,4,CONFIRMED_FROM_VIDEO
+Pelts,12465.6,Ponta Delgada,288,CONFIRMED_FROM_VIDEO,2,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,2,CONFIRMED_FROM_VIDEO
+Pelts,8205.8,Port Antonio,218,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,5,CONFIRMED_FROM_VIDEO
+Pelts,8377.7,Port Royal,221,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,5,CONFIRMED_FROM_VIDEO
+Pelts,4515.7,Port-Au-Croix,157,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,5,CONFIRMED_FROM_VIDEO
+Pelts,5298.4,Princeton,170,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,5,CONFIRMED_FROM_VIDEO
+Pelts,10862.2,Puerto de San Fernando,262,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,4,CONFIRMED_FROM_VIDEO
+Pelts,2052.6,Saint Vincent,116,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,4,CONFIRMED_FROM_VIDEO
+Pelts,11153.2,Saint-Nicholas,267,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,4,CONFIRMED_FROM_VIDEO
+Pelts,6326.8,Sainte Rose,187,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,5,CONFIRMED_FROM_VIDEO
+Pelts,14352.7,San Polo,319,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,1,CONFIRMED_FROM_VIDEO
+Pelts,13240.8,San Salvador,301,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,2,CONFIRMED_FROM_VIDEO
+Pelts,11341.9,San Vito,270,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,4,CONFIRMED_FROM_VIDEO
+Pelts,11216.7,Sandy Settlement,268,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,5,CONFIRMED_FROM_VIDEO
+Pelts,12700.2,Santa Maria,292,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,2,CONFIRMED_FROM_VIDEO
+Pelts,12142.9,Sao Bento,283,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,3,CONFIRMED_FROM_VIDEO
+Pelts,3130.7,Snake Prosper,134,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,7,CONFIRMED_FROM_VIDEO
+Pelts,8166.4,Sugar Cove,217,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,5,CONFIRMED_FROM_VIDEO
+Pelts,10216.9,Taylor's Town,251,CONFIRMED_FROM_VIDEO,2,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,3,CONFIRMED_FROM_VIDEO
+Pelts,9024.6,Theresa,231,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,5,CONFIRMED_FROM_VIDEO
+Pelts,7863.2,Thresher Point,212,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,5,CONFIRMED_FROM_VIDEO
+Pelts,8898.3,Venta Nueva,229,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,6,CONFIRMED_FROM_VIDEO
+Pelts,7815.0,Villarreal Del Mar,211,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,4,CONFIRMED_FROM_VIDEO
+Pelts,3807.4,White Hook,145,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,6,CONFIRMED_FROM_VIDEO
+Pelts,1989.4,Wyntergard,115,CONFIRMED_FROM_VIDEO,1,Port Louis,Îles de Louis,,Screen Recording 2026-08-16 110000.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,5551.7,Al-Jazair,148,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,2,CONFIRMED_FROM_VIDEO
+Baguettes,4518.6,Ashbourne,133,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,6970.5,Belfry Heights,168,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,2871.0,Bucket Bay,110,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,7538.4,Caledonia,176,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,4,CONFIRMED_FROM_VIDEO
+Baguettes,8445.0,Castle Landing,188,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,4,CONFIRMED_FROM_VIDEO
+Baguettes,7636.7,Caveira,177,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,5595.3,Caye Tiburon,148,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,4955.2,Crownstead,139,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,4,CONFIRMED_FROM_VIDEO
+Baguettes,10105.4,Cumberland Hill,211,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,4,CONFIRMED_FROM_VIDEO
+Baguettes,7213.1,Deadman's Murcia,171,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,4,CONFIRMED_FROM_VIDEO
+Baguettes,4155.6,Fair Harbour,128,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,2,CONFIRMED_FROM_VIDEO
+Baguettes,2808.6,Falmouth,109,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,6322.1,Gyldenvale,159,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,9143.9,Jones' Outpost,198,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,4,CONFIRMED_FROM_VIDEO
+Baguettes,12370.6,Kandlerova,243,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,1,CONFIRMED_FROM_VIDEO
+Baguettes,10521.1,La Povenglia,217,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,4,CONFIRMED_FROM_VIDEO
+Baguettes,7585.3,Lebarde,176,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,6257.9,Lord Irving's Sacrifice,158,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,2,CONFIRMED_FROM_VIDEO
+Baguettes,3296.0,Louisbourg,116,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,9213.9,Madalena,199,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,6896.0,Mako's Outlook,167,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,1974.6,Matthew's Rest,98,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,2,CONFIRMED_FROM_VIDEO
+Baguettes,2542.1,Maurepas,106,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,4394.9,New Brighton,132,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,10123.9,New Catalina,212,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,4,CONFIRMED_FROM_VIDEO
+Baguettes,1044.3,Pachard Town,85,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,2,CONFIRMED_FROM_VIDEO
+Baguettes,9706.8,Peter's Cove,206,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,5,CONFIRMED_FROM_VIDEO
+Baguettes,4764.0,Petit Anvers,137,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,4,CONFIRMED_FROM_VIDEO
+Baguettes,8754.9,Poblado de San Juan,193,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,1082.4,Point Rocheux,85,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,Visually verified from a visible recording frame after OCR audit.,Screen Recording 2026-08-16 111849.mp4,2,CONFIRMED_FROM_VIDEO
+Baguettes,8473.3,Ponta Delgada,189,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,4,CONFIRMED_FROM_VIDEO
+Baguettes,3844.6,Port Antonio,124,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,4,CONFIRMED_FROM_VIDEO
+Baguettes,4515.7,Port Louis,133,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,4818.6,Port Royal,137,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,6819.8,Princeton,165,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,2,CONFIRMED_FROM_VIDEO
+Baguettes,6428.8,Puerto de San Fernando,160,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,2,CONFIRMED_FROM_VIDEO
+Baguettes,5327.0,Saint Vincent,145,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,4,CONFIRMED_FROM_VIDEO
+Baguettes,4230.0,Sainte Rose,129,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,11627.6,San Polo,233,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,2,CONFIRMED_FROM_VIDEO
+Baguettes,9307.2,San Salvador,200,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,8862.1,San Vito,194,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,4,CONFIRMED_FROM_VIDEO
+Baguettes,10802.5,Sandy Settlement,221,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,Visually verified from a visible recording frame after OCR audit.,Screen Recording 2026-08-16 111849.mp4,1,CONFIRMED_FROM_VIDEO
+Baguettes,8434.9,Santa Maria,188,CONFIRMED_FROM_VIDEO,2,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,4,CONFIRMED_FROM_VIDEO
+Baguettes,7837.3,Sao Bento,180,CONFIRMED_FROM_VIDEO,2,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,5,CONFIRMED_FROM_VIDEO
+Baguettes,7162.3,Snake Prosper,170,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,11113.8,Sugar Cove,226,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,2,CONFIRMED_FROM_VIDEO
+Baguettes,10597.8,Taylor's Town,218,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,4822.8,Theresa,138,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,6931.1,Thresher Point,167,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,1,CONFIRMED_FROM_VIDEO
+Baguettes,4447.8,Venta Nueva,132,CONFIRMED_FROM_VIDEO,2,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,3,CONFIRMED_FROM_VIDEO
+Baguettes,3303.9,Villarreal Del Mar,116,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,1,CONFIRMED_FROM_VIDEO
+Baguettes,8127.3,White Hook,184,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,5,CONFIRMED_FROM_VIDEO
+Baguettes,5586.6,Wyntergard,148,CONFIRMED_FROM_VIDEO,1,Port-Au-Croix,Saint-Pierre,,Screen Recording 2026-08-16 111849.mp4,2,CONFIRMED_FROM_VIDEO
+Olives,9803.5,Al-Jazair,204,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,8511.1,Ashbourne,186,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,9059.9,Belfry Heights,193,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,5,CONFIRMED_FROM_VIDEO
+Olives,7317.8,Bucket Bay,169,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,11984.3,Caledonia,234,CONFIRMED_FROM_VIDEO,2,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,12197.2,Castle Landing,236,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,3248.8,Caveira,113,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,8284.2,Caye Tiburon,183,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,8688.1,Crownstead,188,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,11655.1,Deadman's Murcia,229,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,Visually verified from a visible recording frame after OCR audit.,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,8598.3,Fair Harbour,187,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,3065.0,Falmouth,111,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,10025.5,Gyldenvale,207,CONFIRMED_FROM_VIDEO,2,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,13367.4,Jones' Outpost,253,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,11813.6,Kandlerova,231,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,11037.8,La Povenglia,221,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,10974.6,Lebarde,220,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,7116.6,Lord Irving's Sacrifice,167,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,5286.2,Louisbourg,141,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,2,CONFIRMED_FROM_VIDEO
+Olives,4769.6,Madalena,134,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,7888.5,Mako's Outlook,177,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,6422.2,Matthew's Rest,157,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,5259.9,Maurepas,141,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,2,CONFIRMED_FROM_VIDEO
+Olives,8392.8,New Brighton,184,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,14239.8,New Catalina,265,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,2,CONFIRMED_FROM_VIDEO
+Olives,5453.4,Pachard Town,144,CONFIRMED_FROM_VIDEO,2,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,2,CONFIRMED_FROM_VIDEO
+Olives,11912.3,Peter's Cove,233,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,6719.8,Petit Anvers,161,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,5726.0,Poblado de San Juan,147,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,2,CONFIRMED_FROM_VIDEO
+Olives,3379.4,Point Rocheux,115,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,4,CONFIRMED_FROM_VIDEO
+Olives,4579.1,Ponta Delgada,132,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,5,CONFIRMED_FROM_VIDEO
+Olives,2624.4,Port Antonio,105,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,2,CONFIRMED_FROM_VIDEO
+Olives,8898.3,Port Louis,191,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,5,CONFIRMED_FROM_VIDEO
+Olives,5070.0,Port Royal,138,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,2,CONFIRMED_FROM_VIDEO
+Olives,4447.8,Port-Au-Croix,130,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,5,CONFIRMED_FROM_VIDEO
+Olives,10709.4,Princeton,216,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,3267.9,Puerto de San Fernando,114,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,2,CONFIRMED_FROM_VIDEO
+Olives,9749.2,Saint Vincent,203,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,5,CONFIRMED_FROM_VIDEO
+Olives,13354.2,Saint-Nicholas,252,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,5197.9,Sainte Rose,140,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,2,CONFIRMED_FROM_VIDEO
+Olives,11334.8,San Polo,225,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,7254.5,San Salvador,168,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,9349.5,San Vito,197,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,5,CONFIRMED_FROM_VIDEO
+Olives,13041.7,Sandy Settlement,248,CONFIRMED_FROM_VIDEO,2,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,5606.6,Santa Maria,146,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,2,CONFIRMED_FROM_VIDEO
+Olives,3491.8,Sao Bento,117,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,5,CONFIRMED_FROM_VIDEO
+Olives,11606.2,Snake Prosper,228,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,15239.9,Sugar Cove,278,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,2,CONFIRMED_FROM_VIDEO
+Olives,13443.3,Taylor's Town,254,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,3464.4,Theresa,116,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,5,CONFIRMED_FROM_VIDEO
+Olives,9423.5,Thresher Point,198,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,5,CONFIRMED_FROM_VIDEO
+Olives,1319.1,Villarreal Del Mar,87,CONFIRMED_FROM_VIDEO,2,Venta Nueva,Cayos Encantados,Visually verified from a visible recording frame after OCR audit.,Screen Recording 2026-08-16 112527.mp4,1,CONFIRMED_FROM_VIDEO
+Olives,12572.6,White Hook,242,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,3,CONFIRMED_FROM_VIDEO
+Olives,9625.3,Wyntergard,201,CONFIRMED_FROM_VIDEO,1,Venta Nueva,Cayos Encantados,,Screen Recording 2026-08-16 112527.mp4,5,CONFIRMED_FROM_VIDEO
+Saffron,8521.0,Al-Jazair,230,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,7614.0,Ashbourne,214,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,4,CONFIRMED_FROM_VIDEO
+Saffron,7865.7,Belfry Heights,219,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,4,CONFIRMED_FROM_VIDEO
+Saffron,6142.6,Bucket Bay,189,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,10792.4,Caledonia,268,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,10878.3,Castle Landing,270,CONFIRMED_FROM_VIDEO,2,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,4345.1,Caveira,159,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,7010.9,Caye Tiburon,204,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,7888.1,Crownstead,219,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,4,CONFIRMED_FROM_VIDEO
+Saffron,10504.1,Deadman's Murcia,264,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,Visually verified from a visible recording frame after OCR audit.,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,7449.8,Fair Harbour,212,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,4,CONFIRMED_FROM_VIDEO
+Saffron,1807.4,Falmouth,116,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,1,CONFIRMED_FROM_VIDEO
+Saffron,9253.7,Gyldenvale,242,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,4,CONFIRMED_FROM_VIDEO
+Saffron,12072.0,Jones' Outpost,290,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,11238.6,Kandlerova,276,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,10171.8,La Povenglia,258,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,9666.1,Lebarde,249,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,6084.7,Lord Irving's Sacrifice,188,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,4,CONFIRMED_FROM_VIDEO
+Saffron,4848.0,Louisbourg,167,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,6011.7,Madalena,187,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,6854.1,Mako's Outlook,202,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,5256.0,Matthew's Rest,174,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,4613.1,Maurepas,163,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,7085.7,New Brighton,205,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,4,CONFIRMED_FROM_VIDEO
+Saffron,12930.7,New Catalina,305,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,4259.5,Pachard Town,157,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,10732.8,Peter's Cove,267,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,6398.0,Petit Anvers,194,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,5940.5,Poblado de San Juan,186,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,2297.8,Point Rocheux,124,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,5863.0,Ponta Delgada,185,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,1700.6,Port Antonio,114,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,1,CONFIRMED_FROM_VIDEO
+Saffron,7815.0,Port Louis,218,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,4062.2,Port Royal,154,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,3303.9,Port-Au-Croix,141,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,9392.0,Princeton,245,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,4,CONFIRMED_FROM_VIDEO
+Saffron,3451.6,Puerto de San Fernando,144,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,8528.7,Saint Vincent,230,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,12157.4,Saint-Nicholas,292,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,5058.1,Sainte Rose,171,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,10678.9,San Polo,267,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,7084.9,San Salvador,205,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,5,CONFIRMED_FROM_VIDEO
+Saffron,8459.9,San Vito,229,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,11865.6,Sandy Settlement,287,CONFIRMED_FROM_VIDEO,2,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,5720.1,Santa Maria,182,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,4804.2,Sao Bento,167,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,10409.0,Snake Prosper,262,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,13930.9,Sugar Cove,322,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,12189.2,Taylor's Town,292,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,2775.1,Theresa,132,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Saffron,8182.8,Thresher Point,224,CONFIRMED_FROM_VIDEO,2,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,1319.1,Venta Nueva,106,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,1,CONFIRMED_FROM_VIDEO
+Saffron,11411.6,White Hook,279,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,3,CONFIRMED_FROM_VIDEO
+Saffron,8720.6,Wyntergard,233,CONFIRMED_FROM_VIDEO,1,Villarreal Del Mar,Cayos Encantados,,Screen Recording 2026-08-16 112311.mp4,2,CONFIRMED_FROM_VIDEO
+Rice,5223.1,Al-Jazair,184,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,1114.1,Ashbourne,110,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,2,CONFIRMED_FROM_VIDEO
+Rice,10334.1,Belfry Heights,276,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,3,CONFIRMED_FROM_VIDEO
+Rice,3628.5,Bucket Bay,155,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,4380.0,Caledonia,169,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,8648.5,Castle Landing,246,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,8,CONFIRMED_FROM_VIDEO
+Rice,12868.2,Caveira,322,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,4,CONFIRMED_FROM_VIDEO
+Rice,8715.9,Caye Tiburon,247,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,6,CONFIRMED_FROM_VIDEO
+Rice,1267.1,Crownstead,113,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,3,CONFIRMED_FROM_VIDEO
+Rice,8432.5,Cumberland Hill,242,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,Visually verified from a visible recording frame after OCR audit.,Screen Recording 2026-08-16 105509.mp4,8,CONFIRMED_FROM_VIDEO
+Rice,3603.2,Deadman's Murcia,155,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,2813.0,Fair Harbour,141,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,4,CONFIRMED_FROM_VIDEO
+Rice,8367.1,Falmouth,241,CONFIRMED_FROM_VIDEO,2,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,1312.6,Gyldenvale,114,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,3,CONFIRMED_FROM_VIDEO
+Rice,7526.2,Jones' Outpost,225,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,6,CONFIRMED_FROM_VIDEO
+Rice,17062.1,Kandlerova,397,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,2,CONFIRMED_FROM_VIDEO
+Rice,14657.6,La Povenglia,354,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,3,CONFIRMED_FROM_VIDEO
+Rice,8882.8,Lebarde,250,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,10808.3,Lord Irving's Sacrifice,285,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,3,CONFIRMED_FROM_VIDEO
+Rice,4991.7,Louisbourg,180,CONFIRMED_FROM_VIDEO,2,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,14169.2,Madalena,345,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,4,CONFIRMED_FROM_VIDEO
+Rice,11226.1,Mako's Outlook,292,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,4105.7,Matthew's Rest,164,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,6,CONFIRMED_FROM_VIDEO
+Rice,4551.3,Maurepas,172,CONFIRMED_FROM_VIDEO,2,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,4,CONFIRMED_FROM_VIDEO
+Rice,5791.5,New Brighton,194,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,6,CONFIRMED_FROM_VIDEO
+Rice,8753.8,New Catalina,248,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,4986.8,Pachard Town,180,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,12330.8,Peter's Cove,312,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,4,CONFIRMED_FROM_VIDEO
+Rice,4702.4,Petit Anvers,175,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,14339.1,Poblado de San Juan,348,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,4,CONFIRMED_FROM_VIDEO
+Rice,6441.7,Point Rocheux,206,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,6,CONFIRMED_FROM_VIDEO
+Rice,12620.4,Ponta Delgada,317,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,4,CONFIRMED_FROM_VIDEO
+Rice,9428.2,Port Antonio,260,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,4,CONFIRMED_FROM_VIDEO
+Rice,1989.4,Port Louis,126,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,4,CONFIRMED_FROM_VIDEO
+Rice,9975.3,Port Royal,270,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,2,CONFIRMED_FROM_VIDEO
+Rice,5586.6,Port-Au-Croix,191,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,6,CONFIRMED_FROM_VIDEO
+Rice,7199.2,Princeton,220,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,7,CONFIRMED_FROM_VIDEO
+Rice,12004.4,Puerto de San Fernando,306,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,3,CONFIRMED_FROM_VIDEO
+Rice,3863.6,Saint Vincent,160,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,13125.1,Saint-Nicholas,326,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,3,CONFIRMED_FROM_VIDEO
+Rice,5966.5,Sainte Rose,197,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,7,CONFIRMED_FROM_VIDEO
+Rice,16211.4,San Polo,382,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,2,CONFIRMED_FROM_VIDEO
+Rice,14750.5,San Salvador,356,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,2,CONFIRMED_FROM_VIDEO
+Rice,13218.0,San Vito,328,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,13198.4,Sandy Settlement,328,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,3,CONFIRMED_FROM_VIDEO
+Rice,14011.2,Santa Maria,342,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,12590.4,Sao Bento,317,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,4,CONFIRMED_FROM_VIDEO
+Rice,4227.5,Snake Prosper,166,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,6,CONFIRMED_FROM_VIDEO
+Rice,9520.1,Sugar Cove,261,CONFIRMED_FROM_VIDEO,2,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,4,CONFIRMED_FROM_VIDEO
+Rice,12151.9,Taylor's Town,309,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,4,CONFIRMED_FROM_VIDEO
+Rice,10365.2,Theresa,277,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,4,CONFIRMED_FROM_VIDEO
+Rice,9843.0,Thresher Point,267,CONFIRMED_FROM_VIDEO,2,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,3,CONFIRMED_FROM_VIDEO
+Rice,9625.3,Venta Nueva,263,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO
+Rice,8720.6,Villarreal Del Mar,247,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,7,CONFIRMED_FROM_VIDEO
+Rice,4373.5,White Hook,169,CONFIRMED_FROM_VIDEO,1,Wyntergard,Vysarian Isles,,Screen Recording 2026-08-16 105509.mp4,5,CONFIRMED_FROM_VIDEO

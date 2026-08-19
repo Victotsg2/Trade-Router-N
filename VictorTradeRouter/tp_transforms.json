@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "description": "Per-pair TP transforms. Stage 1 does not encode flip/rotation orientation, so identity is an explicit test assumption and is reported in the UI.",
+  "default": {
+    "transform": "identity",
+    "orientation_resolved": false
+  },
+  "pairs": {}
+}

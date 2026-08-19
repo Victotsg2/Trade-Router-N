@@ -1,0 +1,848 @@
+[
+  {
+    "origin_port": "Ashbourne",
+    "destination_port": "Deadman's Murcia",
+    "chosen": [
+      4213.4,
+      157
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Ashbourne",
+    "destination_port": "New Brighton",
+    "chosen": [
+      5327.0,
+      176
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Ashbourne",
+    "destination_port": "Port-Au-Croix",
+    "chosen": [
+      4518.6,
+      162
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Bucket Bay",
+    "destination_port": "Ashbourne",
+    "chosen": [
+      2894.9,
+      103
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Bucket Bay",
+    "destination_port": "Belfry Heights",
+    "chosen": [
+      6832.4,
+      154
+    ],
+    "distinct_ocr_tuples_seen": 3
+  },
+  {
+    "origin_port": "Bucket Bay",
+    "destination_port": "Crownstead",
+    "chosen": [
+      3657.2,
+      113
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Bucket Bay",
+    "destination_port": "Louisbourg",
+    "chosen": [
+      4634.5,
+      125
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Bucket Bay",
+    "destination_port": "New Catalina",
+    "chosen": [
+      7611.5,
+      164
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Bucket Bay",
+    "destination_port": "Point Rocheux",
+    "chosen": [
+      3948.9,
+      116
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Bucket Bay",
+    "destination_port": "Taylor's Town",
+    "chosen": [
+      9351.3,
+      187
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Bucket Bay",
+    "destination_port": "Thresher Point",
+    "chosen": [
+      6442.0,
+      149
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Crownstead",
+    "destination_port": "Al-Jazair",
+    "chosen": [
+      5889.7,
+      147
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Crownstead",
+    "destination_port": "Jones' Outpost",
+    "chosen": [
+      8553.1,
+      183
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Crownstead",
+    "destination_port": "Petit Anvers",
+    "chosen": [
+      3435.3,
+      114
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Crownstead",
+    "destination_port": "Port Louis",
+    "chosen": [
+      2581.9,
+      102
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Crownstead",
+    "destination_port": "San Salvador",
+    "chosen": [
+      14252.0,
+      260
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Crownstead",
+    "destination_port": "Sao Bento",
+    "chosen": [
+      11511.6,
+      223
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Crownstead",
+    "destination_port": "Snake Prosper",
+    "chosen": [
+      5334.9,
+      140
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Fair Harbour",
+    "destination_port": "Al-Jazair",
+    "chosen": [
+      2629.0,
+      74
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Fair Harbour",
+    "destination_port": "Gyldenvale",
+    "chosen": [
+      4093.4,
+      89
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Fair Harbour",
+    "destination_port": "Matthew's Rest",
+    "chosen": [
+      2195.6,
+      70
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Fair Harbour",
+    "destination_port": "Peter's Cove",
+    "chosen": [
+      9525.7,
+      142
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Griffard's Rock",
+    "destination_port": "Ashbourne",
+    "chosen": [
+      6578.2,
+      203
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Griffard's Rock",
+    "destination_port": "Castle Landing",
+    "chosen": [
+      6143.0,
+      195
+    ],
+    "distinct_ocr_tuples_seen": 3
+  },
+  {
+    "origin_port": "Griffard's Rock",
+    "destination_port": "La Povenglia",
+    "chosen": [
+      7460.3,
+      218
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Griffard's Rock",
+    "destination_port": "Lebarde",
+    "chosen": [
+      4866.0,
+      173
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Griffard's Rock",
+    "destination_port": "New Brighton",
+    "chosen": [
+      2839.2,
+      137
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Griffard's Rock",
+    "destination_port": "Sao Bento",
+    "chosen": [
+      9541.6,
+      254
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Gyldenvale",
+    "destination_port": "Castle Landing",
+    "chosen": [
+      9951.0,
+      265
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Gyldenvale",
+    "destination_port": "Jones' Outpost",
+    "chosen": [
+      8726.9,
+      244
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Gyldenvale",
+    "destination_port": "Maurepas",
+    "chosen": [
+      4781.7,
+      174
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Gyldenvale",
+    "destination_port": "New Brighton",
+    "chosen": [
+      7062.9,
+      214
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Gyldenvale",
+    "destination_port": "Point Rocheux",
+    "chosen": [
+      7045.8,
+      214
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Gyldenvale",
+    "destination_port": "Port-Au-Croix",
+    "chosen": [
+      6322.1,
+      201
+    ],
+    "distinct_ocr_tuples_seen": 3
+  },
+  {
+    "origin_port": "Gyldenvale",
+    "destination_port": "Saint-Nicholas",
+    "chosen": [
+      14431.2,
+      345
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Gyldenvale",
+    "destination_port": "San Polo",
+    "chosen": [
+      17331.7,
+      396
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Gyldenvale",
+    "destination_port": "Sandy Settlement",
+    "chosen": [
+      14498.4,
+      346
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Gyldenvale",
+    "destination_port": "Thresher Point",
+    "chosen": [
+      11098.5,
+      286
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Gyldenvale",
+    "destination_port": "White Hook",
+    "chosen": [
+      5349.6,
+      184
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Lord Irving's Sacrifice",
+    "destination_port": "Caye Tiburon",
+    "chosen": [
+      3056.3,
+      111
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Lord Irving's Sacrifice",
+    "destination_port": "Theresa",
+    "chosen": [
+      3835.2,
+      121
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Lord Irving's Sacrifice",
+    "destination_port": "Villarreal Del Mar",
+    "chosen": [
+      6084.7,
+      152
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Mako's Outlook",
+    "destination_port": "Belfry Heights",
+    "chosen": [
+      2117.0,
+      114
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Mako's Outlook",
+    "destination_port": "Gyldenvale",
+    "chosen": [
+      12355.4,
+      278
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Mako's Outlook",
+    "destination_port": "San Vito",
+    "chosen": [
+      2013.1,
+      112
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Matthew's Rest",
+    "destination_port": "Bucket Bay",
+    "chosen": [
+      897.0,
+      108
+    ],
+    "distinct_ocr_tuples_seen": 3
+  },
+  {
+    "origin_port": "Matthew's Rest",
+    "destination_port": "Castle Landing",
+    "chosen": [
+      7014.3,
+      219
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Matthew's Rest",
+    "destination_port": "Falmouth",
+    "chosen": [
+      4444.3,
+      172
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Matthew's Rest",
+    "destination_port": "Jones' Outpost",
+    "chosen": [
+      7336.4,
+      225
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Matthew's Rest",
+    "destination_port": "Lord Irving's Sacrifice",
+    "chosen": [
+      6801.9,
+      215
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Matthew's Rest",
+    "destination_port": "New Catalina",
+    "chosen": [
+      8385.2,
+      244
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Matthew's Rest",
+    "destination_port": "Peter's Cove",
+    "chosen": [
+      9221.1,
+      260
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Matthew's Rest",
+    "destination_port": "Poblado de San Juan",
+    "chosen": [
+      10411.8,
+      281
+    ],
+    "distinct_ocr_tuples_seen": 3
+  },
+  {
+    "origin_port": "Matthew's Rest",
+    "destination_port": "Ponta Delgada",
+    "chosen": [
+      10357.0,
+      280
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Matthew's Rest",
+    "destination_port": "Port Louis",
+    "chosen": [
+      2657.4,
+      140
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Matthew's Rest",
+    "destination_port": "San Vito",
+    "chosen": [
+      9305.7,
+      261
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Matthew's Rest",
+    "destination_port": "Sao Bento",
+    "chosen": [
+      9800.1,
+      270
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Matthew's Rest",
+    "destination_port": "White Hook",
+    "chosen": [
+      6157.7,
+      204
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Pachard Town",
+    "destination_port": "Puerto de San Fernando",
+    "chosen": [
+      7199.4,
+      278
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Pachard Town",
+    "destination_port": "Venta Nueva",
+    "chosen": [
+      5453.4,
+      238
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Point Rocheux",
+    "destination_port": "Caye Tiburon",
+    "chosen": [
+      6188.0,
+      126
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Point Rocheux",
+    "destination_port": "Jones' Outpost",
+    "chosen": [
+      10196.8,
+      171
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Point Rocheux",
+    "destination_port": "Lebarde",
+    "chosen": [
+      8418.3,
+      151
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Point Rocheux",
+    "destination_port": "Petit Anvers",
+    "chosen": [
+      4803.4,
+      110
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Point Rocheux",
+    "destination_port": "Poblado de San Juan",
+    "chosen": [
+      8000.7,
+      146
+    ],
+    "distinct_ocr_tuples_seen": 3
+  },
+  {
+    "origin_port": "Point Rocheux",
+    "destination_port": "Princeton",
+    "chosen": [
+      7783.9,
+      144
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Point Rocheux",
+    "destination_port": "San Salvador",
+    "chosen": [
+      8773.9,
+      155
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Point Rocheux",
+    "destination_port": "Sandy Settlement",
+    "chosen": [
+      11359.2,
+      184
+    ],
+    "distinct_ocr_tuples_seen": 3
+  },
+  {
+    "origin_port": "Point Rocheux",
+    "destination_port": "White Hook",
+    "chosen": [
+      9193.9,
+      160
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Port Louis",
+    "destination_port": "Caye Tiburon",
+    "chosen": [
+      6761.8,
+      194
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Port Louis",
+    "destination_port": "Crownstead",
+    "chosen": [
+      2581.9,
+      125
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Port Louis",
+    "destination_port": "Deadman's Murcia",
+    "chosen": [
+      2879.2,
+      130
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Port Louis",
+    "destination_port": "Fair Harbour",
+    "chosen": [
+      829.5,
+      96
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Port Louis",
+    "destination_port": "Louisbourg",
+    "chosen": [
+      5179.7,
+      168
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Port Louis",
+    "destination_port": "Maurepas",
+    "chosen": [
+      4469.0,
+      156
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Port Louis",
+    "destination_port": "Peter's Cove",
+    "chosen": [
+      10342.1,
+      253
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Port Louis",
+    "destination_port": "Ponta Delgada",
+    "chosen": [
+      12465.6,
+      288
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Port Louis",
+    "destination_port": "Taylor's Town",
+    "chosen": [
+      10216.9,
+      251
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Port-Au-Croix",
+    "destination_port": "Santa Maria",
+    "chosen": [
+      8434.9,
+      188
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Port-Au-Croix",
+    "destination_port": "Sao Bento",
+    "chosen": [
+      7837.3,
+      180
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Port-Au-Croix",
+    "destination_port": "Venta Nueva",
+    "chosen": [
+      4447.8,
+      132
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Venta Nueva",
+    "destination_port": "Caledonia",
+    "chosen": [
+      11984.3,
+      234
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Venta Nueva",
+    "destination_port": "Gyldenvale",
+    "chosen": [
+      10025.5,
+      207
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Venta Nueva",
+    "destination_port": "Pachard Town",
+    "chosen": [
+      5453.4,
+      144
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Venta Nueva",
+    "destination_port": "Sandy Settlement",
+    "chosen": [
+      13041.7,
+      248
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Venta Nueva",
+    "destination_port": "Villarreal Del Mar",
+    "chosen": [
+      1319.1,
+      887
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Villarreal Del Mar",
+    "destination_port": "Castle Landing",
+    "chosen": [
+      10878.3,
+      270
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Villarreal Del Mar",
+    "destination_port": "Sandy Settlement",
+    "chosen": [
+      11865.6,
+      287
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Villarreal Del Mar",
+    "destination_port": "Thresher Point",
+    "chosen": [
+      8182.8,
+      224
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Wyntergard",
+    "destination_port": "Falmouth",
+    "chosen": [
+      8367.1,
+      241
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Wyntergard",
+    "destination_port": "Louisbourg",
+    "chosen": [
+      4991.7,
+      180
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Wyntergard",
+    "destination_port": "Maurepas",
+    "chosen": [
+      4551.3,
+      172
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Wyntergard",
+    "destination_port": "Sugar Cove",
+    "chosen": [
+      9520.1,
+      261
+    ],
+    "distinct_ocr_tuples_seen": 2
+  },
+  {
+    "origin_port": "Wyntergard",
+    "destination_port": "Thresher Point",
+    "chosen": [
+      9843.0,
+      267
+    ],
+    "distinct_ocr_tuples_seen": 2
+  }
+]

@@ -1,0 +1,1302 @@
+{
+  "package": {
+    "name": "Naval Route Tester Trade/Economy Handoff",
+    "version": "1.0",
+    "date": "2026-08-16",
+    "purpose": "Merge new trade/economy data into the existing 17-region world geometry/naval route tester without rebuilding the geometry."
+  },
+  "critical_geometry_correction": {
+    "deadmans_murcia": {
+      "status": "ACTIVE_CURRENT_PORT",
+      "region": "East Somerset",
+      "instruction": "Add Deadman's Murcia as a real navigable port node. Do not classify it as legacy/obsolete.",
+      "geometry_status": "MISSING_OR_UNCONFIRMED_IN_EXISTING_PACK",
+      "required_before_routes_to_from_port": true
+    },
+    "current_trade_port_count": 58
+  },
+  "canonical_aliases": {
+    "Saint-Nicolas": "Saint-Nicholas",
+    "Poblado de San Julian": "Poblado de San Juan",
+    "La Poveglia": "La Povenglia",
+    "Mako's Lookout": "Mako's Outlook",
+    "al-Jazair": "Al-Jazair"
+  },
+  "tax_defaults": [
+    {
+      "region": "Belle Isles",
+      "port": "Petit Anvers",
+      "import_tax_percent": 12,
+      "export_tax_percent": 14,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Belle Isles",
+      "port": "Sainte Rose",
+      "import_tax_percent": 12,
+      "export_tax_percent": 14,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Belle Isles",
+      "port": "Maurepas",
+      "import_tax_percent": 12,
+      "export_tax_percent": 14,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Belle Isles",
+      "port": "Louisbourg",
+      "import_tax_percent": 12,
+      "export_tax_percent": 14,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Vysarian Isles",
+      "port": "Gyldenvale",
+      "import_tax_percent": 13,
+      "export_tax_percent": 13,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Vysarian Isles",
+      "port": "Wyntergard",
+      "import_tax_percent": 13,
+      "export_tax_percent": 13,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Vysarian Isles",
+      "port": "Ashbourne",
+      "import_tax_percent": 13,
+      "export_tax_percent": 13,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Vysarian Isles",
+      "port": "Crownstead",
+      "import_tax_percent": 13,
+      "export_tax_percent": 13,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Îles de Louis",
+      "port": "Port Louis",
+      "import_tax_percent": 12,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Îles de Louis",
+      "port": "Fair Harbour",
+      "import_tax_percent": 12,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Îles de Louis",
+      "port": "Bucket Bay",
+      "import_tax_percent": 12,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Îles de Louis",
+      "port": "Matthew's Rest",
+      "import_tax_percent": 12,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Saint-Pierre",
+      "port": "Port-Au-Croix",
+      "import_tax_percent": 12,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Saint-Pierre",
+      "port": "Pachard Town",
+      "import_tax_percent": 12,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Saint-Pierre",
+      "port": "Point Rocheux",
+      "import_tax_percent": 12,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "East Somerset",
+      "port": "White Hook",
+      "import_tax_percent": 9,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "East Somerset",
+      "port": "Snake Prosper",
+      "import_tax_percent": 10,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "East Somerset",
+      "port": "Caledonia",
+      "import_tax_percent": 10,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "East Somerset",
+      "port": "Deadman's Murcia",
+      "import_tax_percent": 10,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "West Somerset",
+      "port": "Saint Vincent",
+      "import_tax_percent": 12,
+      "export_tax_percent": 16,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "West Somerset",
+      "port": "Yorinobu's Settlement",
+      "import_tax_percent": 10,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "West Somerset",
+      "port": "New Brighton",
+      "import_tax_percent": 12,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "West Somerset",
+      "port": "Al-Jazair",
+      "import_tax_percent": 10,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "New Catalina",
+      "port": "Sugar Cove",
+      "import_tax_percent": 8,
+      "export_tax_percent": 8,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "New Catalina",
+      "port": "New Catalina",
+      "import_tax_percent": 12,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "New Catalina",
+      "port": "Cumberland Hill",
+      "import_tax_percent": 9,
+      "export_tax_percent": 9,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "New Catalina",
+      "port": "Jones' Outpost",
+      "import_tax_percent": 9,
+      "export_tax_percent": 9,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Lebarde",
+      "port": "Castle Landing",
+      "import_tax_percent": 7,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Lebarde",
+      "port": "Lebarde",
+      "import_tax_percent": 12,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Lebarde",
+      "port": "Princeton",
+      "import_tax_percent": 7,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Saint-Nicholas",
+      "port": "Taylor's Town",
+      "import_tax_percent": 15,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Saint-Nicholas",
+      "port": "Saint-Nicholas",
+      "import_tax_percent": 15,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Saint-Nicholas",
+      "port": "Sandy Settlement",
+      "import_tax_percent": 12,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Saint-Nicholas",
+      "port": "Peter's Cove",
+      "import_tax_percent": 15,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Blacktip Shoals",
+      "port": "Thresher Point",
+      "import_tax_percent": 12,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Blacktip Shoals",
+      "port": "Caye Tiburon",
+      "import_tax_percent": 10,
+      "export_tax_percent": 50,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Blacktip Shoals",
+      "port": "Belfry Heights",
+      "import_tax_percent": 12,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Irving's Reach",
+      "port": "Mako's Outlook",
+      "import_tax_percent": 13,
+      "export_tax_percent": 50,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Irving's Reach",
+      "port": "Lord Irving's Sacrifice",
+      "import_tax_percent": 13,
+      "export_tax_percent": 50,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Griffard's Rock",
+      "port": "Griffard's Rock",
+      "import_tax_percent": 1,
+      "export_tax_percent": 1,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Kingston",
+      "port": "Port Royal",
+      "import_tax_percent": 13,
+      "export_tax_percent": 13,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Kingston",
+      "port": "Theresa",
+      "import_tax_percent": 9,
+      "export_tax_percent": 9,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Kingston",
+      "port": "Port Antonio",
+      "import_tax_percent": 13,
+      "export_tax_percent": 50,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Kingston",
+      "port": "Falmouth",
+      "import_tax_percent": 15,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Cayos Encantados",
+      "port": "Villarreal Del Mar",
+      "import_tax_percent": 12,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Cayos Encantados",
+      "port": "Venta Nueva",
+      "import_tax_percent": 12,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Ilhas Brumas",
+      "port": "Caveira",
+      "import_tax_percent": 16,
+      "export_tax_percent": 16,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Ilhas Brumas",
+      "port": "Madalena",
+      "import_tax_percent": 17,
+      "export_tax_percent": 17,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Ilhas Brumas",
+      "port": "Sao Bento",
+      "import_tax_percent": 15,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Ilhas Brumas",
+      "port": "Ponta Delgada",
+      "import_tax_percent": 15,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Salvador",
+      "port": "Puerto de San Fernando",
+      "import_tax_percent": 9,
+      "export_tax_percent": 9,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Salvador",
+      "port": "Poblado de San Juan",
+      "import_tax_percent": 10,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Salvador",
+      "port": "Santa Maria",
+      "import_tax_percent": 10,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Salvador",
+      "port": "San Salvador",
+      "import_tax_percent": 10,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Polo",
+      "port": "Kandlerova",
+      "import_tax_percent": 15,
+      "export_tax_percent": 5,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Polo",
+      "port": "San Polo",
+      "import_tax_percent": 10,
+      "export_tax_percent": 5,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Polo",
+      "port": "La Povenglia",
+      "import_tax_percent": 15,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Polo",
+      "port": "San Vito",
+      "import_tax_percent": 12,
+      "export_tax_percent": 5,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    }
+  ],
+  "cargo_purchase_data": [
+    {
+      "region": "Belle Isles",
+      "origin_port": "Petit Anvers",
+      "cargo": "Chocolate",
+      "base_price_gbp": 68,
+      "weight_tons": 11.0,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Belle Isles",
+      "origin_port": "Sainte Rose",
+      "cargo": "Lavender",
+      "base_price_gbp": 75,
+      "weight_tons": 12.1,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Belle Isles",
+      "origin_port": "Maurepas",
+      "cargo": "Pelts",
+      "base_price_gbp": 60,
+      "weight_tons": 9.7,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Belle Isles",
+      "origin_port": "Louisbourg",
+      "cargo": "Lace",
+      "base_price_gbp": 65,
+      "weight_tons": 10.5,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Vysarian Isles",
+      "origin_port": "Gyldenvale",
+      "cargo": "Wheat",
+      "base_price_gbp": 71,
+      "weight_tons": 11.5,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Vysarian Isles",
+      "origin_port": "Wyntergard",
+      "cargo": "Rice",
+      "base_price_gbp": 72,
+      "weight_tons": 11.6,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Vysarian Isles",
+      "origin_port": "Ashbourne",
+      "cargo": "Oil",
+      "base_price_gbp": 68,
+      "weight_tons": 11.0,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Vysarian Isles",
+      "origin_port": "Crownstead",
+      "cargo": "Bells",
+      "base_price_gbp": 54,
+      "weight_tons": 8.7,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Îles de Louis",
+      "origin_port": "Port Louis",
+      "cargo": "Pelts",
+      "base_price_gbp": 66,
+      "weight_tons": 10.6,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Îles de Louis",
+      "origin_port": "Fair Harbour",
+      "cargo": "Paper",
+      "base_price_gbp": 39,
+      "weight_tons": 6.3,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Îles de Louis",
+      "origin_port": "Bucket Bay",
+      "cargo": "Buckets",
+      "base_price_gbp": 52,
+      "weight_tons": 8.4,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Îles de Louis",
+      "origin_port": "Matthew's Rest",
+      "cargo": "Shale",
+      "base_price_gbp": 73,
+      "weight_tons": 11.8,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Saint-Pierre",
+      "origin_port": "Port-Au-Croix",
+      "cargo": "Baguettes",
+      "base_price_gbp": 56,
+      "weight_tons": 9.0,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Saint-Pierre",
+      "origin_port": "Pachard Town",
+      "cargo": "Jewelry",
+      "base_price_gbp": 91,
+      "weight_tons": 14.7,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Saint-Pierre",
+      "origin_port": "Point Rocheux",
+      "cargo": "Candles",
+      "base_price_gbp": 45,
+      "weight_tons": 7.3,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Cayos Encantados",
+      "origin_port": "Villarreal Del Mar",
+      "cargo": "Saffron",
+      "base_price_gbp": 68,
+      "weight_tons": 11.0,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Cayos Encantados",
+      "origin_port": "Venta Nueva",
+      "cargo": "Olives",
+      "base_price_gbp": 55,
+      "weight_tons": 8.9,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Irving's Reach",
+      "origin_port": "Lord Irving's Sacrifice",
+      "cargo": "Wool",
+      "base_price_gbp": 55,
+      "weight_tons": 8.9,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Irving's Reach",
+      "origin_port": "Mako's Outlook",
+      "cargo": "Spyglasses",
+      "base_price_gbp": 64,
+      "weight_tons": 10.3,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Griffard's Rock",
+      "origin_port": "Griffard's Rock",
+      "cargo": "Grapes",
+      "base_price_gbp": 70,
+      "weight_tons": 11.3,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "East Somerset",
+      "origin_port": "White Hook",
+      "cargo": "Pearls",
+      "base_price_gbp": 78,
+      "weight_tons": 12.6,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "East Somerset",
+      "origin_port": "Snake Prosper",
+      "cargo": "Medicine",
+      "base_price_gbp": 92,
+      "weight_tons": 14.8,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "East Somerset",
+      "origin_port": "Caledonia",
+      "cargo": "Glass",
+      "base_price_gbp": 71,
+      "weight_tons": 11.5,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "East Somerset",
+      "origin_port": "Deadman's Murcia",
+      "cargo": "Oranges",
+      "base_price_gbp": 68,
+      "weight_tons": 11.0,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "West Somerset",
+      "origin_port": "Saint Vincent",
+      "cargo": "Cheese",
+      "base_price_gbp": 61,
+      "weight_tons": 9.8,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "West Somerset",
+      "origin_port": "Al-Jazair",
+      "cargo": "Coffee",
+      "base_price_gbp": 75,
+      "weight_tons": 12.1,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "West Somerset",
+      "origin_port": "Yorinobu's Settlement",
+      "cargo": "Instruments",
+      "base_price_gbp": 73,
+      "weight_tons": 11.8,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "West Somerset",
+      "origin_port": "New Brighton",
+      "cargo": "Dyes",
+      "base_price_gbp": 65,
+      "weight_tons": 10.5,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Lebarde",
+      "origin_port": "Princeton",
+      "cargo": "Herbs",
+      "base_price_gbp": 59,
+      "weight_tons": 9.5,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Lebarde",
+      "origin_port": "Castle Landing",
+      "cargo": "Scales",
+      "base_price_gbp": 74,
+      "weight_tons": 11.9,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Lebarde",
+      "origin_port": "Lebarde",
+      "cargo": "Crumpets",
+      "base_price_gbp": 65,
+      "weight_tons": 10.5,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "New Catalina",
+      "origin_port": "Jones' Outpost",
+      "cargo": "Salmon",
+      "base_price_gbp": 78,
+      "weight_tons": 12.6,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "New Catalina",
+      "origin_port": "Cumberland Hill",
+      "cargo": "Coffee",
+      "base_price_gbp": 52,
+      "weight_tons": 8.4,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "New Catalina",
+      "origin_port": "New Catalina",
+      "cargo": "Pierogi",
+      "base_price_gbp": 69,
+      "weight_tons": 11.1,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "New Catalina",
+      "origin_port": "Sugar Cove",
+      "cargo": "Lobster",
+      "base_price_gbp": 68,
+      "weight_tons": 11.0,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Saint-Nicholas",
+      "origin_port": "Taylor's Town",
+      "cargo": "Thyme",
+      "base_price_gbp": 57,
+      "weight_tons": 9.2,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Saint-Nicholas",
+      "origin_port": "Saint-Nicholas",
+      "cargo": "Cocoa",
+      "base_price_gbp": 64,
+      "weight_tons": 10.3,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Saint-Nicholas",
+      "origin_port": "Sandy Settlement",
+      "cargo": "Diamonds",
+      "base_price_gbp": 92,
+      "weight_tons": 14.8,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Saint-Nicholas",
+      "origin_port": "Peter's Cove",
+      "cargo": "Tuna",
+      "base_price_gbp": 61,
+      "weight_tons": 9.8,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Blacktip Shoals",
+      "origin_port": "Thresher Point",
+      "cargo": "Rope",
+      "base_price_gbp": 72,
+      "weight_tons": 11.6,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Blacktip Shoals",
+      "origin_port": "Caye Tiburon",
+      "cargo": "Hay",
+      "base_price_gbp": 52,
+      "weight_tons": 8.4,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Blacktip Shoals",
+      "origin_port": "Belfry Heights",
+      "cargo": "Books",
+      "base_price_gbp": 60,
+      "weight_tons": 9.7,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Polo",
+      "origin_port": "San Vito",
+      "cargo": "Olive Oil",
+      "base_price_gbp": 72,
+      "weight_tons": 11.6,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Polo",
+      "origin_port": "La Povenglia",
+      "cargo": "Herbs",
+      "base_price_gbp": 48,
+      "weight_tons": 7.7,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Polo",
+      "origin_port": "San Polo",
+      "cargo": "Glass",
+      "base_price_gbp": 60,
+      "weight_tons": 9.7,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Polo",
+      "origin_port": "Kandlerova",
+      "cargo": "Truffles",
+      "base_price_gbp": 64,
+      "weight_tons": 10.3,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Salvador",
+      "origin_port": "San Salvador",
+      "cargo": "Paella",
+      "base_price_gbp": 63,
+      "weight_tons": 10.2,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Salvador",
+      "origin_port": "Poblado de San Juan",
+      "cargo": "stuff",
+      "base_price_gbp": 62,
+      "weight_tons": 10.0,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Salvador",
+      "origin_port": "Santa Maria",
+      "cargo": "Tamales",
+      "base_price_gbp": 63,
+      "weight_tons": 10.2,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Salvador",
+      "origin_port": "Puerto de San Fernando",
+      "cargo": "Gazpacho",
+      "base_price_gbp": 59,
+      "weight_tons": 9.5,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Kingston",
+      "origin_port": "Theresa",
+      "cargo": "Silk",
+      "base_price_gbp": 52,
+      "weight_tons": 8.4,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Kingston",
+      "origin_port": "Falmouth",
+      "cargo": "Sugar",
+      "base_price_gbp": 48,
+      "weight_tons": 7.7,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Kingston",
+      "origin_port": "Port Antonio",
+      "cargo": "Ginger",
+      "base_price_gbp": 64,
+      "weight_tons": 10.3,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Kingston",
+      "origin_port": "Port Royal",
+      "cargo": "Cotton",
+      "base_price_gbp": 78,
+      "weight_tons": 12.6,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Ilhas Brumas",
+      "origin_port": "Caveira",
+      "cargo": "Honey",
+      "base_price_gbp": 58,
+      "weight_tons": 9.4,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Ilhas Brumas",
+      "origin_port": "Madalena",
+      "cargo": "Cheese",
+      "base_price_gbp": 55,
+      "weight_tons": 8.9,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Ilhas Brumas",
+      "origin_port": "Sao Bento",
+      "cargo": "Bananas",
+      "base_price_gbp": 68,
+      "weight_tons": 11.0,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Ilhas Brumas",
+      "origin_port": "Ponta Delgada",
+      "cargo": "Pineapple",
+      "base_price_gbp": 62,
+      "weight_tons": 10.0,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    }
+  ],
+  "estimation_method": {
+    "gross_sell_value_formula_status": "INFERRED_NOT_GAME_CONFIRMED",
+    "gross_sell_value_formula": "round(base_price * (1.25 + cargo_distance_m / 4000))",
+    "weight_estimation_status": "INFERRED_NOT_GAME_CONFIRMED",
+    "weight_estimation_method": "Approximate weight ~= base_price / 6.2, rounded to 0.1 ton.",
+    "rule": "Never overwrite a CONFIRMED base price or weight with an ESTIMATED value."
+  },
+  "sale_list_data": {
+    "status": "CONFIRMED_WHERE_READ_FROM_GAME_UI",
+    "meaning": {
+      "cargo_distance_m": "Game UI 'Distance (from origin)' used for cargo economics.",
+      "displayed_sell_value": "Game UI destination 'Value'.",
+      "important": "Cargo Distance is NOT the same as obstacle-safe route/path distance."
+    },
+    "earlier_recordings": "Per-origin destination lists for the 20 accessible/confirmed purchase cargos were captured in earlier videos/screens.",
+    "long_all_ports_recording": {
+      "filename": "Screen Recording 2026-08-16 223317.mp4",
+      "coverage": "All 38 previously missing origin ports are present.",
+      "destination_distance_and_value_status": "CONFIRMED_FROM_VIDEO",
+      "base_price_and_weight_status": "ESTIMATED_UNLESS_LATER_DIRECTLY_CONFIRMED",
+      "instruction": "If the existing project does not already contain the row-level destination matrix from this recording, parse/import it from the source video rather than inventing rows."
+    }
+  },
+  "griffards_rock_backfills": [
+    {
+      "origin_port": "Petit Anvers",
+      "cargo": "Chocolate",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 7983.2,
+      "gross_sell_value_gbp": 221,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Sainte Rose",
+      "cargo": "Lavender",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 7528.3,
+      "gross_sell_value_gbp": 235,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Louisbourg",
+      "cargo": "Lace",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 6582.4,
+      "gross_sell_value_gbp": 188,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Maurepas",
+      "cargo": "Pelts",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 5783.1,
+      "gross_sell_value_gbp": 162,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Gyldenvale",
+      "cargo": "Wheat",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 8488.4,
+      "gross_sell_value_gbp": 239,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Wyntergard",
+      "cargo": "Rice",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 7397.7,
+      "gross_sell_value_gbp": 223,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Ashbourne",
+      "cargo": "Oil",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 6578.2,
+      "gross_sell_value_gbp": 197,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Crownstead",
+      "cargo": "Bells",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 7265.3,
+      "gross_sell_value_gbp": 166,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Port Louis",
+      "cargo": "Pelts",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 5630.2,
+      "gross_sell_value_gbp": 175,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Fair Harbour",
+      "cargo": "Paper",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 4880.9,
+      "gross_sell_value_gbp": 96,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Bucket Bay",
+      "cargo": "Buckets",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 3774.3,
+      "gross_sell_value_gbp": 114,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Matthew's Rest",
+      "cargo": "Shale",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 3406.7,
+      "gross_sell_value_gbp": 153,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Pachard Town",
+      "cargo": "Jewelry",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 2915.1,
+      "gross_sell_value_gbp": 180,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Port-Au-Croix",
+      "cargo": "Baguettes",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 3301.6,
+      "gross_sell_value_gbp": 116,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Point Rocheux",
+      "cargo": "Candles",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 3826.9,
+      "gross_sell_value_gbp": 99,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Villarreal Del Mar",
+      "cargo": "Saffron",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 4800.4,
+      "gross_sell_value_gbp": 167,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Venta Nueva",
+      "cargo": "Olives",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 6108.9,
+      "gross_sell_value_gbp": 153,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Lord Irving's Sacrifice",
+      "cargo": "Wool",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 3413.2,
+      "gross_sell_value_gbp": 116,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Mako's Outlook",
+      "cargo": "Spyglasses",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 3887.0,
+      "gross_sell_value_gbp": 142,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    }
+  ],
+  "economics": {
+    "depreciation": "DO_NOT_MODEL",
+    "destination_import_tax_rule": "Apply destination port import tax separately to gross sale value.",
+    "net_sale_formula": "gross_sell_value - destination_import_tax",
+    "profit_per_unit_formula": "net_sale - purchase_total",
+    "purchase_total_rule": "Use confirmed game total when available; otherwise base + export tax using the editable origin export-tax default.",
+    "taxes_editable": true
+  },
+  "ships": [
+    {
+      "ship": "Pembroke",
+      "cargo_capacity_tons": 534.2,
+      "listed_max_speed_knots": 10.6,
+      "baseline_speed_knots": 9.01
+    },
+    {
+      "ship": "Been",
+      "cargo_capacity_tons": 124.2,
+      "listed_max_speed_knots": 10.8,
+      "baseline_speed_knots": 9.18
+    },
+    {
+      "ship": "Hoy",
+      "cargo_capacity_tons": 36.7,
+      "listed_max_speed_knots": 10.7,
+      "baseline_speed_knots": 9.095
+    }
+  ],
+  "cargo_capacity_rule": {
+    "hold_units_formula": "floor(ship_capacity_tons / cargo_weight_tons)",
+    "carried_extra_units": 1,
+    "total_units_formula": "hold_units + 1"
+  },
+  "route_geometry_rules": {
+    "world": "Existing unified 17-region zoomable/pannable map",
+    "route_line": "Continuous cross-region line",
+    "tp_behavior": "Use actual paired TP-zone geometry and corresponding relative entry/exit position, not just TP centers.",
+    "obstacles": [
+      "land",
+      "rocks",
+      "shoals"
+    ],
+    "authoritative_obstacle_source": "raw obstacle mask",
+    "clearance_policy": "Hard minimum clearance only; no general soft shoreline-proximity penalty.",
+    "accepted_test_clearance_px": 24,
+    "port_exception": "Allow necessary departure/arrival clearance exception close to the port.",
+    "optimization_baseline": "Shortest practical obstacle-safe route unless wind optimization later justifies a detour."
+  },
+  "wind": {
+    "world_direction": "Rotates clockwise 360 degrees every hour.",
+    "regional_speed": "Random/unpredictable; DO NOT use regional wind speed or storms in route optimization.",
+    "ship_behavior_known": {
+      "Hoy": "Best approximately parallel/downwind.",
+      "Been": "Best at a slight favorable-wind angle; worse directly aligned.",
+      "Pembroke": "Best at a slight favorable-wind angle; less direct-wind penalty than Been."
+    },
+    "exact_angle_speed_curves": "NOT YET CALIBRATED",
+    "instruction": "Do not invent wind-angle multipliers."
+  },
+  "remaining_missing_items_for_full_feature_set": [
+    {
+      "item": "Deadman's Murcia geometry coordinate/node",
+      "priority": "REQUIRED for routes to/from Deadman's Murcia",
+      "status": "MISSING_OR_UNCONFIRMED"
+    },
+    {
+      "item": "Map/path scale calibration to game meters or nautical miles",
+      "priority": "REQUIRED for accurate ETA from knots",
+      "status": "MISSING"
+    },
+    {
+      "item": "Exact wind-angle speed curves per ship",
+      "priority": "REQUIRED only for accurate wind-optimized routing",
+      "status": "MISSING"
+    },
+    {
+      "item": "Nation/control mapping or runtime player enemy-selection mapping",
+      "priority": "REQUIRED only if route logic should avoid enemy-controlled ports/areas",
+      "status": "MISSING"
+    }
+  ],
+  "integration_instructions": [
+    "Do NOT rebuild, rescale, restitch, or replace the existing 17-region geometry.",
+    "Merge this package as a trade/economy data layer over the current geometry.",
+    "Preserve all existing obstacle masks, TP-zone pairs, ownership/ROI masks, region transforms, and approved routing behavior.",
+    "Add Deadman's Murcia only after obtaining/confirming its true East Somerset map coordinate.",
+    "Label CONFIRMED and ESTIMATED purchase fields visibly in data/UI/debug output.",
+    "Prefer recorded game destination Value over any inferred formula result.",
+    "Never use Cargo Distance as the obstacle-safe sailing-route distance.",
+    "Do not invent missing geometry, wind curves, nation control, taxes, base prices, weights, or destination rows."
+  ]
+}

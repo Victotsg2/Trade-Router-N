@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "baseline_file_count": 118,
+  "unchanged_file_count": 118,
+  "changed_files": [],
+  "missing_files": [],
+  "scope": "stage1_data plus tp_transforms.json and world_alignment.json"
+}

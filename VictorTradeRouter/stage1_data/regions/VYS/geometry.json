@@ -1,0 +1,164 @@
+{
+  "schema_version": "stage1-final-1.0",
+  "region": {
+    "region_id": "VYS",
+    "region_name": "Vysarian Isles",
+    "image_width_px": 1294,
+    "image_height_px": 814,
+    "coordinate_origin": "top-left"
+  },
+  "geometry_policy": {
+    "raw_obstacle_mask": "authoritative; 255 obstacle, 0 non-obstacle",
+    "navigation_water_mask": "255 owned navigable water, 0 blocked/outside ownership",
+    "ownership_mask": "255 target-region playable ownership, 0 neighboring/excluded",
+    "clearance_buffer": "not baked into authoritative data"
+  },
+  "ports": [
+    {
+      "region_id": "VYS",
+      "port_id": "VYS-P01",
+      "display_name": "Gyldenvale",
+      "pixel_x": 1029,
+      "pixel_y": 651,
+      "normalized_x": 0.795209,
+      "normalized_y": 0.799754,
+      "marker_pixel_x": 1021,
+      "marker_pixel_y": 656,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "VYS",
+      "port_id": "VYS-P02",
+      "display_name": "Wyntergard",
+      "pixel_x": 961,
+      "pixel_y": 414,
+      "normalized_x": 0.742658,
+      "normalized_y": 0.5086,
+      "marker_pixel_x": 970,
+      "marker_pixel_y": 424,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "VYS",
+      "port_id": "VYS-P03",
+      "display_name": "Ashbourne",
+      "pixel_x": 779,
+      "pixel_y": 445,
+      "normalized_x": 0.602009,
+      "normalized_y": 0.546683,
+      "marker_pixel_x": 775,
+      "marker_pixel_y": 439,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "VYS",
+      "port_id": "VYS-P04",
+      "display_name": "Crownstead",
+      "pixel_x": 785,
+      "pixel_y": 552,
+      "normalized_x": 0.606646,
+      "normalized_y": 0.678133,
+      "marker_pixel_x": 790,
+      "marker_pixel_y": 565,
+      "confidence": "visually_verified"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "VYS-TP01",
+      "region_id": "VYS",
+      "destination_region_id": "STP",
+      "polygon_coordinates": [
+        [
+          523,
+          273
+        ],
+        [
+          427,
+          411
+        ],
+        [
+          468,
+          440
+        ],
+        [
+          564,
+          302
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.404173,
+          0.335381
+        ],
+        [
+          0.329985,
+          0.504914
+        ],
+        [
+          0.361669,
+          0.540541
+        ],
+        [
+          0.435858,
+          0.371007
+        ]
+      ],
+      "paired_tp_id": "STP-TP05",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "VYS-TP02",
+      "region_id": "VYS",
+      "destination_region_id": "IDL",
+      "polygon_coordinates": [
+        [
+          929,
+          199
+        ],
+        [
+          571,
+          262
+        ],
+        [
+          579,
+          312
+        ],
+        [
+          938,
+          248
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.717929,
+          0.244472
+        ],
+        [
+          0.441267,
+          0.321867
+        ],
+        [
+          0.44745,
+          0.383292
+        ],
+        [
+          0.724884,
+          0.304668
+        ]
+      ],
+      "paired_tp_id": "IDL-TP03",
+      "confidence": "visually_verified",
+      "notes": ""
+    }
+  ],
+  "map_assets": {
+    "source": "source.png",
+    "raw_obstacle_mask": "raw_obstacle_mask.png",
+    "navigation_water_mask": "navigation_water_mask.png",
+    "ownership_mask": "ownership_mask.png",
+    "review_overlay": "review_overlay.png"
+  },
+  "status": "visually_verified"
+}

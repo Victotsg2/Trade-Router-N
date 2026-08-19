@@ -1,0 +1,228 @@
+{
+  "schema_version": "stage1-final-1.0",
+  "region": {
+    "region_id": "IRV",
+    "region_name": "Irving's Reach",
+    "image_width_px": 1189,
+    "image_height_px": 937,
+    "coordinate_origin": "top-left"
+  },
+  "geometry_policy": {
+    "raw_obstacle_mask": "authoritative; 255 obstacle, 0 non-obstacle",
+    "navigation_water_mask": "255 owned navigable water, 0 blocked/outside ownership",
+    "ownership_mask": "255 target-region playable ownership, 0 neighboring/excluded",
+    "clearance_buffer": "not baked into authoritative data"
+  },
+  "ports": [
+    {
+      "region_id": "IRV",
+      "port_id": "IRV-P01",
+      "display_name": "Mako's Outlook",
+      "pixel_x": 594,
+      "pixel_y": 342,
+      "normalized_x": 0.499579,
+      "normalized_y": 0.364995,
+      "marker_pixel_x": 604,
+      "marker_pixel_y": 338,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "IRV",
+      "port_id": "IRV-P02",
+      "display_name": "Lord Irving's Sacrifice",
+      "pixel_x": 599,
+      "pixel_y": 501,
+      "normalized_x": 0.503785,
+      "normalized_y": 0.534685,
+      "marker_pixel_x": 595,
+      "marker_pixel_y": 488,
+      "confidence": "visually_verified"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "IRV-TP01",
+      "region_id": "IRV",
+      "destination_region_id": "SPO",
+      "polygon_coordinates": [
+        [
+          552,
+          126
+        ],
+        [
+          143,
+          198
+        ],
+        [
+          151,
+          247
+        ],
+        [
+          561,
+          175
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.464256,
+          0.134472
+        ],
+        [
+          0.120269,
+          0.211313
+        ],
+        [
+          0.126997,
+          0.263607
+        ],
+        [
+          0.471825,
+          0.186766
+        ]
+      ],
+      "paired_tp_id": "SPO-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IRV-TP02",
+      "region_id": "IRV",
+      "destination_region_id": "BTS",
+      "polygon_coordinates": [
+        [
+          814,
+          145
+        ],
+        [
+          814,
+          532
+        ],
+        [
+          863,
+          532
+        ],
+        [
+          863,
+          145
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.684609,
+          0.154749
+        ],
+        [
+          0.684609,
+          0.567769
+        ],
+        [
+          0.72582,
+          0.567769
+        ],
+        [
+          0.72582,
+          0.154749
+        ]
+      ],
+      "paired_tp_id": "BTS-TP03",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IRV-TP03",
+      "region_id": "IRV",
+      "destination_region_id": "GRF",
+      "polygon_coordinates": [
+        [
+          829,
+          562
+        ],
+        [
+          771,
+          663
+        ],
+        [
+          814,
+          688
+        ],
+        [
+          872,
+          587
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.697225,
+          0.599787
+        ],
+        [
+          0.648444,
+          0.707577
+        ],
+        [
+          0.684609,
+          0.734258
+        ],
+        [
+          0.733389,
+          0.626467
+        ]
+      ],
+      "paired_tp_id": "GRF-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IRV-TP04",
+      "region_id": "IRV",
+      "destination_region_id": "KIN",
+      "polygon_coordinates": [
+        [
+          283,
+          458
+        ],
+        [
+          802,
+          700
+        ],
+        [
+          780,
+          745
+        ],
+        [
+          262,
+          504
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.238015,
+          0.488794
+        ],
+        [
+          0.674516,
+          0.747065
+        ],
+        [
+          0.656013,
+          0.795091
+        ],
+        [
+          0.220353,
+          0.537887
+        ]
+      ],
+      "paired_tp_id": "KIN-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    }
+  ],
+  "map_assets": {
+    "source": "source.png",
+    "raw_obstacle_mask": "raw_obstacle_mask.png",
+    "navigation_water_mask": "navigation_water_mask.png",
+    "ownership_mask": "ownership_mask.png",
+    "review_overlay": "review_overlay.png"
+  },
+  "status": "visually_verified"
+}

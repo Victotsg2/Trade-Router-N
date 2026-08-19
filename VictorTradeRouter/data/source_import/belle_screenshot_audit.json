@@ -1,0 +1,200 @@
+[
+  {
+    "source_screenshot": "Petit Sell1.png",
+    "origin_port": "Petit Anvers",
+    "detected_rows": 10,
+    "accepted_rows": 8
+  },
+  {
+    "source_screenshot": "Petit Sell2.png",
+    "origin_port": "Petit Anvers",
+    "detected_rows": 11,
+    "accepted_rows": 7
+  },
+  {
+    "source_screenshot": "Petit Sell3.png",
+    "origin_port": "Petit Anvers",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Petit Sell4.png",
+    "origin_port": "Petit Anvers",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Petit Sell5.png",
+    "origin_port": "Petit Anvers",
+    "detected_rows": 11,
+    "accepted_rows": 9
+  },
+  {
+    "source_screenshot": "Petit Sell6.png",
+    "origin_port": "Petit Anvers",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Sainte Rose sell1.png",
+    "origin_port": "Sainte Rose",
+    "detected_rows": 11,
+    "accepted_rows": 9
+  },
+  {
+    "source_screenshot": "Sainte Rose sell2.png",
+    "origin_port": "Sainte Rose",
+    "detected_rows": 11,
+    "accepted_rows": 5
+  },
+  {
+    "source_screenshot": "Sainte Rose sell3.png",
+    "origin_port": "Sainte Rose",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Sainte Rose sell4.png",
+    "origin_port": "Sainte Rose",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Sainte Rose sell5.png",
+    "origin_port": "Sainte Rose",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Sainte Rose sell6.png",
+    "origin_port": "Sainte Rose",
+    "detected_rows": 10,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Sainte Rose sell7.png",
+    "origin_port": "Sainte Rose",
+    "detected_rows": 10,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Louisbourg sell1.png",
+    "origin_port": "Louisbourg",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Louisbourg sell2.png",
+    "origin_port": "Louisbourg",
+    "detected_rows": 11,
+    "accepted_rows": 6
+  },
+  {
+    "source_screenshot": "Louisbourg sell3.png",
+    "origin_port": "Louisbourg",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Louisbourg sell4.png",
+    "origin_port": "Louisbourg",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Louisbourg sell5.png",
+    "origin_port": "Louisbourg",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Louisbourg sell6.png",
+    "origin_port": "Louisbourg",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Louisbourg sell7.png",
+    "origin_port": "Louisbourg",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Maurepas sell1.png",
+    "origin_port": "Maurepas",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Maurepas sell2.png",
+    "origin_port": "Maurepas",
+    "detected_rows": 11,
+    "accepted_rows": 5
+  },
+  {
+    "source_screenshot": "Maurepas sell3.png",
+    "origin_port": "Maurepas",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Maurepas sell4.png",
+    "origin_port": "Maurepas",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Maurepas sell5.png",
+    "origin_port": "Maurepas",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Maurepas Sell6.png",
+    "origin_port": "Maurepas",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Maurepas sell1.png",
+    "origin_port": "Maurepas",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Maurepas sell2.png",
+    "origin_port": "Maurepas",
+    "detected_rows": 11,
+    "accepted_rows": 5
+  },
+  {
+    "source_screenshot": "Maurepas sell3.png",
+    "origin_port": "Maurepas",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Maurepas sell4.png",
+    "origin_port": "Maurepas",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Maurepas sell5.png",
+    "origin_port": "Maurepas",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Maurepas Sell6.png",
+    "origin_port": "Maurepas",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  },
+  {
+    "source_screenshot": "Maurepa Sell7.png",
+    "origin_port": "Maurepas",
+    "detected_rows": 11,
+    "accepted_rows": 10
+  }
+]

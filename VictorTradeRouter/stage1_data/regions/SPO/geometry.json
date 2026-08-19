@@ -1,0 +1,164 @@
+{
+  "schema_version": "stage1-final-1.0",
+  "region": {
+    "region_id": "SPO",
+    "region_name": "San Polo",
+    "image_width_px": 1457,
+    "image_height_px": 819,
+    "coordinate_origin": "top-left"
+  },
+  "geometry_policy": {
+    "raw_obstacle_mask": "authoritative; 255 obstacle, 0 non-obstacle",
+    "navigation_water_mask": "255 owned navigable water, 0 blocked/outside ownership",
+    "ownership_mask": "255 target-region playable ownership, 0 neighboring/excluded",
+    "clearance_buffer": "not baked into authoritative data"
+  },
+  "ports": [
+    {
+      "region_id": "SPO",
+      "port_id": "SPO-P01",
+      "display_name": "Kandlerova",
+      "pixel_x": 213,
+      "pixel_y": 171,
+      "normalized_x": 0.146191,
+      "normalized_y": 0.208791,
+      "marker_pixel_x": 223,
+      "marker_pixel_y": 165,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SPO",
+      "port_id": "SPO-P02",
+      "display_name": "San Polo",
+      "pixel_x": 389,
+      "pixel_y": 241,
+      "normalized_x": 0.266987,
+      "normalized_y": 0.294261,
+      "marker_pixel_x": 385,
+      "marker_pixel_y": 222,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SPO",
+      "port_id": "SPO-P03",
+      "display_name": "La Povenglia",
+      "pixel_x": 759,
+      "pixel_y": 258,
+      "normalized_x": 0.520933,
+      "normalized_y": 0.315018,
+      "marker_pixel_x": 771,
+      "marker_pixel_y": 249,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SPO",
+      "port_id": "SPO-P04",
+      "display_name": "San Vito",
+      "pixel_x": 806,
+      "pixel_y": 558,
+      "normalized_x": 0.553191,
+      "normalized_y": 0.681319,
+      "marker_pixel_x": 815,
+      "marker_pixel_y": 557,
+      "confidence": "visually_verified"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "SPO-TP01",
+      "region_id": "SPO",
+      "destination_region_id": "IRV",
+      "polygon_coordinates": [
+        [
+          958,
+          632
+        ],
+        [
+          549,
+          704
+        ],
+        [
+          557,
+          753
+        ],
+        [
+          967,
+          681
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.657515,
+          0.771673
+        ],
+        [
+          0.376802,
+          0.859585
+        ],
+        [
+          0.382292,
+          0.919414
+        ],
+        [
+          0.663693,
+          0.831502
+        ]
+      ],
+      "paired_tp_id": "IRV-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "SPO-TP02",
+      "region_id": "SPO",
+      "destination_region_id": "BTS",
+      "polygon_coordinates": [
+        [
+          1090,
+          298
+        ],
+        [
+          976,
+          611
+        ],
+        [
+          1023,
+          629
+        ],
+        [
+          1137,
+          315
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.748113,
+          0.363858
+        ],
+        [
+          0.66987,
+          0.746032
+        ],
+        [
+          0.702128,
+          0.76801
+        ],
+        [
+          0.780371,
+          0.384615
+        ]
+      ],
+      "paired_tp_id": "BTS-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    }
+  ],
+  "map_assets": {
+    "source": "source.png",
+    "raw_obstacle_mask": "raw_obstacle_mask.png",
+    "navigation_water_mask": "navigation_water_mask.png",
+    "ownership_mask": "ownership_mask.png",
+    "review_overlay": "review_overlay.png"
+  },
+  "status": "visually_verified"
+}

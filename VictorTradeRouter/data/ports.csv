@@ -1,0 +1,59 @@
+﻿economy_port_id,display_name,region,region_id,geometry_port_id,route_eligible,geometry_status,location_note,import_tax_percent,export_tax_percent,tax_status,tax_editable_default
+ECON-P01,Petit Anvers,Belle Isles,BEL,BEL-P04,True,CONFIRMED_STAGE1,,12,14,confirmed_user_provided_or_screenshot,True
+ECON-P02,Sainte Rose,Belle Isles,BEL,BEL-P03,True,CONFIRMED_STAGE1,,12,14,confirmed_user_provided_or_screenshot,True
+ECON-P03,Maurepas,Belle Isles,BEL,BEL-P01,True,CONFIRMED_STAGE1,,12,14,confirmed_user_provided_or_screenshot,True
+ECON-P04,Louisbourg,Belle Isles,BEL,BEL-P02,True,CONFIRMED_STAGE1,,12,14,confirmed_user_provided_or_screenshot,True
+ECON-P05,Gyldenvale,Vysarian Isles,VYS,VYS-P01,True,CONFIRMED_STAGE1,,13,13,confirmed_user_provided_or_screenshot,True
+ECON-P06,Wyntergard,Vysarian Isles,VYS,VYS-P02,True,CONFIRMED_STAGE1,,13,13,confirmed_user_provided_or_screenshot,True
+ECON-P07,Ashbourne,Vysarian Isles,VYS,VYS-P03,True,CONFIRMED_STAGE1,,13,13,confirmed_user_provided_or_screenshot,True
+ECON-P08,Crownstead,Vysarian Isles,VYS,VYS-P04,True,CONFIRMED_STAGE1,,13,13,confirmed_user_provided_or_screenshot,True
+ECON-P09,Port Louis,Îles de Louis,IDL,IDL-P04,True,CONFIRMED_STAGE1,,12,18,confirmed_user_provided_or_screenshot,True
+ECON-P10,Fair Harbour,Îles de Louis,IDL,IDL-P03,True,CONFIRMED_STAGE1,,12,18,confirmed_user_provided_or_screenshot,True
+ECON-P11,Bucket Bay,Îles de Louis,IDL,IDL-P02,True,CONFIRMED_STAGE1,,12,18,confirmed_user_provided_or_screenshot,True
+ECON-P12,Matthew's Rest,Îles de Louis,IDL,IDL-P01,True,CONFIRMED_STAGE1,,12,18,confirmed_user_provided_or_screenshot,True
+ECON-P13,Port-Au-Croix,Saint-Pierre,STP,STP-P01,True,CONFIRMED_STAGE1,,12,18,confirmed_user_provided_or_screenshot,True
+ECON-P14,Pachard Town,Saint-Pierre,STP,STP-P02,True,CONFIRMED_STAGE1,,12,18,confirmed_user_provided_or_screenshot,True
+ECON-P15,Point Rocheux,Saint-Pierre,STP,STP-P03,True,CONFIRMED_STAGE1,,12,18,confirmed_user_provided_or_screenshot,True
+ECON-P16,White Hook,East Somerset,ESO,ESO-P01,True,CONFIRMED_STAGE1,,9,10,confirmed_user_provided_or_screenshot,True
+ECON-P17,Snake Prosper,East Somerset,ESO,ESO-P02,True,CONFIRMED_STAGE1,,10,12,confirmed_user_provided_or_screenshot,True
+ECON-P18,Caledonia,East Somerset,ESO,ESO-P03,True,CONFIRMED_STAGE1,,10,10,confirmed_user_provided_or_screenshot,True
+ECON-P19,Deadman's Murcia,East Somerset,ESO,,False,NEEDS_COORDINATE_CONFIRMATION,At the top of the island; exact water anchor not yet supplied.,10,10,confirmed_user_provided_or_screenshot,True
+ECON-P20,Saint Vincent,West Somerset,WSO,WSO-P01,True,CONFIRMED_STAGE1,,12,16,confirmed_user_provided_or_screenshot,True
+ECON-P21,Yorinobu's Settlement,West Somerset,WSO,WSO-P02,True,CONFIRMED_STAGE1,,10,10,confirmed_user_provided_or_screenshot,True
+ECON-P22,New Brighton,West Somerset,WSO,WSO-P03,True,CONFIRMED_STAGE1,,12,15,confirmed_user_provided_or_screenshot,True
+ECON-P23,Al-Jazair,West Somerset,WSO,WSO-P04,True,CONFIRMED_STAGE1,,10,12,confirmed_user_provided_or_screenshot,True
+ECON-P24,Sugar Cove,New Catalina,NCA,NCA-P01,True,CONFIRMED_STAGE1,,8,8,confirmed_user_provided_or_screenshot,True
+ECON-P25,New Catalina,New Catalina,NCA,NCA-P02,True,CONFIRMED_STAGE1,,12,12,confirmed_user_provided_or_screenshot,True
+ECON-P26,Cumberland Hill,New Catalina,NCA,NCA-P03,True,CONFIRMED_STAGE1,,9,9,confirmed_user_provided_or_screenshot,True
+ECON-P27,Jones' Outpost,New Catalina,NCA,NCA-P04,True,CONFIRMED_STAGE1,,9,9,confirmed_user_provided_or_screenshot,True
+ECON-P28,Castle Landing,Lebarde,LEB,LEB-P01,True,CONFIRMED_STAGE1,,7,18,confirmed_user_provided_or_screenshot,True
+ECON-P29,Lebarde,Lebarde,LEB,LEB-P02,True,CONFIRMED_STAGE1,,12,12,confirmed_user_provided_or_screenshot,True
+ECON-P30,Princeton,Lebarde,LEB,LEB-P03,True,CONFIRMED_STAGE1,,7,18,confirmed_user_provided_or_screenshot,True
+ECON-P31,Taylor's Town,Saint-Nicholas,SNI,SNI-P01,True,CONFIRMED_STAGE1,,15,15,confirmed_user_provided_or_screenshot,True
+ECON-P32,Saint-Nicholas,Saint-Nicholas,SNI,SNI-P02,True,CONFIRMED_STAGE1,,15,15,confirmed_user_provided_or_screenshot,True
+ECON-P33,Sandy Settlement,Saint-Nicholas,SNI,SNI-P03,True,CONFIRMED_STAGE1,,12,12,confirmed_user_provided_or_screenshot,True
+ECON-P34,Peter's Cove,Saint-Nicholas,SNI,SNI-P04,True,CONFIRMED_STAGE1,,15,15,confirmed_user_provided_or_screenshot,True
+ECON-P35,Thresher Point,Blacktip Shoals,BTS,BTS-P01,True,CONFIRMED_STAGE1,,12,12,confirmed_user_provided_or_screenshot,True
+ECON-P36,Caye Tiburon,Blacktip Shoals,BTS,BTS-P02,True,CONFIRMED_STAGE1,,10,50,confirmed_user_provided_or_screenshot,True
+ECON-P37,Belfry Heights,Blacktip Shoals,BTS,BTS-P03,True,CONFIRMED_STAGE1,,12,12,confirmed_user_provided_or_screenshot,True
+ECON-P38,Mako's Outlook,Irving's Reach,IRV,IRV-P01,True,CONFIRMED_STAGE1,,13,50,confirmed_user_provided_or_screenshot,True
+ECON-P39,Lord Irving's Sacrifice,Irving's Reach,IRV,IRV-P02,True,CONFIRMED_STAGE1,,13,50,confirmed_user_provided_or_screenshot,True
+ECON-P40,Griffard's Rock,Griffard's Rock,GRF,GRF-P01,True,CONFIRMED_STAGE1,,1,1,confirmed_user_provided_or_screenshot,True
+ECON-P41,Port Royal,Kingston,KIN,KIN-P01,True,CONFIRMED_STAGE1,,13,13,confirmed_user_provided_or_screenshot,True
+ECON-P42,Theresa,Kingston,KIN,KIN-P02,True,CONFIRMED_STAGE1,,9,9,confirmed_user_provided_or_screenshot,True
+ECON-P43,Port Antonio,Kingston,KIN,KIN-P03,True,CONFIRMED_STAGE1,,13,50,confirmed_user_provided_or_screenshot,True
+ECON-P44,Falmouth,Kingston,KIN,KIN-P04,True,CONFIRMED_STAGE1,,15,15,confirmed_user_provided_or_screenshot,True
+ECON-P45,Villarreal Del Mar,Cayos Encantados,CAY,CAY-P01,True,CONFIRMED_STAGE1,,12,12,confirmed_user_provided_or_screenshot,True
+ECON-P46,Venta Nueva,Cayos Encantados,CAY,CAY-P02,True,CONFIRMED_STAGE1,,12,15,confirmed_user_provided_or_screenshot,True
+ECON-P47,Caveira,Ilhas Brumas,ILB,ILB-P01,True,CONFIRMED_STAGE1,,16,16,confirmed_user_provided_or_screenshot,True
+ECON-P48,Madalena,Ilhas Brumas,ILB,ILB-P02,True,CONFIRMED_STAGE1,,17,17,confirmed_user_provided_or_screenshot,True
+ECON-P49,Sao Bento,Ilhas Brumas,ILB,ILB-P03,True,CONFIRMED_STAGE1,,15,15,confirmed_user_provided_or_screenshot,True
+ECON-P50,Ponta Delgada,Ilhas Brumas,ILB,ILB-P04,True,CONFIRMED_STAGE1,,15,15,confirmed_user_provided_or_screenshot,True
+ECON-P51,Puerto de San Fernando,San Salvador,SSA,SSA-P01,True,CONFIRMED_STAGE1,,9,9,confirmed_user_provided_or_screenshot,True
+ECON-P52,Poblado de San Juan,San Salvador,SSA,SSA-P02,True,CONFIRMED_STAGE1,,10,10,confirmed_user_provided_or_screenshot,True
+ECON-P53,Santa Maria,San Salvador,SSA,SSA-P03,True,CONFIRMED_STAGE1,,10,10,confirmed_user_provided_or_screenshot,True
+ECON-P54,San Salvador,San Salvador,SSA,SSA-P04,True,CONFIRMED_STAGE1,,10,10,confirmed_user_provided_or_screenshot,True
+ECON-P55,Kandlerova,San Polo,SPO,SPO-P01,True,CONFIRMED_STAGE1,,15,5,confirmed_user_provided_or_screenshot,True
+ECON-P56,San Polo,San Polo,SPO,SPO-P02,True,CONFIRMED_STAGE1,,10,5,confirmed_user_provided_or_screenshot,True
+ECON-P57,La Povenglia,San Polo,SPO,SPO-P03,True,CONFIRMED_STAGE1,,15,10,confirmed_user_provided_or_screenshot,True
+ECON-P58,San Vito,San Polo,SPO,SPO-P04,True,CONFIRMED_STAGE1,,12,5,confirmed_user_provided_or_screenshot,True

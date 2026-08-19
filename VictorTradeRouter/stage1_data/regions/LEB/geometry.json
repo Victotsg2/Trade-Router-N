@@ -1,0 +1,328 @@
+{
+  "schema_version": "stage1-final-1.0",
+  "region": {
+    "region_id": "LEB",
+    "region_name": "Lebarde",
+    "image_width_px": 1516,
+    "image_height_px": 865,
+    "coordinate_origin": "top-left"
+  },
+  "geometry_policy": {
+    "raw_obstacle_mask": "authoritative; 255 obstacle, 0 non-obstacle",
+    "navigation_water_mask": "255 owned navigable water, 0 blocked/outside ownership",
+    "ownership_mask": "255 target-region playable ownership, 0 neighboring/excluded",
+    "clearance_buffer": "not baked into authoritative data"
+  },
+  "ports": [
+    {
+      "region_id": "LEB",
+      "port_id": "LEB-P01",
+      "display_name": "Castle Landing",
+      "pixel_x": 958,
+      "pixel_y": 397,
+      "normalized_x": 0.631926,
+      "normalized_y": 0.45896,
+      "marker_pixel_x": 953,
+      "marker_pixel_y": 396,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "LEB",
+      "port_id": "LEB-P02",
+      "display_name": "Lebarde",
+      "pixel_x": 636,
+      "pixel_y": 423,
+      "normalized_x": 0.419525,
+      "normalized_y": 0.489017,
+      "marker_pixel_x": 648,
+      "marker_pixel_y": 414,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "LEB",
+      "port_id": "LEB-P03",
+      "display_name": "Princeton",
+      "pixel_x": 861,
+      "pixel_y": 682,
+      "normalized_x": 0.567942,
+      "normalized_y": 0.788439,
+      "marker_pixel_x": 858,
+      "marker_pixel_y": 667,
+      "confidence": "visually_verified"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "LEB-TP01",
+      "region_id": "LEB",
+      "destination_region_id": "SNI",
+      "polygon_coordinates": [
+        [
+          776,
+          0
+        ],
+        [
+          482,
+          115
+        ],
+        [
+          504,
+          163
+        ],
+        [
+          797,
+          29
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.511873,
+          0.0
+        ],
+        [
+          0.317942,
+          0.132948
+        ],
+        [
+          0.332454,
+          0.188439
+        ],
+        [
+          0.525726,
+          0.033526
+        ]
+      ],
+      "paired_tp_id": "SNI-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "LEB-TP02",
+      "region_id": "LEB",
+      "destination_region_id": "NCA",
+      "polygon_coordinates": [
+        [
+          334,
+          307
+        ],
+        [
+          334,
+          694
+        ],
+        [
+          383,
+          694
+        ],
+        [
+          383,
+          307
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.220317,
+          0.354913
+        ],
+        [
+          0.220317,
+          0.802312
+        ],
+        [
+          0.252639,
+          0.802312
+        ],
+        [
+          0.252639,
+          0.354913
+        ]
+      ],
+      "paired_tp_id": "NCA-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "LEB-TP03",
+      "region_id": "LEB",
+      "destination_region_id": "WSO",
+      "polygon_coordinates": [
+        [
+          1059,
+          742
+        ],
+        [
+          809,
+          786
+        ],
+        [
+          818,
+          835
+        ],
+        [
+          1068,
+          791
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.698549,
+          0.857803
+        ],
+        [
+          0.533641,
+          0.908671
+        ],
+        [
+          0.539578,
+          0.965318
+        ],
+        [
+          0.704485,
+          0.914451
+        ]
+      ],
+      "paired_tp_id": "WSO-TP02",
+      "confidence": "confirmed",
+      "notes": "User-confirmed duplicate regional link; paired by left-to-right spatial order."
+    },
+    {
+      "tp_id": "LEB-TP04",
+      "region_id": "LEB",
+      "destination_region_id": "WSO",
+      "polygon_coordinates": [
+        [
+          531,
+          761
+        ],
+        [
+          806,
+          785
+        ],
+        [
+          802,
+          835
+        ],
+        [
+          527,
+          811
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.350264,
+          0.879769
+        ],
+        [
+          0.531662,
+          0.907514
+        ],
+        [
+          0.529024,
+          0.965318
+        ],
+        [
+          0.347625,
+          0.937572
+        ]
+      ],
+      "paired_tp_id": "WSO-TP01",
+      "confidence": "confirmed",
+      "notes": "User-confirmed duplicate regional link; paired by left-to-right spatial order."
+    },
+    {
+      "tp_id": "LEB-TP05",
+      "region_id": "LEB",
+      "destination_region_id": "GRF",
+      "polygon_coordinates": [
+        [
+          398,
+          681
+        ],
+        [
+          527,
+          755
+        ],
+        [
+          502,
+          798
+        ],
+        [
+          373,
+          724
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.262533,
+          0.787283
+        ],
+        [
+          0.347625,
+          0.872832
+        ],
+        [
+          0.331135,
+          0.922543
+        ],
+        [
+          0.246042,
+          0.836994
+        ]
+      ],
+      "paired_tp_id": "GRF-TP03",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "LEB-TP06",
+      "region_id": "LEB",
+      "destination_region_id": "BTS",
+      "polygon_coordinates": [
+        [
+          1130,
+          192
+        ],
+        [
+          1130,
+          739
+        ],
+        [
+          1081,
+          739
+        ],
+        [
+          1081,
+          192
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.745383,
+          0.221965
+        ],
+        [
+          0.745383,
+          0.854335
+        ],
+        [
+          0.713061,
+          0.854335
+        ],
+        [
+          0.713061,
+          0.221965
+        ]
+      ],
+      "paired_tp_id": "BTS-TP04",
+      "confidence": "visually_verified",
+      "notes": ""
+    }
+  ],
+  "map_assets": {
+    "source": "source.png",
+    "raw_obstacle_mask": "raw_obstacle_mask.png",
+    "navigation_water_mask": "navigation_water_mask.png",
+    "ownership_mask": "ownership_mask.png",
+    "review_overlay": "review_overlay.png"
+  },
+  "status": "visually_verified"
+}

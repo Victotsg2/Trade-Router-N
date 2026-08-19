@@ -1,0 +1,228 @@
+{
+  "schema_version": "stage1-final-1.0",
+  "region": {
+    "region_id": "CAY",
+    "region_name": "Cayos Encantados",
+    "image_width_px": 1708,
+    "image_height_px": 887,
+    "coordinate_origin": "top-left"
+  },
+  "geometry_policy": {
+    "raw_obstacle_mask": "authoritative; 255 obstacle, 0 non-obstacle",
+    "navigation_water_mask": "255 owned navigable water, 0 blocked/outside ownership",
+    "ownership_mask": "255 target-region playable ownership, 0 neighboring/excluded",
+    "clearance_buffer": "not baked into authoritative data"
+  },
+  "ports": [
+    {
+      "region_id": "CAY",
+      "port_id": "CAY-P01",
+      "display_name": "Villarreal Del Mar",
+      "pixel_x": 821,
+      "pixel_y": 291,
+      "normalized_x": 0.480679,
+      "normalized_y": 0.328072,
+      "marker_pixel_x": 816,
+      "marker_pixel_y": 291,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "CAY",
+      "port_id": "CAY-P02",
+      "display_name": "Venta Nueva",
+      "pixel_x": 627,
+      "pixel_y": 459,
+      "normalized_x": 0.367096,
+      "normalized_y": 0.517475,
+      "marker_pixel_x": 639,
+      "marker_pixel_y": 447,
+      "confidence": "visually_verified"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "CAY-TP01",
+      "region_id": "CAY",
+      "destination_region_id": "KIN",
+      "polygon_coordinates": [
+        [
+          583,
+          110
+        ],
+        [
+          990,
+          110
+        ],
+        [
+          990,
+          159
+        ],
+        [
+          583,
+          159
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.341335,
+          0.124014
+        ],
+        [
+          0.579625,
+          0.124014
+        ],
+        [
+          0.579625,
+          0.179256
+        ],
+        [
+          0.341335,
+          0.179256
+        ]
+      ],
+      "paired_tp_id": "KIN-TP05",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "CAY-TP02",
+      "region_id": "CAY",
+      "destination_region_id": "STP",
+      "polygon_coordinates": [
+        [
+          1041,
+          191
+        ],
+        [
+          1096,
+          502
+        ],
+        [
+          1047,
+          511
+        ],
+        [
+          992,
+          199
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.609485,
+          0.215333
+        ],
+        [
+          0.641686,
+          0.565953
+        ],
+        [
+          0.612998,
+          0.576099
+        ],
+        [
+          0.580796,
+          0.224352
+        ]
+      ],
+      "paired_tp_id": "STP-TP07",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "CAY-TP03",
+      "region_id": "CAY",
+      "destination_region_id": "ILB",
+      "polygon_coordinates": [
+        [
+          270,
+          314
+        ],
+        [
+          612,
+          804
+        ],
+        [
+          571,
+          832
+        ],
+        [
+          229,
+          343
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.15808,
+          0.354002
+        ],
+        [
+          0.358314,
+          0.906426
+        ],
+        [
+          0.334309,
+          0.937993
+        ],
+        [
+          0.134075,
+          0.386697
+        ]
+      ],
+      "paired_tp_id": "ILB-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "CAY-TP04",
+      "region_id": "CAY",
+      "destination_region_id": "SSA",
+      "polygon_coordinates": [
+        [
+          573,
+          148
+        ],
+        [
+          307,
+          356
+        ],
+        [
+          338,
+          396
+        ],
+        [
+          603,
+          188
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.33548,
+          0.166855
+        ],
+        [
+          0.179742,
+          0.401353
+        ],
+        [
+          0.197892,
+          0.446449
+        ],
+        [
+          0.353044,
+          0.21195
+        ]
+      ],
+      "paired_tp_id": "SSA-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    }
+  ],
+  "map_assets": {
+    "source": "source.png",
+    "raw_obstacle_mask": "raw_obstacle_mask.png",
+    "navigation_water_mask": "navigation_water_mask.png",
+    "ownership_mask": "ownership_mask.png",
+    "review_overlay": "review_overlay.png"
+  },
+  "status": "visually_verified"
+}

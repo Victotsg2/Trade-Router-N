@@ -1,0 +1,152 @@
+{
+  "schema_version": "stage1-final-1.0",
+  "region": {
+    "region_id": "ESO",
+    "region_name": "East Somerset",
+    "image_width_px": 968,
+    "image_height_px": 710,
+    "coordinate_origin": "top-left"
+  },
+  "geometry_policy": {
+    "raw_obstacle_mask": "authoritative; 255 obstacle, 0 non-obstacle",
+    "navigation_water_mask": "255 owned navigable water, 0 blocked/outside ownership",
+    "ownership_mask": "255 target-region playable ownership, 0 neighboring/excluded",
+    "clearance_buffer": "not baked into authoritative data"
+  },
+  "ports": [
+    {
+      "region_id": "ESO",
+      "port_id": "ESO-P01",
+      "display_name": "White Hook",
+      "pixel_x": 572,
+      "pixel_y": 396,
+      "normalized_x": 0.590909,
+      "normalized_y": 0.557746,
+      "marker_pixel_x": 581,
+      "marker_pixel_y": 379,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "ESO",
+      "port_id": "ESO-P02",
+      "display_name": "Snake Prosper",
+      "pixel_x": 370,
+      "pixel_y": 319,
+      "normalized_x": 0.382231,
+      "normalized_y": 0.449296,
+      "marker_pixel_x": 372,
+      "marker_pixel_y": 311,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "ESO",
+      "port_id": "ESO-P03",
+      "display_name": "Caledonia",
+      "pixel_x": 439,
+      "pixel_y": 307,
+      "normalized_x": 0.453512,
+      "normalized_y": 0.432394,
+      "marker_pixel_x": 444,
+      "marker_pixel_y": 309,
+      "confidence": "visually_verified"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "ESO-TP01",
+      "region_id": "ESO",
+      "destination_region_id": "WSO",
+      "polygon_coordinates": [
+        [
+          156,
+          74
+        ],
+        [
+          97,
+          407
+        ],
+        [
+          146,
+          416
+        ],
+        [
+          205,
+          83
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.161157,
+          0.104225
+        ],
+        [
+          0.100207,
+          0.573239
+        ],
+        [
+          0.150826,
+          0.585915
+        ],
+        [
+          0.211777,
+          0.116901
+        ]
+      ],
+      "paired_tp_id": "WSO-TP05",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "ESO-TP02",
+      "region_id": "ESO",
+      "destination_region_id": "IDL",
+      "polygon_coordinates": [
+        [
+          186,
+          484
+        ],
+        [
+          257,
+          635
+        ],
+        [
+          211,
+          656
+        ],
+        [
+          141,
+          505
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.192149,
+          0.68169
+        ],
+        [
+          0.265496,
+          0.894366
+        ],
+        [
+          0.217975,
+          0.923944
+        ],
+        [
+          0.145661,
+          0.711268
+        ]
+      ],
+      "paired_tp_id": "IDL-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    }
+  ],
+  "map_assets": {
+    "source": "source.png",
+    "raw_obstacle_mask": "raw_obstacle_mask.png",
+    "navigation_water_mask": "navigation_water_mask.png",
+    "ownership_mask": "ownership_mask.png",
+    "review_overlay": "review_overlay.png"
+  },
+  "status": "visually_verified"
+}

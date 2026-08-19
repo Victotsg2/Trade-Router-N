@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "wind_arrow_represents_toward": true,
+  "pixels_per_nautical_mile": null,
+  "map_scale_status": "UNCALIBRATED",
+  "notes": "Leave scale null until a verified in-game distance calibration is available."
+}

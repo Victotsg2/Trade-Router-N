@@ -1,0 +1,130 @@
+[
+  {
+    "source_recording": "Screen Recording 2026-08-16 104156.mp4",
+    "duration_seconds": 30.933,
+    "origin_port": "Gyldenvale",
+    "title_ocr": "GyldenvaleWheat",
+    "title_score": 1.0,
+    "raw_observations": 253
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 104608.mp4",
+    "duration_seconds": 27.7,
+    "origin_port": "Crownstead",
+    "title_ocr": "Crownstead Bells",
+    "title_score": 1.0,
+    "raw_observations": 234
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 105004.mp4",
+    "duration_seconds": 29.3,
+    "origin_port": "Ashbourne",
+    "title_ocr": "Ashbourne Oil",
+    "title_score": 1.0,
+    "raw_observations": 250
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 105509.mp4",
+    "duration_seconds": 28.533,
+    "origin_port": "Wyntergard",
+    "title_ocr": "WyntergardRice",
+    "title_score": 1.0,
+    "raw_observations": 257
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 110000.mp4",
+    "duration_seconds": 25.867,
+    "origin_port": "Port Louis",
+    "title_ocr": "Port LouisPelts",
+    "title_score": 1.0,
+    "raw_observations": 231
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 110227.mp4",
+    "duration_seconds": 26.333,
+    "origin_port": "Fair Harbour",
+    "title_ocr": "FairHarbour Paper",
+    "title_score": 1.0,
+    "raw_observations": 244
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 110602.mp4",
+    "duration_seconds": 25.5,
+    "origin_port": "Bucket Bay",
+    "title_ocr": "BucketBayBuckets",
+    "title_score": 1.0,
+    "raw_observations": 211
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 110744.mp4",
+    "duration_seconds": 33.967,
+    "origin_port": "Matthew's Rest",
+    "title_ocr": "Matthew'sRestShale",
+    "title_score": 1.0,
+    "raw_observations": 297
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 111220.mp4",
+    "duration_seconds": 21.433,
+    "origin_port": "Pachard Town",
+    "title_ocr": "PachardTown Jewelry",
+    "title_score": 1.0,
+    "raw_observations": 186
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 111849.mp4",
+    "duration_seconds": 19.533,
+    "origin_port": "Port-Au-Croix",
+    "title_ocr": "Port-au-CroixBaguettes",
+    "title_score": 1.0,
+    "raw_observations": 166
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 111947.mp4",
+    "duration_seconds": 30.9,
+    "origin_port": "Point Rocheux",
+    "title_ocr": "Point Rocheux xCandles",
+    "title_score": 0.9744,
+    "raw_observations": 268
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 112311.mp4",
+    "duration_seconds": 17.833,
+    "origin_port": "Villarreal Del Mar",
+    "title_ocr": "Villarreal del MarS Saffron",
+    "title_score": 0.9787,
+    "raw_observations": 155
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 112527.mp4",
+    "duration_seconds": 20.7,
+    "origin_port": "Venta Nueva",
+    "title_ocr": "VentaNueva Olives",
+    "title_score": 1.0,
+    "raw_observations": 175
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 113109.mp4",
+    "duration_seconds": 18.1,
+    "origin_port": "Lord Irving's Sacrifice",
+    "title_ocr": "Lord Irving'sSacrifice Wool",
+    "title_score": 1.0,
+    "raw_observations": 160
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 113333.mp4",
+    "duration_seconds": 19.633,
+    "origin_port": "Mako's Outlook",
+    "title_ocr": "Mako's Lookout Spyglasses",
+    "title_score": 0.8636,
+    "raw_observations": 164
+  },
+  {
+    "source_recording": "Screen Recording 2026-08-16 205504.mp4",
+    "duration_seconds": 30.133,
+    "origin_port": "Griffard's Rock",
+    "title_ocr": "Griffard’'sRock Grapes",
+    "title_score": 1.0,
+    "raw_observations": 270
+  }
+]

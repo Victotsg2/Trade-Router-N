@@ -1,0 +1,372 @@
+{
+  "schema_version": "stage1-final-1.0",
+  "region": {
+    "region_id": "STP",
+    "region_name": "Saint-Pierre",
+    "image_width_px": 1249,
+    "image_height_px": 759,
+    "coordinate_origin": "top-left"
+  },
+  "geometry_policy": {
+    "raw_obstacle_mask": "authoritative; 255 obstacle, 0 non-obstacle",
+    "navigation_water_mask": "255 owned navigable water, 0 blocked/outside ownership",
+    "ownership_mask": "255 target-region playable ownership, 0 neighboring/excluded",
+    "clearance_buffer": "not baked into authoritative data"
+  },
+  "ports": [
+    {
+      "region_id": "STP",
+      "port_id": "STP-P01",
+      "display_name": "Port-Au-Croix",
+      "pixel_x": 538,
+      "pixel_y": 336,
+      "normalized_x": 0.430745,
+      "normalized_y": 0.442688,
+      "marker_pixel_x": 551,
+      "marker_pixel_y": 320,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "STP",
+      "port_id": "STP-P02",
+      "display_name": "Pachard Town",
+      "pixel_x": 692,
+      "pixel_y": 227,
+      "normalized_x": 0.554043,
+      "normalized_y": 0.299078,
+      "marker_pixel_x": 695,
+      "marker_pixel_y": 223,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "STP",
+      "port_id": "STP-P03",
+      "display_name": "Point Rocheux",
+      "pixel_x": 358,
+      "pixel_y": 415,
+      "normalized_x": 0.286629,
+      "normalized_y": 0.546772,
+      "marker_pixel_x": 359,
+      "marker_pixel_y": 410,
+      "confidence": "visually_verified"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "STP-TP01",
+      "region_id": "STP",
+      "destination_region_id": "GRF",
+      "polygon_coordinates": [
+        [
+          666,
+          1
+        ],
+        [
+          324,
+          55
+        ],
+        [
+          332,
+          104
+        ],
+        [
+          674,
+          50
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.533227,
+          0.001318
+        ],
+        [
+          0.259408,
+          0.072464
+        ],
+        [
+          0.265813,
+          0.137022
+        ],
+        [
+          0.539632,
+          0.065876
+        ]
+      ],
+      "paired_tp_id": "GRF-TP06",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "STP-TP02",
+      "region_id": "STP",
+      "destination_region_id": "KIN",
+      "polygon_coordinates": [
+        [
+          282,
+          79
+        ],
+        [
+          166,
+          207
+        ],
+        [
+          203,
+          241
+        ],
+        [
+          319,
+          112
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.225781,
+          0.104084
+        ],
+        [
+          0.132906,
+          0.272727
+        ],
+        [
+          0.16253,
+          0.317523
+        ],
+        [
+          0.255404,
+          0.147563
+        ]
+      ],
+      "paired_tp_id": "KIN-TP04",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "STP-TP03",
+      "region_id": "STP",
+      "destination_region_id": "WSO",
+      "polygon_coordinates": [
+        [
+          703,
+          0
+        ],
+        [
+          832,
+          68
+        ],
+        [
+          803,
+          112
+        ],
+        [
+          675,
+          30
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.56285,
+          0.0
+        ],
+        [
+          0.666133,
+          0.089592
+        ],
+        [
+          0.642914,
+          0.147563
+        ],
+        [
+          0.540432,
+          0.039526
+        ]
+      ],
+      "paired_tp_id": "WSO-TP07",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "STP-TP04",
+      "region_id": "STP",
+      "destination_region_id": "IDL",
+      "polygon_coordinates": [
+        [
+          776,
+          126
+        ],
+        [
+          776,
+          343
+        ],
+        [
+          825,
+          343
+        ],
+        [
+          825,
+          126
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.621297,
+          0.166008
+        ],
+        [
+          0.621297,
+          0.45191
+        ],
+        [
+          0.660528,
+          0.45191
+        ],
+        [
+          0.660528,
+          0.166008
+        ]
+      ],
+      "paired_tp_id": "IDL-TP05",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "STP-TP05",
+      "region_id": "STP",
+      "destination_region_id": "VYS",
+      "polygon_coordinates": [
+        [
+          1084,
+          474
+        ],
+        [
+          988,
+          611
+        ],
+        [
+          1028,
+          640
+        ],
+        [
+          1125,
+          502
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.867894,
+          0.624506
+        ],
+        [
+          0.791033,
+          0.805007
+        ],
+        [
+          0.823058,
+          0.843215
+        ],
+        [
+          0.900721,
+          0.661397
+        ]
+      ],
+      "paired_tp_id": "VYS-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "STP-TP06",
+      "region_id": "STP",
+      "destination_region_id": "BEL",
+      "polygon_coordinates": [
+        [
+          832,
+          562
+        ],
+        [
+          252,
+          623
+        ],
+        [
+          257,
+          673
+        ],
+        [
+          837,
+          612
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.666133,
+          0.740448
+        ],
+        [
+          0.201761,
+          0.820817
+        ],
+        [
+          0.205765,
+          0.886693
+        ],
+        [
+          0.670136,
+          0.806324
+        ]
+      ],
+      "paired_tp_id": "BEL-TP-STP",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "STP-TP07",
+      "region_id": "STP",
+      "destination_region_id": "CAY",
+      "polygon_coordinates": [
+        [
+          170,
+          308
+        ],
+        [
+          225,
+          619
+        ],
+        [
+          176,
+          628
+        ],
+        [
+          121,
+          316
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.136109,
+          0.405797
+        ],
+        [
+          0.180144,
+          0.815547
+        ],
+        [
+          0.140913,
+          0.827404
+        ],
+        [
+          0.096878,
+          0.416337
+        ]
+      ],
+      "paired_tp_id": "CAY-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    }
+  ],
+  "map_assets": {
+    "source": "source.png",
+    "raw_obstacle_mask": "raw_obstacle_mask.png",
+    "navigation_water_mask": "navigation_water_mask.png",
+    "ownership_mask": "ownership_mask.png",
+    "review_overlay": "review_overlay.png"
+  },
+  "status": "visually_verified"
+}

@@ -1,0 +1,59 @@
+﻿region,origin_port,cargo,base_price_gbp,weight_tons,base_price_status,weight_status
+Belle Isles,Petit Anvers,Chocolate,68,11.0,CONFIRMED,CONFIRMED
+Belle Isles,Sainte Rose,Lavender,75,12.1,CONFIRMED,CONFIRMED
+Belle Isles,Maurepas,Pelts,60,9.7,CONFIRMED,CONFIRMED
+Belle Isles,Louisbourg,Lace,65,10.5,CONFIRMED,CONFIRMED
+Vysarian Isles,Gyldenvale,Wheat,71,11.5,CONFIRMED,CONFIRMED
+Vysarian Isles,Wyntergard,Rice,72,11.6,CONFIRMED,CONFIRMED
+Vysarian Isles,Ashbourne,Oil,68,11.0,CONFIRMED,CONFIRMED
+Vysarian Isles,Crownstead,Bells,54,8.7,CONFIRMED,CONFIRMED
+Îles de Louis,Port Louis,Pelts,66,10.6,CONFIRMED,CONFIRMED
+Îles de Louis,Fair Harbour,Paper,39,6.3,CONFIRMED,CONFIRMED
+Îles de Louis,Bucket Bay,Buckets,52,8.4,CONFIRMED,CONFIRMED
+Îles de Louis,Matthew's Rest,Shale,73,11.8,CONFIRMED,CONFIRMED
+Saint-Pierre,Port-Au-Croix,Baguettes,56,9.0,CONFIRMED,CONFIRMED
+Saint-Pierre,Pachard Town,Jewelry,91,14.7,CONFIRMED,CONFIRMED
+Saint-Pierre,Point Rocheux,Candles,45,7.3,CONFIRMED,CONFIRMED
+Cayos Encantados,Villarreal Del Mar,Saffron,68,11.0,CONFIRMED,CONFIRMED
+Cayos Encantados,Venta Nueva,Olives,55,8.9,CONFIRMED,CONFIRMED
+Irving's Reach,Lord Irving's Sacrifice,Wool,55,8.9,CONFIRMED,CONFIRMED
+Irving's Reach,Mako's Outlook,Spyglasses,64,10.3,CONFIRMED,CONFIRMED
+Griffard's Rock,Griffard's Rock,Grapes,70,11.3,CONFIRMED,CONFIRMED
+East Somerset,White Hook,Pearls,78,12.6,ESTIMATED,ESTIMATED
+East Somerset,Snake Prosper,Medicine,92,14.8,ESTIMATED,ESTIMATED
+East Somerset,Caledonia,Glass,71,11.5,ESTIMATED,ESTIMATED
+East Somerset,Deadman's Murcia,Oranges,68,11.0,ESTIMATED,ESTIMATED
+West Somerset,Saint Vincent,Cheese,61,9.8,ESTIMATED,ESTIMATED
+West Somerset,Al-Jazair,Coffee,75,12.1,ESTIMATED,ESTIMATED
+West Somerset,Yorinobu's Settlement,Instruments,73,11.8,ESTIMATED,ESTIMATED
+West Somerset,New Brighton,Dyes,65,10.5,ESTIMATED,ESTIMATED
+Lebarde,Princeton,Herbs,59,9.5,ESTIMATED,ESTIMATED
+Lebarde,Castle Landing,Scales,74,11.9,ESTIMATED,ESTIMATED
+Lebarde,Lebarde,Crumpets,65,10.5,ESTIMATED,ESTIMATED
+New Catalina,Jones' Outpost,Salmon,78,12.6,ESTIMATED,ESTIMATED
+New Catalina,Cumberland Hill,Coffee,52,8.4,ESTIMATED,ESTIMATED
+New Catalina,New Catalina,Pierogi,69,11.1,ESTIMATED,ESTIMATED
+New Catalina,Sugar Cove,Lobster,68,11.0,ESTIMATED,ESTIMATED
+Saint-Nicholas,Taylor's Town,Thyme,57,9.2,ESTIMATED,ESTIMATED
+Saint-Nicholas,Saint-Nicholas,Cocoa,64,10.3,ESTIMATED,ESTIMATED
+Saint-Nicholas,Sandy Settlement,Diamonds,92,14.8,ESTIMATED,ESTIMATED
+Saint-Nicholas,Peter's Cove,Tuna,61,9.8,ESTIMATED,ESTIMATED
+Blacktip Shoals,Thresher Point,Rope,72,11.6,ESTIMATED,ESTIMATED
+Blacktip Shoals,Caye Tiburon,Hay,52,8.4,ESTIMATED,ESTIMATED
+Blacktip Shoals,Belfry Heights,Books,60,9.7,ESTIMATED,ESTIMATED
+San Polo,San Vito,Olive Oil,72,11.6,ESTIMATED,ESTIMATED
+San Polo,La Povenglia,Herbs,48,7.7,ESTIMATED,ESTIMATED
+San Polo,San Polo,Glass,60,9.7,ESTIMATED,ESTIMATED
+San Polo,Kandlerova,Truffles,64,10.3,ESTIMATED,ESTIMATED
+San Salvador,San Salvador,Paella,63,10.2,ESTIMATED,ESTIMATED
+San Salvador,Poblado de San Juan,stuff,62,10.0,ESTIMATED,ESTIMATED
+San Salvador,Santa Maria,Tamales,63,10.2,ESTIMATED,ESTIMATED
+San Salvador,Puerto de San Fernando,Gazpacho,59,9.5,ESTIMATED,ESTIMATED
+Kingston,Theresa,Silk,52,8.4,ESTIMATED,ESTIMATED
+Kingston,Falmouth,Sugar,48,7.7,ESTIMATED,ESTIMATED
+Kingston,Port Antonio,Ginger,64,10.3,ESTIMATED,ESTIMATED
+Kingston,Port Royal,Cotton,78,12.6,ESTIMATED,ESTIMATED
+Ilhas Brumas,Caveira,Honey,58,9.4,ESTIMATED,ESTIMATED
+Ilhas Brumas,Madalena,Cheese,55,8.9,ESTIMATED,ESTIMATED
+Ilhas Brumas,Sao Bento,Bananas,68,11.0,ESTIMATED,ESTIMATED
+Ilhas Brumas,Ponta Delgada,Pineapple,62,10.0,ESTIMATED,ESTIMATED

@@ -1,0 +1,423 @@
+{
+  "source_video": "C:\\Users\\Vemil\\Videos\\Screen Recordings\\Screen Recording 2026-08-16 223317.mp4",
+  "duration_seconds": 1212.233,
+  "sample_interval_seconds": 2.0,
+  "processed_samples": 607,
+  "estimated_origin_count": 38,
+  "origin_titles_detected": 38,
+  "confirmed_destination_rows": 2100,
+  "expected_destination_rows": 2166,
+  "complete_origins": 0,
+  "coverage": [
+    {
+      "origin_port": "White Hook",
+      "cargo": "Pearls",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Snake Prosper",
+      "cargo": "Medicine",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Caledonia",
+      "cargo": "Glass",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Deadman's Murcia",
+      "cargo": "Oranges",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Saint Vincent",
+      "cargo": "Cheese",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Al-Jazair",
+      "cargo": "Coffee",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Thresher Point"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Yorinobu's Settlement",
+      "cargo": "Instruments",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Puerto de San Fernando"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "New Brighton",
+      "cargo": "Dyes",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Princeton",
+      "cargo": "Herbs",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Port Royal"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Castle Landing",
+      "cargo": "Scales",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Lebarde",
+      "cargo": "Crumpets",
+      "confirmed_rows": 53,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Kandlerova",
+        "Poblado de San Juan",
+        "Puerto de San Fernando"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Jones' Outpost",
+      "cargo": "Salmon",
+      "confirmed_rows": 53,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Crownstead",
+        "Griffard's Rock",
+        "Sainte Rose",
+        "Venta Nueva"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Cumberland Hill",
+      "cargo": "Coffee",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "New Catalina",
+      "cargo": "Pierogi",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Sugar Cove",
+      "cargo": "Lobster",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Taylor's Town",
+      "cargo": "Thyme",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Saint-Nicholas",
+      "cargo": "Cocoa",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Sandy Settlement",
+      "cargo": "Diamonds",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Peter's Cove",
+      "cargo": "Tuna",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Maurepas"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Thresher Point",
+      "cargo": "Rope",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Caye Tiburon",
+      "cargo": "Hay",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Belfry Heights",
+      "cargo": "Books",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "San Vito",
+      "cargo": "Olive Oil",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "La Povenglia",
+      "cargo": "Herbs",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Cumberland Hill",
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "San Polo",
+      "cargo": "Glass",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Kandlerova",
+      "cargo": "Truffles",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Saint Vincent"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "San Salvador",
+      "cargo": "Paella",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Poblado de San Juan",
+      "cargo": "stuff",
+      "confirmed_rows": 49,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Ashbourne",
+        "Belfry Heights",
+        "Castle Landing",
+        "Crownstead",
+        "Griffard's Rock",
+        "La Povenglia",
+        "Port-Au-Croix",
+        "Taylor's Town"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Santa Maria",
+      "cargo": "Tamales",
+      "confirmed_rows": 54,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Cumberland Hill",
+        "Fair Harbour",
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Puerto de San Fernando",
+      "cargo": "Gazpacho",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Theresa",
+      "cargo": "Silk",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Falmouth",
+      "cargo": "Sugar",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Port Antonio",
+      "cargo": "Ginger",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Port Royal",
+      "cargo": "Cotton",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Caveira",
+      "cargo": "Honey",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Madalena",
+      "cargo": "Cheese",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Sao Bento",
+      "cargo": "Bananas",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ],
+      "unexpected_destinations": []
+    },
+    {
+      "origin_port": "Ponta Delgada",
+      "cargo": "Pineapple",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ],
+      "unexpected_destinations": []
+    }
+  ],
+  "ocr_conflict_pairs": 70,
+  "status_policy": "Only visible OCR observations are emitted; no missing rows are estimated or fabricated."
+}

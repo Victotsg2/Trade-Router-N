@@ -1,0 +1,172 @@
+{
+  "schema_version": "stage1-final-1.0",
+  "region": {
+    "region_id": "BEL",
+    "region_name": "Belle Isles",
+    "image_width_px": 969,
+    "image_height_px": 914,
+    "coordinate_origin": "top-left"
+  },
+  "geometry_policy": {
+    "raw_obstacle_mask": "authoritative; 255 obstacle, 0 non-obstacle",
+    "navigation_water_mask": "255 owned navigable water, 0 blocked/outside ownership",
+    "ownership_mask": "255 target-region playable ownership, 0 neighboring/excluded",
+    "clearance_buffer": "not baked into authoritative data"
+  },
+  "ports": [
+    {
+      "region_id": "BEL",
+      "port_id": "BEL-P01",
+      "display_name": "Maurepas",
+      "pixel_x": 498,
+      "pixel_y": 403,
+      "normalized_x": 0.513932,
+      "normalized_y": 0.440919,
+      "marker_pixel_x": 527,
+      "marker_pixel_y": 405,
+      "confidence": "confirmed"
+    },
+    {
+      "region_id": "BEL",
+      "port_id": "BEL-P02",
+      "display_name": "Louisbourg",
+      "pixel_x": 535,
+      "pixel_y": 553,
+      "normalized_x": 0.552116,
+      "normalized_y": 0.605033,
+      "marker_pixel_x": 486,
+      "marker_pixel_y": 558,
+      "confidence": "confirmed"
+    },
+    {
+      "region_id": "BEL",
+      "port_id": "BEL-P03",
+      "display_name": "Sainte Rose",
+      "pixel_x": 343,
+      "pixel_y": 737,
+      "normalized_x": 0.353973,
+      "normalized_y": 0.806346,
+      "marker_pixel_x": 371,
+      "marker_pixel_y": 738,
+      "confidence": "confirmed"
+    },
+    {
+      "region_id": "BEL",
+      "port_id": "BEL-P04",
+      "display_name": "Petit Anvers",
+      "pixel_x": 690,
+      "pixel_y": 777,
+      "normalized_x": 0.712074,
+      "normalized_y": 0.850109,
+      "marker_pixel_x": 668,
+      "marker_pixel_y": 781,
+      "confidence": "confirmed"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "BEL-TP-STP",
+      "region_id": "BEL",
+      "destination_region_id": "STP",
+      "polygon_coordinates": [
+        [
+          83,
+          264
+        ],
+        [
+          664,
+          203
+        ],
+        [
+          669,
+          254
+        ],
+        [
+          87,
+          315
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.085655,
+          0.28884
+        ],
+        [
+          0.685243,
+          0.222101
+        ],
+        [
+          0.690402,
+          0.277899
+        ],
+        [
+          0.089783,
+          0.344639
+        ]
+      ],
+      "paired_tp_id": "STP-TP06",
+      "confidence": "confirmed",
+      "notes": ""
+    },
+    {
+      "tp_id": "BEL-TP-IDL",
+      "region_id": "BEL",
+      "destination_region_id": "IDL",
+      "polygon_coordinates": [
+        [
+          646,
+          0
+        ],
+        [
+          655,
+          0
+        ],
+        [
+          891,
+          142
+        ],
+        [
+          866,
+          185
+        ],
+        [
+          622,
+          39
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.666667,
+          0.0
+        ],
+        [
+          0.675955,
+          0.0
+        ],
+        [
+          0.919505,
+          0.155361
+        ],
+        [
+          0.893705,
+          0.202407
+        ],
+        [
+          0.641899,
+          0.04267
+        ]
+      ],
+      "paired_tp_id": "IDL-TP04",
+      "confidence": "confirmed",
+      "notes": ""
+    }
+  ],
+  "map_assets": {
+    "source": "source.png",
+    "raw_obstacle_mask": "raw_obstacle_mask.png",
+    "navigation_water_mask": "navigation_water_mask.png",
+    "ownership_mask": "ownership_mask.png",
+    "review_overlay": "review_overlay.png"
+  },
+  "status": "visually_verified"
+}

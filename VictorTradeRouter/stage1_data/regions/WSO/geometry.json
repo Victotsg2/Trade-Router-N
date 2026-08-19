@@ -1,0 +1,428 @@
+{
+  "schema_version": "stage1-final-1.0",
+  "region": {
+    "region_id": "WSO",
+    "region_name": "West Somerset",
+    "image_width_px": 1069,
+    "image_height_px": 783,
+    "coordinate_origin": "top-left"
+  },
+  "geometry_policy": {
+    "raw_obstacle_mask": "authoritative; 255 obstacle, 0 non-obstacle",
+    "navigation_water_mask": "255 owned navigable water, 0 blocked/outside ownership",
+    "ownership_mask": "255 target-region playable ownership, 0 neighboring/excluded",
+    "clearance_buffer": "not baked into authoritative data"
+  },
+  "ports": [
+    {
+      "region_id": "WSO",
+      "port_id": "WSO-P01",
+      "display_name": "Saint Vincent",
+      "pixel_x": 794,
+      "pixel_y": 579,
+      "normalized_x": 0.74275,
+      "normalized_y": 0.739464,
+      "marker_pixel_x": 797,
+      "marker_pixel_y": 589,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "WSO",
+      "port_id": "WSO-P02",
+      "display_name": "Yorinobu's Settlement",
+      "pixel_x": 435,
+      "pixel_y": 567,
+      "normalized_x": 0.406922,
+      "normalized_y": 0.724138,
+      "marker_pixel_x": 425,
+      "marker_pixel_y": 550,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "WSO",
+      "port_id": "WSO-P03",
+      "display_name": "New Brighton",
+      "pixel_x": 407,
+      "pixel_y": 345,
+      "normalized_x": 0.38073,
+      "normalized_y": 0.440613,
+      "marker_pixel_x": 400,
+      "marker_pixel_y": 360,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "WSO",
+      "port_id": "WSO-P04",
+      "display_name": "Al-Jazair",
+      "pixel_x": 709,
+      "pixel_y": 355,
+      "normalized_x": 0.663237,
+      "normalized_y": 0.453384,
+      "marker_pixel_x": 698,
+      "marker_pixel_y": 360,
+      "confidence": "visually_verified"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "WSO-TP01",
+      "region_id": "WSO",
+      "destination_region_id": "LEB",
+      "polygon_coordinates": [
+        [
+          344,
+          85
+        ],
+        [
+          619,
+          109
+        ],
+        [
+          615,
+          159
+        ],
+        [
+          340,
+          135
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.321796,
+          0.108557
+        ],
+        [
+          0.579046,
+          0.139208
+        ],
+        [
+          0.575304,
+          0.203065
+        ],
+        [
+          0.318054,
+          0.172414
+        ]
+      ],
+      "paired_tp_id": "LEB-TP04",
+      "confidence": "confirmed",
+      "notes": "User-confirmed duplicate regional link; paired by left-to-right spatial order."
+    },
+    {
+      "tp_id": "WSO-TP02",
+      "region_id": "WSO",
+      "destination_region_id": "LEB",
+      "polygon_coordinates": [
+        [
+          872,
+          65
+        ],
+        [
+          622,
+          110
+        ],
+        [
+          631,
+          160
+        ],
+        [
+          881,
+          115
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.815716,
+          0.083014
+        ],
+        [
+          0.581852,
+          0.140485
+        ],
+        [
+          0.590271,
+          0.204342
+        ],
+        [
+          0.824135,
+          0.146871
+        ]
+      ],
+      "paired_tp_id": "LEB-TP03",
+      "confidence": "confirmed",
+      "notes": "User-confirmed duplicate regional link; paired by left-to-right spatial order."
+    },
+    {
+      "tp_id": "WSO-TP03",
+      "region_id": "WSO",
+      "destination_region_id": "NCA",
+      "polygon_coordinates": [
+        [
+          937,
+          68
+        ],
+        [
+          978,
+          300
+        ],
+        [
+          929,
+          309
+        ],
+        [
+          888,
+          77
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.87652,
+          0.086845
+        ],
+        [
+          0.914874,
+          0.383142
+        ],
+        [
+          0.869036,
+          0.394636
+        ],
+        [
+          0.830683,
+          0.09834
+        ]
+      ],
+      "paired_tp_id": "NCA-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "WSO-TP04",
+      "region_id": "WSO",
+      "destination_region_id": "GRF",
+      "polygon_coordinates": [
+        [
+          92,
+          249
+        ],
+        [
+          92,
+          531
+        ],
+        [
+          141,
+          531
+        ],
+        [
+          141,
+          249
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.086062,
+          0.318008
+        ],
+        [
+          0.086062,
+          0.678161
+        ],
+        [
+          0.131899,
+          0.678161
+        ],
+        [
+          0.131899,
+          0.318008
+        ]
+      ],
+      "paired_tp_id": "GRF-TP04",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "WSO-TP05",
+      "region_id": "WSO",
+      "destination_region_id": "ESO",
+      "polygon_coordinates": [
+        [
+          924,
+          322
+        ],
+        [
+          865,
+          655
+        ],
+        [
+          914,
+          664
+        ],
+        [
+          973,
+          331
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.864359,
+          0.411239
+        ],
+        [
+          0.809167,
+          0.836526
+        ],
+        [
+          0.855005,
+          0.84802
+        ],
+        [
+          0.910196,
+          0.422733
+        ]
+      ],
+      "paired_tp_id": "ESO-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "WSO-TP06",
+      "region_id": "WSO",
+      "destination_region_id": "IDL",
+      "polygon_coordinates": [
+        [
+          255,
+          674
+        ],
+        [
+          912,
+          674
+        ],
+        [
+          912,
+          723
+        ],
+        [
+          255,
+          723
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.238541,
+          0.860792
+        ],
+        [
+          0.853134,
+          0.860792
+        ],
+        [
+          0.853134,
+          0.923372
+        ],
+        [
+          0.238541,
+          0.923372
+        ]
+      ],
+      "paired_tp_id": "IDL-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "WSO-TP07",
+      "region_id": "WSO",
+      "destination_region_id": "STP",
+      "polygon_coordinates": [
+        [
+          104,
+          645
+        ],
+        [
+          251,
+          684
+        ],
+        [
+          238,
+          732
+        ],
+        [
+          92,
+          693
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.097287,
+          0.823755
+        ],
+        [
+          0.234799,
+          0.873563
+        ],
+        [
+          0.222638,
+          0.934866
+        ],
+        [
+          0.086062,
+          0.885057
+        ]
+      ],
+      "paired_tp_id": "STP-TP03",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "WSO-TP08",
+      "region_id": "WSO",
+      "destination_region_id": "BTS",
+      "polygon_coordinates": [
+        [
+          310,
+          82
+        ],
+        [
+          113,
+          196
+        ],
+        [
+          138,
+          240
+        ],
+        [
+          335,
+          126
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.289991,
+          0.104725
+        ],
+        [
+          0.105706,
+          0.250319
+        ],
+        [
+          0.129093,
+          0.306513
+        ],
+        [
+          0.313377,
+          0.16092
+        ]
+      ],
+      "paired_tp_id": "BTS-TP06",
+      "confidence": "visually_verified",
+      "notes": ""
+    }
+  ],
+  "map_assets": {
+    "source": "source.png",
+    "raw_obstacle_mask": "raw_obstacle_mask.png",
+    "navigation_water_mask": "navigation_water_mask.png",
+    "ownership_mask": "ownership_mask.png",
+    "review_overlay": "review_overlay.png"
+  },
+  "status": "visually_verified"
+}

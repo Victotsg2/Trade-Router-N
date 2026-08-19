@@ -1,0 +1,328 @@
+{
+  "schema_version": "stage1-final-1.0",
+  "region": {
+    "region_id": "BTS",
+    "region_name": "Blacktip Shoals",
+    "image_width_px": 1397,
+    "image_height_px": 989,
+    "coordinate_origin": "top-left"
+  },
+  "geometry_policy": {
+    "raw_obstacle_mask": "authoritative; 255 obstacle, 0 non-obstacle",
+    "navigation_water_mask": "255 owned navigable water, 0 blocked/outside ownership",
+    "ownership_mask": "255 target-region playable ownership, 0 neighboring/excluded",
+    "clearance_buffer": "not baked into authoritative data"
+  },
+  "ports": [
+    {
+      "region_id": "BTS",
+      "port_id": "BTS-P01",
+      "display_name": "Thresher Point",
+      "pixel_x": 841,
+      "pixel_y": 505,
+      "normalized_x": 0.602004,
+      "normalized_y": 0.510617,
+      "marker_pixel_x": 823,
+      "marker_pixel_y": 497,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "BTS",
+      "port_id": "BTS-P02",
+      "display_name": "Caye Tiburon",
+      "pixel_x": 820,
+      "pixel_y": 737,
+      "normalized_x": 0.586972,
+      "normalized_y": 0.745197,
+      "marker_pixel_x": 822,
+      "marker_pixel_y": 741,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "BTS",
+      "port_id": "BTS-P03",
+      "display_name": "Belfry Heights",
+      "pixel_x": 680,
+      "pixel_y": 480,
+      "normalized_x": 0.486757,
+      "normalized_y": 0.485339,
+      "marker_pixel_x": 668,
+      "marker_pixel_y": 486,
+      "confidence": "visually_verified"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "BTS-TP01",
+      "region_id": "BTS",
+      "destination_region_id": "SPO",
+      "polygon_coordinates": [
+        [
+          361,
+          28
+        ],
+        [
+          247,
+          341
+        ],
+        [
+          294,
+          359
+        ],
+        [
+          408,
+          45
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.258411,
+          0.028311
+        ],
+        [
+          0.176807,
+          0.344793
+        ],
+        [
+          0.210451,
+          0.362993
+        ],
+        [
+          0.292054,
+          0.045501
+        ]
+      ],
+      "paired_tp_id": "SPO-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "BTS-TP02",
+      "region_id": "BTS",
+      "destination_region_id": "SNI",
+      "polygon_coordinates": [
+        [
+          651,
+          184
+        ],
+        [
+          972,
+          184
+        ],
+        [
+          972,
+          233
+        ],
+        [
+          651,
+          233
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.465999,
+          0.186047
+        ],
+        [
+          0.695777,
+          0.186047
+        ],
+        [
+          0.695777,
+          0.235592
+        ],
+        [
+          0.465999,
+          0.235592
+        ]
+      ],
+      "paired_tp_id": "SNI-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "BTS-TP03",
+      "region_id": "BTS",
+      "destination_region_id": "IRV",
+      "polygon_coordinates": [
+        [
+          491,
+          381
+        ],
+        [
+          491,
+          768
+        ],
+        [
+          540,
+          768
+        ],
+        [
+          540,
+          381
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.351467,
+          0.385238
+        ],
+        [
+          0.351467,
+          0.776542
+        ],
+        [
+          0.386543,
+          0.776542
+        ],
+        [
+          0.386543,
+          0.385238
+        ]
+      ],
+      "paired_tp_id": "IRV-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "BTS-TP04",
+      "region_id": "BTS",
+      "destination_region_id": "LEB",
+      "polygon_coordinates": [
+        [
+          975,
+          381
+        ],
+        [
+          975,
+          768
+        ],
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          381
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.697924,
+          0.385238
+        ],
+        [
+          0.697924,
+          0.776542
+        ],
+        [
+          0.732999,
+          0.776542
+        ],
+        [
+          0.732999,
+          0.385238
+        ]
+      ],
+      "paired_tp_id": "LEB-TP06",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "BTS-TP05",
+      "region_id": "BTS",
+      "destination_region_id": "GRF",
+      "polygon_coordinates": [
+        [
+          598,
+          833
+        ],
+        [
+          865,
+          905
+        ],
+        [
+          852,
+          953
+        ],
+        [
+          586,
+          881
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.42806,
+          0.842265
+        ],
+        [
+          0.619184,
+          0.915066
+        ],
+        [
+          0.609878,
+          0.9636
+        ],
+        [
+          0.41947,
+          0.890799
+        ]
+      ],
+      "paired_tp_id": "GRF-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "BTS-TP06",
+      "region_id": "BTS",
+      "destination_region_id": "WSO",
+      "polygon_coordinates": [
+        [
+          1138,
+          832
+        ],
+        [
+          941,
+          946
+        ],
+        [
+          966,
+          988
+        ],
+        [
+          1163,
+          876
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.814603,
+          0.841254
+        ],
+        [
+          0.673586,
+          0.956522
+        ],
+        [
+          0.691482,
+          0.998989
+        ],
+        [
+          0.832498,
+          0.885743
+        ]
+      ],
+      "paired_tp_id": "WSO-TP08",
+      "confidence": "visually_verified",
+      "notes": ""
+    }
+  ],
+  "map_assets": {
+    "source": "source.png",
+    "raw_obstacle_mask": "raw_obstacle_mask.png",
+    "navigation_water_mask": "navigation_water_mask.png",
+    "ownership_mask": "ownership_mask.png",
+    "review_overlay": "review_overlay.png"
+  },
+  "status": "visually_verified"
+}

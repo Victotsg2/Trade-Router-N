@@ -1,0 +1,164 @@
+{
+  "schema_version": "stage1-final-1.0",
+  "region": {
+    "region_id": "ILB",
+    "region_name": "Ilhas Brumas",
+    "image_width_px": 1044,
+    "image_height_px": 685,
+    "coordinate_origin": "top-left"
+  },
+  "geometry_policy": {
+    "raw_obstacle_mask": "authoritative; 255 obstacle, 0 non-obstacle",
+    "navigation_water_mask": "255 owned navigable water, 0 blocked/outside ownership",
+    "ownership_mask": "255 target-region playable ownership, 0 neighboring/excluded",
+    "clearance_buffer": "not baked into authoritative data"
+  },
+  "ports": [
+    {
+      "region_id": "ILB",
+      "port_id": "ILB-P01",
+      "display_name": "Caveira",
+      "pixel_x": 381,
+      "pixel_y": 218,
+      "normalized_x": 0.364943,
+      "normalized_y": 0.318248,
+      "marker_pixel_x": 374,
+      "marker_pixel_y": 216,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "ILB",
+      "port_id": "ILB-P02",
+      "display_name": "Madalena",
+      "pixel_x": 260,
+      "pixel_y": 346,
+      "normalized_x": 0.249042,
+      "normalized_y": 0.505109,
+      "marker_pixel_x": 262,
+      "marker_pixel_y": 351,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "ILB",
+      "port_id": "ILB-P03",
+      "display_name": "Sao Bento",
+      "pixel_x": 402,
+      "pixel_y": 389,
+      "normalized_x": 0.385057,
+      "normalized_y": 0.567883,
+      "marker_pixel_x": 410,
+      "marker_pixel_y": 387,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "ILB",
+      "port_id": "ILB-P04",
+      "display_name": "Ponta Delgada",
+      "pixel_x": 434,
+      "pixel_y": 554,
+      "normalized_x": 0.415709,
+      "normalized_y": 0.808759,
+      "marker_pixel_x": 442,
+      "marker_pixel_y": 552,
+      "confidence": "visually_verified"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "ILB-TP01",
+      "region_id": "ILB",
+      "destination_region_id": "KIN",
+      "polygon_coordinates": [
+        [
+          559,
+          23
+        ],
+        [
+          610,
+          74
+        ],
+        [
+          593,
+          91
+        ],
+        [
+          542,
+          40
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.535441,
+          0.033577
+        ],
+        [
+          0.584291,
+          0.108029
+        ],
+        [
+          0.568008,
+          0.132847
+        ],
+        [
+          0.519157,
+          0.058394
+        ]
+      ],
+      "paired_tp_id": "KIN-TP06",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "ILB-TP02",
+      "region_id": "ILB",
+      "destination_region_id": "CAY",
+      "polygon_coordinates": [
+        [
+          482,
+          142
+        ],
+        [
+          653,
+          387
+        ],
+        [
+          633,
+          401
+        ],
+        [
+          462,
+          157
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.461686,
+          0.207299
+        ],
+        [
+          0.625479,
+          0.564964
+        ],
+        [
+          0.606322,
+          0.585401
+        ],
+        [
+          0.442529,
+          0.229197
+        ]
+      ],
+      "paired_tp_id": "CAY-TP03",
+      "confidence": "visually_verified",
+      "notes": ""
+    }
+  ],
+  "map_assets": {
+    "source": "source.png",
+    "raw_obstacle_mask": "raw_obstacle_mask.png",
+    "navigation_water_mask": "navigation_water_mask.png",
+    "ownership_mask": "ownership_mask.png",
+    "review_overlay": "review_overlay.png"
+  },
+  "status": "visually_verified"
+}

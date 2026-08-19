@@ -1,0 +1,145 @@
+{
+  "package": {
+    "name": "Naval Route Tester Trade-Test Validation Patch",
+    "version": "3.0",
+    "date": "2026-08-18",
+    "purpose": "Patch the existing 17-region Naval Route Tester based on the first full Hoy trade-route validation run and user-reported blocked-start/path issues."
+  },
+  "validation_run": {
+    "ship": "Hoy",
+    "origin": "Louisbourg",
+    "destination": "Port Royal",
+    "recording_duration": "49:48.8",
+    "observations": [
+      "Initial wind direction was unfavorable for the Hoy; early speeds were materially reduced.",
+      "Wind improved substantially by the first TP because global wind direction rotates clockwise over time.",
+      "A more direct route toward Kingston with delayed tacking may have been better than making an early detour toward Griffard's Rock.",
+      "The route optimizer must compare whole-voyage ETA, not chase the locally favorable wind angle.",
+      "A separate Louisbourg -> Griffard's Rock route attempt reported the path/location as blocked."
+    ],
+    "wind_strength_policy": "Ignore observed ~23 kt wind intensity. Continue modeling wind direction only."
+  },
+  "route_optimizer_patch": {
+    "objective": "Minimize total simulated arrival time, subject to obstacle safety and valid TP transitions.",
+    "required_candidate_strategies": [
+      "Shortest safe geometric route",
+      "Immediate wind-favored route",
+      "Direct-progress route with delayed tacking",
+      "Alternative valid TP corridors",
+      "Tack-later variants when current poor wind is expected to rotate favorably before a detour pays back"
+    ],
+    "simulation_rules": [
+      "Advance global wind 6 degrees clockwise per elapsed minute.",
+      "Recalculate relative wind and modeled ship speed on every route segment/tack leg.",
+      "Do not evaluate the whole voyage with the departure wind angle.",
+      "Do not choose a longer detour merely because its initial segment has better wind.",
+      "Compare total ETA of candidate strategies through the final destination.",
+      "Use a small configurable numerical tolerance to prevent route-flapping when candidate ETAs are effectively tied."
+    ],
+    "hoy_validation": {
+      "use_existing_direction_curve": true,
+      "peak_reference_knots": 9.0,
+      "note": "The full-route recording supports the direction-only approach: poor relative wind produced low progress, then speed improved as wind rotated."
+    }
+  },
+  "blocked_start_and_path_robustness": {
+    "goal": "Eliminate false 'location/path blocked' failures at valid ports, current-position starts, and TP transitions without weakening obstacle safety.",
+    "audit_scope": [
+      "All 58 current ports",
+      "All port start anchors",
+      "All port destination anchors",
+      "All TP entry zones",
+      "All TP exit zones",
+      "Current-position map clicks",
+      "Cross-region corridor transitions",
+      "Louisbourg -> Griffard's Rock regression case"
+    ],
+    "required_fixes": [
+      {
+        "name": "Separate semantic port coordinate from navigation water anchor",
+        "instruction": "A labeled port point may visually sit on dock/shore/land. Keep the semantic port coordinate for UI/economics, but route from/to a dedicated nearest valid navigable-water harbor anchor."
+      },
+      {
+        "name": "Safe snap-to-water",
+        "instruction": "If a valid start/end point is inside land, raw obstacle, or the normal clearance buffer, search locally for the nearest reachable navigable-water anchor connected to the harbor. Never snap across an island/peninsula or through an obstacle."
+      },
+      {
+        "name": "Port departure/arrival exception",
+        "instruction": "Apply the existing port-entry/exit clearance exception only inside a small harbor connection zone, then immediately transition back to the normal hard-clearance rules."
+      },
+      {
+        "name": "TP portal robustness",
+        "instruction": "Treat the full valid TP rectangle/zone as the portal target, not a single possibly blocked center pixel. Search reachable points within the portal zone."
+      },
+      {
+        "name": "Buffered-mask false closure check",
+        "instruction": "Check whether the derived hard-clearance buffer closes narrow harbor channels or TP approaches that are open in the authoritative raw obstacle mask. Preserve raw-mask truth and use explicit port/TP exceptions rather than globally shrinking safety."
+      },
+      {
+        "name": "Coordinate-transform validation",
+        "instruction": "Verify world->region and region->world transforms for starts, destinations, and TP exits. A transformed point must land in the intended region/portal and not inside an obstacle because of stitching offsets."
+      },
+      {
+        "name": "Current-position click validation",
+        "instruction": "If the user clicks actual current position, validate/snap that navigation point independently from the cargo origin. Do not reject the entire trade route because the click is within a few pixels of a shoreline or ship icon."
+      },
+      {
+        "name": "Fallback corridor search",
+        "instruction": "If one local leg/TP corridor is blocked, automatically try other valid TP corridors before declaring the full route impossible."
+      }
+    ],
+    "diagnostics": {
+      "replace_generic_error": true,
+      "error_codes": [
+        "START_ANCHOR_INVALID",
+        "DESTINATION_ANCHOR_INVALID",
+        "START_TO_WATER_UNREACHABLE",
+        "LOCAL_LEG_BLOCKED",
+        "TP_ENTRY_UNREACHABLE",
+        "TP_EXIT_INVALID",
+        "REGION_TRANSFORM_ERROR",
+        "NO_VALID_TP_CORRIDOR",
+        "CURRENT_POSITION_INVALID"
+      ],
+      "debug_output": [
+        "failed region",
+        "failed local leg",
+        "start/end coordinates",
+        "snapped water anchors",
+        "obstacle/clearance reason",
+        "TP candidate attempted",
+        "alternative corridors attempted"
+      ],
+      "player_ui": "Normal UI should show a short useful message, not raw debug fields."
+    }
+  },
+  "automated_regression_tests": [
+    "For every port, verify a safe path exists from its navigation anchor to at least one reachable local water/TP target where geography permits.",
+    "For every port, verify destination arrival can reach its harbor anchor.",
+    "For every paired TP zone, verify at least one reachable entry point maps to a valid reachable exit-water point.",
+    "Run all-pairs region-level connectivity test over the TP graph.",
+    "Run representative port-to-port route tests across every region pair.",
+    "Regression: Louisbourg -> Griffard's Rock must not return generic blocked unless a specific local geometry failure is proven.",
+    "Regression: Louisbourg -> Port Royal with Hoy and the same departure wind should compare shortest-safe vs immediate-wind vs direct-progress/delayed-tack candidates.",
+    "Regression: actual-current-position start just offshore of a port should route successfully.",
+    "Regression: a start marker that visually overlaps dock/shore should use harbor water anchor rather than fail."
+  ],
+  "ui_notes": {
+    "warnings": [
+      "Only show blocked-route warning after all valid local snaps/portal points/corridors have been tried.",
+      "If a route is possible but wind-poor, show UNFAVORABLE WIND rather than PATH BLOCKED.",
+      "If a wind-favored detour is not actually faster end-to-end, do not recommend it."
+    ],
+    "route_explanation": [
+      "Show why a non-shortest route was selected: e.g. '2m 14s faster under projected rotating wind.'",
+      "If delayed tacking wins, show the planned tack point/time and expected wind direction there."
+    ]
+  },
+  "do_not_change": [
+    "Do not rebuild or restitch the 17-region world.",
+    "Do not replace authoritative raw obstacle masks.",
+    "Do not remove hard safety clearance globally.",
+    "Do not use random wind speed, storms, gusts, or slow-wind intensity in optimization.",
+    "Do not expose internal CONFIRMED/ESTIMATED/PROXY debug labels in the normal player UI."
+  ]
+}

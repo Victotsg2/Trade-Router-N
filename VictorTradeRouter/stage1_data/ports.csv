@@ -1,0 +1,58 @@
+﻿region_id,port_id,display_name,pixel_x,pixel_y,normalized_x,normalized_y,marker_pixel_x,marker_pixel_y,confidence
+BEL,BEL-P01,Maurepas,498,403,0.513932,0.440919,527,405,confirmed
+BEL,BEL-P02,Louisbourg,535,553,0.552116,0.605033,486,558,confirmed
+BEL,BEL-P03,Sainte Rose,343,737,0.353973,0.806346,371,738,confirmed
+BEL,BEL-P04,Petit Anvers,690,777,0.712074,0.850109,668,781,confirmed
+VYS,VYS-P01,Gyldenvale,1029,651,0.795209,0.799754,1021,656,visually_verified
+VYS,VYS-P02,Wyntergard,961,414,0.742658,0.5086,970,424,visually_verified
+VYS,VYS-P03,Ashbourne,779,445,0.602009,0.546683,775,439,visually_verified
+VYS,VYS-P04,Crownstead,785,552,0.606646,0.678133,790,565,visually_verified
+IDL,IDL-P01,Matthew's Rest,283,235,0.229894,0.39629,283,230,visually_verified
+IDL,IDL-P02,Bucket Bay,435,181,0.353371,0.305228,437,176,visually_verified
+IDL,IDL-P03,Fair Harbour,675,180,0.548335,0.303541,675,175,visually_verified
+IDL,IDL-P04,Port Louis,758,304,0.61576,0.512648,761,300,visually_verified
+STP,STP-P01,Port-Au-Croix,538,336,0.430745,0.442688,551,320,visually_verified
+STP,STP-P02,Pachard Town,692,227,0.554043,0.299078,695,223,visually_verified
+STP,STP-P03,Point Rocheux,358,415,0.286629,0.546772,359,410,visually_verified
+ESO,ESO-P01,White Hook,572,396,0.590909,0.557746,581,379,visually_verified
+ESO,ESO-P02,Snake Prosper,370,319,0.382231,0.449296,372,311,visually_verified
+ESO,ESO-P03,Caledonia,439,307,0.453512,0.432394,444,309,visually_verified
+WSO,WSO-P01,Saint Vincent,794,579,0.74275,0.739464,797,589,visually_verified
+WSO,WSO-P02,Yorinobu's Settlement,435,567,0.406922,0.724138,425,550,visually_verified
+WSO,WSO-P03,New Brighton,407,345,0.38073,0.440613,400,360,visually_verified
+WSO,WSO-P04,Al-Jazair,709,355,0.663237,0.453384,698,360,visually_verified
+NCA,NCA-P01,Sugar Cove,761,157,0.813904,0.179224,756,157,visually_verified
+NCA,NCA-P02,New Catalina,627,248,0.670588,0.283105,622,248,visually_verified
+NCA,NCA-P03,Cumberland Hill,678,335,0.725134,0.38242,673,334,visually_verified
+NCA,NCA-P04,Jones' Outpost,567,479,0.606417,0.546804,562,479,visually_verified
+LEB,LEB-P01,Castle Landing,958,397,0.631926,0.45896,953,396,visually_verified
+LEB,LEB-P02,Lebarde,636,423,0.419525,0.489017,648,414,visually_verified
+LEB,LEB-P03,Princeton,861,682,0.567942,0.788439,858,667,visually_verified
+SNI,SNI-P01,Taylor's Town,714,205,0.728571,0.261814,722,206,visually_verified
+SNI,SNI-P02,Saint-Nicholas,477,76,0.486735,0.097063,473,101,visually_verified
+SNI,SNI-P03,Sandy Settlement,372,113,0.379592,0.144317,377,114,visually_verified
+SNI,SNI-P04,Peter's Cove,317,322,0.323469,0.411239,313,308,visually_verified
+BTS,BTS-P01,Thresher Point,841,505,0.602004,0.510617,823,497,visually_verified
+BTS,BTS-P02,Caye Tiburon,820,737,0.586972,0.745197,822,741,visually_verified
+BTS,BTS-P03,Belfry Heights,680,480,0.486757,0.485339,668,486,visually_verified
+IRV,IRV-P01,Mako's Outlook,594,342,0.499579,0.364995,604,338,visually_verified
+IRV,IRV-P02,Lord Irving's Sacrifice,599,501,0.503785,0.534685,595,488,visually_verified
+GRF,GRF-P01,Griffard's Rock,402,382,0.462069,0.460241,401,387,visually_verified
+KIN,KIN-P01,Port Royal,771,404,0.554676,0.38403,765,387,visually_verified
+KIN,KIN-P02,Theresa,547,670,0.393525,0.636882,553,661,visually_verified
+KIN,KIN-P03,Port Antonio,672,809,0.483453,0.769011,673,817,visually_verified
+KIN,KIN-P04,Falmouth,861,827,0.619424,0.786122,873,821,visually_verified
+CAY,CAY-P01,Villarreal Del Mar,821,291,0.480679,0.328072,816,291,visually_verified
+CAY,CAY-P02,Venta Nueva,627,459,0.367096,0.517475,639,447,visually_verified
+ILB,ILB-P01,Caveira,381,218,0.364943,0.318248,374,216,visually_verified
+ILB,ILB-P02,Madalena,260,346,0.249042,0.505109,262,351,visually_verified
+ILB,ILB-P03,Sao Bento,402,389,0.385057,0.567883,410,387,visually_verified
+ILB,ILB-P04,Ponta Delgada,434,554,0.415709,0.808759,442,552,visually_verified
+SSA,SSA-P01,Puerto de San Fernando,304,412,0.513514,0.624242,292,412,visually_verified
+SSA,SSA-P02,Poblado de San Juan,124,294,0.209459,0.445455,124,287,visually_verified
+SSA,SSA-P03,Santa Maria,165,268,0.278716,0.406061,160,268,visually_verified
+SSA,SSA-P04,San Salvador,156,107,0.263514,0.162121,163,98,visually_verified
+SPO,SPO-P01,Kandlerova,213,171,0.146191,0.208791,223,165,visually_verified
+SPO,SPO-P02,San Polo,389,241,0.266987,0.294261,385,222,visually_verified
+SPO,SPO-P03,La Povenglia,759,258,0.520933,0.315018,771,249,visually_verified
+SPO,SPO-P04,San Vito,806,558,0.553191,0.681319,815,557,visually_verified

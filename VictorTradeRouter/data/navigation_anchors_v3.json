@@ -1,0 +1,38 @@
+{
+  "schema_version": 3,
+  "policy": "Stage 1 port pixels remain semantic UI/economy points. Routing uses separately validated reachable harbor-water anchors.",
+  "anchors": {
+    "IDL-P04": {
+      "display_name": "Port Louis",
+      "port_semantic_point": [758, 304],
+      "port_navigation_anchor": [769, 272],
+      "source": "user_port_review_percentage_62.5_45.8",
+      "confidence": "user_reviewed",
+      "max_snap_distance_px": 48
+    },
+    "ESO-P03": {
+      "display_name": "Caledonia",
+      "port_semantic_point": [439, 307],
+      "port_navigation_anchor": [439, 347],
+      "source": "v3_nearest_reachable_harbor_water_audit",
+      "confidence": "visually_verified_local_snap",
+      "max_snap_distance_px": 48
+    },
+    "LEB-P01": {
+      "display_name": "Castle Landing",
+      "port_semantic_point": [958, 397],
+      "port_navigation_anchor": [952, 376],
+      "source": "user_port_review_percentage_62.7_43.3",
+      "confidence": "user_reviewed",
+      "max_snap_distance_px": 48
+    },
+    "GRF-P01": {
+      "display_name": "Griffard's Rock",
+      "port_semantic_point": [402, 382],
+      "port_navigation_anchor": [338, 359],
+      "source": "user_port_review_percentage_38.9_43.3",
+      "confidence": "user_reviewed",
+      "max_snap_distance_px": 48
+    }
+  }
+}

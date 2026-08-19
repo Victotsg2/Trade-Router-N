@@ -1,0 +1,371 @@
+[
+  {
+    "port_a": "Ashbourne",
+    "port_b": "Poblado de San Juan",
+    "recorded_a_to_b_m": 13272.5,
+    "recorded_b_to_a_m": 3272.5,
+    "chosen_recorded_distance_m": 13272.5,
+    "score_a_to_b_candidate": 0.6567,
+    "score_b_to_a_candidate": 325.0553
+  },
+  {
+    "port_a": "Caledonia",
+    "port_b": "Villarreal Del Mar",
+    "recorded_a_to_b_m": 792.4,
+    "recorded_b_to_a_m": 10792.4,
+    "chosen_recorded_distance_m": 10792.4,
+    "score_a_to_b_candidate": 346.7261,
+    "score_b_to_a_candidate": 0.7533
+  },
+  {
+    "port_a": "Castle Landing",
+    "port_b": "Maurepas",
+    "recorded_a_to_b_m": 10157.2,
+    "recorded_b_to_a_m": 157.2,
+    "chosen_recorded_distance_m": 10157.2,
+    "score_a_to_b_candidate": 0.7318,
+    "score_b_to_a_candidate": 334.2455
+  },
+  {
+    "port_a": "Castle Landing",
+    "port_b": "Poblado de San Juan",
+    "recorded_a_to_b_m": 13642.4,
+    "recorded_b_to_a_m": 3642.4,
+    "chosen_recorded_distance_m": 13642.4,
+    "score_a_to_b_candidate": 0.3158,
+    "score_b_to_a_candidate": 340.1477
+  },
+  {
+    "port_a": "Caveira",
+    "port_b": "Deadman's Murcia",
+    "recorded_a_to_b_m": 4846.5,
+    "recorded_b_to_a_m": 14846.5,
+    "chosen_recorded_distance_m": 14846.5,
+    "score_a_to_b_candidate": 314.8309,
+    "score_b_to_a_candidate": 0.7001
+  },
+  {
+    "port_a": "Crownstead",
+    "port_b": "Poblado de San Juan",
+    "recorded_a_to_b_m": 13663.4,
+    "recorded_b_to_a_m": 3663.4,
+    "chosen_recorded_distance_m": 13663.4,
+    "score_a_to_b_candidate": 0.4838,
+    "score_b_to_a_candidate": 289.7106
+  },
+  {
+    "port_a": "Cumberland Hill",
+    "port_b": "La Povenglia",
+    "recorded_a_to_b_m": 12098.7,
+    "recorded_b_to_a_m": 2098.7,
+    "chosen_recorded_distance_m": 12098.7,
+    "score_a_to_b_candidate": 0.5502,
+    "score_b_to_a_candidate": 249.4982
+  },
+  {
+    "port_a": "Cumberland Hill",
+    "port_b": "San Polo",
+    "recorded_a_to_b_m": 4210.9,
+    "recorded_b_to_a_m": 14210.9,
+    "chosen_recorded_distance_m": 14210.9,
+    "score_a_to_b_candidate": 280.003,
+    "score_b_to_a_candidate": 0.4687
+  },
+  {
+    "port_a": "Cumberland Hill",
+    "port_b": "Santa Maria",
+    "recorded_a_to_b_m": 15993.8,
+    "recorded_b_to_a_m": 5993.8,
+    "chosen_recorded_distance_m": 15993.8,
+    "score_a_to_b_candidate": 0.206,
+    "score_b_to_a_candidate": 287.8119
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "Kandlerova",
+    "recorded_a_to_b_m": 16428.5,
+    "recorded_b_to_a_m": 6428.5,
+    "chosen_recorded_distance_m": 16428.5,
+    "score_a_to_b_candidate": 0.4788,
+    "score_b_to_a_candidate": 329.8329
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "La Povenglia",
+    "recorded_a_to_b_m": 13656.5,
+    "recorded_b_to_a_m": 3656.5,
+    "chosen_recorded_distance_m": 13656.5,
+    "score_a_to_b_candidate": 0.306,
+    "score_b_to_a_candidate": 289.932
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "Madalena",
+    "recorded_a_to_b_m": 16409.4,
+    "recorded_b_to_a_m": 6409.4,
+    "chosen_recorded_distance_m": 16409.4,
+    "score_a_to_b_candidate": 0.3724,
+    "score_b_to_a_candidate": 307.1432
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "Peter's Cove",
+    "recorded_a_to_b_m": 10473.4,
+    "recorded_b_to_a_m": 473.4,
+    "chosen_recorded_distance_m": 10473.4,
+    "score_a_to_b_candidate": 0.1268,
+    "score_b_to_a_candidate": 322.444
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "Poblado de San Juan",
+    "recorded_a_to_b_m": 15374.9,
+    "recorded_b_to_a_m": 5374.9,
+    "chosen_recorded_distance_m": 15374.9,
+    "score_a_to_b_candidate": 0.4645,
+    "score_b_to_a_candidate": 324.7175
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "Ponta Delgada",
+    "recorded_a_to_b_m": 15340.2,
+    "recorded_b_to_a_m": 5340.2,
+    "chosen_recorded_distance_m": 15340.2,
+    "score_a_to_b_candidate": 0.4445,
+    "score_b_to_a_candidate": 324.9182
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "Port Antonio",
+    "recorded_a_to_b_m": 10663.4,
+    "recorded_b_to_a_m": 663.4,
+    "chosen_recorded_distance_m": 10663.4,
+    "score_a_to_b_candidate": 0.6088,
+    "score_b_to_a_candidate": 330.0616
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "Port Royal",
+    "recorded_a_to_b_m": 10361.5,
+    "recorded_b_to_a_m": 361.5,
+    "chosen_recorded_distance_m": 10361.5,
+    "score_a_to_b_candidate": 0.6211,
+    "score_b_to_a_candidate": 365.2889
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "Puerto de San Fernando",
+    "recorded_a_to_b_m": 13334.5,
+    "recorded_b_to_a_m": 3334.5,
+    "chosen_recorded_distance_m": 13334.5,
+    "score_a_to_b_candidate": 0.7797,
+    "score_b_to_a_candidate": 317.326
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "Saint-Nicholas",
+    "recorded_a_to_b_m": 10926.1,
+    "recorded_b_to_a_m": 926.1,
+    "chosen_recorded_distance_m": 10926.1,
+    "score_a_to_b_candidate": 0.3457,
+    "score_b_to_a_candidate": 330.4041
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "San Polo",
+    "recorded_a_to_b_m": 15512.1,
+    "recorded_b_to_a_m": 5512.1,
+    "chosen_recorded_distance_m": 15512.1,
+    "score_a_to_b_candidate": 0.4376,
+    "score_b_to_a_candidate": 320.523
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "San Salvador",
+    "recorded_a_to_b_m": 15241.4,
+    "recorded_b_to_a_m": 5241.4,
+    "chosen_recorded_distance_m": 15241.4,
+    "score_a_to_b_candidate": 0.299,
+    "score_b_to_a_candidate": 327.5449
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "San Vito",
+    "recorded_a_to_b_m": 12506.6,
+    "recorded_b_to_a_m": 2506.6,
+    "chosen_recorded_distance_m": 12506.6,
+    "score_a_to_b_candidate": 0.4359,
+    "score_b_to_a_candidate": 350.2643
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "Santa Maria",
+    "recorded_a_to_b_m": 14975.4,
+    "recorded_b_to_a_m": 4975.4,
+    "chosen_recorded_distance_m": 14975.4,
+    "score_a_to_b_candidate": 0.6227,
+    "score_b_to_a_candidate": 328.2143
+  },
+  {
+    "port_a": "Deadman's Murcia",
+    "port_b": "Theresa",
+    "recorded_a_to_b_m": 11341.7,
+    "recorded_b_to_a_m": 341.7,
+    "chosen_recorded_distance_m": 11341.7,
+    "score_a_to_b_candidate": 0.6799,
+    "score_b_to_a_candidate": 329.7088
+  },
+  {
+    "port_a": "Fair Harbour",
+    "port_b": "Santa Maria",
+    "recorded_a_to_b_m": 12116.5,
+    "recorded_b_to_a_m": 2116.5,
+    "chosen_recorded_distance_m": 12116.5,
+    "score_a_to_b_candidate": 0.2984,
+    "score_b_to_a_candidate": 255.4333
+  },
+  {
+    "port_a": "Jones' Outpost",
+    "port_b": "Sainte Rose",
+    "recorded_a_to_b_m": 2241.7,
+    "recorded_b_to_a_m": 12241.7,
+    "chosen_recorded_distance_m": 12241.7,
+    "score_a_to_b_candidate": 381.9345,
+    "score_b_to_a_candidate": 0.6627
+  },
+  {
+    "port_a": "Jones' Outpost",
+    "port_b": "Venta Nueva",
+    "recorded_a_to_b_m": 3367.4,
+    "recorded_b_to_a_m": 13367.4,
+    "chosen_recorded_distance_m": 13367.4,
+    "score_a_to_b_candidate": 332.7273,
+    "score_b_to_a_candidate": 0.82
+  },
+  {
+    "port_a": "Kandlerova",
+    "port_b": "Lebarde",
+    "recorded_a_to_b_m": 10450.7,
+    "recorded_b_to_a_m": 450.7,
+    "chosen_recorded_distance_m": 10450.7,
+    "score_a_to_b_candidate": 0.3885,
+    "score_b_to_a_candidate": 322.1785
+  },
+  {
+    "port_a": "Kandlerova",
+    "port_b": "Villarreal Del Mar",
+    "recorded_a_to_b_m": 1238.6,
+    "recorded_b_to_a_m": 11238.6,
+    "chosen_recorded_distance_m": 11238.6,
+    "score_a_to_b_candidate": 330.1365,
+    "score_b_to_a_candidate": 0.2121
+  },
+  {
+    "port_a": "Lebarde",
+    "port_b": "Puerto de San Fernando",
+    "recorded_a_to_b_m": 884.4,
+    "recorded_b_to_a_m": 10884.4,
+    "chosen_recorded_distance_m": 10884.4,
+    "score_a_to_b_candidate": 309.52,
+    "score_b_to_a_candidate": 0.5879
+  },
+  {
+    "port_a": "Maurepas",
+    "port_b": "Peter's Cove",
+    "recorded_a_to_b_m": 12095.2,
+    "recorded_b_to_a_m": 2095.2,
+    "chosen_recorded_distance_m": 12095.2,
+    "score_a_to_b_candidate": 0.7069,
+    "score_b_to_a_candidate": 302.3107
+  },
+  {
+    "port_a": "New Catalina",
+    "port_b": "Villarreal Del Mar",
+    "recorded_a_to_b_m": 2930.7,
+    "recorded_b_to_a_m": 12930.7,
+    "chosen_recorded_distance_m": 12930.7,
+    "score_a_to_b_candidate": 342.3675,
+    "score_b_to_a_candidate": 0.5554
+  },
+  {
+    "port_a": "Poblado de San Juan",
+    "port_b": "Sandy Settlement",
+    "recorded_a_to_b_m": 2052.9,
+    "recorded_b_to_a_m": 12052.9,
+    "chosen_recorded_distance_m": 12052.9,
+    "score_a_to_b_candidate": 384.3935,
+    "score_b_to_a_candidate": 0.7055
+  },
+  {
+    "port_a": "Poblado de San Juan",
+    "port_b": "Taylor's Town",
+    "recorded_a_to_b_m": 3249.5,
+    "recorded_b_to_a_m": 13249.5,
+    "chosen_recorded_distance_m": 13249.5,
+    "score_a_to_b_candidate": 297.5463,
+    "score_b_to_a_candidate": 0.0086
+  },
+  {
+    "port_a": "Puerto de San Fernando",
+    "port_b": "Sandy Settlement",
+    "recorded_a_to_b_m": 1811.8,
+    "recorded_b_to_a_m": 11811.8,
+    "chosen_recorded_distance_m": 11811.8,
+    "score_a_to_b_candidate": 377.8078,
+    "score_b_to_a_candidate": 0.325
+  },
+  {
+    "port_a": "Saint-Nicholas",
+    "port_b": "Villarreal Del Mar",
+    "recorded_a_to_b_m": 2157.4,
+    "recorded_b_to_a_m": 12157.4,
+    "chosen_recorded_distance_m": 12157.4,
+    "score_a_to_b_candidate": 330.7925,
+    "score_b_to_a_candidate": 0.7739
+  },
+  {
+    "port_a": "Sandy Settlement",
+    "port_b": "Santa Maria",
+    "recorded_a_to_b_m": 11591.2,
+    "recorded_b_to_a_m": 1591.2,
+    "chosen_recorded_distance_m": 11591.2,
+    "score_a_to_b_candidate": 0.7811,
+    "score_b_to_a_candidate": 387.5278
+  },
+  {
+    "port_a": "Sandy Settlement",
+    "port_b": "Villarreal Del Mar",
+    "recorded_a_to_b_m": 1865.6,
+    "recorded_b_to_a_m": 11865.6,
+    "chosen_recorded_distance_m": 11865.6,
+    "score_a_to_b_candidate": 400.3683,
+    "score_b_to_a_candidate": 0.3571
+  },
+  {
+    "port_a": "Sandy Settlement",
+    "port_b": "White Hook",
+    "recorded_a_to_b_m": 11328.7,
+    "recorded_b_to_a_m": 1328.7,
+    "chosen_recorded_distance_m": 11328.7,
+    "score_a_to_b_candidate": 0.4014,
+    "score_b_to_a_candidate": 440.4846
+  },
+  {
+    "port_a": "Taylor's Town",
+    "port_b": "Villarreal Del Mar",
+    "recorded_a_to_b_m": 2189.2,
+    "recorded_b_to_a_m": 12189.2,
+    "chosen_recorded_distance_m": 12189.2,
+    "score_a_to_b_candidate": 312.3735,
+    "score_b_to_a_candidate": 0.2999
+  },
+  {
+    "port_a": "Villarreal Del Mar",
+    "port_b": "White Hook",
+    "recorded_a_to_b_m": 11411.6,
+    "recorded_b_to_a_m": 1411.6,
+    "chosen_recorded_distance_m": 11411.6,
+    "score_a_to_b_candidate": 0.2951,
+    "score_b_to_a_candidate": 380.3341
+  }
+]

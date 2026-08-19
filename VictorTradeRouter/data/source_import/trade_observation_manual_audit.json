@@ -1,0 +1,142 @@
+[
+  {
+    "origin_port": "Sandy Settlement",
+    "destination_port": "Yorinobu's Settlement",
+    "prior_distance_m": null,
+    "prior_value_gbp": null,
+    "confirmed_distance_m": 8566.2,
+    "confirmed_value_gbp": 312,
+    "source": "Screen Recording 2026-08-16 223317.mp4",
+    "frame_note": "long-video segment 508-546s"
+  },
+  {
+    "origin_port": "Belfry Heights",
+    "destination_port": "Yorinobu's Settlement",
+    "prior_distance_m": null,
+    "prior_value_gbp": null,
+    "confirmed_distance_m": 5540.3,
+    "confirmed_value_gbp": 206,
+    "source": "Screen Recording 2026-08-16 223317.mp4",
+    "frame_note": "long-video segment 644-680s"
+  },
+  {
+    "origin_port": "Kandlerova",
+    "destination_port": "Saint Vincent",
+    "prior_distance_m": null,
+    "prior_value_gbp": null,
+    "confirmed_distance_m": 14234.6,
+    "confirmed_value_gbp": 308,
+    "source": "Screen Recording 2026-08-16 223317.mp4",
+    "frame_note": "long-video segment 772-804s"
+  },
+  {
+    "origin_port": "Falmouth",
+    "destination_port": "Yorinobu's Settlement",
+    "prior_distance_m": null,
+    "prior_value_gbp": null,
+    "confirmed_distance_m": 5424.8,
+    "confirmed_value_gbp": 125,
+    "source": "Screen Recording 2026-08-16 223317.mp4",
+    "frame_note": "long-video segment 978-1012s"
+  },
+  {
+    "origin_port": "Ponta Delgada",
+    "destination_port": "Yorinobu's Settlement",
+    "prior_distance_m": null,
+    "prior_value_gbp": null,
+    "confirmed_distance_m": 12170.7,
+    "confirmed_value_gbp": 266,
+    "source": "Screen Recording 2026-08-16 223317.mp4",
+    "frame_note": "long-video segment 1164-1216s"
+  },
+  {
+    "origin_port": "La Povenglia",
+    "destination_port": "Villarreal Del Mar",
+    "prior_distance_m": 9908.2,
+    "prior_value_gbp": 179,
+    "confirmed_distance_m": 10171.8,
+    "confirmed_value_gbp": 182,
+    "source": "Screen Recording 2026-08-16 223317.mp4",
+    "frame_note": "frame 724s"
+  },
+  {
+    "origin_port": "Kandlerova",
+    "destination_port": "Fair Harbour",
+    "prior_distance_m": 225.0,
+    "prior_value_gbp": 211,
+    "confirmed_distance_m": 14423.5,
+    "confirmed_value_gbp": 311,
+    "source": "Screen Recording 2026-08-16 223317.mp4",
+    "frame_note": "frame 780s"
+  },
+  {
+    "origin_port": "Deadman's Murcia",
+    "destination_port": "Sandy Settlement",
+    "prior_distance_m": 1126.1,
+    "prior_value_gbp": 274,
+    "confirmed_distance_m": 11126.1,
+    "confirmed_value_gbp": 274,
+    "source": "Screen Recording 2026-08-16 223317.mp4",
+    "frame_note": "frame 104s"
+  },
+  {
+    "origin_port": "Sandy Settlement",
+    "destination_port": "Deadman's Murcia",
+    "prior_distance_m": 126.1,
+    "prior_value_gbp": 371,
+    "confirmed_distance_m": 11126.1,
+    "confirmed_value_gbp": 371,
+    "source": "Screen Recording 2026-08-16 223317.mp4",
+    "frame_note": "frame 520s"
+  },
+  {
+    "origin_port": "Bucket Bay",
+    "destination_port": "Sandy Settlement",
+    "prior_distance_m": 9835.0,
+    "prior_value_gbp": 193,
+    "confirmed_distance_m": 10065.4,
+    "confirmed_value_gbp": 196,
+    "source": "Screen Recording 2026-08-16 110602.mp4",
+    "frame_note": "frame 3s"
+  },
+  {
+    "origin_port": "Cumberland Hill",
+    "destination_port": "Villarreal Del Mar",
+    "prior_distance_m": 2993.2,
+    "prior_value_gbp": 234,
+    "confirmed_distance_m": 12993.2,
+    "confirmed_value_gbp": 234,
+    "source": "Screen Recording 2026-08-16 223317.mp4",
+    "frame_note": "frame 370s"
+  },
+  {
+    "origin_port": "Louisbourg",
+    "destination_port": "New Brighton",
+    "prior_distance_m": 7040.2,
+    "prior_value_gbp": 19,
+    "confirmed_distance_m": 7040.2,
+    "confirmed_value_gbp": 196,
+    "source": "Louisbourg sell5.png",
+    "frame_note": "visible screenshot row"
+  },
+  {
+    "origin_port": "Maurepas",
+    "destination_port": "Sao Bento",
+    "prior_distance_m": 8045.4,
+    "prior_value_gbp": 19,
+    "confirmed_distance_m": 8045.4,
+    "confirmed_value_gbp": 196,
+    "source": "Maurepas sell4.png",
+    "frame_note": "visible screenshot row"
+  },
+  {
+    "origin_port": "Maurepas",
+    "destination_port": "Puerto de San Fernando",
+    "prior_distance_m": 8061.2,
+    "prior_value_gbp": 19,
+    "confirmed_distance_m": 8061.2,
+    "confirmed_value_gbp": 196,
+    "source": "Maurepas sell4.png",
+    "frame_note": "visible screenshot row"
+  }
+]

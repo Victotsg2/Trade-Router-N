@@ -1,0 +1,4932 @@
+{
+  "metadata": {
+    "schema_version": "stage1-final-1.0",
+    "project": "Roblox Naval Trade Manager",
+    "stage": "Stage 1 world geometry only",
+    "generated_date": "2026-08-16",
+    "coordinate_system": "top-left pixels and normalized [0,1]",
+    "obstacle_value": 255,
+    "navigation_water_value": 255,
+    "tp_semantics": "Touch any point in a TP; arrive at corresponding relative position in paired TP.",
+    "out_of_scope": [
+      "ships",
+      "wind",
+      "sailing speed",
+      "cargo",
+      "trade goods",
+      "profit",
+      "travel time",
+      "route optimization",
+      "route lines"
+    ]
+  },
+  "regions": [
+    {
+      "region_id": "BEL",
+      "region_name": "Belle Isles",
+      "image_width_px": 969,
+      "image_height_px": 914,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "VYS",
+      "region_name": "Vysarian Isles",
+      "image_width_px": 1294,
+      "image_height_px": 814,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "IDL",
+      "region_name": "Îles de Louis",
+      "image_width_px": 1231,
+      "image_height_px": 593,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "STP",
+      "region_name": "Saint-Pierre",
+      "image_width_px": 1249,
+      "image_height_px": 759,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "ESO",
+      "region_name": "East Somerset",
+      "image_width_px": 968,
+      "image_height_px": 710,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "WSO",
+      "region_name": "West Somerset",
+      "image_width_px": 1069,
+      "image_height_px": 783,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "NCA",
+      "region_name": "New Catalina",
+      "image_width_px": 935,
+      "image_height_px": 876,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "LEB",
+      "region_name": "Lebarde",
+      "image_width_px": 1516,
+      "image_height_px": 865,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "SNI",
+      "region_name": "Saint-Nicholas",
+      "image_width_px": 980,
+      "image_height_px": 783,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "BTS",
+      "region_name": "Blacktip Shoals",
+      "image_width_px": 1397,
+      "image_height_px": 989,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "IRV",
+      "region_name": "Irving's Reach",
+      "image_width_px": 1189,
+      "image_height_px": 937,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "GRF",
+      "region_name": "Griffard's Rock",
+      "image_width_px": 870,
+      "image_height_px": 830,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "KIN",
+      "region_name": "Kingston",
+      "image_width_px": 1390,
+      "image_height_px": 1052,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "CAY",
+      "region_name": "Cayos Encantados",
+      "image_width_px": 1708,
+      "image_height_px": 887,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "ILB",
+      "region_name": "Ilhas Brumas",
+      "image_width_px": 1044,
+      "image_height_px": 685,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "SSA",
+      "region_name": "San Salvador",
+      "image_width_px": 592,
+      "image_height_px": 660,
+      "status": "visually_verified"
+    },
+    {
+      "region_id": "SPO",
+      "region_name": "San Polo",
+      "image_width_px": 1457,
+      "image_height_px": 819,
+      "status": "visually_verified"
+    }
+  ],
+  "ports": [
+    {
+      "region_id": "BEL",
+      "port_id": "BEL-P01",
+      "display_name": "Maurepas",
+      "pixel_x": 498,
+      "pixel_y": 403,
+      "normalized_x": 0.513932,
+      "normalized_y": 0.440919,
+      "marker_pixel_x": 527,
+      "marker_pixel_y": 405,
+      "confidence": "confirmed"
+    },
+    {
+      "region_id": "BEL",
+      "port_id": "BEL-P02",
+      "display_name": "Louisbourg",
+      "pixel_x": 535,
+      "pixel_y": 553,
+      "normalized_x": 0.552116,
+      "normalized_y": 0.605033,
+      "marker_pixel_x": 486,
+      "marker_pixel_y": 558,
+      "confidence": "confirmed"
+    },
+    {
+      "region_id": "BEL",
+      "port_id": "BEL-P03",
+      "display_name": "Sainte Rose",
+      "pixel_x": 343,
+      "pixel_y": 737,
+      "normalized_x": 0.353973,
+      "normalized_y": 0.806346,
+      "marker_pixel_x": 371,
+      "marker_pixel_y": 738,
+      "confidence": "confirmed"
+    },
+    {
+      "region_id": "BEL",
+      "port_id": "BEL-P04",
+      "display_name": "Petit Anvers",
+      "pixel_x": 690,
+      "pixel_y": 777,
+      "normalized_x": 0.712074,
+      "normalized_y": 0.850109,
+      "marker_pixel_x": 668,
+      "marker_pixel_y": 781,
+      "confidence": "confirmed"
+    },
+    {
+      "region_id": "VYS",
+      "port_id": "VYS-P01",
+      "display_name": "Gyldenvale",
+      "pixel_x": 1029,
+      "pixel_y": 651,
+      "normalized_x": 0.795209,
+      "normalized_y": 0.799754,
+      "marker_pixel_x": 1021,
+      "marker_pixel_y": 656,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "VYS",
+      "port_id": "VYS-P02",
+      "display_name": "Wyntergard",
+      "pixel_x": 961,
+      "pixel_y": 414,
+      "normalized_x": 0.742658,
+      "normalized_y": 0.5086,
+      "marker_pixel_x": 970,
+      "marker_pixel_y": 424,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "VYS",
+      "port_id": "VYS-P03",
+      "display_name": "Ashbourne",
+      "pixel_x": 779,
+      "pixel_y": 445,
+      "normalized_x": 0.602009,
+      "normalized_y": 0.546683,
+      "marker_pixel_x": 775,
+      "marker_pixel_y": 439,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "VYS",
+      "port_id": "VYS-P04",
+      "display_name": "Crownstead",
+      "pixel_x": 785,
+      "pixel_y": 552,
+      "normalized_x": 0.606646,
+      "normalized_y": 0.678133,
+      "marker_pixel_x": 790,
+      "marker_pixel_y": 565,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "IDL",
+      "port_id": "IDL-P01",
+      "display_name": "Matthew's Rest",
+      "pixel_x": 283,
+      "pixel_y": 235,
+      "normalized_x": 0.229894,
+      "normalized_y": 0.39629,
+      "marker_pixel_x": 283,
+      "marker_pixel_y": 230,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "IDL",
+      "port_id": "IDL-P02",
+      "display_name": "Bucket Bay",
+      "pixel_x": 435,
+      "pixel_y": 181,
+      "normalized_x": 0.353371,
+      "normalized_y": 0.305228,
+      "marker_pixel_x": 437,
+      "marker_pixel_y": 176,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "IDL",
+      "port_id": "IDL-P03",
+      "display_name": "Fair Harbour",
+      "pixel_x": 675,
+      "pixel_y": 180,
+      "normalized_x": 0.548335,
+      "normalized_y": 0.303541,
+      "marker_pixel_x": 675,
+      "marker_pixel_y": 175,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "IDL",
+      "port_id": "IDL-P04",
+      "display_name": "Port Louis",
+      "pixel_x": 758,
+      "pixel_y": 304,
+      "normalized_x": 0.61576,
+      "normalized_y": 0.512648,
+      "marker_pixel_x": 761,
+      "marker_pixel_y": 300,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "STP",
+      "port_id": "STP-P01",
+      "display_name": "Port-Au-Croix",
+      "pixel_x": 538,
+      "pixel_y": 336,
+      "normalized_x": 0.430745,
+      "normalized_y": 0.442688,
+      "marker_pixel_x": 551,
+      "marker_pixel_y": 320,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "STP",
+      "port_id": "STP-P02",
+      "display_name": "Pachard Town",
+      "pixel_x": 692,
+      "pixel_y": 227,
+      "normalized_x": 0.554043,
+      "normalized_y": 0.299078,
+      "marker_pixel_x": 695,
+      "marker_pixel_y": 223,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "STP",
+      "port_id": "STP-P03",
+      "display_name": "Point Rocheux",
+      "pixel_x": 358,
+      "pixel_y": 415,
+      "normalized_x": 0.286629,
+      "normalized_y": 0.546772,
+      "marker_pixel_x": 359,
+      "marker_pixel_y": 410,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "ESO",
+      "port_id": "ESO-P01",
+      "display_name": "White Hook",
+      "pixel_x": 572,
+      "pixel_y": 396,
+      "normalized_x": 0.590909,
+      "normalized_y": 0.557746,
+      "marker_pixel_x": 581,
+      "marker_pixel_y": 379,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "ESO",
+      "port_id": "ESO-P02",
+      "display_name": "Snake Prosper",
+      "pixel_x": 370,
+      "pixel_y": 319,
+      "normalized_x": 0.382231,
+      "normalized_y": 0.449296,
+      "marker_pixel_x": 372,
+      "marker_pixel_y": 311,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "ESO",
+      "port_id": "ESO-P03",
+      "display_name": "Caledonia",
+      "pixel_x": 439,
+      "pixel_y": 307,
+      "normalized_x": 0.453512,
+      "normalized_y": 0.432394,
+      "marker_pixel_x": 444,
+      "marker_pixel_y": 309,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "WSO",
+      "port_id": "WSO-P01",
+      "display_name": "Saint Vincent",
+      "pixel_x": 794,
+      "pixel_y": 579,
+      "normalized_x": 0.74275,
+      "normalized_y": 0.739464,
+      "marker_pixel_x": 797,
+      "marker_pixel_y": 589,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "WSO",
+      "port_id": "WSO-P02",
+      "display_name": "Yorinobu's Settlement",
+      "pixel_x": 435,
+      "pixel_y": 567,
+      "normalized_x": 0.406922,
+      "normalized_y": 0.724138,
+      "marker_pixel_x": 425,
+      "marker_pixel_y": 550,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "WSO",
+      "port_id": "WSO-P03",
+      "display_name": "New Brighton",
+      "pixel_x": 407,
+      "pixel_y": 345,
+      "normalized_x": 0.38073,
+      "normalized_y": 0.440613,
+      "marker_pixel_x": 400,
+      "marker_pixel_y": 360,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "WSO",
+      "port_id": "WSO-P04",
+      "display_name": "Al-Jazair",
+      "pixel_x": 709,
+      "pixel_y": 355,
+      "normalized_x": 0.663237,
+      "normalized_y": 0.453384,
+      "marker_pixel_x": 698,
+      "marker_pixel_y": 360,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "NCA",
+      "port_id": "NCA-P01",
+      "display_name": "Sugar Cove",
+      "pixel_x": 761,
+      "pixel_y": 157,
+      "normalized_x": 0.813904,
+      "normalized_y": 0.179224,
+      "marker_pixel_x": 756,
+      "marker_pixel_y": 157,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "NCA",
+      "port_id": "NCA-P02",
+      "display_name": "New Catalina",
+      "pixel_x": 627,
+      "pixel_y": 248,
+      "normalized_x": 0.670588,
+      "normalized_y": 0.283105,
+      "marker_pixel_x": 622,
+      "marker_pixel_y": 248,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "NCA",
+      "port_id": "NCA-P03",
+      "display_name": "Cumberland Hill",
+      "pixel_x": 678,
+      "pixel_y": 335,
+      "normalized_x": 0.725134,
+      "normalized_y": 0.38242,
+      "marker_pixel_x": 673,
+      "marker_pixel_y": 334,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "NCA",
+      "port_id": "NCA-P04",
+      "display_name": "Jones' Outpost",
+      "pixel_x": 567,
+      "pixel_y": 479,
+      "normalized_x": 0.606417,
+      "normalized_y": 0.546804,
+      "marker_pixel_x": 562,
+      "marker_pixel_y": 479,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "LEB",
+      "port_id": "LEB-P01",
+      "display_name": "Castle Landing",
+      "pixel_x": 958,
+      "pixel_y": 397,
+      "normalized_x": 0.631926,
+      "normalized_y": 0.45896,
+      "marker_pixel_x": 953,
+      "marker_pixel_y": 396,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "LEB",
+      "port_id": "LEB-P02",
+      "display_name": "Lebarde",
+      "pixel_x": 636,
+      "pixel_y": 423,
+      "normalized_x": 0.419525,
+      "normalized_y": 0.489017,
+      "marker_pixel_x": 648,
+      "marker_pixel_y": 414,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "LEB",
+      "port_id": "LEB-P03",
+      "display_name": "Princeton",
+      "pixel_x": 861,
+      "pixel_y": 682,
+      "normalized_x": 0.567942,
+      "normalized_y": 0.788439,
+      "marker_pixel_x": 858,
+      "marker_pixel_y": 667,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SNI",
+      "port_id": "SNI-P01",
+      "display_name": "Taylor's Town",
+      "pixel_x": 714,
+      "pixel_y": 205,
+      "normalized_x": 0.728571,
+      "normalized_y": 0.261814,
+      "marker_pixel_x": 722,
+      "marker_pixel_y": 206,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SNI",
+      "port_id": "SNI-P02",
+      "display_name": "Saint-Nicholas",
+      "pixel_x": 477,
+      "pixel_y": 76,
+      "normalized_x": 0.486735,
+      "normalized_y": 0.097063,
+      "marker_pixel_x": 473,
+      "marker_pixel_y": 101,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SNI",
+      "port_id": "SNI-P03",
+      "display_name": "Sandy Settlement",
+      "pixel_x": 372,
+      "pixel_y": 113,
+      "normalized_x": 0.379592,
+      "normalized_y": 0.144317,
+      "marker_pixel_x": 377,
+      "marker_pixel_y": 114,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SNI",
+      "port_id": "SNI-P04",
+      "display_name": "Peter's Cove",
+      "pixel_x": 317,
+      "pixel_y": 322,
+      "normalized_x": 0.323469,
+      "normalized_y": 0.411239,
+      "marker_pixel_x": 313,
+      "marker_pixel_y": 308,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "BTS",
+      "port_id": "BTS-P01",
+      "display_name": "Thresher Point",
+      "pixel_x": 841,
+      "pixel_y": 505,
+      "normalized_x": 0.602004,
+      "normalized_y": 0.510617,
+      "marker_pixel_x": 823,
+      "marker_pixel_y": 497,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "BTS",
+      "port_id": "BTS-P02",
+      "display_name": "Caye Tiburon",
+      "pixel_x": 820,
+      "pixel_y": 737,
+      "normalized_x": 0.586972,
+      "normalized_y": 0.745197,
+      "marker_pixel_x": 822,
+      "marker_pixel_y": 741,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "BTS",
+      "port_id": "BTS-P03",
+      "display_name": "Belfry Heights",
+      "pixel_x": 680,
+      "pixel_y": 480,
+      "normalized_x": 0.486757,
+      "normalized_y": 0.485339,
+      "marker_pixel_x": 668,
+      "marker_pixel_y": 486,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "IRV",
+      "port_id": "IRV-P01",
+      "display_name": "Mako's Outlook",
+      "pixel_x": 594,
+      "pixel_y": 342,
+      "normalized_x": 0.499579,
+      "normalized_y": 0.364995,
+      "marker_pixel_x": 604,
+      "marker_pixel_y": 338,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "IRV",
+      "port_id": "IRV-P02",
+      "display_name": "Lord Irving's Sacrifice",
+      "pixel_x": 599,
+      "pixel_y": 501,
+      "normalized_x": 0.503785,
+      "normalized_y": 0.534685,
+      "marker_pixel_x": 595,
+      "marker_pixel_y": 488,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "GRF",
+      "port_id": "GRF-P01",
+      "display_name": "Griffard's Rock",
+      "pixel_x": 402,
+      "pixel_y": 382,
+      "normalized_x": 0.462069,
+      "normalized_y": 0.460241,
+      "marker_pixel_x": 401,
+      "marker_pixel_y": 387,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "KIN",
+      "port_id": "KIN-P01",
+      "display_name": "Port Royal",
+      "pixel_x": 771,
+      "pixel_y": 404,
+      "normalized_x": 0.554676,
+      "normalized_y": 0.38403,
+      "marker_pixel_x": 765,
+      "marker_pixel_y": 387,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "KIN",
+      "port_id": "KIN-P02",
+      "display_name": "Theresa",
+      "pixel_x": 547,
+      "pixel_y": 670,
+      "normalized_x": 0.393525,
+      "normalized_y": 0.636882,
+      "marker_pixel_x": 553,
+      "marker_pixel_y": 661,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "KIN",
+      "port_id": "KIN-P03",
+      "display_name": "Port Antonio",
+      "pixel_x": 672,
+      "pixel_y": 809,
+      "normalized_x": 0.483453,
+      "normalized_y": 0.769011,
+      "marker_pixel_x": 673,
+      "marker_pixel_y": 817,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "KIN",
+      "port_id": "KIN-P04",
+      "display_name": "Falmouth",
+      "pixel_x": 861,
+      "pixel_y": 827,
+      "normalized_x": 0.619424,
+      "normalized_y": 0.786122,
+      "marker_pixel_x": 873,
+      "marker_pixel_y": 821,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "CAY",
+      "port_id": "CAY-P01",
+      "display_name": "Villarreal Del Mar",
+      "pixel_x": 821,
+      "pixel_y": 291,
+      "normalized_x": 0.480679,
+      "normalized_y": 0.328072,
+      "marker_pixel_x": 816,
+      "marker_pixel_y": 291,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "CAY",
+      "port_id": "CAY-P02",
+      "display_name": "Venta Nueva",
+      "pixel_x": 627,
+      "pixel_y": 459,
+      "normalized_x": 0.367096,
+      "normalized_y": 0.517475,
+      "marker_pixel_x": 639,
+      "marker_pixel_y": 447,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "ILB",
+      "port_id": "ILB-P01",
+      "display_name": "Caveira",
+      "pixel_x": 381,
+      "pixel_y": 218,
+      "normalized_x": 0.364943,
+      "normalized_y": 0.318248,
+      "marker_pixel_x": 374,
+      "marker_pixel_y": 216,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "ILB",
+      "port_id": "ILB-P02",
+      "display_name": "Madalena",
+      "pixel_x": 260,
+      "pixel_y": 346,
+      "normalized_x": 0.249042,
+      "normalized_y": 0.505109,
+      "marker_pixel_x": 262,
+      "marker_pixel_y": 351,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "ILB",
+      "port_id": "ILB-P03",
+      "display_name": "Sao Bento",
+      "pixel_x": 402,
+      "pixel_y": 389,
+      "normalized_x": 0.385057,
+      "normalized_y": 0.567883,
+      "marker_pixel_x": 410,
+      "marker_pixel_y": 387,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "ILB",
+      "port_id": "ILB-P04",
+      "display_name": "Ponta Delgada",
+      "pixel_x": 434,
+      "pixel_y": 554,
+      "normalized_x": 0.415709,
+      "normalized_y": 0.808759,
+      "marker_pixel_x": 442,
+      "marker_pixel_y": 552,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SSA",
+      "port_id": "SSA-P01",
+      "display_name": "Puerto de San Fernando",
+      "pixel_x": 304,
+      "pixel_y": 412,
+      "normalized_x": 0.513514,
+      "normalized_y": 0.624242,
+      "marker_pixel_x": 292,
+      "marker_pixel_y": 412,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SSA",
+      "port_id": "SSA-P02",
+      "display_name": "Poblado de San Juan",
+      "pixel_x": 124,
+      "pixel_y": 294,
+      "normalized_x": 0.209459,
+      "normalized_y": 0.445455,
+      "marker_pixel_x": 124,
+      "marker_pixel_y": 287,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SSA",
+      "port_id": "SSA-P03",
+      "display_name": "Santa Maria",
+      "pixel_x": 165,
+      "pixel_y": 268,
+      "normalized_x": 0.278716,
+      "normalized_y": 0.406061,
+      "marker_pixel_x": 160,
+      "marker_pixel_y": 268,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SSA",
+      "port_id": "SSA-P04",
+      "display_name": "San Salvador",
+      "pixel_x": 156,
+      "pixel_y": 107,
+      "normalized_x": 0.263514,
+      "normalized_y": 0.162121,
+      "marker_pixel_x": 163,
+      "marker_pixel_y": 98,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SPO",
+      "port_id": "SPO-P01",
+      "display_name": "Kandlerova",
+      "pixel_x": 213,
+      "pixel_y": 171,
+      "normalized_x": 0.146191,
+      "normalized_y": 0.208791,
+      "marker_pixel_x": 223,
+      "marker_pixel_y": 165,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SPO",
+      "port_id": "SPO-P02",
+      "display_name": "San Polo",
+      "pixel_x": 389,
+      "pixel_y": 241,
+      "normalized_x": 0.266987,
+      "normalized_y": 0.294261,
+      "marker_pixel_x": 385,
+      "marker_pixel_y": 222,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SPO",
+      "port_id": "SPO-P03",
+      "display_name": "La Povenglia",
+      "pixel_x": 759,
+      "pixel_y": 258,
+      "normalized_x": 0.520933,
+      "normalized_y": 0.315018,
+      "marker_pixel_x": 771,
+      "marker_pixel_y": 249,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SPO",
+      "port_id": "SPO-P04",
+      "display_name": "San Vito",
+      "pixel_x": 806,
+      "pixel_y": 558,
+      "normalized_x": 0.553191,
+      "normalized_y": 0.681319,
+      "marker_pixel_x": 815,
+      "marker_pixel_y": 557,
+      "confidence": "visually_verified"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "BEL-TP-STP",
+      "region_id": "BEL",
+      "destination_region_id": "STP",
+      "polygon_coordinates": [
+        [
+          83,
+          264
+        ],
+        [
+          664,
+          203
+        ],
+        [
+          669,
+          254
+        ],
+        [
+          87,
+          315
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.085655,
+          0.28884
+        ],
+        [
+          0.685243,
+          0.222101
+        ],
+        [
+          0.690402,
+          0.277899
+        ],
+        [
+          0.089783,
+          0.344639
+        ]
+      ],
+      "paired_tp_id": "STP-TP06",
+      "confidence": "confirmed",
+      "notes": ""
+    },
+    {
+      "tp_id": "BEL-TP-IDL",
+      "region_id": "BEL",
+      "destination_region_id": "IDL",
+      "polygon_coordinates": [
+        [
+          646,
+          0
+        ],
+        [
+          655,
+          0
+        ],
+        [
+          891,
+          142
+        ],
+        [
+          866,
+          185
+        ],
+        [
+          622,
+          39
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.666667,
+          0.0
+        ],
+        [
+          0.675955,
+          0.0
+        ],
+        [
+          0.919505,
+          0.155361
+        ],
+        [
+          0.893705,
+          0.202407
+        ],
+        [
+          0.641899,
+          0.04267
+        ]
+      ],
+      "paired_tp_id": "IDL-TP04",
+      "confidence": "confirmed",
+      "notes": ""
+    },
+    {
+      "tp_id": "VYS-TP01",
+      "region_id": "VYS",
+      "destination_region_id": "STP",
+      "polygon_coordinates": [
+        [
+          523,
+          273
+        ],
+        [
+          427,
+          411
+        ],
+        [
+          468,
+          440
+        ],
+        [
+          564,
+          302
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.404173,
+          0.335381
+        ],
+        [
+          0.329985,
+          0.504914
+        ],
+        [
+          0.361669,
+          0.540541
+        ],
+        [
+          0.435858,
+          0.371007
+        ]
+      ],
+      "paired_tp_id": "STP-TP05",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "VYS-TP02",
+      "region_id": "VYS",
+      "destination_region_id": "IDL",
+      "polygon_coordinates": [
+        [
+          929,
+          199
+        ],
+        [
+          571,
+          262
+        ],
+        [
+          579,
+          312
+        ],
+        [
+          938,
+          248
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.717929,
+          0.244472
+        ],
+        [
+          0.441267,
+          0.321867
+        ],
+        [
+          0.44745,
+          0.383292
+        ],
+        [
+          0.724884,
+          0.304668
+        ]
+      ],
+      "paired_tp_id": "IDL-TP03",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IDL-TP01",
+      "region_id": "IDL",
+      "destination_region_id": "WSO",
+      "polygon_coordinates": [
+        [
+          275,
+          23
+        ],
+        [
+          932,
+          23
+        ],
+        [
+          932,
+          72
+        ],
+        [
+          275,
+          72
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.223396,
+          0.038786
+        ],
+        [
+          0.757108,
+          0.038786
+        ],
+        [
+          0.757108,
+          0.121417
+        ],
+        [
+          0.223396,
+          0.121417
+        ]
+      ],
+      "paired_tp_id": "WSO-TP06",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IDL-TP02",
+      "region_id": "IDL",
+      "destination_region_id": "ESO",
+      "polygon_coordinates": [
+        [
+          974,
+          81
+        ],
+        [
+          1045,
+          232
+        ],
+        [
+          999,
+          253
+        ],
+        [
+          929,
+          102
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.791227,
+          0.136594
+        ],
+        [
+          0.848903,
+          0.391231
+        ],
+        [
+          0.811535,
+          0.426644
+        ],
+        [
+          0.754671,
+          0.172007
+        ]
+      ],
+      "paired_tp_id": "ESO-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IDL-TP03",
+      "region_id": "IDL",
+      "destination_region_id": "VYS",
+      "polygon_coordinates": [
+        [
+          898,
+          410
+        ],
+        [
+          539,
+          473
+        ],
+        [
+          548,
+          522
+        ],
+        [
+          906,
+          459
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.729488,
+          0.6914
+        ],
+        [
+          0.437855,
+          0.797639
+        ],
+        [
+          0.445167,
+          0.88027
+        ],
+        [
+          0.735987,
+          0.77403
+        ]
+      ],
+      "paired_tp_id": "VYS-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IDL-TP04",
+      "region_id": "IDL",
+      "destination_region_id": "BEL",
+      "polygon_coordinates": [
+        [
+          225,
+          365
+        ],
+        [
+          467,
+          510
+        ],
+        [
+          442,
+          553
+        ],
+        [
+          199,
+          408
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.182778,
+          0.615514
+        ],
+        [
+          0.379366,
+          0.860034
+        ],
+        [
+          0.359058,
+          0.932546
+        ],
+        [
+          0.161657,
+          0.688027
+        ]
+      ],
+      "paired_tp_id": "BEL-TP-IDL",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IDL-TP05",
+      "region_id": "IDL",
+      "destination_region_id": "STP",
+      "polygon_coordinates": [
+        [
+          233,
+          136
+        ],
+        [
+          233,
+          353
+        ],
+        [
+          184,
+          353
+        ],
+        [
+          184,
+          136
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.189277,
+          0.229342
+        ],
+        [
+          0.189277,
+          0.595278
+        ],
+        [
+          0.149472,
+          0.595278
+        ],
+        [
+          0.149472,
+          0.229342
+        ]
+      ],
+      "paired_tp_id": "STP-TP04",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IDL-TP06",
+      "region_id": "IDL",
+      "destination_region_id": "GRF",
+      "polygon_coordinates": [
+        [
+          249,
+          0
+        ],
+        [
+          145,
+          90
+        ],
+        [
+          179,
+          128
+        ],
+        [
+          284,
+          32
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.202275,
+          0.0
+        ],
+        [
+          0.11779,
+          0.151771
+        ],
+        [
+          0.14541,
+          0.215852
+        ],
+        [
+          0.230707,
+          0.053963
+        ]
+      ],
+      "paired_tp_id": "GRF-TP05",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "STP-TP01",
+      "region_id": "STP",
+      "destination_region_id": "GRF",
+      "polygon_coordinates": [
+        [
+          666,
+          1
+        ],
+        [
+          324,
+          55
+        ],
+        [
+          332,
+          104
+        ],
+        [
+          674,
+          50
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.533227,
+          0.001318
+        ],
+        [
+          0.259408,
+          0.072464
+        ],
+        [
+          0.265813,
+          0.137022
+        ],
+        [
+          0.539632,
+          0.065876
+        ]
+      ],
+      "paired_tp_id": "GRF-TP06",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "STP-TP02",
+      "region_id": "STP",
+      "destination_region_id": "KIN",
+      "polygon_coordinates": [
+        [
+          282,
+          79
+        ],
+        [
+          166,
+          207
+        ],
+        [
+          203,
+          241
+        ],
+        [
+          319,
+          112
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.225781,
+          0.104084
+        ],
+        [
+          0.132906,
+          0.272727
+        ],
+        [
+          0.16253,
+          0.317523
+        ],
+        [
+          0.255404,
+          0.147563
+        ]
+      ],
+      "paired_tp_id": "KIN-TP04",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "STP-TP03",
+      "region_id": "STP",
+      "destination_region_id": "WSO",
+      "polygon_coordinates": [
+        [
+          703,
+          0
+        ],
+        [
+          832,
+          68
+        ],
+        [
+          803,
+          112
+        ],
+        [
+          675,
+          30
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.56285,
+          0.0
+        ],
+        [
+          0.666133,
+          0.089592
+        ],
+        [
+          0.642914,
+          0.147563
+        ],
+        [
+          0.540432,
+          0.039526
+        ]
+      ],
+      "paired_tp_id": "WSO-TP07",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "STP-TP04",
+      "region_id": "STP",
+      "destination_region_id": "IDL",
+      "polygon_coordinates": [
+        [
+          776,
+          126
+        ],
+        [
+          776,
+          343
+        ],
+        [
+          825,
+          343
+        ],
+        [
+          825,
+          126
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.621297,
+          0.166008
+        ],
+        [
+          0.621297,
+          0.45191
+        ],
+        [
+          0.660528,
+          0.45191
+        ],
+        [
+          0.660528,
+          0.166008
+        ]
+      ],
+      "paired_tp_id": "IDL-TP05",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "STP-TP05",
+      "region_id": "STP",
+      "destination_region_id": "VYS",
+      "polygon_coordinates": [
+        [
+          1084,
+          474
+        ],
+        [
+          988,
+          611
+        ],
+        [
+          1028,
+          640
+        ],
+        [
+          1125,
+          502
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.867894,
+          0.624506
+        ],
+        [
+          0.791033,
+          0.805007
+        ],
+        [
+          0.823058,
+          0.843215
+        ],
+        [
+          0.900721,
+          0.661397
+        ]
+      ],
+      "paired_tp_id": "VYS-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "STP-TP06",
+      "region_id": "STP",
+      "destination_region_id": "BEL",
+      "polygon_coordinates": [
+        [
+          832,
+          562
+        ],
+        [
+          252,
+          623
+        ],
+        [
+          257,
+          673
+        ],
+        [
+          837,
+          612
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.666133,
+          0.740448
+        ],
+        [
+          0.201761,
+          0.820817
+        ],
+        [
+          0.205765,
+          0.886693
+        ],
+        [
+          0.670136,
+          0.806324
+        ]
+      ],
+      "paired_tp_id": "BEL-TP-STP",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "STP-TP07",
+      "region_id": "STP",
+      "destination_region_id": "CAY",
+      "polygon_coordinates": [
+        [
+          170,
+          308
+        ],
+        [
+          225,
+          619
+        ],
+        [
+          176,
+          628
+        ],
+        [
+          121,
+          316
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.136109,
+          0.405797
+        ],
+        [
+          0.180144,
+          0.815547
+        ],
+        [
+          0.140913,
+          0.827404
+        ],
+        [
+          0.096878,
+          0.416337
+        ]
+      ],
+      "paired_tp_id": "CAY-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "ESO-TP01",
+      "region_id": "ESO",
+      "destination_region_id": "WSO",
+      "polygon_coordinates": [
+        [
+          156,
+          74
+        ],
+        [
+          97,
+          407
+        ],
+        [
+          146,
+          416
+        ],
+        [
+          205,
+          83
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.161157,
+          0.104225
+        ],
+        [
+          0.100207,
+          0.573239
+        ],
+        [
+          0.150826,
+          0.585915
+        ],
+        [
+          0.211777,
+          0.116901
+        ]
+      ],
+      "paired_tp_id": "WSO-TP05",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "ESO-TP02",
+      "region_id": "ESO",
+      "destination_region_id": "IDL",
+      "polygon_coordinates": [
+        [
+          186,
+          484
+        ],
+        [
+          257,
+          635
+        ],
+        [
+          211,
+          656
+        ],
+        [
+          141,
+          505
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.192149,
+          0.68169
+        ],
+        [
+          0.265496,
+          0.894366
+        ],
+        [
+          0.217975,
+          0.923944
+        ],
+        [
+          0.145661,
+          0.711268
+        ]
+      ],
+      "paired_tp_id": "IDL-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "WSO-TP01",
+      "region_id": "WSO",
+      "destination_region_id": "LEB",
+      "polygon_coordinates": [
+        [
+          344,
+          85
+        ],
+        [
+          619,
+          109
+        ],
+        [
+          615,
+          159
+        ],
+        [
+          340,
+          135
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.321796,
+          0.108557
+        ],
+        [
+          0.579046,
+          0.139208
+        ],
+        [
+          0.575304,
+          0.203065
+        ],
+        [
+          0.318054,
+          0.172414
+        ]
+      ],
+      "paired_tp_id": "LEB-TP04",
+      "confidence": "confirmed",
+      "notes": "User-confirmed duplicate regional link; paired by left-to-right spatial order."
+    },
+    {
+      "tp_id": "WSO-TP02",
+      "region_id": "WSO",
+      "destination_region_id": "LEB",
+      "polygon_coordinates": [
+        [
+          872,
+          65
+        ],
+        [
+          622,
+          110
+        ],
+        [
+          631,
+          160
+        ],
+        [
+          881,
+          115
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.815716,
+          0.083014
+        ],
+        [
+          0.581852,
+          0.140485
+        ],
+        [
+          0.590271,
+          0.204342
+        ],
+        [
+          0.824135,
+          0.146871
+        ]
+      ],
+      "paired_tp_id": "LEB-TP03",
+      "confidence": "confirmed",
+      "notes": "User-confirmed duplicate regional link; paired by left-to-right spatial order."
+    },
+    {
+      "tp_id": "WSO-TP03",
+      "region_id": "WSO",
+      "destination_region_id": "NCA",
+      "polygon_coordinates": [
+        [
+          937,
+          68
+        ],
+        [
+          978,
+          300
+        ],
+        [
+          929,
+          309
+        ],
+        [
+          888,
+          77
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.87652,
+          0.086845
+        ],
+        [
+          0.914874,
+          0.383142
+        ],
+        [
+          0.869036,
+          0.394636
+        ],
+        [
+          0.830683,
+          0.09834
+        ]
+      ],
+      "paired_tp_id": "NCA-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "WSO-TP04",
+      "region_id": "WSO",
+      "destination_region_id": "GRF",
+      "polygon_coordinates": [
+        [
+          92,
+          249
+        ],
+        [
+          92,
+          531
+        ],
+        [
+          141,
+          531
+        ],
+        [
+          141,
+          249
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.086062,
+          0.318008
+        ],
+        [
+          0.086062,
+          0.678161
+        ],
+        [
+          0.131899,
+          0.678161
+        ],
+        [
+          0.131899,
+          0.318008
+        ]
+      ],
+      "paired_tp_id": "GRF-TP04",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "WSO-TP05",
+      "region_id": "WSO",
+      "destination_region_id": "ESO",
+      "polygon_coordinates": [
+        [
+          924,
+          322
+        ],
+        [
+          865,
+          655
+        ],
+        [
+          914,
+          664
+        ],
+        [
+          973,
+          331
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.864359,
+          0.411239
+        ],
+        [
+          0.809167,
+          0.836526
+        ],
+        [
+          0.855005,
+          0.84802
+        ],
+        [
+          0.910196,
+          0.422733
+        ]
+      ],
+      "paired_tp_id": "ESO-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "WSO-TP06",
+      "region_id": "WSO",
+      "destination_region_id": "IDL",
+      "polygon_coordinates": [
+        [
+          255,
+          674
+        ],
+        [
+          912,
+          674
+        ],
+        [
+          912,
+          723
+        ],
+        [
+          255,
+          723
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.238541,
+          0.860792
+        ],
+        [
+          0.853134,
+          0.860792
+        ],
+        [
+          0.853134,
+          0.923372
+        ],
+        [
+          0.238541,
+          0.923372
+        ]
+      ],
+      "paired_tp_id": "IDL-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "WSO-TP07",
+      "region_id": "WSO",
+      "destination_region_id": "STP",
+      "polygon_coordinates": [
+        [
+          104,
+          645
+        ],
+        [
+          251,
+          684
+        ],
+        [
+          238,
+          732
+        ],
+        [
+          92,
+          693
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.097287,
+          0.823755
+        ],
+        [
+          0.234799,
+          0.873563
+        ],
+        [
+          0.222638,
+          0.934866
+        ],
+        [
+          0.086062,
+          0.885057
+        ]
+      ],
+      "paired_tp_id": "STP-TP03",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "WSO-TP08",
+      "region_id": "WSO",
+      "destination_region_id": "BTS",
+      "polygon_coordinates": [
+        [
+          310,
+          82
+        ],
+        [
+          113,
+          196
+        ],
+        [
+          138,
+          240
+        ],
+        [
+          335,
+          126
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.289991,
+          0.104725
+        ],
+        [
+          0.105706,
+          0.250319
+        ],
+        [
+          0.129093,
+          0.306513
+        ],
+        [
+          0.313377,
+          0.16092
+        ]
+      ],
+      "paired_tp_id": "BTS-TP06",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "NCA-TP01",
+      "region_id": "NCA",
+      "destination_region_id": "LEB",
+      "polygon_coordinates": [
+        [
+          296,
+          35
+        ],
+        [
+          296,
+          582
+        ],
+        [
+          247,
+          582
+        ],
+        [
+          247,
+          35
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.316578,
+          0.039954
+        ],
+        [
+          0.316578,
+          0.664384
+        ],
+        [
+          0.264171,
+          0.664384
+        ],
+        [
+          0.264171,
+          0.039954
+        ]
+      ],
+      "paired_tp_id": "LEB-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "NCA-TP02",
+      "region_id": "NCA",
+      "destination_region_id": "WSO",
+      "polygon_coordinates": [
+        [
+          290,
+          587
+        ],
+        [
+          331,
+          819
+        ],
+        [
+          282,
+          828
+        ],
+        [
+          241,
+          596
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.31016,
+          0.670091
+        ],
+        [
+          0.354011,
+          0.934932
+        ],
+        [
+          0.301604,
+          0.945205
+        ],
+        [
+          0.257754,
+          0.680365
+        ]
+      ],
+      "paired_tp_id": "WSO-TP03",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "LEB-TP01",
+      "region_id": "LEB",
+      "destination_region_id": "SNI",
+      "polygon_coordinates": [
+        [
+          776,
+          0
+        ],
+        [
+          482,
+          115
+        ],
+        [
+          504,
+          163
+        ],
+        [
+          797,
+          29
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.511873,
+          0.0
+        ],
+        [
+          0.317942,
+          0.132948
+        ],
+        [
+          0.332454,
+          0.188439
+        ],
+        [
+          0.525726,
+          0.033526
+        ]
+      ],
+      "paired_tp_id": "SNI-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "LEB-TP02",
+      "region_id": "LEB",
+      "destination_region_id": "NCA",
+      "polygon_coordinates": [
+        [
+          334,
+          307
+        ],
+        [
+          334,
+          694
+        ],
+        [
+          383,
+          694
+        ],
+        [
+          383,
+          307
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.220317,
+          0.354913
+        ],
+        [
+          0.220317,
+          0.802312
+        ],
+        [
+          0.252639,
+          0.802312
+        ],
+        [
+          0.252639,
+          0.354913
+        ]
+      ],
+      "paired_tp_id": "NCA-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "LEB-TP03",
+      "region_id": "LEB",
+      "destination_region_id": "WSO",
+      "polygon_coordinates": [
+        [
+          1059,
+          742
+        ],
+        [
+          809,
+          786
+        ],
+        [
+          818,
+          835
+        ],
+        [
+          1068,
+          791
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.698549,
+          0.857803
+        ],
+        [
+          0.533641,
+          0.908671
+        ],
+        [
+          0.539578,
+          0.965318
+        ],
+        [
+          0.704485,
+          0.914451
+        ]
+      ],
+      "paired_tp_id": "WSO-TP02",
+      "confidence": "confirmed",
+      "notes": "User-confirmed duplicate regional link; paired by left-to-right spatial order."
+    },
+    {
+      "tp_id": "LEB-TP04",
+      "region_id": "LEB",
+      "destination_region_id": "WSO",
+      "polygon_coordinates": [
+        [
+          531,
+          761
+        ],
+        [
+          806,
+          785
+        ],
+        [
+          802,
+          835
+        ],
+        [
+          527,
+          811
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.350264,
+          0.879769
+        ],
+        [
+          0.531662,
+          0.907514
+        ],
+        [
+          0.529024,
+          0.965318
+        ],
+        [
+          0.347625,
+          0.937572
+        ]
+      ],
+      "paired_tp_id": "WSO-TP01",
+      "confidence": "confirmed",
+      "notes": "User-confirmed duplicate regional link; paired by left-to-right spatial order."
+    },
+    {
+      "tp_id": "LEB-TP05",
+      "region_id": "LEB",
+      "destination_region_id": "GRF",
+      "polygon_coordinates": [
+        [
+          398,
+          681
+        ],
+        [
+          527,
+          755
+        ],
+        [
+          502,
+          798
+        ],
+        [
+          373,
+          724
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.262533,
+          0.787283
+        ],
+        [
+          0.347625,
+          0.872832
+        ],
+        [
+          0.331135,
+          0.922543
+        ],
+        [
+          0.246042,
+          0.836994
+        ]
+      ],
+      "paired_tp_id": "GRF-TP03",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "LEB-TP06",
+      "region_id": "LEB",
+      "destination_region_id": "BTS",
+      "polygon_coordinates": [
+        [
+          1130,
+          192
+        ],
+        [
+          1130,
+          739
+        ],
+        [
+          1081,
+          739
+        ],
+        [
+          1081,
+          192
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.745383,
+          0.221965
+        ],
+        [
+          0.745383,
+          0.854335
+        ],
+        [
+          0.713061,
+          0.854335
+        ],
+        [
+          0.713061,
+          0.221965
+        ]
+      ],
+      "paired_tp_id": "BTS-TP04",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "SNI-TP01",
+      "region_id": "SNI",
+      "destination_region_id": "BTS",
+      "polygon_coordinates": [
+        [
+          92,
+          489
+        ],
+        [
+          443,
+          489
+        ],
+        [
+          443,
+          546
+        ],
+        [
+          92,
+          546
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.093878,
+          0.624521
+        ],
+        [
+          0.452041,
+          0.624521
+        ],
+        [
+          0.452041,
+          0.697318
+        ],
+        [
+          0.093878,
+          0.697318
+        ]
+      ],
+      "paired_tp_id": "BTS-TP02",
+      "confidence": "confirmed",
+      "notes": "Geometry confirmed by user from the marked TP boxes."
+    },
+    {
+      "tp_id": "SNI-TP02",
+      "region_id": "SNI",
+      "destination_region_id": "LEB",
+      "polygon_coordinates": [
+        [
+          474,
+          489
+        ],
+        [
+          778,
+          426
+        ],
+        [
+          789,
+          479
+        ],
+        [
+          486,
+          541
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.483673,
+          0.624521
+        ],
+        [
+          0.793878,
+          0.544061
+        ],
+        [
+          0.805102,
+          0.61175
+        ],
+        [
+          0.495918,
+          0.690932
+        ]
+      ],
+      "paired_tp_id": "LEB-TP01",
+      "confidence": "confirmed",
+      "notes": "Geometry confirmed by user from the marked TP boxes."
+    },
+    {
+      "tp_id": "BTS-TP01",
+      "region_id": "BTS",
+      "destination_region_id": "SPO",
+      "polygon_coordinates": [
+        [
+          361,
+          28
+        ],
+        [
+          247,
+          341
+        ],
+        [
+          294,
+          359
+        ],
+        [
+          408,
+          45
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.258411,
+          0.028311
+        ],
+        [
+          0.176807,
+          0.344793
+        ],
+        [
+          0.210451,
+          0.362993
+        ],
+        [
+          0.292054,
+          0.045501
+        ]
+      ],
+      "paired_tp_id": "SPO-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "BTS-TP02",
+      "region_id": "BTS",
+      "destination_region_id": "SNI",
+      "polygon_coordinates": [
+        [
+          651,
+          184
+        ],
+        [
+          972,
+          184
+        ],
+        [
+          972,
+          233
+        ],
+        [
+          651,
+          233
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.465999,
+          0.186047
+        ],
+        [
+          0.695777,
+          0.186047
+        ],
+        [
+          0.695777,
+          0.235592
+        ],
+        [
+          0.465999,
+          0.235592
+        ]
+      ],
+      "paired_tp_id": "SNI-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "BTS-TP03",
+      "region_id": "BTS",
+      "destination_region_id": "IRV",
+      "polygon_coordinates": [
+        [
+          491,
+          381
+        ],
+        [
+          491,
+          768
+        ],
+        [
+          540,
+          768
+        ],
+        [
+          540,
+          381
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.351467,
+          0.385238
+        ],
+        [
+          0.351467,
+          0.776542
+        ],
+        [
+          0.386543,
+          0.776542
+        ],
+        [
+          0.386543,
+          0.385238
+        ]
+      ],
+      "paired_tp_id": "IRV-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "BTS-TP04",
+      "region_id": "BTS",
+      "destination_region_id": "LEB",
+      "polygon_coordinates": [
+        [
+          975,
+          381
+        ],
+        [
+          975,
+          768
+        ],
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          381
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.697924,
+          0.385238
+        ],
+        [
+          0.697924,
+          0.776542
+        ],
+        [
+          0.732999,
+          0.776542
+        ],
+        [
+          0.732999,
+          0.385238
+        ]
+      ],
+      "paired_tp_id": "LEB-TP06",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "BTS-TP05",
+      "region_id": "BTS",
+      "destination_region_id": "GRF",
+      "polygon_coordinates": [
+        [
+          598,
+          833
+        ],
+        [
+          865,
+          905
+        ],
+        [
+          852,
+          953
+        ],
+        [
+          586,
+          881
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.42806,
+          0.842265
+        ],
+        [
+          0.619184,
+          0.915066
+        ],
+        [
+          0.609878,
+          0.9636
+        ],
+        [
+          0.41947,
+          0.890799
+        ]
+      ],
+      "paired_tp_id": "GRF-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "BTS-TP06",
+      "region_id": "BTS",
+      "destination_region_id": "WSO",
+      "polygon_coordinates": [
+        [
+          1138,
+          832
+        ],
+        [
+          941,
+          946
+        ],
+        [
+          966,
+          988
+        ],
+        [
+          1163,
+          876
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.814603,
+          0.841254
+        ],
+        [
+          0.673586,
+          0.956522
+        ],
+        [
+          0.691482,
+          0.998989
+        ],
+        [
+          0.832498,
+          0.885743
+        ]
+      ],
+      "paired_tp_id": "WSO-TP08",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IRV-TP01",
+      "region_id": "IRV",
+      "destination_region_id": "SPO",
+      "polygon_coordinates": [
+        [
+          552,
+          126
+        ],
+        [
+          143,
+          198
+        ],
+        [
+          151,
+          247
+        ],
+        [
+          561,
+          175
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.464256,
+          0.134472
+        ],
+        [
+          0.120269,
+          0.211313
+        ],
+        [
+          0.126997,
+          0.263607
+        ],
+        [
+          0.471825,
+          0.186766
+        ]
+      ],
+      "paired_tp_id": "SPO-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IRV-TP02",
+      "region_id": "IRV",
+      "destination_region_id": "BTS",
+      "polygon_coordinates": [
+        [
+          814,
+          145
+        ],
+        [
+          814,
+          532
+        ],
+        [
+          863,
+          532
+        ],
+        [
+          863,
+          145
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.684609,
+          0.154749
+        ],
+        [
+          0.684609,
+          0.567769
+        ],
+        [
+          0.72582,
+          0.567769
+        ],
+        [
+          0.72582,
+          0.154749
+        ]
+      ],
+      "paired_tp_id": "BTS-TP03",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IRV-TP03",
+      "region_id": "IRV",
+      "destination_region_id": "GRF",
+      "polygon_coordinates": [
+        [
+          829,
+          562
+        ],
+        [
+          771,
+          663
+        ],
+        [
+          814,
+          688
+        ],
+        [
+          872,
+          587
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.697225,
+          0.599787
+        ],
+        [
+          0.648444,
+          0.707577
+        ],
+        [
+          0.684609,
+          0.734258
+        ],
+        [
+          0.733389,
+          0.626467
+        ]
+      ],
+      "paired_tp_id": "GRF-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IRV-TP04",
+      "region_id": "IRV",
+      "destination_region_id": "KIN",
+      "polygon_coordinates": [
+        [
+          283,
+          458
+        ],
+        [
+          802,
+          700
+        ],
+        [
+          780,
+          745
+        ],
+        [
+          262,
+          504
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.238015,
+          0.488794
+        ],
+        [
+          0.674516,
+          0.747065
+        ],
+        [
+          0.656013,
+          0.795091
+        ],
+        [
+          0.220353,
+          0.537887
+        ]
+      ],
+      "paired_tp_id": "KIN-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "GRF-TP01",
+      "region_id": "GRF",
+      "destination_region_id": "IRV",
+      "polygon_coordinates": [
+        [
+          216,
+          55
+        ],
+        [
+          158,
+          156
+        ],
+        [
+          201,
+          181
+        ],
+        [
+          259,
+          80
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.248276,
+          0.066265
+        ],
+        [
+          0.181609,
+          0.187952
+        ],
+        [
+          0.231034,
+          0.218072
+        ],
+        [
+          0.297701,
+          0.096386
+        ]
+      ],
+      "paired_tp_id": "IRV-TP03",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "GRF-TP02",
+      "region_id": "GRF",
+      "destination_region_id": "BTS",
+      "polygon_coordinates": [
+        [
+          274,
+          65
+        ],
+        [
+          541,
+          136
+        ],
+        [
+          528,
+          184
+        ],
+        [
+          261,
+          113
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.314943,
+          0.078313
+        ],
+        [
+          0.621839,
+          0.163855
+        ],
+        [
+          0.606897,
+          0.221687
+        ],
+        [
+          0.3,
+          0.136145
+        ]
+      ],
+      "paired_tp_id": "BTS-TP05",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "GRF-TP03",
+      "region_id": "GRF",
+      "destination_region_id": "LEB",
+      "polygon_coordinates": [
+        [
+          591,
+          85
+        ],
+        [
+          690,
+          195
+        ],
+        [
+          653,
+          229
+        ],
+        [
+          554,
+          119
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.67931,
+          0.10241
+        ],
+        [
+          0.793103,
+          0.23494
+        ],
+        [
+          0.750575,
+          0.275904
+        ],
+        [
+          0.636782,
+          0.143373
+        ]
+      ],
+      "paired_tp_id": "LEB-TP05",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "GRF-TP04",
+      "region_id": "GRF",
+      "destination_region_id": "WSO",
+      "polygon_coordinates": [
+        [
+          597,
+          231
+        ],
+        [
+          597,
+          513
+        ],
+        [
+          646,
+          513
+        ],
+        [
+          646,
+          231
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.686207,
+          0.278313
+        ],
+        [
+          0.686207,
+          0.618072
+        ],
+        [
+          0.742529,
+          0.618072
+        ],
+        [
+          0.742529,
+          0.278313
+        ]
+      ],
+      "paired_tp_id": "WSO-TP04",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "GRF-TP05",
+      "region_id": "GRF",
+      "destination_region_id": "IDL",
+      "polygon_coordinates": [
+        [
+          667,
+          552
+        ],
+        [
+          562,
+          647
+        ],
+        [
+          595,
+          684
+        ],
+        [
+          700,
+          589
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.766667,
+          0.66506
+        ],
+        [
+          0.645977,
+          0.779518
+        ],
+        [
+          0.683908,
+          0.824096
+        ],
+        [
+          0.804598,
+          0.709639
+        ]
+      ],
+      "paired_tp_id": "IDL-TP06",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "GRF-TP06",
+      "region_id": "GRF",
+      "destination_region_id": "STP",
+      "polygon_coordinates": [
+        [
+          559,
+          644
+        ],
+        [
+          217,
+          698
+        ],
+        [
+          225,
+          747
+        ],
+        [
+          567,
+          693
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.642529,
+          0.775904
+        ],
+        [
+          0.249425,
+          0.840964
+        ],
+        [
+          0.258621,
+          0.9
+        ],
+        [
+          0.651724,
+          0.83494
+        ]
+      ],
+      "paired_tp_id": "STP-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "GRF-TP07",
+      "region_id": "GRF",
+      "destination_region_id": "KIN",
+      "polygon_coordinates": [
+        [
+          159,
+          203
+        ],
+        [
+          159,
+          564
+        ],
+        [
+          208,
+          564
+        ],
+        [
+          208,
+          203
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.182759,
+          0.244578
+        ],
+        [
+          0.182759,
+          0.679518
+        ],
+        [
+          0.23908,
+          0.679518
+        ],
+        [
+          0.23908,
+          0.244578
+        ]
+      ],
+      "paired_tp_id": "KIN-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "KIN-TP01",
+      "region_id": "KIN",
+      "destination_region_id": "IRV",
+      "polygon_coordinates": [
+        [
+          535,
+          1
+        ],
+        [
+          1054,
+          243
+        ],
+        [
+          1032,
+          288
+        ],
+        [
+          514,
+          47
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.384892,
+          0.000951
+        ],
+        [
+          0.758273,
+          0.230989
+        ],
+        [
+          0.742446,
+          0.273764
+        ],
+        [
+          0.369784,
+          0.044677
+        ]
+      ],
+      "paired_tp_id": "IRV-TP04",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "KIN-TP02",
+      "region_id": "KIN",
+      "destination_region_id": "GRF",
+      "polygon_coordinates": [
+        [
+          1057,
+          278
+        ],
+        [
+          1057,
+          639
+        ],
+        [
+          1106,
+          639
+        ],
+        [
+          1106,
+          278
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.760432,
+          0.264259
+        ],
+        [
+          0.760432,
+          0.607414
+        ],
+        [
+          0.795683,
+          0.607414
+        ],
+        [
+          0.795683,
+          0.264259
+        ]
+      ],
+      "paired_tp_id": "GRF-TP07",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "KIN-TP03",
+      "region_id": "KIN",
+      "destination_region_id": "SSA",
+      "polygon_coordinates": [
+        [
+          351,
+          46
+        ],
+        [
+          351,
+          891
+        ],
+        [
+          400,
+          891
+        ],
+        [
+          400,
+          46
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.252518,
+          0.043726
+        ],
+        [
+          0.252518,
+          0.846958
+        ],
+        [
+          0.28777,
+          0.846958
+        ],
+        [
+          0.28777,
+          0.043726
+        ]
+      ],
+      "paired_tp_id": "SSA-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "KIN-TP04",
+      "region_id": "KIN",
+      "destination_region_id": "STP",
+      "polygon_coordinates": [
+        [
+          1073,
+          797
+        ],
+        [
+          957,
+          925
+        ],
+        [
+          994,
+          959
+        ],
+        [
+          1110,
+          830
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.771942,
+          0.757605
+        ],
+        [
+          0.688489,
+          0.879278
+        ],
+        [
+          0.715108,
+          0.911597
+        ],
+        [
+          0.798561,
+          0.788973
+        ]
+      ],
+      "paired_tp_id": "STP-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "KIN-TP05",
+      "region_id": "KIN",
+      "destination_region_id": "CAY",
+      "polygon_coordinates": [
+        [
+          503,
+          945
+        ],
+        [
+          910,
+          945
+        ],
+        [
+          910,
+          994
+        ],
+        [
+          503,
+          994
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.361871,
+          0.898289
+        ],
+        [
+          0.654676,
+          0.898289
+        ],
+        [
+          0.654676,
+          0.944867
+        ],
+        [
+          0.361871,
+          0.944867
+        ]
+      ],
+      "paired_tp_id": "CAY-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "KIN-TP06",
+      "region_id": "KIN",
+      "destination_region_id": "ILB",
+      "polygon_coordinates": [
+        [
+          344,
+          910
+        ],
+        [
+          446,
+          1012
+        ],
+        [
+          411,
+          1048
+        ],
+        [
+          309,
+          945
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.247482,
+          0.865019
+        ],
+        [
+          0.320863,
+          0.961977
+        ],
+        [
+          0.295683,
+          0.996198
+        ],
+        [
+          0.222302,
+          0.898289
+        ]
+      ],
+      "paired_tp_id": "ILB-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "CAY-TP01",
+      "region_id": "CAY",
+      "destination_region_id": "KIN",
+      "polygon_coordinates": [
+        [
+          583,
+          110
+        ],
+        [
+          990,
+          110
+        ],
+        [
+          990,
+          159
+        ],
+        [
+          583,
+          159
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.341335,
+          0.124014
+        ],
+        [
+          0.579625,
+          0.124014
+        ],
+        [
+          0.579625,
+          0.179256
+        ],
+        [
+          0.341335,
+          0.179256
+        ]
+      ],
+      "paired_tp_id": "KIN-TP05",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "CAY-TP02",
+      "region_id": "CAY",
+      "destination_region_id": "STP",
+      "polygon_coordinates": [
+        [
+          1041,
+          191
+        ],
+        [
+          1096,
+          502
+        ],
+        [
+          1047,
+          511
+        ],
+        [
+          992,
+          199
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.609485,
+          0.215333
+        ],
+        [
+          0.641686,
+          0.565953
+        ],
+        [
+          0.612998,
+          0.576099
+        ],
+        [
+          0.580796,
+          0.224352
+        ]
+      ],
+      "paired_tp_id": "STP-TP07",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "CAY-TP03",
+      "region_id": "CAY",
+      "destination_region_id": "ILB",
+      "polygon_coordinates": [
+        [
+          270,
+          314
+        ],
+        [
+          612,
+          804
+        ],
+        [
+          571,
+          832
+        ],
+        [
+          229,
+          343
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.15808,
+          0.354002
+        ],
+        [
+          0.358314,
+          0.906426
+        ],
+        [
+          0.334309,
+          0.937993
+        ],
+        [
+          0.134075,
+          0.386697
+        ]
+      ],
+      "paired_tp_id": "ILB-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "CAY-TP04",
+      "region_id": "CAY",
+      "destination_region_id": "SSA",
+      "polygon_coordinates": [
+        [
+          573,
+          148
+        ],
+        [
+          307,
+          356
+        ],
+        [
+          338,
+          396
+        ],
+        [
+          603,
+          188
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.33548,
+          0.166855
+        ],
+        [
+          0.179742,
+          0.401353
+        ],
+        [
+          0.197892,
+          0.446449
+        ],
+        [
+          0.353044,
+          0.21195
+        ]
+      ],
+      "paired_tp_id": "SSA-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "ILB-TP01",
+      "region_id": "ILB",
+      "destination_region_id": "KIN",
+      "polygon_coordinates": [
+        [
+          559,
+          23
+        ],
+        [
+          610,
+          74
+        ],
+        [
+          593,
+          91
+        ],
+        [
+          542,
+          40
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.535441,
+          0.033577
+        ],
+        [
+          0.584291,
+          0.108029
+        ],
+        [
+          0.568008,
+          0.132847
+        ],
+        [
+          0.519157,
+          0.058394
+        ]
+      ],
+      "paired_tp_id": "KIN-TP06",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "ILB-TP02",
+      "region_id": "ILB",
+      "destination_region_id": "CAY",
+      "polygon_coordinates": [
+        [
+          482,
+          142
+        ],
+        [
+          653,
+          387
+        ],
+        [
+          633,
+          401
+        ],
+        [
+          462,
+          157
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.461686,
+          0.207299
+        ],
+        [
+          0.625479,
+          0.564964
+        ],
+        [
+          0.606322,
+          0.585401
+        ],
+        [
+          0.442529,
+          0.229197
+        ]
+      ],
+      "paired_tp_id": "CAY-TP03",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "SSA-TP01",
+      "region_id": "SSA",
+      "destination_region_id": "KIN",
+      "polygon_coordinates": [
+        [
+          389,
+          53
+        ],
+        [
+          389,
+          444
+        ],
+        [
+          368,
+          444
+        ],
+        [
+          368,
+          53
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.657095,
+          0.080303
+        ],
+        [
+          0.657095,
+          0.672727
+        ],
+        [
+          0.621622,
+          0.672727
+        ],
+        [
+          0.621622,
+          0.080303
+        ]
+      ],
+      "paired_tp_id": "KIN-TP03",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "SSA-TP02",
+      "region_id": "SSA",
+      "destination_region_id": "CAY",
+      "polygon_coordinates": [
+        [
+          365,
+          448
+        ],
+        [
+          242,
+          544
+        ],
+        [
+          256,
+          562
+        ],
+        [
+          379,
+          466
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.616554,
+          0.678788
+        ],
+        [
+          0.408784,
+          0.824242
+        ],
+        [
+          0.432432,
+          0.851515
+        ],
+        [
+          0.640203,
+          0.706061
+        ]
+      ],
+      "paired_tp_id": "CAY-TP04",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "SPO-TP01",
+      "region_id": "SPO",
+      "destination_region_id": "IRV",
+      "polygon_coordinates": [
+        [
+          958,
+          632
+        ],
+        [
+          549,
+          704
+        ],
+        [
+          557,
+          753
+        ],
+        [
+          967,
+          681
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.657515,
+          0.771673
+        ],
+        [
+          0.376802,
+          0.859585
+        ],
+        [
+          0.382292,
+          0.919414
+        ],
+        [
+          0.663693,
+          0.831502
+        ]
+      ],
+      "paired_tp_id": "IRV-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "SPO-TP02",
+      "region_id": "SPO",
+      "destination_region_id": "BTS",
+      "polygon_coordinates": [
+        [
+          1090,
+          298
+        ],
+        [
+          976,
+          611
+        ],
+        [
+          1023,
+          629
+        ],
+        [
+          1137,
+          315
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.748113,
+          0.363858
+        ],
+        [
+          0.66987,
+          0.746032
+        ],
+        [
+          0.702128,
+          0.76801
+        ],
+        [
+          0.780371,
+          0.384615
+        ]
+      ],
+      "paired_tp_id": "BTS-TP01",
+      "confidence": "visually_verified",
+      "notes": ""
+    }
+  ],
+  "teleport_pairs": [
+    {
+      "pair_id": "PAIR-001",
+      "tp_a_id": "LEB-TP04",
+      "tp_b_id": "WSO-TP01",
+      "region_a_id": "LEB",
+      "region_b_id": "WSO",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-002",
+      "tp_a_id": "LEB-TP03",
+      "tp_b_id": "WSO-TP02",
+      "region_a_id": "LEB",
+      "region_b_id": "WSO",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-003",
+      "tp_a_id": "BEL-TP-STP",
+      "tp_b_id": "STP-TP06",
+      "region_a_id": "BEL",
+      "region_b_id": "STP",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-004",
+      "tp_a_id": "BEL-TP-IDL",
+      "tp_b_id": "IDL-TP04",
+      "region_a_id": "BEL",
+      "region_b_id": "IDL",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-005",
+      "tp_a_id": "VYS-TP01",
+      "tp_b_id": "STP-TP05",
+      "region_a_id": "VYS",
+      "region_b_id": "STP",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-006",
+      "tp_a_id": "VYS-TP02",
+      "tp_b_id": "IDL-TP03",
+      "region_a_id": "VYS",
+      "region_b_id": "IDL",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-007",
+      "tp_a_id": "IDL-TP01",
+      "tp_b_id": "WSO-TP06",
+      "region_a_id": "IDL",
+      "region_b_id": "WSO",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-008",
+      "tp_a_id": "IDL-TP02",
+      "tp_b_id": "ESO-TP02",
+      "region_a_id": "IDL",
+      "region_b_id": "ESO",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-009",
+      "tp_a_id": "IDL-TP05",
+      "tp_b_id": "STP-TP04",
+      "region_a_id": "IDL",
+      "region_b_id": "STP",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-010",
+      "tp_a_id": "IDL-TP06",
+      "tp_b_id": "GRF-TP05",
+      "region_a_id": "IDL",
+      "region_b_id": "GRF",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-011",
+      "tp_a_id": "STP-TP01",
+      "tp_b_id": "GRF-TP06",
+      "region_a_id": "STP",
+      "region_b_id": "GRF",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-012",
+      "tp_a_id": "STP-TP02",
+      "tp_b_id": "KIN-TP04",
+      "region_a_id": "STP",
+      "region_b_id": "KIN",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-013",
+      "tp_a_id": "STP-TP03",
+      "tp_b_id": "WSO-TP07",
+      "region_a_id": "STP",
+      "region_b_id": "WSO",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-014",
+      "tp_a_id": "STP-TP07",
+      "tp_b_id": "CAY-TP02",
+      "region_a_id": "STP",
+      "region_b_id": "CAY",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-015",
+      "tp_a_id": "ESO-TP01",
+      "tp_b_id": "WSO-TP05",
+      "region_a_id": "ESO",
+      "region_b_id": "WSO",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-016",
+      "tp_a_id": "WSO-TP03",
+      "tp_b_id": "NCA-TP02",
+      "region_a_id": "WSO",
+      "region_b_id": "NCA",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-017",
+      "tp_a_id": "WSO-TP04",
+      "tp_b_id": "GRF-TP04",
+      "region_a_id": "WSO",
+      "region_b_id": "GRF",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-018",
+      "tp_a_id": "WSO-TP08",
+      "tp_b_id": "BTS-TP06",
+      "region_a_id": "WSO",
+      "region_b_id": "BTS",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-019",
+      "tp_a_id": "NCA-TP01",
+      "tp_b_id": "LEB-TP02",
+      "region_a_id": "NCA",
+      "region_b_id": "LEB",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-020",
+      "tp_a_id": "LEB-TP01",
+      "tp_b_id": "SNI-TP02",
+      "region_a_id": "LEB",
+      "region_b_id": "SNI",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-021",
+      "tp_a_id": "LEB-TP05",
+      "tp_b_id": "GRF-TP03",
+      "region_a_id": "LEB",
+      "region_b_id": "GRF",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-022",
+      "tp_a_id": "LEB-TP06",
+      "tp_b_id": "BTS-TP04",
+      "region_a_id": "LEB",
+      "region_b_id": "BTS",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-023",
+      "tp_a_id": "SNI-TP01",
+      "tp_b_id": "BTS-TP02",
+      "region_a_id": "SNI",
+      "region_b_id": "BTS",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-024",
+      "tp_a_id": "BTS-TP01",
+      "tp_b_id": "SPO-TP02",
+      "region_a_id": "BTS",
+      "region_b_id": "SPO",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-025",
+      "tp_a_id": "BTS-TP03",
+      "tp_b_id": "IRV-TP02",
+      "region_a_id": "BTS",
+      "region_b_id": "IRV",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-026",
+      "tp_a_id": "BTS-TP05",
+      "tp_b_id": "GRF-TP02",
+      "region_a_id": "BTS",
+      "region_b_id": "GRF",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-027",
+      "tp_a_id": "IRV-TP01",
+      "tp_b_id": "SPO-TP01",
+      "region_a_id": "IRV",
+      "region_b_id": "SPO",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-028",
+      "tp_a_id": "IRV-TP03",
+      "tp_b_id": "GRF-TP01",
+      "region_a_id": "IRV",
+      "region_b_id": "GRF",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-029",
+      "tp_a_id": "IRV-TP04",
+      "tp_b_id": "KIN-TP01",
+      "region_a_id": "IRV",
+      "region_b_id": "KIN",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-030",
+      "tp_a_id": "GRF-TP07",
+      "tp_b_id": "KIN-TP02",
+      "region_a_id": "GRF",
+      "region_b_id": "KIN",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-031",
+      "tp_a_id": "KIN-TP03",
+      "tp_b_id": "SSA-TP01",
+      "region_a_id": "KIN",
+      "region_b_id": "SSA",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-032",
+      "tp_a_id": "KIN-TP05",
+      "tp_b_id": "CAY-TP01",
+      "region_a_id": "KIN",
+      "region_b_id": "CAY",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-033",
+      "tp_a_id": "KIN-TP06",
+      "tp_b_id": "ILB-TP01",
+      "region_a_id": "KIN",
+      "region_b_id": "ILB",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-034",
+      "tp_a_id": "CAY-TP03",
+      "tp_b_id": "ILB-TP02",
+      "region_a_id": "CAY",
+      "region_b_id": "ILB",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    },
+    {
+      "pair_id": "PAIR-035",
+      "tp_a_id": "CAY-TP04",
+      "tp_b_id": "SSA-TP02",
+      "region_a_id": "CAY",
+      "region_b_id": "SSA",
+      "mapping": "same_relative_position",
+      "confidence": "confirmed"
+    }
+  ],
+  "map_assets": [
+    {
+      "region_id": "BEL",
+      "asset_type": "source",
+      "file": "regions/BEL/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "BEL",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/BEL/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "BEL",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/BEL/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "BEL",
+      "asset_type": "ownership_mask",
+      "file": "regions/BEL/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "BEL",
+      "asset_type": "review_overlay",
+      "file": "regions/BEL/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "VYS",
+      "asset_type": "source",
+      "file": "regions/VYS/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "VYS",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/VYS/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "VYS",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/VYS/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "VYS",
+      "asset_type": "ownership_mask",
+      "file": "regions/VYS/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "VYS",
+      "asset_type": "review_overlay",
+      "file": "regions/VYS/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "IDL",
+      "asset_type": "source",
+      "file": "regions/IDL/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "IDL",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/IDL/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "IDL",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/IDL/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "IDL",
+      "asset_type": "ownership_mask",
+      "file": "regions/IDL/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "IDL",
+      "asset_type": "review_overlay",
+      "file": "regions/IDL/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "STP",
+      "asset_type": "source",
+      "file": "regions/STP/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "STP",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/STP/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "STP",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/STP/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "STP",
+      "asset_type": "ownership_mask",
+      "file": "regions/STP/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "STP",
+      "asset_type": "review_overlay",
+      "file": "regions/STP/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "ESO",
+      "asset_type": "source",
+      "file": "regions/ESO/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "ESO",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/ESO/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "ESO",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/ESO/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "ESO",
+      "asset_type": "ownership_mask",
+      "file": "regions/ESO/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "ESO",
+      "asset_type": "review_overlay",
+      "file": "regions/ESO/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "WSO",
+      "asset_type": "source",
+      "file": "regions/WSO/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "WSO",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/WSO/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "WSO",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/WSO/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "WSO",
+      "asset_type": "ownership_mask",
+      "file": "regions/WSO/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "WSO",
+      "asset_type": "review_overlay",
+      "file": "regions/WSO/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "NCA",
+      "asset_type": "source",
+      "file": "regions/NCA/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "NCA",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/NCA/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "NCA",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/NCA/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "NCA",
+      "asset_type": "ownership_mask",
+      "file": "regions/NCA/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "NCA",
+      "asset_type": "review_overlay",
+      "file": "regions/NCA/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "LEB",
+      "asset_type": "source",
+      "file": "regions/LEB/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "LEB",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/LEB/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "LEB",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/LEB/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "LEB",
+      "asset_type": "ownership_mask",
+      "file": "regions/LEB/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "LEB",
+      "asset_type": "review_overlay",
+      "file": "regions/LEB/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "SNI",
+      "asset_type": "source",
+      "file": "regions/SNI/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "SNI",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/SNI/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "SNI",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/SNI/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "SNI",
+      "asset_type": "ownership_mask",
+      "file": "regions/SNI/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "SNI",
+      "asset_type": "review_overlay",
+      "file": "regions/SNI/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "BTS",
+      "asset_type": "source",
+      "file": "regions/BTS/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "BTS",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/BTS/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "BTS",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/BTS/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "BTS",
+      "asset_type": "ownership_mask",
+      "file": "regions/BTS/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "BTS",
+      "asset_type": "review_overlay",
+      "file": "regions/BTS/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "IRV",
+      "asset_type": "source",
+      "file": "regions/IRV/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "IRV",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/IRV/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "IRV",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/IRV/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "IRV",
+      "asset_type": "ownership_mask",
+      "file": "regions/IRV/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "IRV",
+      "asset_type": "review_overlay",
+      "file": "regions/IRV/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "GRF",
+      "asset_type": "source",
+      "file": "regions/GRF/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "GRF",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/GRF/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "GRF",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/GRF/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "GRF",
+      "asset_type": "ownership_mask",
+      "file": "regions/GRF/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "GRF",
+      "asset_type": "review_overlay",
+      "file": "regions/GRF/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "KIN",
+      "asset_type": "source",
+      "file": "regions/KIN/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "KIN",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/KIN/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "KIN",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/KIN/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "KIN",
+      "asset_type": "ownership_mask",
+      "file": "regions/KIN/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "KIN",
+      "asset_type": "review_overlay",
+      "file": "regions/KIN/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "CAY",
+      "asset_type": "source",
+      "file": "regions/CAY/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "CAY",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/CAY/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "CAY",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/CAY/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "CAY",
+      "asset_type": "ownership_mask",
+      "file": "regions/CAY/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "CAY",
+      "asset_type": "review_overlay",
+      "file": "regions/CAY/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "ILB",
+      "asset_type": "source",
+      "file": "regions/ILB/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "ILB",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/ILB/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "ILB",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/ILB/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "ILB",
+      "asset_type": "ownership_mask",
+      "file": "regions/ILB/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "ILB",
+      "asset_type": "review_overlay",
+      "file": "regions/ILB/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "SSA",
+      "asset_type": "source",
+      "file": "regions/SSA/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "SSA",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/SSA/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "SSA",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/SSA/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "SSA",
+      "asset_type": "ownership_mask",
+      "file": "regions/SSA/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "SSA",
+      "asset_type": "review_overlay",
+      "file": "regions/SSA/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    },
+    {
+      "region_id": "SPO",
+      "asset_type": "source",
+      "file": "regions/SPO/source.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "SPO",
+      "asset_type": "raw_obstacle_mask",
+      "file": "regions/SPO/raw_obstacle_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "SPO",
+      "asset_type": "navigation_water_mask",
+      "file": "regions/SPO/navigation_water_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "SPO",
+      "asset_type": "ownership_mask",
+      "file": "regions/SPO/ownership_mask.png",
+      "authoritative": "yes",
+      "status": "present"
+    },
+    {
+      "region_id": "SPO",
+      "asset_type": "review_overlay",
+      "file": "regions/SPO/review_overlay.png",
+      "authoritative": "review",
+      "status": "present"
+    }
+  ],
+  "validation": {
+    "overall_status": "READY FOR STAGE 2",
+    "automated_checks": [
+      {
+        "check_id": 1,
+        "check": "All 17 regions exist",
+        "status": "PASS",
+        "detail": "Found 17 regions"
+      },
+      {
+        "check_id": 2,
+        "check": "All 57 trade ports exist",
+        "status": "PASS",
+        "detail": "Found 57 ports"
+      },
+      {
+        "check_id": 3,
+        "check": "Every port belongs to a valid region",
+        "status": "PASS",
+        "detail": "All region references valid"
+      },
+      {
+        "check_id": 4,
+        "check": "Every port navigation anchor lies in navigable water",
+        "status": "PASS",
+        "detail": "All anchors pass"
+      },
+      {
+        "check_id": 5,
+        "check": "No port anchor lies inside an obstacle",
+        "status": "PASS",
+        "detail": "All anchors pass"
+      },
+      {
+        "check_id": 6,
+        "check": "Every TP has a valid destination",
+        "status": "PASS",
+        "detail": "All destinations reference another valid region"
+      },
+      {
+        "check_id": 7,
+        "check": "Every TP polygon lies primarily in navigable space",
+        "status": "PASS",
+        "detail": "Minimum navigable coverage 100.0%"
+      },
+      {
+        "check_id": 8,
+        "check": "Every paired_tp_id points to an existing TP",
+        "status": "PASS",
+        "detail": "All non-null references exist"
+      },
+      {
+        "check_id": 9,
+        "check": "Reciprocal pairings have compatible region destinations",
+        "status": "PASS",
+        "detail": "All resolved pairings are reciprocal and compatible"
+      },
+      {
+        "check_id": 10,
+        "check": "Neighbor-region obstacles excluded from owned geometry",
+        "status": "PASS",
+        "detail": "All raw obstacles are subsets of explicit ownership masks; overlays visually reviewed"
+      },
+      {
+        "check_id": 11,
+        "check": "No source map is missing",
+        "status": "PASS",
+        "detail": "All 17 standardized region folders are complete"
+      },
+      {
+        "check_id": 12,
+        "check": "Normalized coordinates are in [0,1]",
+        "status": "PASS",
+        "detail": "All port and TP normalized coordinates pass"
+      },
+      {
+        "check_id": 13,
+        "check": "Intentional duplicate TP links are preserved",
+        "status": "PASS",
+        "detail": "LEB→WSO 2; WSO→LEB 2"
+      },
+      {
+        "check_id": 14,
+        "check": "Raw obstacle masks exist for every region",
+        "status": "PASS",
+        "detail": "17/17 present"
+      },
+      {
+        "check_id": 15,
+        "check": "Navigation masks exist for every region",
+        "status": "PASS",
+        "detail": "17/17 present"
+      }
+    ],
+    "all_automated_checks_pass": true,
+    "unresolved_items": []
+  },
+  "needs_review": []
+}

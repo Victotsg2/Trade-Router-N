@@ -1,0 +1,164 @@
+{
+  "source_recording_count": 16,
+  "origins_detected": 16,
+  "confirmed_destination_rows": 870,
+  "coverage": [
+    {
+      "origin_port": "Gyldenvale",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Cumberland Hill",
+        "Griffard's Rock"
+      ]
+    },
+    {
+      "origin_port": "Crownstead",
+      "confirmed_rows": 54,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Cumberland Hill",
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ]
+    },
+    {
+      "origin_port": "Ashbourne",
+      "confirmed_rows": 56,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock"
+      ]
+    },
+    {
+      "origin_port": "Wyntergard",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ]
+    },
+    {
+      "origin_port": "Port Louis",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ]
+    },
+    {
+      "origin_port": "Fair Harbour",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ]
+    },
+    {
+      "origin_port": "Bucket Bay",
+      "confirmed_rows": 52,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Cumberland Hill",
+        "Griffard's Rock",
+        "Peter's Cove",
+        "Saint-Nicholas",
+        "Yorinobu's Settlement"
+      ]
+    },
+    {
+      "origin_port": "Matthew's Rest",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ]
+    },
+    {
+      "origin_port": "Pachard Town",
+      "confirmed_rows": 54,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Cumberland Hill",
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ]
+    },
+    {
+      "origin_port": "Port-Au-Croix",
+      "confirmed_rows": 54,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Saint-Nicholas",
+        "Yorinobu's Settlement"
+      ]
+    },
+    {
+      "origin_port": "Point Rocheux",
+      "confirmed_rows": 54,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Cumberland Hill",
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ]
+    },
+    {
+      "origin_port": "Villarreal Del Mar",
+      "confirmed_rows": 54,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Cumberland Hill",
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ]
+    },
+    {
+      "origin_port": "Venta Nueva",
+      "confirmed_rows": 54,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Cumberland Hill",
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ]
+    },
+    {
+      "origin_port": "Lord Irving's Sacrifice",
+      "confirmed_rows": 54,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Griffard's Rock",
+        "Matthew's Rest",
+        "Yorinobu's Settlement"
+      ]
+    },
+    {
+      "origin_port": "Mako's Outlook",
+      "confirmed_rows": 54,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Cumberland Hill",
+        "Griffard's Rock",
+        "Yorinobu's Settlement"
+      ]
+    },
+    {
+      "origin_port": "Griffard's Rock",
+      "confirmed_rows": 55,
+      "expected_rows": 57,
+      "missing_destinations": [
+        "Cumberland Hill",
+        "Yorinobu's Settlement"
+      ]
+    }
+  ],
+  "ocr_conflict_pairs": 94,
+  "status_policy": "Only visible video observations are emitted. The listed OCR corrections were read directly from visible frames; no missing rows are estimated or fabricated.",
+  "visually_verified_ocr_corrections": 13
+}

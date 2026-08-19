@@ -1,0 +1,340 @@
+{
+  "schema_version": "stage1-final-1.0",
+  "region": {
+    "region_id": "IDL",
+    "region_name": "Îles de Louis",
+    "image_width_px": 1231,
+    "image_height_px": 593,
+    "coordinate_origin": "top-left"
+  },
+  "geometry_policy": {
+    "raw_obstacle_mask": "authoritative; 255 obstacle, 0 non-obstacle",
+    "navigation_water_mask": "255 owned navigable water, 0 blocked/outside ownership",
+    "ownership_mask": "255 target-region playable ownership, 0 neighboring/excluded",
+    "clearance_buffer": "not baked into authoritative data"
+  },
+  "ports": [
+    {
+      "region_id": "IDL",
+      "port_id": "IDL-P01",
+      "display_name": "Matthew's Rest",
+      "pixel_x": 283,
+      "pixel_y": 235,
+      "normalized_x": 0.229894,
+      "normalized_y": 0.39629,
+      "marker_pixel_x": 283,
+      "marker_pixel_y": 230,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "IDL",
+      "port_id": "IDL-P02",
+      "display_name": "Bucket Bay",
+      "pixel_x": 435,
+      "pixel_y": 181,
+      "normalized_x": 0.353371,
+      "normalized_y": 0.305228,
+      "marker_pixel_x": 437,
+      "marker_pixel_y": 176,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "IDL",
+      "port_id": "IDL-P03",
+      "display_name": "Fair Harbour",
+      "pixel_x": 675,
+      "pixel_y": 180,
+      "normalized_x": 0.548335,
+      "normalized_y": 0.303541,
+      "marker_pixel_x": 675,
+      "marker_pixel_y": 175,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "IDL",
+      "port_id": "IDL-P04",
+      "display_name": "Port Louis",
+      "pixel_x": 758,
+      "pixel_y": 304,
+      "normalized_x": 0.61576,
+      "normalized_y": 0.512648,
+      "marker_pixel_x": 761,
+      "marker_pixel_y": 300,
+      "confidence": "visually_verified"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "IDL-TP01",
+      "region_id": "IDL",
+      "destination_region_id": "WSO",
+      "polygon_coordinates": [
+        [
+          275,
+          23
+        ],
+        [
+          932,
+          23
+        ],
+        [
+          932,
+          72
+        ],
+        [
+          275,
+          72
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.223396,
+          0.038786
+        ],
+        [
+          0.757108,
+          0.038786
+        ],
+        [
+          0.757108,
+          0.121417
+        ],
+        [
+          0.223396,
+          0.121417
+        ]
+      ],
+      "paired_tp_id": "WSO-TP06",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IDL-TP02",
+      "region_id": "IDL",
+      "destination_region_id": "ESO",
+      "polygon_coordinates": [
+        [
+          974,
+          81
+        ],
+        [
+          1045,
+          232
+        ],
+        [
+          999,
+          253
+        ],
+        [
+          929,
+          102
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.791227,
+          0.136594
+        ],
+        [
+          0.848903,
+          0.391231
+        ],
+        [
+          0.811535,
+          0.426644
+        ],
+        [
+          0.754671,
+          0.172007
+        ]
+      ],
+      "paired_tp_id": "ESO-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IDL-TP03",
+      "region_id": "IDL",
+      "destination_region_id": "VYS",
+      "polygon_coordinates": [
+        [
+          898,
+          410
+        ],
+        [
+          539,
+          473
+        ],
+        [
+          548,
+          522
+        ],
+        [
+          906,
+          459
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.729488,
+          0.6914
+        ],
+        [
+          0.437855,
+          0.797639
+        ],
+        [
+          0.445167,
+          0.88027
+        ],
+        [
+          0.735987,
+          0.77403
+        ]
+      ],
+      "paired_tp_id": "VYS-TP02",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IDL-TP04",
+      "region_id": "IDL",
+      "destination_region_id": "BEL",
+      "polygon_coordinates": [
+        [
+          225,
+          365
+        ],
+        [
+          467,
+          510
+        ],
+        [
+          442,
+          553
+        ],
+        [
+          199,
+          408
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.182778,
+          0.615514
+        ],
+        [
+          0.379366,
+          0.860034
+        ],
+        [
+          0.359058,
+          0.932546
+        ],
+        [
+          0.161657,
+          0.688027
+        ]
+      ],
+      "paired_tp_id": "BEL-TP-IDL",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IDL-TP05",
+      "region_id": "IDL",
+      "destination_region_id": "STP",
+      "polygon_coordinates": [
+        [
+          233,
+          136
+        ],
+        [
+          233,
+          353
+        ],
+        [
+          184,
+          353
+        ],
+        [
+          184,
+          136
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.189277,
+          0.229342
+        ],
+        [
+          0.189277,
+          0.595278
+        ],
+        [
+          0.149472,
+          0.595278
+        ],
+        [
+          0.149472,
+          0.229342
+        ]
+      ],
+      "paired_tp_id": "STP-TP04",
+      "confidence": "visually_verified",
+      "notes": ""
+    },
+    {
+      "tp_id": "IDL-TP06",
+      "region_id": "IDL",
+      "destination_region_id": "GRF",
+      "polygon_coordinates": [
+        [
+          249,
+          0
+        ],
+        [
+          145,
+          90
+        ],
+        [
+          179,
+          128
+        ],
+        [
+          284,
+          32
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.202275,
+          0.0
+        ],
+        [
+          0.11779,
+          0.151771
+        ],
+        [
+          0.14541,
+          0.215852
+        ],
+        [
+          0.230707,
+          0.053963
+        ]
+      ],
+      "paired_tp_id": "GRF-TP05",
+      "confidence": "visually_verified",
+      "notes": ""
+    }
+  ],
+  "map_assets": {
+    "source": "source.png",
+    "raw_obstacle_mask": "raw_obstacle_mask.png",
+    "navigation_water_mask": "navigation_water_mask.png",
+    "ownership_mask": "ownership_mask.png",
+    "review_overlay": "review_overlay.png"
+  },
+  "status": "visually_verified"
+}

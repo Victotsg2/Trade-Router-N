@@ -1,0 +1,164 @@
+{
+  "schema_version": "stage1-final-1.0",
+  "region": {
+    "region_id": "SNI",
+    "region_name": "Saint-Nicholas",
+    "image_width_px": 980,
+    "image_height_px": 783,
+    "coordinate_origin": "top-left"
+  },
+  "geometry_policy": {
+    "raw_obstacle_mask": "authoritative; 255 obstacle, 0 non-obstacle",
+    "navigation_water_mask": "255 owned navigable water, 0 blocked/outside ownership",
+    "ownership_mask": "255 target-region playable ownership, 0 neighboring/excluded",
+    "clearance_buffer": "not baked into authoritative data"
+  },
+  "ports": [
+    {
+      "region_id": "SNI",
+      "port_id": "SNI-P01",
+      "display_name": "Taylor's Town",
+      "pixel_x": 714,
+      "pixel_y": 205,
+      "normalized_x": 0.728571,
+      "normalized_y": 0.261814,
+      "marker_pixel_x": 722,
+      "marker_pixel_y": 206,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SNI",
+      "port_id": "SNI-P02",
+      "display_name": "Saint-Nicholas",
+      "pixel_x": 477,
+      "pixel_y": 76,
+      "normalized_x": 0.486735,
+      "normalized_y": 0.097063,
+      "marker_pixel_x": 473,
+      "marker_pixel_y": 101,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SNI",
+      "port_id": "SNI-P03",
+      "display_name": "Sandy Settlement",
+      "pixel_x": 372,
+      "pixel_y": 113,
+      "normalized_x": 0.379592,
+      "normalized_y": 0.144317,
+      "marker_pixel_x": 377,
+      "marker_pixel_y": 114,
+      "confidence": "visually_verified"
+    },
+    {
+      "region_id": "SNI",
+      "port_id": "SNI-P04",
+      "display_name": "Peter's Cove",
+      "pixel_x": 317,
+      "pixel_y": 322,
+      "normalized_x": 0.323469,
+      "normalized_y": 0.411239,
+      "marker_pixel_x": 313,
+      "marker_pixel_y": 308,
+      "confidence": "visually_verified"
+    }
+  ],
+  "teleport_zones": [
+    {
+      "tp_id": "SNI-TP01",
+      "region_id": "SNI",
+      "destination_region_id": "BTS",
+      "polygon_coordinates": [
+        [
+          92,
+          489
+        ],
+        [
+          443,
+          489
+        ],
+        [
+          443,
+          546
+        ],
+        [
+          92,
+          546
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.093878,
+          0.624521
+        ],
+        [
+          0.452041,
+          0.624521
+        ],
+        [
+          0.452041,
+          0.697318
+        ],
+        [
+          0.093878,
+          0.697318
+        ]
+      ],
+      "paired_tp_id": "BTS-TP02",
+      "confidence": "confirmed",
+      "notes": "Geometry confirmed by user from the marked TP boxes."
+    },
+    {
+      "tp_id": "SNI-TP02",
+      "region_id": "SNI",
+      "destination_region_id": "LEB",
+      "polygon_coordinates": [
+        [
+          474,
+          489
+        ],
+        [
+          778,
+          426
+        ],
+        [
+          789,
+          479
+        ],
+        [
+          486,
+          541
+        ]
+      ],
+      "normalized_polygon_coordinates": [
+        [
+          0.483673,
+          0.624521
+        ],
+        [
+          0.793878,
+          0.544061
+        ],
+        [
+          0.805102,
+          0.61175
+        ],
+        [
+          0.495918,
+          0.690932
+        ]
+      ],
+      "paired_tp_id": "LEB-TP01",
+      "confidence": "confirmed",
+      "notes": "Geometry confirmed by user from the marked TP boxes."
+    }
+  ],
+  "map_assets": {
+    "source": "source.png",
+    "raw_obstacle_mask": "raw_obstacle_mask.png",
+    "navigation_water_mask": "navigation_water_mask.png",
+    "ownership_mask": "ownership_mask.png",
+    "review_overlay": "review_overlay.png"
+  },
+  "status": "visually_verified"
+}

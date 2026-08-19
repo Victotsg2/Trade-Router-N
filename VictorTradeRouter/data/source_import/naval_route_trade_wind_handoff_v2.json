@@ -1,0 +1,1676 @@
+{
+  "package": {
+    "name": "Naval Route Tester Unified Trade + Wind Handoff",
+    "version": "2.0",
+    "date": "2026-08-18",
+    "purpose": "Incrementally update the existing 17-region Naval Route Tester by merging trade calculation, wind-aware routing, tacking/sail tactics, map-based selection, taxes, and diplomacy warnings. Do not rebuild or replace working world geometry."
+  },
+  "critical_geometry_correction": {
+    "deadmans_murcia": {
+      "status": "ACTIVE_CURRENT_PORT",
+      "region": "East Somerset",
+      "instruction": "Add Deadman's Murcia as a real navigable port node. Do not classify it as legacy/obsolete.",
+      "geometry_status": "MISSING_OR_UNCONFIRMED_IN_EXISTING_PACK",
+      "required_before_routes_to_from_port": true
+    },
+    "current_trade_port_count": 58
+  },
+  "canonical_aliases": {
+    "Saint-Nicolas": "Saint-Nicholas",
+    "Poblado de San Julian": "Poblado de San Juan",
+    "La Poveglia": "La Povenglia",
+    "Mako's Lookout": "Mako's Outlook",
+    "al-Jazair": "Al-Jazair"
+  },
+  "tax_defaults": [
+    {
+      "region": "Belle Isles",
+      "port": "Petit Anvers",
+      "import_tax_percent": 12,
+      "export_tax_percent": 14,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Belle Isles",
+      "port": "Sainte Rose",
+      "import_tax_percent": 12,
+      "export_tax_percent": 14,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Belle Isles",
+      "port": "Maurepas",
+      "import_tax_percent": 12,
+      "export_tax_percent": 14,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Belle Isles",
+      "port": "Louisbourg",
+      "import_tax_percent": 12,
+      "export_tax_percent": 14,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Vysarian Isles",
+      "port": "Gyldenvale",
+      "import_tax_percent": 13,
+      "export_tax_percent": 13,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Vysarian Isles",
+      "port": "Wyntergard",
+      "import_tax_percent": 13,
+      "export_tax_percent": 13,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Vysarian Isles",
+      "port": "Ashbourne",
+      "import_tax_percent": 13,
+      "export_tax_percent": 13,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Vysarian Isles",
+      "port": "Crownstead",
+      "import_tax_percent": 13,
+      "export_tax_percent": 13,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Îles de Louis",
+      "port": "Port Louis",
+      "import_tax_percent": 12,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Îles de Louis",
+      "port": "Fair Harbour",
+      "import_tax_percent": 12,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Îles de Louis",
+      "port": "Bucket Bay",
+      "import_tax_percent": 12,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Îles de Louis",
+      "port": "Matthew's Rest",
+      "import_tax_percent": 12,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Saint-Pierre",
+      "port": "Port-Au-Croix",
+      "import_tax_percent": 12,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Saint-Pierre",
+      "port": "Pachard Town",
+      "import_tax_percent": 12,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Saint-Pierre",
+      "port": "Point Rocheux",
+      "import_tax_percent": 12,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "East Somerset",
+      "port": "White Hook",
+      "import_tax_percent": 9,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "East Somerset",
+      "port": "Snake Prosper",
+      "import_tax_percent": 10,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "East Somerset",
+      "port": "Caledonia",
+      "import_tax_percent": 10,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "East Somerset",
+      "port": "Deadman's Murcia",
+      "import_tax_percent": 10,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "West Somerset",
+      "port": "Saint Vincent",
+      "import_tax_percent": 12,
+      "export_tax_percent": 16,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "West Somerset",
+      "port": "Yorinobu's Settlement",
+      "import_tax_percent": 10,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "West Somerset",
+      "port": "New Brighton",
+      "import_tax_percent": 12,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "West Somerset",
+      "port": "Al-Jazair",
+      "import_tax_percent": 10,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "New Catalina",
+      "port": "Sugar Cove",
+      "import_tax_percent": 8,
+      "export_tax_percent": 8,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "New Catalina",
+      "port": "New Catalina",
+      "import_tax_percent": 12,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "New Catalina",
+      "port": "Cumberland Hill",
+      "import_tax_percent": 9,
+      "export_tax_percent": 9,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "New Catalina",
+      "port": "Jones' Outpost",
+      "import_tax_percent": 9,
+      "export_tax_percent": 9,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Lebarde",
+      "port": "Castle Landing",
+      "import_tax_percent": 7,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Lebarde",
+      "port": "Lebarde",
+      "import_tax_percent": 12,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Lebarde",
+      "port": "Princeton",
+      "import_tax_percent": 7,
+      "export_tax_percent": 18,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Saint-Nicholas",
+      "port": "Taylor's Town",
+      "import_tax_percent": 15,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Saint-Nicholas",
+      "port": "Saint-Nicholas",
+      "import_tax_percent": 15,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Saint-Nicholas",
+      "port": "Sandy Settlement",
+      "import_tax_percent": 12,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Saint-Nicholas",
+      "port": "Peter's Cove",
+      "import_tax_percent": 15,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Blacktip Shoals",
+      "port": "Thresher Point",
+      "import_tax_percent": 12,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Blacktip Shoals",
+      "port": "Caye Tiburon",
+      "import_tax_percent": 10,
+      "export_tax_percent": 50,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Blacktip Shoals",
+      "port": "Belfry Heights",
+      "import_tax_percent": 12,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Irving's Reach",
+      "port": "Mako's Outlook",
+      "import_tax_percent": 13,
+      "export_tax_percent": 50,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Irving's Reach",
+      "port": "Lord Irving's Sacrifice",
+      "import_tax_percent": 13,
+      "export_tax_percent": 50,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Griffard's Rock",
+      "port": "Griffard's Rock",
+      "import_tax_percent": 1,
+      "export_tax_percent": 1,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Kingston",
+      "port": "Port Royal",
+      "import_tax_percent": 13,
+      "export_tax_percent": 13,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Kingston",
+      "port": "Theresa",
+      "import_tax_percent": 9,
+      "export_tax_percent": 9,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Kingston",
+      "port": "Port Antonio",
+      "import_tax_percent": 13,
+      "export_tax_percent": 50,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Kingston",
+      "port": "Falmouth",
+      "import_tax_percent": 15,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Cayos Encantados",
+      "port": "Villarreal Del Mar",
+      "import_tax_percent": 12,
+      "export_tax_percent": 12,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Cayos Encantados",
+      "port": "Venta Nueva",
+      "import_tax_percent": 12,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Ilhas Brumas",
+      "port": "Caveira",
+      "import_tax_percent": 16,
+      "export_tax_percent": 16,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Ilhas Brumas",
+      "port": "Madalena",
+      "import_tax_percent": 17,
+      "export_tax_percent": 17,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Ilhas Brumas",
+      "port": "Sao Bento",
+      "import_tax_percent": 15,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "Ilhas Brumas",
+      "port": "Ponta Delgada",
+      "import_tax_percent": 15,
+      "export_tax_percent": 15,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Salvador",
+      "port": "Puerto de San Fernando",
+      "import_tax_percent": 9,
+      "export_tax_percent": 9,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Salvador",
+      "port": "Poblado de San Juan",
+      "import_tax_percent": 10,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Salvador",
+      "port": "Santa Maria",
+      "import_tax_percent": 10,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Salvador",
+      "port": "San Salvador",
+      "import_tax_percent": 10,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Polo",
+      "port": "Kandlerova",
+      "import_tax_percent": 15,
+      "export_tax_percent": 5,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Polo",
+      "port": "San Polo",
+      "import_tax_percent": 10,
+      "export_tax_percent": 5,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Polo",
+      "port": "La Povenglia",
+      "import_tax_percent": 15,
+      "export_tax_percent": 10,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    },
+    {
+      "region": "San Polo",
+      "port": "San Vito",
+      "import_tax_percent": 12,
+      "export_tax_percent": 5,
+      "status": "confirmed_user_provided_or_screenshot",
+      "editable_default": true
+    }
+  ],
+  "cargo_purchase_data": [
+    {
+      "region": "Belle Isles",
+      "origin_port": "Petit Anvers",
+      "cargo": "Chocolate",
+      "base_price_gbp": 68,
+      "weight_tons": 11.0,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Belle Isles",
+      "origin_port": "Sainte Rose",
+      "cargo": "Lavender",
+      "base_price_gbp": 75,
+      "weight_tons": 12.1,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Belle Isles",
+      "origin_port": "Maurepas",
+      "cargo": "Pelts",
+      "base_price_gbp": 60,
+      "weight_tons": 9.7,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Belle Isles",
+      "origin_port": "Louisbourg",
+      "cargo": "Lace",
+      "base_price_gbp": 65,
+      "weight_tons": 10.5,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Vysarian Isles",
+      "origin_port": "Gyldenvale",
+      "cargo": "Wheat",
+      "base_price_gbp": 71,
+      "weight_tons": 11.5,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Vysarian Isles",
+      "origin_port": "Wyntergard",
+      "cargo": "Rice",
+      "base_price_gbp": 72,
+      "weight_tons": 11.6,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Vysarian Isles",
+      "origin_port": "Ashbourne",
+      "cargo": "Oil",
+      "base_price_gbp": 68,
+      "weight_tons": 11.0,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Vysarian Isles",
+      "origin_port": "Crownstead",
+      "cargo": "Bells",
+      "base_price_gbp": 54,
+      "weight_tons": 8.7,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Îles de Louis",
+      "origin_port": "Port Louis",
+      "cargo": "Pelts",
+      "base_price_gbp": 66,
+      "weight_tons": 10.6,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Îles de Louis",
+      "origin_port": "Fair Harbour",
+      "cargo": "Paper",
+      "base_price_gbp": 39,
+      "weight_tons": 6.3,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Îles de Louis",
+      "origin_port": "Bucket Bay",
+      "cargo": "Buckets",
+      "base_price_gbp": 52,
+      "weight_tons": 8.4,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Îles de Louis",
+      "origin_port": "Matthew's Rest",
+      "cargo": "Shale",
+      "base_price_gbp": 73,
+      "weight_tons": 11.8,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Saint-Pierre",
+      "origin_port": "Port-Au-Croix",
+      "cargo": "Baguettes",
+      "base_price_gbp": 56,
+      "weight_tons": 9.0,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Saint-Pierre",
+      "origin_port": "Pachard Town",
+      "cargo": "Jewelry",
+      "base_price_gbp": 91,
+      "weight_tons": 14.7,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Saint-Pierre",
+      "origin_port": "Point Rocheux",
+      "cargo": "Candles",
+      "base_price_gbp": 45,
+      "weight_tons": 7.3,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Cayos Encantados",
+      "origin_port": "Villarreal Del Mar",
+      "cargo": "Saffron",
+      "base_price_gbp": 68,
+      "weight_tons": 11.0,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Cayos Encantados",
+      "origin_port": "Venta Nueva",
+      "cargo": "Olives",
+      "base_price_gbp": 55,
+      "weight_tons": 8.9,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Irving's Reach",
+      "origin_port": "Lord Irving's Sacrifice",
+      "cargo": "Wool",
+      "base_price_gbp": 55,
+      "weight_tons": 8.9,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Irving's Reach",
+      "origin_port": "Mako's Outlook",
+      "cargo": "Spyglasses",
+      "base_price_gbp": 64,
+      "weight_tons": 10.3,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "Griffard's Rock",
+      "origin_port": "Griffard's Rock",
+      "cargo": "Grapes",
+      "base_price_gbp": 70,
+      "weight_tons": 11.3,
+      "base_price_status": "CONFIRMED",
+      "weight_status": "CONFIRMED"
+    },
+    {
+      "region": "East Somerset",
+      "origin_port": "White Hook",
+      "cargo": "Pearls",
+      "base_price_gbp": 78,
+      "weight_tons": 12.6,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "East Somerset",
+      "origin_port": "Snake Prosper",
+      "cargo": "Medicine",
+      "base_price_gbp": 92,
+      "weight_tons": 14.8,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "East Somerset",
+      "origin_port": "Caledonia",
+      "cargo": "Glass",
+      "base_price_gbp": 71,
+      "weight_tons": 11.5,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "East Somerset",
+      "origin_port": "Deadman's Murcia",
+      "cargo": "Oranges",
+      "base_price_gbp": 68,
+      "weight_tons": 11.0,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "West Somerset",
+      "origin_port": "Saint Vincent",
+      "cargo": "Cheese",
+      "base_price_gbp": 61,
+      "weight_tons": 9.8,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "West Somerset",
+      "origin_port": "Al-Jazair",
+      "cargo": "Coffee",
+      "base_price_gbp": 75,
+      "weight_tons": 12.1,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "West Somerset",
+      "origin_port": "Yorinobu's Settlement",
+      "cargo": "Instruments",
+      "base_price_gbp": 73,
+      "weight_tons": 11.8,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "West Somerset",
+      "origin_port": "New Brighton",
+      "cargo": "Dyes",
+      "base_price_gbp": 65,
+      "weight_tons": 10.5,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Lebarde",
+      "origin_port": "Princeton",
+      "cargo": "Herbs",
+      "base_price_gbp": 59,
+      "weight_tons": 9.5,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Lebarde",
+      "origin_port": "Castle Landing",
+      "cargo": "Scales",
+      "base_price_gbp": 74,
+      "weight_tons": 11.9,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Lebarde",
+      "origin_port": "Lebarde",
+      "cargo": "Crumpets",
+      "base_price_gbp": 65,
+      "weight_tons": 10.5,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "New Catalina",
+      "origin_port": "Jones' Outpost",
+      "cargo": "Salmon",
+      "base_price_gbp": 78,
+      "weight_tons": 12.6,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "New Catalina",
+      "origin_port": "Cumberland Hill",
+      "cargo": "Coffee",
+      "base_price_gbp": 52,
+      "weight_tons": 8.4,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "New Catalina",
+      "origin_port": "New Catalina",
+      "cargo": "Pierogi",
+      "base_price_gbp": 69,
+      "weight_tons": 11.1,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "New Catalina",
+      "origin_port": "Sugar Cove",
+      "cargo": "Lobster",
+      "base_price_gbp": 68,
+      "weight_tons": 11.0,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Saint-Nicholas",
+      "origin_port": "Taylor's Town",
+      "cargo": "Thyme",
+      "base_price_gbp": 57,
+      "weight_tons": 9.2,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Saint-Nicholas",
+      "origin_port": "Saint-Nicholas",
+      "cargo": "Cocoa",
+      "base_price_gbp": 64,
+      "weight_tons": 10.3,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Saint-Nicholas",
+      "origin_port": "Sandy Settlement",
+      "cargo": "Diamonds",
+      "base_price_gbp": 92,
+      "weight_tons": 14.8,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Saint-Nicholas",
+      "origin_port": "Peter's Cove",
+      "cargo": "Tuna",
+      "base_price_gbp": 61,
+      "weight_tons": 9.8,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Blacktip Shoals",
+      "origin_port": "Thresher Point",
+      "cargo": "Rope",
+      "base_price_gbp": 72,
+      "weight_tons": 11.6,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Blacktip Shoals",
+      "origin_port": "Caye Tiburon",
+      "cargo": "Hay",
+      "base_price_gbp": 52,
+      "weight_tons": 8.4,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Blacktip Shoals",
+      "origin_port": "Belfry Heights",
+      "cargo": "Books",
+      "base_price_gbp": 60,
+      "weight_tons": 9.7,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Polo",
+      "origin_port": "San Vito",
+      "cargo": "Olive Oil",
+      "base_price_gbp": 72,
+      "weight_tons": 11.6,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Polo",
+      "origin_port": "La Povenglia",
+      "cargo": "Herbs",
+      "base_price_gbp": 48,
+      "weight_tons": 7.7,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Polo",
+      "origin_port": "San Polo",
+      "cargo": "Glass",
+      "base_price_gbp": 60,
+      "weight_tons": 9.7,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Polo",
+      "origin_port": "Kandlerova",
+      "cargo": "Truffles",
+      "base_price_gbp": 64,
+      "weight_tons": 10.3,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Salvador",
+      "origin_port": "San Salvador",
+      "cargo": "Paella",
+      "base_price_gbp": 63,
+      "weight_tons": 10.2,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Salvador",
+      "origin_port": "Poblado de San Juan",
+      "cargo": "stuff",
+      "base_price_gbp": 62,
+      "weight_tons": 10.0,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Salvador",
+      "origin_port": "Santa Maria",
+      "cargo": "Tamales",
+      "base_price_gbp": 63,
+      "weight_tons": 10.2,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "San Salvador",
+      "origin_port": "Puerto de San Fernando",
+      "cargo": "Gazpacho",
+      "base_price_gbp": 59,
+      "weight_tons": 9.5,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Kingston",
+      "origin_port": "Theresa",
+      "cargo": "Silk",
+      "base_price_gbp": 52,
+      "weight_tons": 8.4,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Kingston",
+      "origin_port": "Falmouth",
+      "cargo": "Sugar",
+      "base_price_gbp": 48,
+      "weight_tons": 7.7,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Kingston",
+      "origin_port": "Port Antonio",
+      "cargo": "Ginger",
+      "base_price_gbp": 64,
+      "weight_tons": 10.3,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Kingston",
+      "origin_port": "Port Royal",
+      "cargo": "Cotton",
+      "base_price_gbp": 78,
+      "weight_tons": 12.6,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Ilhas Brumas",
+      "origin_port": "Caveira",
+      "cargo": "Honey",
+      "base_price_gbp": 58,
+      "weight_tons": 9.4,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Ilhas Brumas",
+      "origin_port": "Madalena",
+      "cargo": "Cheese",
+      "base_price_gbp": 55,
+      "weight_tons": 8.9,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Ilhas Brumas",
+      "origin_port": "Sao Bento",
+      "cargo": "Bananas",
+      "base_price_gbp": 68,
+      "weight_tons": 11.0,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    },
+    {
+      "region": "Ilhas Brumas",
+      "origin_port": "Ponta Delgada",
+      "cargo": "Pineapple",
+      "base_price_gbp": 62,
+      "weight_tons": 10.0,
+      "base_price_status": "ESTIMATED",
+      "weight_status": "ESTIMATED"
+    }
+  ],
+  "estimation_method": {
+    "gross_sell_value_formula_status": "INFERRED_NOT_GAME_CONFIRMED",
+    "gross_sell_value_formula": "round(base_price * (1.25 + cargo_distance_m / 4000))",
+    "weight_estimation_status": "INFERRED_NOT_GAME_CONFIRMED",
+    "weight_estimation_method": "Approximate weight ~= base_price / 6.2, rounded to 0.1 ton.",
+    "rule": "Never overwrite a CONFIRMED base price or weight with an ESTIMATED value."
+  },
+  "sale_list_data": {
+    "status": "CONFIRMED_WHERE_READ_FROM_GAME_UI",
+    "meaning": {
+      "cargo_distance_m": "Game UI 'Distance (from origin)' used for cargo economics.",
+      "displayed_sell_value": "Game UI destination 'Value'.",
+      "important": "Cargo Distance is NOT the same as obstacle-safe route/path distance."
+    },
+    "earlier_recordings": "Per-origin destination lists for the 20 accessible/confirmed purchase cargos were captured in earlier videos/screens.",
+    "long_all_ports_recording": {
+      "filename": "Screen Recording 2026-08-16 223317.mp4",
+      "coverage": "All 38 previously missing origin ports are present.",
+      "destination_distance_and_value_status": "CONFIRMED_FROM_VIDEO",
+      "base_price_and_weight_status": "ESTIMATED_UNLESS_LATER_DIRECTLY_CONFIRMED",
+      "instruction": "If the existing project does not already contain the row-level destination matrix from this recording, parse/import it from the source video rather than inventing rows."
+    }
+  },
+  "griffards_rock_backfills": [
+    {
+      "origin_port": "Petit Anvers",
+      "cargo": "Chocolate",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 7983.2,
+      "gross_sell_value_gbp": 221,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Sainte Rose",
+      "cargo": "Lavender",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 7528.3,
+      "gross_sell_value_gbp": 235,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Louisbourg",
+      "cargo": "Lace",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 6582.4,
+      "gross_sell_value_gbp": 188,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Maurepas",
+      "cargo": "Pelts",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 5783.1,
+      "gross_sell_value_gbp": 162,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Gyldenvale",
+      "cargo": "Wheat",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 8488.4,
+      "gross_sell_value_gbp": 239,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Wyntergard",
+      "cargo": "Rice",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 7397.7,
+      "gross_sell_value_gbp": 223,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Ashbourne",
+      "cargo": "Oil",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 6578.2,
+      "gross_sell_value_gbp": 197,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Crownstead",
+      "cargo": "Bells",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 7265.3,
+      "gross_sell_value_gbp": 166,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Port Louis",
+      "cargo": "Pelts",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 5630.2,
+      "gross_sell_value_gbp": 175,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Fair Harbour",
+      "cargo": "Paper",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 4880.9,
+      "gross_sell_value_gbp": 96,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Bucket Bay",
+      "cargo": "Buckets",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 3774.3,
+      "gross_sell_value_gbp": 114,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Matthew's Rest",
+      "cargo": "Shale",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 3406.7,
+      "gross_sell_value_gbp": 153,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Pachard Town",
+      "cargo": "Jewelry",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 2915.1,
+      "gross_sell_value_gbp": 180,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Port-Au-Croix",
+      "cargo": "Baguettes",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 3301.6,
+      "gross_sell_value_gbp": 116,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Point Rocheux",
+      "cargo": "Candles",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 3826.9,
+      "gross_sell_value_gbp": 99,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Villarreal Del Mar",
+      "cargo": "Saffron",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 4800.4,
+      "gross_sell_value_gbp": 167,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Venta Nueva",
+      "cargo": "Olives",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 6108.9,
+      "gross_sell_value_gbp": 153,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Lord Irving's Sacrifice",
+      "cargo": "Wool",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 3413.2,
+      "gross_sell_value_gbp": 116,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    },
+    {
+      "origin_port": "Mako's Outlook",
+      "cargo": "Spyglasses",
+      "destination_port": "Griffard's Rock",
+      "cargo_distance_m": 3887.0,
+      "gross_sell_value_gbp": 142,
+      "distance_status": "CONFIRMED_FROM_GRIFFARDS_DESTINATION_LIST",
+      "value_status": "DERIVED_FROM_INFERRED_DISTANCE_VALUE_FORMULA"
+    }
+  ],
+  "economics": {
+    "depreciation": "DO_NOT_MODEL",
+    "destination_import_tax_rule": "Apply destination port import tax separately to gross sale value.",
+    "net_sale_formula": "gross_sell_value - destination_import_tax",
+    "profit_per_unit_formula": "net_sale - purchase_total",
+    "purchase_total_rule": "Use confirmed game total when available; otherwise base + export tax using the editable origin export-tax default.",
+    "taxes_editable": true
+  },
+  "ships": [
+    {
+      "ship": "Pembroke",
+      "cargo_capacity_tons": 534.2,
+      "listed_max_speed_knots": 10.6,
+      "baseline_speed_knots": 9.01
+    },
+    {
+      "ship": "Been",
+      "cargo_capacity_tons": 124.2,
+      "listed_max_speed_knots": 10.8,
+      "baseline_speed_knots": 9.18
+    },
+    {
+      "ship": "Hoy",
+      "cargo_capacity_tons": 36.7,
+      "listed_max_speed_knots": 10.7,
+      "baseline_speed_knots": 9.095
+    }
+  ],
+  "cargo_capacity_rule": {
+    "hold_units_formula": "floor(ship_capacity_tons / cargo_weight_tons)",
+    "carried_extra_units": 1,
+    "total_units_formula": "hold_units + 1"
+  },
+  "route_geometry_rules": {
+    "world": "Existing unified 17-region zoomable/pannable map",
+    "route_line": "Continuous cross-region line",
+    "tp_behavior": "Use actual paired TP-zone geometry and corresponding relative entry/exit position, not just TP centers.",
+    "obstacles": [
+      "land",
+      "rocks",
+      "shoals"
+    ],
+    "authoritative_obstacle_source": "raw obstacle mask",
+    "clearance_policy": "Hard minimum clearance only; no general soft shoreline-proximity penalty.",
+    "accepted_test_clearance_px": 24,
+    "port_exception": "Allow necessary departure/arrival clearance exception close to the port.",
+    "optimization_baseline": "Shortest practical obstacle-safe route unless wind optimization later justifies a detour."
+  },
+  "wind": {
+    "world_direction": "Rotates clockwise 360 degrees every hour.",
+    "regional_speed": "Random/unpredictable; DO NOT use regional wind speed or storms in route optimization.",
+    "ship_behavior_known": {
+      "Hoy": "Best approximately parallel/downwind.",
+      "Been": "Best at a slight favorable-wind angle; worse directly aligned.",
+      "Pembroke": "Best at a slight favorable-wind angle; less direct-wind penalty than Been."
+    },
+    "exact_angle_speed_curves": "NOT YET CALIBRATED",
+    "instruction": "Do not invent wind-angle multipliers."
+  },
+  "remaining_missing_items_for_full_feature_set": [
+    {
+      "item": "Deadman's Murcia geometry coordinate/node",
+      "priority": "REQUIRED for routes to/from Deadman's Murcia",
+      "status": "MISSING_OR_UNCONFIRMED"
+    },
+    {
+      "item": "Map/path scale calibration to game meters or nautical miles",
+      "priority": "REQUIRED for accurate ETA from knots",
+      "status": "MISSING"
+    },
+    {
+      "item": "Exact wind-angle speed curves per ship",
+      "priority": "REQUIRED only for accurate wind-optimized routing",
+      "status": "MISSING"
+    },
+    {
+      "item": "Nation/control mapping or runtime player enemy-selection mapping",
+      "priority": "REQUIRED only if route logic should avoid enemy-controlled ports/areas",
+      "status": "MISSING"
+    }
+  ],
+  "integration_instructions": [
+    "Do NOT rebuild, rescale, restitch, or replace the existing 17-region geometry.",
+    "Merge this package as a trade/economy data layer over the current geometry.",
+    "Preserve all existing obstacle masks, TP-zone pairs, ownership/ROI masks, region transforms, and approved routing behavior.",
+    "Add Deadman's Murcia only after obtaining/confirming its true East Somerset map coordinate.",
+    "Label CONFIRMED and ESTIMATED purchase fields visibly in data/UI/debug output.",
+    "Prefer recorded game destination Value over any inferred formula result.",
+    "Never use Cargo Distance as the obstacle-safe sailing-route distance.",
+    "Do not invent missing geometry, wind curves, nation control, taxes, base prices, weights, or destination rows."
+  ],
+  "ui_update": {
+    "primary_workflow": [
+      "Select trade origin port",
+      "Select navigation start position (default = origin port; optional = click actual current ship position)",
+      "Select destination port",
+      "Select ship",
+      "Set taxes (Default or Manual)",
+      "Enter wind-at-departure using HUD-matching compass and ship bearing",
+      "Generate Trade Route"
+    ],
+    "single_primary_action": "GENERATE TRADE ROUTE",
+    "merge_route_and_trade": true,
+    "tax_control": {
+      "mode_options": [
+        "Default",
+        "Manual"
+      ],
+      "default_behavior": "Use stored editable default taxes for origin export and destination import.",
+      "manual_fields": [
+        "Origin Export Tax %",
+        "Destination Import Tax %"
+      ],
+      "manual_prefill": "Pre-fill with stored defaults when switching to Manual."
+    },
+    "location_selection_modes": {
+      "dropdown": {
+        "origin": [
+          "Starting Region",
+          "Starting Port"
+        ],
+        "destination": [
+          "Destination Region",
+          "Destination Port"
+        ]
+      },
+      "map": {
+        "enabled": true,
+        "behavior": [
+          "First selected port = trade origin",
+          "Second selected port = destination",
+          "Synchronize map and dropdown selections",
+          "Hover/click shows port and region",
+          "Allow Clear/reset"
+        ],
+        "navigation_start_override": "Optional 'Current Position' mode: after choosing the trade origin port, allow the user to click their actual ship position on the unified map so route geometry starts from the current vessel location while cargo economics still use the chosen origin port."
+      }
+    },
+    "player_facing_data_policy": {
+      "hide_internal_status_strings": [
+        "CONFIRMED",
+        "ESTIMATED",
+        "CONFIRMED_FROM_SCREENSHOT",
+        "CONFIRMED_FROM_VIDEO",
+        "DERIVED",
+        "PROXY",
+        "HEURISTIC"
+      ],
+      "keep_in_debug_data": true,
+      "normal_ui_should_show": [
+        "Cargo",
+        "Weight",
+        "Units",
+        "Purchase cost",
+        "Expected sale",
+        "Expected profit",
+        "Origin export tax",
+        "Destination import tax",
+        "Route distance",
+        "ETA",
+        "Regions/TP transitions",
+        "Wind",
+        "Tack/sail instructions"
+      ]
+    },
+    "warning_policy": {
+      "only_alert_for": [
+        "Generated route is materially unoptimal / a better candidate exists",
+        "Unfavorable wind materially affects the route or requires tactics",
+        "Start, destination, or traversed controlled territory is enemy-controlled"
+      ],
+      "do_not_show_success_banners": true
+    },
+    "disclaimer": "Wind estimates account for global wind direction and its clockwise rotation. Regional wind speed variations, very slow winds, gusts and storms are not accounted for and may change actual travel time."
+  },
+  "wind_model_v2": {
+    "core_rule": {
+      "use_wind_direction_only": true,
+      "ignore_instantaneous_wind_speed": true,
+      "ignore_regional_wind_strength": true,
+      "ignore_storms_and_slow_wind_for_optimization": true,
+      "global_rotation": "clockwise",
+      "full_rotation_minutes": 60,
+      "degrees_per_minute": 6.0,
+      "formula": "wind_toward_deg(t) = (wind_toward_deg_at_departure + 6 * elapsed_minutes) mod 360"
+    },
+    "speed_normalization": {
+      "peak_modeled_speed_knots": 9.0,
+      "rule": "For each ship, the most favorable practical wind angle is normalized to 9.0 kt. Observed raw test speed is used only to infer directional efficiency, not wind-strength intensity.",
+      "retain_ship_metadata": true
+    },
+    "input_method": {
+      "goal": "Player should not need to know an absolute wind angle.",
+      "ship_bearing_input": {
+        "source": "In-game HUD Bearing value",
+        "convention": "0=N, 90=E, 180=S, 270=W"
+      },
+      "hud_match_compass": {
+        "enabled": true,
+        "instruction": "Rotate the wind arrow in the tool until it visually matches the in-game HUD.",
+        "recommended_ui": "Make the tool compass behave like the game HUD: ship icon fixed, compass labels rotate according to entered ship bearing, user drags the wind arrow to match what they see.",
+        "internal_output": "absolute/global wind-toward bearing at departure",
+        "arrow_convention": "Arrow represents direction the wind is pushing/blowing toward.",
+        "note": "Keep the transform/convention configurable in case later game validation shows the HUD arrow is opposite."
+      },
+      "optional_absolute_mode": "Allow advanced users to enter/drag a world-relative absolute wind bearing directly.",
+      "uncertainty": "Treat manual visual alignment as approximate; do not imply single-degree precision."
+    },
+    "route_objective": {
+      "primary": "Minimize estimated travel time subject to obstacle safety and valid TP transitions.",
+      "not_primary": "Geometric distance alone",
+      "candidate_routes": [
+        "Shortest safe geometric route",
+        "Wind-favored safe route",
+        "Alternative safe TP corridors when available"
+      ],
+      "evaluate_segment_by_segment": true,
+      "wind_changes_during_voyage": true
+    },
+    "hoy": {
+      "status": "EMPIRICAL_PRELIMINARY_DIRECTION_ONLY",
+      "favorable_behavior": "Approximately parallel/downwind.",
+      "curve_reference": "absolute angular deviation from Hoy's favorable heading",
+      "normalized_speed_curve_knots": [
+        {
+          "deviation_deg": 0,
+          "speed_knots": 9.0
+        },
+        {
+          "deviation_deg": 15,
+          "speed_knots": 7.7
+        },
+        {
+          "deviation_deg": 30,
+          "speed_knots": 5.9
+        },
+        {
+          "deviation_deg": 45,
+          "speed_knots": 4.5
+        },
+        {
+          "deviation_deg": 60,
+          "speed_knots": 3.2
+        },
+        {
+          "deviation_deg": 75,
+          "speed_knots": 1.9
+        },
+        {
+          "deviation_deg": 90,
+          "speed_knots": 0.5
+        }
+      ],
+      "curve_scope": "Do not confidently extrapolate beyond ~90° without more testing.",
+      "sails": {
+        "spanker": {
+          "movable": true,
+          "role": "maneuvering/yaw assistance during turns/tacks",
+          "numeric_turn_bonus": "UNMEASURED"
+        }
+      }
+    },
+    "been": {
+      "status": "PARTIAL_EMPIRICAL + HEURISTIC",
+      "favorable_behavior": "Best at a slight favorable angle rather than perfectly aligned/downwind.",
+      "peak_modeled_speed_knots": 9.0,
+      "recording_observations": [
+        "Against-wind / bad sail state can produce negative speed (observed roughly -1.3 kt).",
+        "At nearly the same ship bearing (~358°), sail adjustment changed speed from roughly 5.3 kt to 7.5 kt.",
+        "Later favorable raw speed reached roughly 8.8-8.9 kt in that test."
+      ],
+      "exact_angle_curve": "NOT FULLY CALIBRATED",
+      "sails": {
+        "topsail": {
+          "movable": true,
+          "states": [
+            "Trim",
+            "Shiver"
+          ],
+          "rule": "A drawing topsail against unfavorable wind can push the ship backward. Shiver the topsail when trimming would create backward/near-zero progress.",
+          "role": "propulsion management and avoidance of reverse force"
+        },
+        "spanker": {
+          "movable": true,
+          "role": "aft maneuvering/yaw assistance during turns/tacks",
+          "numeric_turn_bonus": "UNMEASURED"
+        }
+      },
+      "route_tactics": [
+        "Use the best practical sail-handling envelope for the current relative wind.",
+        "If direct heading is poor, compare safe tack headings.",
+        "Use spanker to assist the turn.",
+        "Shiver/trim topsail as needed through the maneuver.",
+        "Return to best forward-sailing configuration after establishing the new heading."
+      ]
+    },
+    "pembroke": {
+      "status": "PROXY_ASSUMED_FROM_BEEN",
+      "reason": "No direct Pembroke test data currently available.",
+      "peak_modeled_speed_knots": 9.0,
+      "favorable_behavior": "Similar general behavior to Been: preferred slight favorable angle, but better performance as wind becomes more frontal/unfavorable.",
+      "curve_rule": "Use the Been model as the provisional base shape, but reduce the speed penalty on frontal/headwind-side angles. Keep this as a configurable proxy and never label it as empirically confirmed.",
+      "sails": {
+        "mast_groups": [
+          "Fore",
+          "Main",
+          "Mizzen"
+        ],
+        "independently_managed": true,
+        "spanker": {
+          "exists": true,
+          "movable": false,
+          "active_control_surface": false
+        }
+      },
+      "route_tactics": [
+        "Use Fore/Main/Mizzen asymmetry to help yaw/turn during tacks.",
+        "Do not issue trim/shiver instructions for the Pembroke spanker.",
+        "Return Fore/Main/Mizzen to best practical propulsion after the turn."
+      ]
+    },
+    "basic_sailing_control_rules": {
+      "source": "User-provided Basic Sailing guide image",
+      "sail_states": {
+        "Trim": "Catch wind; strongest useful forward force when oriented favorably.",
+        "Shiver": "Avoid/barely catch wind; useful to neutralize a sail or prevent wrong-direction force.",
+        "Back/Aback": "Catch/block wind from the wrong side and can create reverse force."
+      },
+      "turning_principle": "Different force on fore/aft or different mast groups can create yaw. Use asymmetric sail states temporarily for turning/tacking; then restore propulsion configuration.",
+      "guide_example_speeds": "Illustrative only; do NOT use 9.3/4.2/-2.2 kn as universal calibration."
+    },
+    "tacking": {
+      "integrated_into_pathfinder": true,
+      "requirements": [
+        "Detect segments with materially unfavorable relative wind.",
+        "Test safe alternate headings on both sides of desired course.",
+        "Respect land/rock/shoal masks and hard clearance.",
+        "Choose tack sequence based on estimated progress/time, not decorative zig-zags.",
+        "Re-evaluate as wind rotates with elapsed time.",
+        "Render tack points on the map.",
+        "Attach ship-specific sail handling instructions at tack points."
+      ],
+      "route_instruction_examples": {
+        "Hoy": [
+          "Adjust spanker to assist turn",
+          "Establish new heading",
+          "Resume forward configuration"
+        ],
+        "Been": [
+          "Adjust spanker to assist turn",
+          "Shiver topsail if it would drive backward",
+          "Trim topsail when favorable"
+        ],
+        "Pembroke": [
+          "Use Fore/Main/Mizzen asymmetry to initiate turn",
+          "Establish new heading",
+          "Restore propulsion setup"
+        ]
+      }
+    }
+  },
+  "diplomacy_and_ownership": {
+    "ownership_model": "PER_PORT, not simply per region, because regions can contain ports owned by different nations.",
+    "nation_count": 8,
+    "known_nation_labels_from_current_reference": [
+      "Royal Navy",
+      "Marine Impériale",
+      "United States Navy",
+      "Austria",
+      "Armada Española",
+      "Portugal",
+      "Imperial Andouran Navy",
+      "Pirate Republic"
+    ],
+    "ownership_source": "User-provided world ownership/flag image from 2026-08-18.",
+    "mapping_status": "Use the ownership reference image to populate port->nation. Do not guess unreadable flags/labels. If a region is mixed, store region_control='MIXED' and keep port ownership authoritative.",
+    "player_inputs": [
+      "Player nation",
+      "Current diplomacy/enemy relationships (e.g. French at war with British)"
+    ],
+    "warning_behavior": "Warn if trade origin, destination, or controlled territory/ports traversed by the selected route belong to a nation currently marked enemy. Warn only; do not block unless a future avoid-enemy option is enabled."
+  },
+  "result_panel_v2": {
+    "title": "TRADE ROUTE",
+    "fields": [
+      "Origin → Destination",
+      "Cargo",
+      "Ship",
+      "Cargo units",
+      "Purchase cost",
+      "Expected sale",
+      "Expected profit",
+      "Applied export/import taxes",
+      "Route distance",
+      "Estimated time",
+      "Regions / TP transitions",
+      "Wind at departure and expected rotation",
+      "Tack points and sail instructions"
+    ],
+    "map_overlays": [
+      "Navigation start marker",
+      "Trade origin marker if different from current navigation start",
+      "Destination marker",
+      "Continuous safe route",
+      "TP transitions",
+      "Tack points",
+      "Only relevant warnings"
+    ]
+  },
+  "integration_instructions_v2": [
+    "MODIFY the existing project incrementally; do not rebuild, restitch, rescale, or replace working 17-region geometry.",
+    "Merge route generation and trade calculation into one Generate Trade Route workflow.",
+    "Preserve raw obstacle masks, ownership/ROI masks, TP geometry/pairs, region transforms, and existing approved safe-route behavior.",
+    "Add Default/Manual tax selection using origin export and destination import tax.",
+    "Add synchronized dropdown and map-based port selection.",
+    "Allow optional actual current ship position on the map while preserving the chosen trade origin for cargo economics.",
+    "Add ship-bearing + HUD-matching wind compass input so users do not need to know absolute wind degrees.",
+    "Advance global wind clockwise at 6 degrees per elapsed minute throughout the route simulation.",
+    "Ignore random wind intensity, storms, slow-wind periods and gusts for route optimization and ETA model.",
+    "Use 9.0 kt as the normalized favorable-angle reference speed for wind-direction modeling.",
+    "Use the Hoy empirical preliminary curve exactly as supplied; do not extrapolate confidently beyond its tested range.",
+    "Use Been as partial empirical/heuristic with topsail + spanker tactics; keep unmeasured angle values configurable.",
+    "Use Pembroke as a clearly internal PROXY based on Been but more tolerant of frontal/unfavorable wind; Fore/Main/Mizzen controllable, spanker not movable.",
+    "Integrate tacking into route search and ETA comparison rather than adding tacks after path selection.",
+    "Generate ship-specific sail instructions only where actionable.",
+    "Optimize for estimated travel time while always preserving obstacle and TP safety.",
+    "Keep all CONFIRMED/ESTIMATED/DERIVED/PROXY status metadata internally, but do not expose raw status strings in the normal player UI.",
+    "Add diplomacy warnings based on per-port ownership and player-defined enemy relationships; do not invent ownership when the image is unclear.",
+    "Show only actionable warnings: unoptimal route, unfavorable wind/tacking, or enemy territory.",
+    "Show the permanent disclaimer about unmodeled variable wind speed/storms.",
+    "Do not use Cargo Distance as actual sailing/path distance.",
+    "Do not invent missing map scale, wind curves, ownership mappings, or measured sail multipliers."
+  ],
+  "remaining_calibration_after_v2": [
+    {
+      "item": "Exact Been speed-vs-relative-angle curve",
+      "status": "PARTIAL",
+      "impact": "Wind-adjusted Been ETA remains approximate."
+    },
+    {
+      "item": "Direct Pembroke speed-vs-relative-angle test",
+      "status": "PROXY",
+      "impact": "Pembroke wind model is assumed from Been with better frontal-wind tolerance."
+    },
+    {
+      "item": "Exact numeric turning effect of spanker / mast asymmetry",
+      "status": "UNMEASURED",
+      "impact": "Sail instructions are tactical guidance; turn-time savings are not precisely modeled."
+    },
+    {
+      "item": "Complete verified port->nation mapping from ownership image",
+      "status": "NEEDS_EXTRACTION/REVIEW",
+      "impact": "Enemy warnings should only use ownership entries that are confidently identified."
+    },
+    {
+      "item": "Deadman's Murcia geometry node if still absent from world pack",
+      "status": "REQUIRED_FOR_ROUTES_TO_FROM_PORT",
+      "impact": "Economics can work; route line cannot accurately start/end there until mapped."
+    },
+    {
+      "item": "Map/path scale calibration",
+      "status": "STILL_REQUIRED_FOR_PRECISE_KNOT_BASED_ETA",
+      "impact": "Absolute ETA can be approximate until geometry distance is mapped to in-game distance."
+    }
+  ]
+}
