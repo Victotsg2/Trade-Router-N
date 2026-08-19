@@ -24,8 +24,11 @@ WIND_DISCLAIMER = (
     "and may change actual travel time."
 )
 
-# These values are deliberately isolated and labelled: Hoy is the supplied
-# preliminary empirical curve; Been and Pembroke remain configurable heuristics.
+# These values are deliberately isolated and labelled. Hoy uses its confirmed
+# beam-reach orientation. Been and Pembroke share a provisional 15-degree
+# oblique optimum; their exact curves remain uncalibrated.
+OBLIQUE_OPTIMUM_DEG = 15.0
+BACKED_SECTOR_START_DEG = 90.0
 BEEN_HEURISTIC_POINTS = ((0.0, 8.5), (15.0, 9.0), (45.0, 5.0), (75.0, 2.0), (90.0, 0.5), (180.0, 0.25))
 PEMBROKE_PROXY_POINTS = ((0.0, 8.6), (15.0, 9.0), (45.0, 6.0), (75.0, 3.4), (90.0, 2.2), (180.0, 0.75))
 
@@ -97,28 +100,45 @@ def _interpolate(points: tuple[tuple[float, float], ...], value: float) -> float
 
 
 def modeled_speed_knots(ship: str, heading_deg: float, wind_toward_deg: float) -> dict[str, Any]:
-    deviation = angular_difference(heading_deg, wind_toward_deg)
+    relative_angle = angular_difference(heading_deg, wind_toward_deg)
     handoff = load_handoff()["wind_model_v2"]
     if ship == "Hoy":
+        # Confirmed player calibration: the Hoy performs best with wind on
+        # either side (beam reach), and poorly when directly with or against it.
+        deviation = abs(relative_angle - 90.0)
         points = tuple(
             (float(row["deviation_deg"]), float(row["speed_knots"]))
             for row in handoff["hoy"]["normalized_speed_curve_knots"]
         )
-        # Beyond the tested 90-degree range, retain the measured boundary as a
-        # conservative floor rather than inventing an extrapolated curve.
-        speed = _interpolate(points, min(deviation, 90.0))
-        status = "EMPIRICAL_PRELIMINARY" if deviation <= 90.0 else "OUTSIDE_TESTED_RANGE_BOUNDARY_FLOOR"
+        speed = _interpolate(points, deviation)
+        status = "EMPIRICAL_PRELIMINARY_BEAM_REACH"
+        favorable_angle = 90.0
+        wind_is_backing = False
     elif ship == "Been":
-        speed = _interpolate(BEEN_HEURISTIC_POINTS, deviation)
-        status = "PARTIAL_EMPIRICAL_HEURISTIC"
+        # The Been is best slightly off the direct wind line. The curve is
+        # indexed by the actual relative angle, while route-quality reporting
+        # measures deviation from the 15-degree oblique optimum.
+        speed = _interpolate(BEEN_HEURISTIC_POINTS, relative_angle)
+        deviation = abs(relative_angle - OBLIQUE_OPTIMUM_DEG)
+        status = "PARTIAL_EMPIRICAL_OBLIQUE_HEURISTIC"
+        favorable_angle = OBLIQUE_OPTIMUM_DEG
+        wind_is_backing = relative_angle >= BACKED_SECTOR_START_DEG
     elif ship == "Pembroke":
-        speed = _interpolate(PEMBROKE_PROXY_POINTS, deviation)
-        status = "PROXY_ASSUMED_FROM_BEEN"
+        # Pembroke follows the same oblique-angle shape provisionally, with
+        # the existing, more tolerant proxy values retained until calibrated.
+        speed = _interpolate(PEMBROKE_PROXY_POINTS, relative_angle)
+        deviation = abs(relative_angle - OBLIQUE_OPTIMUM_DEG)
+        status = "PROXY_OBLIQUE_ASSUMED_FROM_BEEN"
+        favorable_angle = OBLIQUE_OPTIMUM_DEG
+        wind_is_backing = relative_angle >= BACKED_SECTOR_START_DEG
     else:
         raise ValueError(f"Unknown ship wind model: {ship}")
     return {
         "speed_knots": max(0.1, float(speed)),
+        "relative_wind_angle_deg": relative_angle,
         "relative_wind_deviation_deg": deviation,
+        "favorable_relative_angle_deg": favorable_angle,
+        "wind_is_backing": wind_is_backing,
         "model_status": status,
     }
 
@@ -313,10 +333,10 @@ def choose_wind_route(
             ("delayed_tack_12m", True, 12.0),
             ("delayed_tack_18m", True, 18.0),
         ])
-    # Without a verified distance/time scale, rotating-wind arrival time cannot
-    # be simulated honestly. Keep the shortest safe corridor instead of chasing
-    # an immediately favorable but potentially wasteful detour.
-    corridor_candidates = candidates if pixels_per_nautical_mile else candidates[:1]
+    # Without a verified distance/time scale, rotation and clock ETA remain
+    # unavailable. The static departure-wind effort score can still compare
+    # complete safe corridors instead of silently forcing the shortest one.
+    corridor_candidates = candidates
     planned = []
     for candidate_index, candidate in enumerate(corridor_candidates):
         for strategy, allow_tacks, delay in strategy_specs:

@@ -57,12 +57,13 @@ The former Data & Debug and Data Status pages are combined into one collapsed **
 
 - Global wind direction rotates clockwise by **6° per elapsed minute**.
 - Random wind strength, regional slow wind, gusts, and storms are intentionally excluded.
-- The Hoy uses the supplied preliminary measured direction curve, normalized to 9.0 kt at its best heading. Beyond the tested 90° range, the tool keeps the tested boundary floor instead of inventing a curve.
-- Been remains partial empirical plus configurable heuristic. Its guidance can shiver the topsail to avoid reverse force and use the movable spanker for turns.
-- Pembroke remains an internal Been-based proxy with better frontal-wind tolerance. It uses Fore/Main/Mizzen asymmetry; the fixed spanker is never presented as movable.
+- The Hoy uses the supplied preliminary measured direction curve around its confirmed beam-reach orientation: wind approximately 90° to either side is best, while sailing directly with or directly against the wind is poor.
+- Even without a verified map scale, complete safe TP corridors are compared using a static departure-wind effort score. Wind rotation and clock ETA remain unavailable until a scale is calibrated.
+- Been remains partial empirical plus configurable heuristic. Its provisional optimum is a slight 15° oblique angle rather than direct alignment, and backed headings are unfavorable. Its guidance can shiver the topsail to avoid reverse force and use the movable spanker for turns.
+- Pembroke remains an internal Been-based proxy with the same provisional oblique optimum and better backed-sector tolerance. It uses Fore/Main/Mizzen asymmetry; the fixed spanker is never presented as movable.
 - Tacks are tested as safe doglegs during candidate evaluation. A tack is kept only when it improves the modeled full-voyage result while staying in the locked navigation and adaptive-clearance masks.
 - With a verified scale, the optimizer compares shortest-safe, immediate-wind, delayed-tack, and alternative TP-corridor strategies through final arrival. A longer corridor wins only when its projected ETA is lower outside the tie tolerance.
-- Without a verified scale, the app does not pretend to simulate time-driven rotation; it keeps the shortest safe corridor and withholds ETA.
+- Without a verified scale, the app does not pretend to simulate time-driven rotation; it compares bounded safe corridors using departure-wind effort and withholds ETA.
 
 ## Endpoint and TP robustness
 

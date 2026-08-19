@@ -1260,9 +1260,9 @@
     "world_direction": "Rotates clockwise 360 degrees every hour.",
     "regional_speed": "Random/unpredictable; DO NOT use regional wind speed or storms in route optimization.",
     "ship_behavior_known": {
-      "Hoy": "Best approximately parallel/downwind.",
-      "Been": "Best at a slight favorable-wind angle; worse directly aligned.",
-      "Pembroke": "Best at a slight favorable-wind angle; less direct-wind penalty than Been."
+      "Hoy": "Best with wind on either side (beam reach); direct with-wind and against-wind headings are poor.",
+      "Been": "Best at a slight oblique angle rather than directly aligned; backed headings are poor.",
+      "Pembroke": "Best at a slight oblique angle rather than directly aligned; backed headings are poor, using a provisional Been-based proxy."
     },
     "exact_angle_speed_curves": "NOT YET CALIBRATED",
     "instruction": "Do not invent wind-angle multipliers."
@@ -1429,8 +1429,8 @@
     },
     "hoy": {
       "status": "EMPIRICAL_PRELIMINARY_DIRECTION_ONLY",
-      "favorable_behavior": "Approximately parallel/downwind.",
-      "curve_reference": "absolute angular deviation from Hoy's favorable heading",
+      "favorable_behavior": "Beam reach: best at approximately 90 degrees to either side of wind-toward; direct with-wind and against-wind headings are poor.",
+      "curve_reference": "absolute angular deviation from either 90-degree beam-reach heading",
       "normalized_speed_curve_knots": [
         {
           "deviation_deg": 0,
@@ -1471,8 +1471,9 @@
       }
     },
     "been": {
-      "status": "PARTIAL_EMPIRICAL + HEURISTIC",
-      "favorable_behavior": "Best at a slight favorable angle rather than perfectly aligned/downwind.",
+      "status": "PARTIAL_EMPIRICAL + OBLIQUE_HEURISTIC",
+      "favorable_behavior": "Best at a slight oblique angle rather than directly aligned; backed headings are unfavorable.",
+      "provisional_optimum_relative_angle_deg": 15,
       "peak_modeled_speed_knots": 9.0,
       "recording_observations": [
         "Against-wind / bad sail state can produce negative speed (observed roughly -1.3 kt).",
@@ -1505,11 +1506,12 @@
       ]
     },
     "pembroke": {
-      "status": "PROXY_ASSUMED_FROM_BEEN",
+      "status": "PROXY_OBLIQUE_ASSUMED_FROM_BEEN",
       "reason": "No direct Pembroke test data currently available.",
       "peak_modeled_speed_knots": 9.0,
-      "favorable_behavior": "Similar general behavior to Been: preferred slight favorable angle, but better performance as wind becomes more frontal/unfavorable.",
-      "curve_rule": "Use the Been model as the provisional base shape, but reduce the speed penalty on frontal/headwind-side angles. Keep this as a configurable proxy and never label it as empirically confirmed.",
+      "favorable_behavior": "Similar general behavior to Been: preferred slight oblique angle, with backed headings unfavorable but better tolerated than by Been.",
+      "provisional_optimum_relative_angle_deg": 15,
+      "curve_rule": "Use the Been model as the provisional base shape, but reduce the penalty as headings approach the backed sector. Keep this as a configurable proxy and never label it as empirically confirmed.",
       "sails": {
         "mast_groups": [
           "Fore",

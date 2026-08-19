@@ -40,13 +40,13 @@ class NavalTradeV4Tests(unittest.TestCase):
 
     def test_recommendations_respond_to_departure_wind(self):
         north = generate_trade_recommendations(self.economy, "Louisbourg", "Hoy", 0, limit=58)
-        south = generate_trade_recommendations(self.economy, "Louisbourg", "Hoy", 180, limit=58)
+        east = generate_trade_recommendations(self.economy, "Louisbourg", "Hoy", 90, limit=58)
         north_by_port = {row["destination"]: row for row in north}
-        south_by_port = {row["destination"]: row for row in south}
-        shared = set(north_by_port) & set(south_by_port)
+        east_by_port = {row["destination"]: row for row in east}
+        shared = set(north_by_port) & set(east_by_port)
         self.assertTrue(any(
-            north_by_port[name]["wind_rating"] != south_by_port[name]["wind_rating"]
-            or north_by_port[name]["trade_score"] != south_by_port[name]["trade_score"]
+            north_by_port[name]["wind_rating"] != east_by_port[name]["wind_rating"]
+            or north_by_port[name]["trade_score"] != east_by_port[name]["trade_score"]
             for name in shared
         ))
 
@@ -60,7 +60,7 @@ class NavalTradeV4Tests(unittest.TestCase):
 
     def test_tack_symbol_is_directional_orange_arrow(self):
         plan = choose_wind_route(
-            self.local_candidates, "Hoy", 75, pixels_per_nautical_mile=100
+            self.local_candidates, "Hoy", 135, pixels_per_nautical_mile=100
         )
         self.assertGreater(len(plan.tack_points), 0)
         image = Image.open(io.BytesIO(render_unified_route(plan.route))).convert("RGB")

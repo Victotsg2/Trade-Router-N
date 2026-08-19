@@ -40554,9 +40554,9 @@
     "world_direction": "Rotates clockwise 360 degrees every hour.",
     "regional_speed": "Random/unpredictable; DO NOT use regional wind speed or storms in route optimization.",
     "ship_behavior_known": {
-      "Hoy": "Best approximately parallel/downwind.",
-      "Been": "Best at a slight favorable-wind angle; worse directly aligned.",
-      "Pembroke": "Best at a slight favorable-wind angle; less direct-wind penalty than Been."
+      "Hoy": "Best with wind on either side (beam reach); direct with-wind and against-wind headings are poor.",
+      "Been": "Best at a slight oblique angle rather than directly aligned; backed headings are poor.",
+      "Pembroke": "Best at a slight oblique angle rather than directly aligned; backed headings are poor, using a provisional Been-based proxy."
     },
     "exact_angle_speed_curves": "Hoy preliminary empirical curve supplied; Been partial heuristic; Pembroke proxy.",
     "instruction": "Use v2 handoff direction-only models; keep proxy/heuristic status internal and do not model random wind intensity."

@@ -39,16 +39,37 @@ class NavalTradeV2Tests(unittest.TestCase):
         self.assertEqual(wind_toward_at_elapsed(350, 5), 20)
 
     def test_hoy_curve_uses_supplied_values(self):
-        self.assertEqual(modeled_speed_knots("Hoy", 0, 0)["speed_knots"], 9.0)
-        self.assertEqual(modeled_speed_knots("Hoy", 90, 0)["speed_knots"], 0.5)
-        outside = modeled_speed_knots("Hoy", 180, 0)
-        self.assertEqual(outside["speed_knots"], 0.5)
-        self.assertEqual(outside["model_status"], "OUTSIDE_TESTED_RANGE_BOUNDARY_FLOOR")
+        self.assertEqual(modeled_speed_knots("Hoy", 90, 0)["speed_knots"], 9.0)
+        self.assertEqual(modeled_speed_knots("Hoy", 270, 0)["speed_knots"], 9.0)
+        self.assertEqual(modeled_speed_knots("Hoy", 0, 0)["speed_knots"], 0.5)
+        self.assertEqual(modeled_speed_knots("Hoy", 180, 0)["speed_knots"], 0.5)
+        self.assertEqual(
+            modeled_speed_knots("Hoy", 90, 0)["model_status"],
+            "EMPIRICAL_PRELIMINARY_BEAM_REACH",
+        )
+
+    def test_been_and_pembroke_prefer_oblique_non_backed_wind(self):
+        for ship, direct_speed, backed_speed, status in (
+            ("Been", 8.5, 0.25, "PARTIAL_EMPIRICAL_OBLIQUE_HEURISTIC"),
+            ("Pembroke", 8.6, 0.75, "PROXY_OBLIQUE_ASSUMED_FROM_BEEN"),
+        ):
+            direct = modeled_speed_knots(ship, 0, 0)
+            oblique = modeled_speed_knots(ship, 15, 0)
+            backed = modeled_speed_knots(ship, 180, 0)
+            self.assertEqual(direct["speed_knots"], direct_speed)
+            self.assertEqual(oblique["speed_knots"], 9.0)
+            self.assertGreater(oblique["speed_knots"], direct["speed_knots"])
+            self.assertEqual(oblique["relative_wind_deviation_deg"], 0.0)
+            self.assertFalse(oblique["wind_is_backing"])
+            self.assertEqual(backed["speed_knots"], backed_speed)
+            self.assertTrue(backed["wind_is_backing"])
+            self.assertEqual(oblique["model_status"], status)
 
     def test_hoy_favorable_same_region_route(self):
         first_leg = self.local_candidates[0].legs[0]
-        favorable = heading_bearing(first_leg.waypoints[0], first_leg.waypoints[1])
-        plan = choose_wind_route(self.local_candidates, "Hoy", favorable)
+        route_heading = heading_bearing(first_leg.waypoints[0], first_leg.waypoints[1])
+        beam_wind = (route_heading - 90.0) % 360.0
+        plan = choose_wind_route(self.local_candidates, "Hoy", beam_wind)
         self.assertEqual(len(plan.route.region_sequence), 1)
         self.assertAlmostEqual(plan.segment_evaluations[0]["speed_knots"], 9.0, places=6)
 
@@ -62,7 +83,7 @@ class NavalTradeV2Tests(unittest.TestCase):
         self.assertNotEqual(default["total_profit_gbp"], manual["total_profit_gbp"])
 
     def test_poor_wind_adds_only_safe_tacks(self):
-        plan = choose_wind_route(self.local_candidates, "Hoy", 75, pixels_per_nautical_mile=100)
+        plan = choose_wind_route(self.local_candidates, "Hoy", 135, pixels_per_nautical_mile=100)
         self.assertGreater(len(plan.tack_points), 0)
         for leg in plan.route.legs:
             _, _, nav, obstacles, _, _, _ = _region_context(leg.region_id)

@@ -58,7 +58,7 @@ class VictorTradeRouterV5Tests(unittest.TestCase):
             "BEL", "BEL-P04", "BEL", "BEL-P02", max_candidates=4
         )
         plan = choose_wind_route(
-            candidates, "Hoy", 75, pixels_per_nautical_mile=100
+            candidates, "Hoy", 135, pixels_per_nautical_mile=100
         )
         self.assertGreater(len(plan.tack_points), 0)
         self.assertTrue(plan.sail_instructions)
