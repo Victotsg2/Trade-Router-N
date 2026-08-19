@@ -99,7 +99,7 @@
     {
       "tp_id": "LEB-TP02",
       "region_id": "LEB",
-      "destination_region_id": "NCA",
+      "destination_region_id": "BTS",
       "polygon_coordinates": [
         [
           334,
@@ -136,9 +136,9 @@
           0.354913
         ]
       ],
-      "paired_tp_id": "NCA-TP01",
-      "confidence": "visually_verified",
-      "notes": ""
+      "paired_tp_id": "BTS-TP04",
+      "confidence": "confirmed",
+      "notes": "User-corrected pairing: left-side Lebarde TP connects to Blacktip Shoals."
     },
     {
       "tp_id": "LEB-TP03",
@@ -275,7 +275,7 @@
     {
       "tp_id": "LEB-TP06",
       "region_id": "LEB",
-      "destination_region_id": "BTS",
+      "destination_region_id": "NCA",
       "polygon_coordinates": [
         [
           1130,
@@ -312,9 +312,9 @@
           0.221965
         ]
       ],
-      "paired_tp_id": "BTS-TP04",
-      "confidence": "visually_verified",
-      "notes": ""
+      "paired_tp_id": "NCA-TP01",
+      "confidence": "confirmed",
+      "notes": "User-corrected pairing: right-side Lebarde TP connects to New Catalina."
     }
   ],
   "map_assets": {

@@ -697,7 +697,15 @@ def _matching_pair_point_candidates(
     tier_candidates = [item for item in candidates if item[0] >= TP_APPROACH_CLEARANCE_PX]
     if tier_candidates:
         candidates = tier_candidates
-    candidates.sort(key=lambda item: item[0], reverse=True)
+    # Once the TP approach clearance floor is satisfied, prefer the paired
+    # relative position nearest the center of both zones. Maximizing clearance
+    # alone can select an extreme corner of a long TP rectangle and make it
+    # appear that the route is entering a neighboring teleport box. Remaining
+    # interior points stay available as safe reachability fallbacks.
+    candidates.sort(key=lambda item: (
+        (item[1][0] - 0.5) ** 2 + (item[1][1] - 0.5) ** 2,
+        -item[0],
+    ))
     selected = []
     seen = set()
     for _, uv_a, uv_b, pa, pb in candidates:

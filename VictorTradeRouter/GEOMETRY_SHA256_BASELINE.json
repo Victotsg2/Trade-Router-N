@@ -61,8 +61,8 @@
   },
   {
     "path": "stage1_data/regions/BTS/geometry.json",
-    "sha256": "e39c57d21f1b2ad14e166b58efdd700b74acc5ce7892624406e9bd1abc91408b",
-    "bytes": 6488
+    "sha256": "211b6006403e2964f69dd27b223cddc527d7f6cc7a8b0733ff91fcdebad157cf",
+    "bytes": 6540
   },
   {
     "path": "stage1_data/regions/BTS/navigation_water_mask.png",
@@ -301,8 +301,8 @@
   },
   {
     "path": "stage1_data/regions/LEB/geometry.json",
-    "sha256": "68f0e72ceca5fc6848ab6016429358ff2da0dff6665f7894a73f75cc05a7fca1",
-    "bytes": 6609
+    "sha256": "b0745272b29bf8eb99d952537bacc9e44fda358d526a099e36fb47567418116f",
+    "bytes": 6726
   },
   {
     "path": "stage1_data/regions/LEB/navigation_water_mask.png",
@@ -331,8 +331,8 @@
   },
   {
     "path": "stage1_data/regions/NCA/geometry.json",
-    "sha256": "3b73f2cece858c540eddc5a4cae6bc2a9c9516ac95e9200619ed41cfef40391d",
-    "bytes": 3724
+    "sha256": "4aca4ca40946364fc0e119d31deb81908b2010740762f280564e7f70307cf836",
+    "bytes": 3777
   },
   {
     "path": "stage1_data/regions/NCA/navigation_water_mask.png",
@@ -551,13 +551,13 @@
   },
   {
     "path": "stage1_data/teleport_pairs.csv",
-    "sha256": "daba0dff75ca2c0a1cb88ea44def0186e7ec83d13282d929782fd3e775bcf632",
-    "bytes": 2490
+    "sha256": "2cc23f806af607c756367191a2e79dd63e19091413b4f9e6747f96234ea6261a",
+    "bytes": 2488
   },
   {
     "path": "stage1_data/teleport_zones.csv",
-    "sha256": "fcf8f7b0883b779be04b870833661826c7081fdb2f57589faa2dbb876cd3f4d3",
-    "bytes": 13572
+    "sha256": "d3433c85e36e3cb60d53e9bb3f28a9b46e4a54ed158c9072b6530a20d2169473",
+    "bytes": 13805
   },
   {
     "path": "stage1_data/VALIDATION_REPORT_FINAL.md",
@@ -566,8 +566,8 @@
   },
   {
     "path": "stage1_data/world_database.json",
-    "sha256": "56b75b96f58094cea65a03c99b5fcb17df61238803562ce872dbe0bffd55ecea",
-    "bytes": 103925
+    "sha256": "5239d7f189a9f35b8c7a4c92fafce9ba6953f6caf1c6e6ec163a1807e4ee2de5",
+    "bytes": 104138
   },
   {
     "path": "stage1_data/world_map_with_ports.png",

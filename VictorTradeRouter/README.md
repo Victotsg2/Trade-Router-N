@@ -36,6 +36,8 @@ Home and Route Planner navigation is centered directly beneath the wide, shallow
 
 The exported route image is map-only: it has no report banner and no numbered region circles. Orange arrows point along the new course at tack locations.
 Teleport jumps are shown as separate gold **TP IN** and **TP OUT** endpoints. They are not joined by a cross-map dashed line, because the ship teleports instantly rather than sailing between those positions.
+Paired TP routes prefer the matching center position inside both polygons after the 8 px TP clearance floor is met. If that point is unreachable, the router tries progressively more distant interior positions. This keeps adjacent Lebarde boxes visually and operationally distinct.
+Lebarde's corrected side assignments are: **right vertical → New Catalina** and **left vertical → Blacktip Shoals**. Their polygons are unchanged; only the reversed destination/pair metadata was corrected.
 
 ## Adaptive route clearance
 

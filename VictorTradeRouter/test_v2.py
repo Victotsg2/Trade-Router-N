@@ -150,8 +150,22 @@ class NavalTradeV2Tests(unittest.TestCase):
         self.assertEqual(plan.route.region_sequence, ["Lebarde", "New Catalina"])
         self.assertEqual(plan.route.teleport_count, 1)
         self.assertEqual(
-            [(item.from_region_id, item.to_region_id) for item in plan.route.transitions],
-            [("LEB", "NCA")],
+            [(item.from_tp_id, item.to_tp_id) for item in plan.route.transitions],
+            [("LEB-TP06", "NCA-TP01")],
+        )
+        transition = plan.route.transitions[0]
+        for value in (*transition.relative_position, *transition.transformed_position):
+            self.assertAlmostEqual(value, 0.5, places=12)
+        self.assertEqual(plan.route.legs[0].waypoints[-1], (1106, 465))
+        self.assertEqual(plan.route.legs[1].waypoints[0], (272, 308))
+
+        blacktip_candidates = generate_world_route_candidates(
+            "LEB", "LEB-P02", "BTS", "BTS-P01", max_candidates=12
+        )
+        blacktip_plan = choose_wind_route(blacktip_candidates, "Hoy", 105)
+        self.assertEqual(
+            [(item.from_tp_id, item.to_tp_id) for item in blacktip_plan.route.transitions],
+            [("LEB-TP02", "BTS-TP04")],
         )
 
     def test_all_lebarde_ports_reach_jones_outpost_by_direct_tp(self):

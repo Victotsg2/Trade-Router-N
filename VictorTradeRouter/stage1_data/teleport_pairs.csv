@@ -17,10 +17,10 @@ PAIR-015,ESO-TP01,WSO-TP05,ESO,WSO,same_relative_position,confirmed
 PAIR-016,WSO-TP03,NCA-TP02,WSO,NCA,same_relative_position,confirmed
 PAIR-017,WSO-TP04,GRF-TP04,WSO,GRF,same_relative_position,confirmed
 PAIR-018,WSO-TP08,BTS-TP06,WSO,BTS,same_relative_position,confirmed
-PAIR-019,NCA-TP01,LEB-TP02,NCA,LEB,same_relative_position,confirmed
+PAIR-019,NCA-TP01,LEB-TP06,NCA,LEB,same_relative_position,confirmed
 PAIR-020,LEB-TP01,SNI-TP02,LEB,SNI,same_relative_position,confirmed
 PAIR-021,LEB-TP05,GRF-TP03,LEB,GRF,same_relative_position,confirmed
-PAIR-022,LEB-TP06,BTS-TP04,LEB,BTS,same_relative_position,confirmed
+PAIR-022,LEB-TP02,BTS-TP04,LEB,BTS,same_relative_position,confirmed
 PAIR-023,SNI-TP01,BTS-TP02,SNI,BTS,same_relative_position,confirmed
 PAIR-024,BTS-TP01,SPO-TP02,BTS,SPO,same_relative_position,confirmed
 PAIR-025,BTS-TP03,IRV-TP02,BTS,IRV,same_relative_position,confirmed

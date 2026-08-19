@@ -104,9 +104,9 @@
           0.039954
         ]
       ],
-      "paired_tp_id": "LEB-TP02",
-      "confidence": "visually_verified",
-      "notes": ""
+      "paired_tp_id": "LEB-TP06",
+      "confidence": "confirmed",
+      "notes": "User-corrected reciprocal pairing to the right-side Lebarde TP."
     },
     {
       "tp_id": "NCA-TP02",

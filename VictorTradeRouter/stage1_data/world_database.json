@@ -2064,9 +2064,9 @@
           0.039954
         ]
       ],
-      "paired_tp_id": "LEB-TP02",
-      "confidence": "visually_verified",
-      "notes": ""
+      "paired_tp_id": "LEB-TP06",
+      "confidence": "confirmed",
+      "notes": "User-corrected reciprocal pairing to the right-side Lebarde TP."
     },
     {
       "tp_id": "NCA-TP02",
@@ -2159,7 +2159,7 @@
     {
       "tp_id": "LEB-TP02",
       "region_id": "LEB",
-      "destination_region_id": "NCA",
+      "destination_region_id": "BTS",
       "polygon_coordinates": [
         [
           334,
@@ -2196,9 +2196,9 @@
           0.354913
         ]
       ],
-      "paired_tp_id": "NCA-TP01",
-      "confidence": "visually_verified",
-      "notes": ""
+      "paired_tp_id": "BTS-TP04",
+      "confidence": "confirmed",
+      "notes": "User-corrected pairing: left-side Lebarde TP connects to Blacktip Shoals."
     },
     {
       "tp_id": "LEB-TP03",
@@ -2335,7 +2335,7 @@
     {
       "tp_id": "LEB-TP06",
       "region_id": "LEB",
-      "destination_region_id": "BTS",
+      "destination_region_id": "NCA",
       "polygon_coordinates": [
         [
           1130,
@@ -2372,9 +2372,9 @@
           0.221965
         ]
       ],
-      "paired_tp_id": "BTS-TP04",
-      "confidence": "visually_verified",
-      "notes": ""
+      "paired_tp_id": "NCA-TP01",
+      "confidence": "confirmed",
+      "notes": "User-corrected pairing: right-side Lebarde TP connects to New Catalina."
     },
     {
       "tp_id": "SNI-TP01",
@@ -2636,9 +2636,9 @@
           0.385238
         ]
       ],
-      "paired_tp_id": "LEB-TP06",
-      "confidence": "visually_verified",
-      "notes": ""
+      "paired_tp_id": "LEB-TP02",
+      "confidence": "confirmed",
+      "notes": "User-corrected reciprocal pairing to the left-side Lebarde TP."
     },
     {
       "tp_id": "BTS-TP05",
@@ -4083,7 +4083,7 @@
     {
       "pair_id": "PAIR-019",
       "tp_a_id": "NCA-TP01",
-      "tp_b_id": "LEB-TP02",
+      "tp_b_id": "LEB-TP06",
       "region_a_id": "NCA",
       "region_b_id": "LEB",
       "mapping": "same_relative_position",
@@ -4109,7 +4109,7 @@
     },
     {
       "pair_id": "PAIR-022",
-      "tp_a_id": "LEB-TP06",
+      "tp_a_id": "LEB-TP02",
       "tp_b_id": "BTS-TP04",
       "region_a_id": "LEB",
       "region_b_id": "BTS",
