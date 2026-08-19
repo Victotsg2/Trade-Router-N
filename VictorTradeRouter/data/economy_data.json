@@ -40548,7 +40548,7 @@
     "clearance_policy": "Hard minimum clearance only; no general soft shoreline-proximity penalty.",
     "accepted_test_clearance_px": 24,
     "port_exception": "Allow necessary departure/arrival clearance exception close to the port.",
-    "optimization_baseline": "Compare shortest safe and bounded alternative TP corridors by direction-only wind score; safety remains mandatory."
+    "optimization_baseline": "Without calibrated map scale, prefer the fewest safe TP transfers and compare direction-only wind score within that transfer count; with calibrated scale, compare bounded alternatives by ETA. Safety remains mandatory."
   },
   "wind": {
     "world_direction": "Rotates clockwise 360 degrees every hour.",

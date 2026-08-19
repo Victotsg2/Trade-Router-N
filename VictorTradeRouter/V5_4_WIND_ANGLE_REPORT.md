@@ -14,6 +14,9 @@ The Been and Pembroke perform best at a slight oblique wind angle rather than di
 - Been and Pembroke use a provisional 15° oblique optimum; direct alignment is slightly slower and the backed sector is poor.
 - No new Been/Pembroke speeds were inferred from the directional sketch.
 - Home recommendations and detailed route planning use the corrected shared Hoy calculation.
-- When map scale is unavailable, all bounded safe TP corridors are now compared with a static departure-wind effort score instead of forcing the shortest geometry-only corridor.
+- When map scale is unavailable, routing prefers the fewest valid TP transfers and then compares wind/tacking among those corridors. Raw pixels from separate regional screenshots are not treated as verified cross-region travel time.
+- The Princeton → Cumberland Hill regression now uses the direct Lebarde → New Catalina TP instead of detouring through West Somerset.
+- Lebarde routes to Jones' Outpost use that same direct one-TP corridor.
+- The unified route image marks teleport entrance and exit separately instead of drawing a misleading dashed sailing line between them.
 
 The original imported handoff files remain unchanged for audit history; their former parallel/downwind Hoy assumption is superseded by the user's confirmed beam-reach diagram.

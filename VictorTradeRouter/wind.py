@@ -333,10 +333,18 @@ def choose_wind_route(
             ("delayed_tack_12m", True, 12.0),
             ("delayed_tack_18m", True, 18.0),
         ])
-    # Without a verified distance/time scale, rotation and clock ETA remain
-    # unavailable. The static departure-wind effort score can still compare
-    # complete safe corridors instead of silently forcing the shortest one.
-    corridor_candidates = candidates
+    # Raw screenshot pixels from different regional maps are not a verified
+    # shared time scale. Until that scale exists, prefer the fewest valid TP
+    # transfers, then compare wind/tacking among corridors with that same hop
+    # count. A calibrated route may compare every corridor by projected ETA.
+    if pixels_per_nautical_mile:
+        corridor_candidates = candidates
+    else:
+        minimum_tp_count = min(candidate.teleport_count for candidate in candidates)
+        corridor_candidates = [
+            candidate for candidate in candidates
+            if candidate.teleport_count == minimum_tp_count
+        ]
     planned = []
     for candidate_index, candidate in enumerate(corridor_candidates):
         for strategy, allow_tacks, delay in strategy_specs:

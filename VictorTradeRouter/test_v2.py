@@ -140,6 +140,30 @@ class NavalTradeV2Tests(unittest.TestCase):
         selected = next(row for row in plan.candidate_summaries if row["selected"])
         self.assertLess(selected["eta_minutes"], baseline["eta_minutes"])
 
+    def test_uncalibrated_lebarde_to_new_catalina_prefers_direct_tp(self):
+        candidates = generate_world_route_candidates(
+            "LEB", "LEB-P03", "NCA", "NCA-P03", max_candidates=12
+        )
+        self.assertTrue(any(candidate.teleport_count == 1 for candidate in candidates))
+        self.assertTrue(any(candidate.teleport_count > 1 for candidate in candidates))
+        plan = choose_wind_route(candidates, "Hoy", 105)
+        self.assertEqual(plan.route.region_sequence, ["Lebarde", "New Catalina"])
+        self.assertEqual(plan.route.teleport_count, 1)
+        self.assertEqual(
+            [(item.from_region_id, item.to_region_id) for item in plan.route.transitions],
+            [("LEB", "NCA")],
+        )
+
+    def test_all_lebarde_ports_reach_jones_outpost_by_direct_tp(self):
+        for origin_port_id in ("LEB-P01", "LEB-P02", "LEB-P03"):
+            with self.subTest(origin_port_id=origin_port_id):
+                candidates = generate_world_route_candidates(
+                    "LEB", origin_port_id, "NCA", "NCA-P04", max_candidates=12
+                )
+                plan = choose_wind_route(candidates, "Hoy", 105)
+                self.assertEqual(plan.route.region_sequence, ["Lebarde", "New Catalina"])
+                self.assertEqual(plan.route.teleport_count, 1)
+
     def test_long_cross_region_route_rotates_wind(self):
         candidates = generate_world_route_candidates("SSA", "SSA-P01", "ILB", "ILB-P01", max_candidates=4)
         plan = choose_wind_route(candidates, "Hoy", 90, pixels_per_nautical_mile=100)

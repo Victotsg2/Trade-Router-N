@@ -980,14 +980,22 @@ def render_unified_route(result: WorldRouteResult) -> bytes:
     for index in range(len(transformed_legs) - 1):
         entry = transformed_legs[index][1][-1]
         exit_point = transformed_legs[index + 1][1][0]
-        _dashed_line(draw, [entry, exit_point], (5, 18, 26), width=9, dash=13, gap=8)
-        _dashed_line(draw, [entry, exit_point], (255, 196, 45), width=4, dash=13, gap=8)
-        for point in (entry, exit_point):
+        # A teleport is instantaneous, not a sail segment. Do not connect its
+        # two world-map positions with a long dashed line that can be mistaken
+        # for a generated course. Mark each endpoint independently instead.
+        for point, label, label_y in (
+            (entry, "TP IN", -18),
+            (exit_point, "TP OUT", 18),
+        ):
             x, y = point
             draw.polygon(((x, y-7), (x+7, y), (x, y+7), (x-7, y)), fill=(255,196,45), outline=(5,18,26))
-        middle = ((entry[0] + exit_point[0]) // 2, (entry[1] + exit_point[1]) // 2)
-        draw.rounded_rectangle((middle[0]-15, middle[1]-10, middle[0]+15, middle[1]+10), radius=5, fill=(10,31,43))
-        draw.text(middle, "TP", fill=(255,215,75), font=_font(12, bold=True), anchor="mm")
+            label_center = (x, y + label_y)
+            draw.rounded_rectangle(
+                (label_center[0]-24, label_center[1]-9, label_center[0]+24, label_center[1]+9),
+                radius=5,
+                fill=(10,31,43),
+            )
+            draw.text(label_center, label, fill=(255,215,75), font=_font(10, bold=True), anchor="mm")
 
     for tack in result.tack_points:
         tx, ty = world_point(tack["region_id"], tuple(tack["point"]))
