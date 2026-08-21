@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import unittest
 from pathlib import Path
+import tomllib
 
 from routing import generate_world_route_candidates
 from wind import WIND_DISCLAIMER, choose_wind_route
@@ -67,6 +68,27 @@ class VictorTradeRouterV5Tests(unittest.TestCase):
         short_handoff = self.root / "data" / "wind_v2.json"
         self.assertTrue(short_handoff.is_file())
         self.assertIn('HANDOFF = DATA_DIR / "wind_v2.json"', self.wind_source)
+
+    def test_light_and_dark_themes_have_readable_contrast(self):
+        config_path = self.root / ".streamlit" / "config.toml"
+        config = tomllib.loads(config_path.read_text(encoding="utf-8"))
+
+        def luminance(hex_color: str) -> float:
+            channels = [int(hex_color[index:index + 2], 16) / 255 for index in (1, 3, 5)]
+            linear = [value / 12.92 if value <= 0.04045 else ((value + 0.055) / 1.055) ** 2.4 for value in channels]
+            return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2]
+
+        def contrast(first: str, second: str) -> float:
+            bright, dark = sorted((luminance(first), luminance(second)), reverse=True)
+            return (bright + 0.05) / (dark + 0.05)
+
+        for mode in ("light", "dark"):
+            theme = config["theme"][mode]
+            self.assertGreaterEqual(contrast(theme["textColor"], theme["backgroundColor"]), 7.0)
+            self.assertGreaterEqual(contrast(theme["textColor"], theme["secondaryBackgroundColor"]), 7.0)
+        self.assertIn("background-color:var(--background-color)", self.app_source)
+        self.assertIn("background:var(--secondary-background-color)", self.app_source)
+        self.assertIn("color:var(--text-color)", self.app_source)
 
 
 if __name__ == "__main__":

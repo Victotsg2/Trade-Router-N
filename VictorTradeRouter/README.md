@@ -34,6 +34,8 @@ The **Route Planner** handles the whole player flow in one action:
 
 Home and Route Planner navigation is centered directly beneath the wide, shallow header banner. After charting, the settings panel closes automatically. Cargo and profit remain visible with the zoomable map; secondary route details, tack orders, validation, and calibration notes stay collapsed. If no verified map scale exists, Voyage Details omits the Time metric instead of presenting an unavailable estimate.
 
+The Streamlit **Light** and **Dark** appearance settings are both supported. Page backgrounds, text, metrics, expanders, captions, and chart containers use the active theme palette; the naval blue/gold banner and controls remain consistent in either mode.
+
 The exported route image is map-only: it has no report banner and no numbered region circles. Orange arrows point along the new course at tack locations.
 Teleport jumps are shown as separate gold **TP IN** and **TP OUT** endpoints. They are not joined by a cross-map dashed line, because the ship teleports instantly rather than sailing between those positions.
 Paired TP routes prefer the matching center position inside both polygons after the 8 px TP clearance floor is met. If that point is unreachable, the router tries progressively more distant interior positions. This keeps adjacent Lebarde boxes visually and operationally distinct.

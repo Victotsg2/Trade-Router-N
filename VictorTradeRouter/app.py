@@ -33,14 +33,16 @@ def apply_windward_theme() -> None:
     st.markdown(f"""
 <style>
 @font-face {{ font-family: WindwardFallback; src: local('Georgia'); }}
-:root {{ --navy:#081a29; --navy2:#102d42; --sea:#385f78; --gold:#c9a84d; --pale:#e8edf0; --ink:#132332; }}
+:root {{ --navy:#081a29; --navy2:#102d42; --sea:#385f78; --gold:#c9a84d; --pale:#e8edf0; }}
 .stApp {{
-  background:
-    linear-gradient(rgba(239,243,244,.94), rgba(224,232,235,.97)),
-    radial-gradient(circle at 50% 0%, #8fb1c4 0%, #cbd8de 42%, #e5e9e9 100%);
-  color:var(--ink);
+  background-color:var(--background-color);
+  background-image:
+    linear-gradient(rgba(56,95,120,.08), rgba(8,26,41,.04)),
+    radial-gradient(circle at 50% 0%, rgba(143,177,196,.16) 0%, transparent 58%);
+  color:var(--text-color);
 }}
 html, body, [class*="css"], [data-testid="stAppViewContainer"] {{ font-family:"Trebuchet MS","Segoe UI",sans-serif; }}
+h1, h2, h3, h4, h5, h6, p, label, [data-testid="stCaptionContainer"], [data-testid="stMarkdownContainer"] {{ color:var(--text-color); }}
 h1, h2, h3, h4, .windward-title, button, [data-testid="stExpander"] summary {{
   font-family:WindwardFallback, Georgia, "Times New Roman", serif !important;
   letter-spacing:.035em;
@@ -63,10 +65,11 @@ div.stButton > button {{
   border-radius:2px; box-shadow:inset 0 0 0 1px rgba(255,255,255,.08); font-weight:700;
 }}
 div.stButton > button:hover {{ color:#fff4c9; border-color:#f0cf70; background:linear-gradient(#20516f,#103149); }}
-div[data-testid="stMetric"] {{ background:rgba(248,250,250,.72); border:1px solid #aab9bf; border-top:3px solid #c0a04c; padding:10px 14px; }}
-div[data-testid="stExpander"] {{ background:rgba(247,249,249,.76); border:1px solid #9eb0b8; border-radius:2px; }}
-[data-testid="stPlotlyChart"] {{ border:1px solid #8fa3ad; background:rgba(246,249,250,.76); }}
-.windward-note {{ color:#496473; font-size:.87rem; }}
+div[data-testid="stMetric"] {{ color:var(--text-color); background:var(--secondary-background-color); border:1px solid rgba(143,163,173,.76); border-top:3px solid #c0a04c; padding:10px 14px; }}
+div[data-testid="stMetric"] [data-testid="stMetricLabel"], div[data-testid="stMetric"] [data-testid="stMetricValue"] {{ color:var(--text-color); }}
+div[data-testid="stExpander"] {{ color:var(--text-color); background:var(--secondary-background-color); border:1px solid rgba(143,163,173,.76); border-radius:2px; }}
+[data-testid="stPlotlyChart"] {{ border:1px solid rgba(143,163,173,.76); background:var(--secondary-background-color); }}
+.windward-note {{ color:var(--text-color); opacity:.76; font-size:.87rem; }}
 .windward-rank {{ color:#c5a34a; font-family:Georgia,serif; font-weight:700; }}
 .windward-nav-spacer {{ height:18px; }}
 .windward-warning {{
@@ -360,7 +363,7 @@ def recommendation_figure(rows: list[dict]) -> go.Figure:
         showlegend=False,
         font=dict(family="Georgia, serif", color="#e7ecec"),
         xaxis=dict(visible=False, range=[0, 106]),
-        yaxis=dict(tickfont=dict(size=13, color="#203a4a"), automargin=True),
+        yaxis=dict(tickfont=dict(size=13, color="#e7ecec"), automargin=True),
         bargap=0.24,
     )
     return figure
