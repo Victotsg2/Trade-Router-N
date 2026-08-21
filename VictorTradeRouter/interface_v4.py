@@ -12,6 +12,10 @@ from routing import RouteDiagnosticError, generate_world_route_candidates, rende
 from wind import WIND_DISCLAIMER, choose_wind_route, hud_arrow_to_world_wind, load_handoff, wind_toward_at_elapsed
 
 
+ROUTE_LOADING_MESSAGE = "Victorsg_Khrushchev is Checking the Winds"
+ROUTE_COMPLETE_MESSAGE = "The Wind is Ward"
+
+
 def _editable_records(value) -> list[dict]:
     if isinstance(value, pd.DataFrame):
         return json.loads(value.to_json(orient="records"))
@@ -55,6 +59,7 @@ def _generate_route(
     enemy_nations: list[str],
 ) -> None:
     st.session_state.pop("route_debug", None)
+    st.session_state.pop("route_generation_complete", None)
     if origin == destination:
         st.error("Origin and destination must be different ports.")
         return
@@ -76,7 +81,7 @@ def _generate_route(
                     "navigation_start_point": tuple(current_position["point"]),
                     "navigation_start_name": "Current ship position",
                 }
-            with st.spinner("Charting safe passages and comparing the wind…"):
+            with st.spinner(ROUTE_LOADING_MESSAGE):
                 candidates = generate_world_route_candidates(
                     route_start["region_id"], route_start["geometry_port_id"],
                     route_end["region_id"], route_end["geometry_port_id"],
@@ -104,6 +109,7 @@ def _generate_route(
             "diagnostics": [] if plan is None else plan.route.diagnostics,
             "candidate_summaries": [] if plan is None else plan.candidate_summaries,
         }
+        st.session_state.route_generation_complete = True
         st.rerun()
     except RouteDiagnosticError as exc:
         st.session_state.pop("v2_result", None)
@@ -239,6 +245,8 @@ def _route_planner(
                 economy, ownership, settings, port_by_name, origin, destination, ship,
                 export_tax, import_tax, navigation_mode, current_position, wind_toward, enemy_nations,
             )
+    if st.session_state.pop("route_generation_complete", False):
+        st.success(ROUTE_COMPLETE_MESSAGE)
     if payload is not None:
         _result_view(
             payload,

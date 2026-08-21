@@ -552,7 +552,7 @@ with route_tab:
                     kwargs = {}
                     if current_position:
                         kwargs = {"navigation_start_region_id": current_position["region_id"], "navigation_start_point": tuple(current_position["point"]), "navigation_start_name": "Current ship position"}
-                    with st.spinner("Comparing safe TP corridors, wind, and worthwhile tacks…"):
+                    with st.spinner("Victorsg_Khrushchev, is Checking the Winds"):
                         candidates = generate_world_route_candidates(route_start["region_id"], route_start["geometry_port_id"], route_end["region_id"], route_end["geometry_port_id"], max_candidates=12, **kwargs)
                         plan = choose_wind_route(candidates, ship, wind_toward, pixels_per_nautical_mile=settings.get("pixels_per_nautical_mile"))
                         route_png = render_unified_route(plan.route)

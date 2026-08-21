@@ -126,6 +126,13 @@ class NavalTradeV4Tests(unittest.TestCase):
         self.assertIn('st.expander("DATA, DEBUG & STATUS"', interface_source)
         self.assertIn('"Overview", "Port Taxes", "Cargo", "Destination Values"', interface_source)
 
+    def test_route_generation_uses_custom_wind_messages(self):
+        interface_source = Path(__file__).with_name("interface_v4.py").read_text(encoding="utf-8")
+        self.assertIn('ROUTE_LOADING_MESSAGE = "Victorsg_Khrushchev, is Checking the Winds"', interface_source)
+        self.assertIn('ROUTE_COMPLETE_MESSAGE = "The Wind is Ward"', interface_source)
+        self.assertIn('st.session_state.route_generation_complete = True', interface_source)
+        self.assertIn('st.success(ROUTE_COMPLETE_MESSAGE)', interface_source)
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
