@@ -15,7 +15,7 @@ This update changes the interface and adds a recommendation layer without alteri
 - Origin → destination, cargo, units, profit per unit, and total profit stay visible.
 - Route image contains the map only; its report header and numbered regional-leg circles were removed.
 - Tack markers are orange directional arrows aligned with the outbound tack segment.
-- Sail instructions were rewritten as direct action orders tied to the orange arrow and cyan route segment.
+- Sail instructions were rewritten as direct action orders tied to the orange arrow and white route segment.
 - Removed the redundant “Unfavorable wind makes one or more tactical tacks worthwhile.” warning.
 - Data & Debug and Data Status are combined into a collapsed Data, Debug & Status panel at the bottom.
 

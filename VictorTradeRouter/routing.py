@@ -530,8 +530,9 @@ def _simplify(path: list[tuple[int, int]], mask: np.ndarray) -> list[tuple[int, 
 def _draw_overlay(source, route, waypoints, start_name, end_name, start_kind, end_kind) -> bytes:
     image = source.convert("RGBA")
     draw = ImageDraw.Draw(image)
-    draw.line(route, fill=(0, 25, 45, 210), width=9, joint="curve")
-    draw.line(route, fill=(0, 235, 255, 255), width=4, joint="curve")
+    # Match the in-game chart: a crisp white course with a narrow dark edge.
+    draw.line(route, fill=(35, 39, 43, 225), width=8, joint="curve")
+    draw.line(route, fill=(255, 255, 255, 255), width=5, joint="curve")
     for i, point in enumerate(waypoints[1:-1], start=1):
         draw.ellipse((point[0]-6, point[1]-6, point[0]+6, point[1]+6), fill="white", outline=(0,25,45), width=3)
         draw.text((point[0]+9, point[1]-10), str(i), fill="white", stroke_width=3, stroke_fill=(0,25,45))
@@ -944,28 +945,13 @@ def _font(size: int, bold: bool = False):
         return ImageFont.load_default()
 
 
-def _dashed_line(draw: ImageDraw.ImageDraw, points: list[tuple[int, int]], fill, width=5, dash=16, gap=10):
-    for start, end in zip(points, points[1:]):
-        length = math.hypot(end[0] - start[0], end[1] - start[1])
-        if length == 0:
-            continue
-        distance = 0.0
-        while distance < length:
-            finish = min(distance + dash, length)
-            p1 = (int(round(start[0] + (end[0] - start[0]) * distance / length)), int(round(start[1] + (end[1] - start[1]) * distance / length)))
-            p2 = (int(round(start[0] + (end[0] - start[0]) * finish / length)), int(round(start[1] + (end[1] - start[1]) * finish / length)))
-            draw.line((p1, p2), fill=fill, width=width)
-            distance += dash + gap
-
-
 def render_unified_route(result: WorldRouteResult) -> bytes:
     """Draw the route directly on the locked world map, with no report header."""
     settings = world_alignment()
     world_path = Path(__file__).parent / settings["world_map"]
-    world = Image.open(world_path).convert("RGB")
+    world = Image.open(world_path).convert("RGBA")
     header_height = 0
     canvas = world.copy()
-    draw = ImageDraw.Draw(canvas)
 
     def world_point(region_id: str, point: tuple[int, int]) -> tuple[int, int]:
         first, second = settings["regions"][region_id]
@@ -975,35 +961,65 @@ def render_unified_route(result: WorldRouteResult) -> bytes:
             header_height + int(round(second[0] * x + second[1] * y + second[2])),
         )
 
+    # Show the complete paired TP polygons beneath the sailing route. The fill
+    # remains transparent so islands, labels, and the chosen contact position
+    # are still visible on the underlying world map.
+    tp_layer = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+    tp_draw = ImageDraw.Draw(tp_layer)
+    tp_records = _tp_records()
+    for transition in result.transitions:
+        for tp_id in (transition.from_tp_id, transition.to_tp_id):
+            tp = tp_records[tp_id]
+            polygon = [
+                world_point(tp["region_id"], (int(point[0]), int(point[1])))
+                for point in tp["polygon_coordinates"]
+            ]
+            tp_draw.polygon(
+                polygon,
+                fill=(44, 203, 225, 62),
+                outline=(91, 233, 248, 225),
+                width=3,
+            )
+    canvas = Image.alpha_composite(canvas, tp_layer)
+    draw = ImageDraw.Draw(canvas)
+
     transformed_legs = []
     for leg in result.legs:
         route = [world_point(leg.region_id, point) for point in leg.route_pixels]
         waypoints = [world_point(leg.region_id, point) for point in leg.waypoints]
         transformed_legs.append((route, waypoints, leg))
-        draw.line(route, fill=(2, 20, 29), width=8, joint="curve")
-        draw.line(route, fill=(0, 240, 255), width=4, joint="curve")
+        draw.line(route, fill=(35, 39, 43), width=8, joint="curve")
+        draw.line(route, fill=(255, 255, 255), width=5, joint="curve")
         for point in waypoints[1:-1]:
             draw.ellipse((point[0]-3, point[1]-3, point[0]+3, point[1]+3), fill="white", outline=(2,20,29), width=1)
 
+    def draw_tp_direction(start: tuple[int, int], end: tuple[int, int], *, toward_end: bool) -> None:
+        dx, dy = end[0] - start[0], end[1] - start[1]
+        length = max(math.hypot(dx, dy), 1.0)
+        ux, uy = dx / length, dy / length
+        px, py = -uy, ux
+        if toward_end:
+            tip = end
+            tail = (int(round(end[0] - ux * 24)), int(round(end[1] - uy * 24)))
+        else:
+            tail = start
+            tip = (int(round(start[0] + ux * 24)), int(round(start[1] + uy * 24)))
+        draw.line((tail, tip), fill=(2, 20, 29, 255), width=9)
+        draw.line((tail, tip), fill=(255, 205, 61, 255), width=5)
+        arrow = (
+            tip,
+            (int(round(tip[0] - ux * 11 + px * 7)), int(round(tip[1] - uy * 11 + py * 7))),
+            (int(round(tip[0] - ux * 11 - px * 7)), int(round(tip[1] - uy * 11 - py * 7))),
+        )
+        draw.polygon(arrow, fill=(255, 205, 61, 255), outline=(2, 20, 29, 255))
+
     for index in range(len(transformed_legs) - 1):
-        entry = transformed_legs[index][1][-1]
-        exit_point = transformed_legs[index + 1][1][0]
-        # A teleport is instantaneous, not a sail segment. Do not connect its
-        # two world-map positions with a long dashed line that can be mistaken
-        # for a generated course. Mark each endpoint independently instead.
-        for point, label, label_y in (
-            (entry, "TP IN", -18),
-            (exit_point, "TP OUT", 18),
-        ):
-            x, y = point
-            draw.polygon(((x, y-7), (x+7, y), (x, y+7), (x-7, y)), fill=(255,196,45), outline=(5,18,26))
-            label_center = (x, y + label_y)
-            draw.rounded_rectangle(
-                (label_center[0]-24, label_center[1]-9, label_center[0]+24, label_center[1]+9),
-                radius=5,
-                fill=(10,31,43),
-            )
-            draw.text(label_center, label, fill=(255,215,75), font=_font(10, bold=True), anchor="mm")
+        entry_waypoints = transformed_legs[index][1]
+        exit_waypoints = transformed_legs[index + 1][1]
+        if len(entry_waypoints) >= 2:
+            draw_tp_direction(entry_waypoints[-2], entry_waypoints[-1], toward_end=True)
+        if len(exit_waypoints) >= 2:
+            draw_tp_direction(exit_waypoints[0], exit_waypoints[1], toward_end=False)
 
     for tack in result.tack_points:
         tx, ty = world_point(tack["region_id"], tuple(tack["point"]))
@@ -1040,5 +1056,5 @@ def render_unified_route(result: WorldRouteResult) -> bytes:
     draw.text((destination[0]+11, destination[1]+7), "DESTINATION", fill="white", font=_font(12, bold=True), stroke_width=2, stroke_fill=(2,20,29))
 
     output = io.BytesIO()
-    canvas.save(output, format="PNG", optimize=True)
+    canvas.convert("RGB").save(output, format="PNG", optimize=True)
     return output.getvalue()

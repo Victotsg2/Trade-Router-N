@@ -58,6 +58,33 @@ class NavalTradeV4Tests(unittest.TestCase):
         world = Image.open(Path(__file__).parent / world_alignment()["world_map"])
         self.assertEqual(image.size, world.size)
 
+    def test_route_image_uses_transparent_tp_zones_without_text_labels(self):
+        candidates = generate_world_route_candidates(
+            "LEB", "LEB-P03", "NCA", "NCA-P04", max_candidates=12
+        )
+        plan = choose_wind_route(candidates, "Hoy", 105)
+        rendered = Image.open(io.BytesIO(render_unified_route(plan.route))).convert("RGB")
+        world = Image.open(Path(__file__).parent / world_alignment()["world_map"]).convert("RGB")
+        # Center of the corrected right-side Lebarde TP06 polygon, transformed
+        # into the unified map. The translucent zone must visibly alter it.
+        first, second = world_alignment()["regions"]["LEB"]
+        region_point = (1106, 465)
+        world_point = (
+            int(round(first[0] * region_point[0] + first[1] * region_point[1] + first[2])),
+            int(round(second[0] * region_point[0] + second[1] * region_point[1] + second[2])),
+        )
+        self.assertNotEqual(rendered.getpixel(world_point), world.getpixel(world_point))
+        source = Path(__file__).with_name("routing.py").read_text(encoding="utf-8")
+        self.assertNotIn('"TP IN"', source)
+        self.assertNotIn('"TP OUT"', source)
+        self.assertIn('fill=(44, 203, 225, 62)', source)
+
+    def test_route_image_uses_white_course_with_dark_border(self):
+        source = Path(__file__).with_name("routing.py").read_text(encoding="utf-8")
+        self.assertIn('fill=(35, 39, 43), width=8', source)
+        self.assertIn('fill=(255, 255, 255), width=5', source)
+        self.assertNotIn('fill=(0, 240, 255)', source)
+
     def test_tack_symbol_is_directional_orange_arrow(self):
         plan = choose_wind_route(
             self.local_candidates, "Hoy", 135, pixels_per_nautical_mile=100
@@ -86,7 +113,7 @@ class NavalTradeV4Tests(unittest.TestCase):
         )
 
     def test_sail_orders_name_the_route_and_action(self):
-        self.assertIn("next cyan route segment", sail_instruction("Hoy", True, 1.0))
+        self.assertIn("next white route segment", sail_instruction("Hoy", True, 1.0))
         self.assertIn("Shiver the topsail", sail_instruction("Been", True, 1.0))
         self.assertIn("Fore/Main/Mizzen", sail_instruction("Pembroke", True, 1.0))
 

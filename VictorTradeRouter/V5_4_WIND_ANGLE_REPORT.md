@@ -17,7 +17,7 @@ The Been and Pembroke perform best at a slight oblique wind angle rather than di
 - When map scale is unavailable, routing prefers the fewest valid TP transfers and then compares wind/tacking among those corridors. Raw pixels from separate regional screenshots are not treated as verified cross-region travel time.
 - The Princeton → Cumberland Hill regression now uses the direct Lebarde → New Catalina TP instead of detouring through West Somerset.
 - Lebarde routes to Jones' Outpost use that same direct one-TP corridor.
-- The unified route image marks teleport entrance and exit separately instead of drawing a misleading dashed sailing line between them.
+- The unified route image overlays each complete paired TP polygon transparently and uses short direction arrows at the selected matching positions. It draws no dashed cross-map line or `TP IN`/`TP OUT` label.
 - Paired teleport sampling now prefers the safe polygon center rather than the maximum-clearance edge. The Lebarde → New Catalina transition uses `(u=0.5, v=0.5)` in both boxes, away from the neighboring Griffard's Rock TP.
 - Corrected reversed Lebarde side assignments: `LEB-TP06` (right vertical) now pairs with `NCA-TP01`, and `LEB-TP02` (left vertical) now pairs with `BTS-TP04`. No TP polygon was moved or resized.
 

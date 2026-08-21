@@ -146,17 +146,17 @@ def modeled_speed_knots(ship: str, heading_deg: float, wind_toward_deg: float) -
 def sail_instruction(ship: str, tack_required: bool, speed_knots: float) -> str:
     if ship == "Hoy":
         return (
-            "Turn toward the next cyan route segment. Use the spanker to bring the bow through, then return to forward trim."
+            "Turn toward the next white route segment. Use the spanker to bring the bow through, then return to forward trim."
             if tack_required
-            else "Hold the cyan route line with forward trim; use the spanker only for a course correction."
+            else "Hold the white route line with forward trim; use the spanker only for a course correction."
         )
     if ship == "Been":
         if tack_required or speed_knots < 1.0:
-            return "Turn toward the next cyan route segment. Shiver the topsail during the turn, use the spanker to bring the bow through, then retrim the topsail for forward drive."
+            return "Turn toward the next white route segment. Shiver the topsail during the turn, use the spanker to bring the bow through, then retrim the topsail for forward drive."
         return "Keep the topsail driving forward. Shiver it only if the ship begins losing or reversing progress."
     if ship == "Pembroke":
         if tack_required:
-            return "Turn toward the next cyan route segment. Use unequal Fore/Main/Mizzen settings to rotate the ship, then restore forward trim."
+            return "Turn toward the next white route segment. Use unequal Fore/Main/Mizzen settings to rotate the ship, then restore forward trim."
         return "Keep Fore/Main/Mizzen set for forward drive; correct the heading with temporary sail asymmetry."
     raise ValueError(f"Unknown ship: {ship}")
 
