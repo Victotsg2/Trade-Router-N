@@ -133,6 +133,15 @@ class NavalTradeV4Tests(unittest.TestCase):
         self.assertIn('st.session_state.route_generation_complete = True', interface_source)
         self.assertIn('st.success(ROUTE_COMPLETE_MESSAGE)', interface_source)
 
+    def test_theme_uses_switchable_streamlit_colors_for_text_and_background(self):
+        app_source = Path(__file__).with_name("app.py").read_text(encoding="utf-8")
+        self.assertIn("--st-background-color", app_source)
+        self.assertIn("--st-secondary-background-color", app_source)
+        self.assertIn("--st-text-color", app_source)
+        self.assertIn("--st-border-color", app_source)
+        self.assertIn('[data-testid="stWidgetLabel"] p', app_source)
+        self.assertIn("color:var(--windward-text) !important", app_source)
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

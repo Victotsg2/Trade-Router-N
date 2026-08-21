@@ -35,14 +35,33 @@ def apply_windward_theme() -> None:
 @font-face {{ font-family: WindwardFallback; src: local('Georgia'); }}
 :root {{ --navy:#081a29; --navy2:#102d42; --sea:#385f78; --gold:#c9a84d; --pale:#e8edf0; }}
 .stApp {{
-  background-color:var(--background-color);
+  --windward-background:var(--st-background-color,var(--background-color,#e7edef));
+  --windward-surface:var(--st-secondary-background-color,var(--secondary-background-color,#f7f9f9));
+  --windward-text:var(--st-text-color,var(--text-color,#132332));
+  --windward-border:var(--st-border-color,var(--border-color,#8fa3ad));
+  background-color:var(--windward-background) !important;
   background-image:
     linear-gradient(rgba(56,95,120,.08), rgba(8,26,41,.04)),
     radial-gradient(circle at 50% 0%, rgba(143,177,196,.16) 0%, transparent 58%);
-  color:var(--text-color);
+  color:var(--windward-text);
 }}
 html, body, [class*="css"], [data-testid="stAppViewContainer"] {{ font-family:"Trebuchet MS","Segoe UI",sans-serif; }}
-h1, h2, h3, h4, h5, h6, p, label, [data-testid="stCaptionContainer"], [data-testid="stMarkdownContainer"] {{ color:var(--text-color); }}
+.stApp [data-testid="stAppViewContainer"], .stApp [data-testid="stMain"] {{
+  background-color:transparent;
+  color:var(--windward-text);
+}}
+.stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp h5, .stApp h6,
+.stApp [data-testid="stMarkdownContainer"] p,
+.stApp [data-testid="stMarkdownContainer"] li,
+.stApp [data-testid="stCaptionContainer"] p,
+.stApp [data-testid="stWidgetLabel"] p,
+.stApp [data-testid="stMetricLabel"],
+.stApp [data-testid="stMetricValue"],
+.stApp [data-testid="stExpander"] summary,
+.stApp [data-testid="stExpander"] summary p,
+.stApp button[data-baseweb="tab"] p {{
+  color:var(--windward-text) !important;
+}}
 h1, h2, h3, h4, .windward-title, button, [data-testid="stExpander"] summary {{
   font-family:WindwardFallback, Georgia, "Times New Roman", serif !important;
   letter-spacing:.035em;
@@ -65,11 +84,11 @@ div.stButton > button {{
   border-radius:2px; box-shadow:inset 0 0 0 1px rgba(255,255,255,.08); font-weight:700;
 }}
 div.stButton > button:hover {{ color:#fff4c9; border-color:#f0cf70; background:linear-gradient(#20516f,#103149); }}
-div[data-testid="stMetric"] {{ color:var(--text-color); background:var(--secondary-background-color); border:1px solid rgba(143,163,173,.76); border-top:3px solid #c0a04c; padding:10px 14px; }}
-div[data-testid="stMetric"] [data-testid="stMetricLabel"], div[data-testid="stMetric"] [data-testid="stMetricValue"] {{ color:var(--text-color); }}
-div[data-testid="stExpander"] {{ color:var(--text-color); background:var(--secondary-background-color); border:1px solid rgba(143,163,173,.76); border-radius:2px; }}
-[data-testid="stPlotlyChart"] {{ border:1px solid rgba(143,163,173,.76); background:var(--secondary-background-color); }}
-.windward-note {{ color:var(--text-color); opacity:.76; font-size:.87rem; }}
+div[data-testid="stMetric"] {{ color:var(--windward-text); background:var(--windward-surface); border:1px solid var(--windward-border); border-top:3px solid #c0a04c; padding:10px 14px; }}
+div[data-testid="stMetric"] [data-testid="stMetricLabel"], div[data-testid="stMetric"] [data-testid="stMetricValue"] {{ color:var(--windward-text) !important; }}
+div[data-testid="stExpander"] {{ color:var(--windward-text); background:var(--windward-surface); border:1px solid var(--windward-border); border-radius:2px; }}
+[data-testid="stPlotlyChart"] {{ border:1px solid var(--windward-border); background:var(--windward-surface); }}
+.windward-note {{ color:var(--windward-text); opacity:.82; font-size:.87rem; }}
 .windward-rank {{ color:#c5a34a; font-family:Georgia,serif; font-weight:700; }}
 .windward-nav-spacer {{ height:18px; }}
 .windward-warning {{
