@@ -80,23 +80,18 @@ h1, h2, h3, h4, .windward-title, button, [data-testid="stExpander"] summary {{
 }}
 .windward-title {{ color:#f4f6f4; font-size:2.05rem; font-weight:800; text-shadow:0 3px 2px #132431,0 0 8px #09151c; }}
 div.stButton > button {{
-  color:#f2f3ef; background:linear-gradient(#173d56,#0b2436); border:1px solid #c9a84d;
+  color:#fff4c9 !important; background:linear-gradient(#20516f,#103149) !important; border:1px solid #f0cf70 !important;
   border-radius:2px; box-shadow:inset 0 0 0 1px rgba(255,255,255,.08); font-weight:700;
 }}
 .stApp div.stButton > button,
-.stApp div.stButton > button p,
-.stApp div.stButton > button span,
-.stApp div.stButton > button [data-testid="stMarkdownContainer"] p {{
-  color:#f2f3ef !important;
-  -webkit-text-fill-color:#f2f3ef !important;
-}}
-div.stButton > button:hover {{ color:#fff4c9; border-color:#f0cf70; background:linear-gradient(#20516f,#103149); }}
-.stApp div.stButton > button:hover,
-.stApp div.stButton > button:hover p,
-.stApp div.stButton > button:hover span,
-.stApp div.stButton > button:hover [data-testid="stMarkdownContainer"] p {{
+.stApp div.stButton > button *,
+.stApp [data-testid="stButton"] > button,
+.stApp [data-testid="stButton"] > button * {{
   color:#fff4c9 !important;
   -webkit-text-fill-color:#fff4c9 !important;
+}}
+div.stButton > button:hover {{
+  color:#fff4c9 !important; background:linear-gradient(#20516f,#103149) !important; border-color:#f0cf70 !important;
 }}
 div[data-testid="stMetric"] {{ color:var(--windward-text); background:var(--windward-surface); border:1px solid var(--windward-border); border-top:3px solid #c0a04c; padding:10px 14px; }}
 div[data-testid="stMetric"] [data-testid="stMetricLabel"], div[data-testid="stMetric"] [data-testid="stMetricValue"] {{ color:var(--windward-text) !important; }}
