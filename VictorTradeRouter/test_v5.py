@@ -5,7 +5,7 @@ from pathlib import Path
 import tomllib
 
 from routing import generate_world_route_candidates
-from wind import WIND_DISCLAIMER, choose_wind_route
+from wind import WIND_DISCLAIMER, choose_wind_route, setup_wind_for_target
 
 
 class VictorTradeRouterV5Tests(unittest.TestCase):
@@ -59,7 +59,7 @@ class VictorTradeRouterV5Tests(unittest.TestCase):
             "BEL", "BEL-P04", "BEL", "BEL-P02", max_candidates=4
         )
         plan = choose_wind_route(
-            candidates, "Hoy", 135, pixels_per_nautical_mile=100
+            candidates, "Hoy", setup_wind_for_target(135), pixels_per_nautical_mile=100
         )
         self.assertGreater(len(plan.tack_points), 0)
         self.assertTrue(plan.sail_instructions)
@@ -86,9 +86,9 @@ class VictorTradeRouterV5Tests(unittest.TestCase):
             theme = config["theme"][mode]
             self.assertGreaterEqual(contrast(theme["textColor"], theme["backgroundColor"]), 7.0)
             self.assertGreaterEqual(contrast(theme["textColor"], theme["secondaryBackgroundColor"]), 7.0)
-        self.assertIn("background-color:var(--background-color)", self.app_source)
-        self.assertIn("background:var(--secondary-background-color)", self.app_source)
-        self.assertIn("color:var(--text-color)", self.app_source)
+        self.assertIn("--st-background-color", self.app_source)
+        self.assertIn("--st-secondary-background-color", self.app_source)
+        self.assertIn("--st-text-color", self.app_source)
 
 
 if __name__ == "__main__":

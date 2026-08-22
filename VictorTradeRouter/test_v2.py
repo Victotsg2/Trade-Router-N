@@ -15,6 +15,7 @@ from wind import (
     load_handoff,
     modeled_speed_knots,
     sail_instruction,
+    setup_wind_for_target,
     wind_toward_at_elapsed,
 )
 
@@ -69,7 +70,7 @@ class NavalTradeV2Tests(unittest.TestCase):
         first_leg = self.local_candidates[0].legs[0]
         route_heading = heading_bearing(first_leg.waypoints[0], first_leg.waypoints[1])
         beam_wind = (route_heading - 90.0) % 360.0
-        plan = choose_wind_route(self.local_candidates, "Hoy", beam_wind)
+        plan = choose_wind_route(self.local_candidates, "Hoy", setup_wind_for_target(beam_wind))
         self.assertEqual(len(plan.route.region_sequence), 1)
         self.assertAlmostEqual(plan.segment_evaluations[0]["speed_knots"], 9.0, places=6)
 
@@ -83,7 +84,7 @@ class NavalTradeV2Tests(unittest.TestCase):
         self.assertNotEqual(default["total_profit_gbp"], manual["total_profit_gbp"])
 
     def test_poor_wind_adds_only_safe_tacks(self):
-        plan = choose_wind_route(self.local_candidates, "Hoy", 135, pixels_per_nautical_mile=100)
+        plan = choose_wind_route(self.local_candidates, "Hoy", setup_wind_for_target(135), pixels_per_nautical_mile=100)
         self.assertGreater(len(plan.tack_points), 0)
         for leg in plan.route.legs:
             _, _, nav, obstacles, _, _, _ = _region_context(leg.region_id)
@@ -98,7 +99,7 @@ class NavalTradeV2Tests(unittest.TestCase):
         self.assertNotIn("spanker", pembroke)
 
     def test_wind_rotation_changes_during_calibrated_route(self):
-        plan = choose_wind_route(self.local_candidates, "Been", 30, pixels_per_nautical_mile=100)
+        plan = choose_wind_route(self.local_candidates, "Been", setup_wind_for_target(30), pixels_per_nautical_mile=100)
         winds = [row["wind_toward_deg"] for row in plan.segment_evaluations]
         self.assertIsNotNone(plan.eta_minutes)
         self.assertGreater(len(winds), 1)
@@ -132,7 +133,7 @@ class NavalTradeV2Tests(unittest.TestCase):
         candidates = generate_world_route_candidates("VYS", "VYS-P01", "STP", "STP-P01", max_candidates=4)
         # Full-voyage rotating-wind comparison requires an explicit map scale.
         # This is a regression fixture, not a claimed game calibration.
-        plan = choose_wind_route(candidates, "Been", 0, pixels_per_nautical_mile=25)
+        plan = choose_wind_route(candidates, "Been", setup_wind_for_target(0), pixels_per_nautical_mile=25)
         self.assertGreater(len(candidates), 1)
         self.assertEqual(plan.route_choice, "wind_favored_tp_corridor")
         self.assertGreater(plan.route.total_distance_px, candidates[0].total_distance_px)
@@ -146,7 +147,7 @@ class NavalTradeV2Tests(unittest.TestCase):
         )
         self.assertTrue(any(candidate.teleport_count == 1 for candidate in candidates))
         self.assertTrue(any(candidate.teleport_count > 1 for candidate in candidates))
-        plan = choose_wind_route(candidates, "Hoy", 105)
+        plan = choose_wind_route(candidates, "Hoy", setup_wind_for_target(105))
         self.assertEqual(plan.route.region_sequence, ["Lebarde", "New Catalina"])
         self.assertEqual(plan.route.teleport_count, 1)
         self.assertEqual(
@@ -162,7 +163,7 @@ class NavalTradeV2Tests(unittest.TestCase):
         blacktip_candidates = generate_world_route_candidates(
             "LEB", "LEB-P02", "BTS", "BTS-P01", max_candidates=12
         )
-        blacktip_plan = choose_wind_route(blacktip_candidates, "Hoy", 105)
+        blacktip_plan = choose_wind_route(blacktip_candidates, "Hoy", setup_wind_for_target(105))
         self.assertEqual(
             [(item.from_tp_id, item.to_tp_id) for item in blacktip_plan.route.transitions],
             [("LEB-TP02", "BTS-TP04")],
@@ -174,13 +175,13 @@ class NavalTradeV2Tests(unittest.TestCase):
                 candidates = generate_world_route_candidates(
                     "LEB", origin_port_id, "NCA", "NCA-P04", max_candidates=12
                 )
-                plan = choose_wind_route(candidates, "Hoy", 105)
+                plan = choose_wind_route(candidates, "Hoy", setup_wind_for_target(105))
                 self.assertEqual(plan.route.region_sequence, ["Lebarde", "New Catalina"])
                 self.assertEqual(plan.route.teleport_count, 1)
 
     def test_long_cross_region_route_rotates_wind(self):
         candidates = generate_world_route_candidates("SSA", "SSA-P01", "ILB", "ILB-P01", max_candidates=4)
-        plan = choose_wind_route(candidates, "Hoy", 90, pixels_per_nautical_mile=100)
+        plan = choose_wind_route(candidates, "Hoy", setup_wind_for_target(90), pixels_per_nautical_mile=100)
         winds = [row["wind_toward_deg"] for row in plan.segment_evaluations]
         self.assertGreaterEqual(len(plan.route.region_sequence), 3)
         self.assertIsNotNone(plan.eta_minutes)
@@ -188,7 +189,7 @@ class NavalTradeV2Tests(unittest.TestCase):
 
     def test_route_can_remain_quiet_when_no_condition_is_material(self):
         candidates = generate_world_route_candidates("SPO", "SPO-P01", "SPO", "SPO-P04", max_candidates=2)
-        plan = choose_wind_route(candidates, "Pembroke", 185)
+        plan = choose_wind_route(candidates, "Pembroke", setup_wind_for_target(185))
         self.assertEqual(plan.warnings, [])
 
 

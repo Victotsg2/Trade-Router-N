@@ -9,7 +9,7 @@ from PIL import Image
 from economy import calculate_trade, load_economy
 from recommendations import generate_trade_recommendations
 from routing import generate_world_route_candidates, render_unified_route, world_alignment
-from wind import choose_wind_route, sail_instruction
+from wind import choose_wind_route, sail_instruction, setup_wind_for_target, wind_after_setup
 
 
 class NavalTradeV4Tests(unittest.TestCase):
@@ -50,9 +50,21 @@ class NavalTradeV4Tests(unittest.TestCase):
             for name in shared
         ))
 
+    def test_ten_degree_setup_allowance_wraps_through_north(self):
+        self.assertEqual(setup_wind_for_target(0), 350)
+        self.assertEqual(wind_after_setup(350), 0)
+        row = generate_trade_recommendations(
+            self.economy, "Petit Anvers", "Pembroke", 350, limit=1
+        )[0]
+        self.assertEqual(row["wind_when_charted_deg"], 350)
+        self.assertEqual(row["effective_departure_wind_deg"], 0)
+        plan = choose_wind_route(self.local_candidates, "Hoy", 350)
+        self.assertEqual(plan.wind_when_charted_deg, 350)
+        self.assertEqual(plan.wind_at_departure_deg, 0)
+
     def test_route_image_is_map_only_without_report_header(self):
         plan = choose_wind_route(
-            self.local_candidates, "Hoy", 0, pixels_per_nautical_mile=100
+            self.local_candidates, "Hoy", setup_wind_for_target(0), pixels_per_nautical_mile=100
         )
         image = Image.open(io.BytesIO(render_unified_route(plan.route)))
         world = Image.open(Path(__file__).parent / world_alignment()["world_map"])
@@ -62,7 +74,7 @@ class NavalTradeV4Tests(unittest.TestCase):
         candidates = generate_world_route_candidates(
             "LEB", "LEB-P03", "NCA", "NCA-P04", max_candidates=12
         )
-        plan = choose_wind_route(candidates, "Hoy", 105)
+        plan = choose_wind_route(candidates, "Hoy", setup_wind_for_target(105))
         rendered = Image.open(io.BytesIO(render_unified_route(plan.route))).convert("RGB")
         world = Image.open(Path(__file__).parent / world_alignment()["world_map"]).convert("RGB")
         # Center of the corrected right-side Lebarde TP06 polygon, transformed
@@ -87,7 +99,7 @@ class NavalTradeV4Tests(unittest.TestCase):
 
     def test_tack_symbol_is_directional_orange_arrow(self):
         plan = choose_wind_route(
-            self.local_candidates, "Hoy", 135, pixels_per_nautical_mile=100
+            self.local_candidates, "Hoy", setup_wind_for_target(135), pixels_per_nautical_mile=100
         )
         self.assertGreater(len(plan.tack_points), 0)
         image = Image.open(io.BytesIO(render_unified_route(plan.route))).convert("RGB")
@@ -105,7 +117,7 @@ class NavalTradeV4Tests(unittest.TestCase):
 
     def test_common_tack_warning_is_removed(self):
         plan = choose_wind_route(
-            self.local_candidates, "Hoy", 0, pixels_per_nautical_mile=100
+            self.local_candidates, "Hoy", setup_wind_for_target(0), pixels_per_nautical_mile=100
         )
         self.assertNotIn(
             "Unfavorable wind makes one or more tactical tacks worthwhile.",

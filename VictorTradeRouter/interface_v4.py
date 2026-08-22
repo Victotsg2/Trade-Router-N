@@ -9,7 +9,7 @@ import streamlit as st
 from diplomacy import NATIONS, diplomacy_warnings, region_controls, save_ownership, save_settings
 from economy import calculate_trade, save_economy, validate_economy
 from routing import RouteDiagnosticError, generate_world_route_candidates, render_unified_route
-from wind import WIND_DISCLAIMER, choose_wind_route, hud_arrow_to_world_wind, load_handoff, wind_toward_at_elapsed
+from wind import WIND_DISCLAIMER, choose_wind_route, hud_arrow_to_world_wind, load_handoff, wind_after_setup, wind_toward_at_elapsed
 
 
 ROUTE_LOADING_MESSAGE = "Victorsg_Khrushchev is Checking the Winds"
@@ -167,7 +167,11 @@ def _result_view(
         st.caption("Regions: " + " → ".join(plan.route.region_sequence))
         if plan.eta_minutes is not None:
             wind_end = wind_toward_at_elapsed(plan.wind_at_departure_deg, plan.eta_minutes)
-            st.caption(f"Wind: {plan.wind_at_departure_deg:.0f}° toward at departure → about {wind_end:.0f}° toward at arrival")
+            st.caption(
+                f"Wind: {plan.wind_when_charted_deg:.0f}° while charting → "
+                f"{plan.wind_at_departure_deg:.0f}° once underway → "
+                f"about {wind_end:.0f}° at arrival"
+            )
         for warning in plan.warnings + payload["enemy_warnings"]:
             st.warning(warning)
         if plan.sail_instructions:
@@ -233,8 +237,9 @@ def _route_planner(
                 ship_bearing = 0.0
                 if "absolute_wind" not in st.session_state:
                     st.session_state.absolute_wind = 180
-                hud_arrow = st.slider("Wind direction", 0, 359, step=1, key="absolute_wind")
+                hud_arrow = st.slider("Current wind direction", 0, 359, step=1, key="absolute_wind")
                 wind_toward = float(hud_arrow)
+            st.caption(f"Expected wind once underway: {wind_after_setup(wind_toward):.0f}°")
         with compass_col:
             st.plotly_chart(wind_compass(ship_bearing, hud_arrow), width="stretch", config={"displayModeBar": False})
         with st.expander("Enemy waters", expanded=False):

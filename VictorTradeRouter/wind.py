@@ -23,6 +23,9 @@ WIND_DISCLAIMER = (
     "Regional wind speed variations, very slow winds, gusts and storms are not accounted for "
     "and may change actual travel time."
 )
+WIND_ROTATION_DEG_PER_MINUTE = 6.0
+WIND_SETUP_ADVANCE_DEG = 10.0
+WIND_SETUP_DELAY_MINUTES = WIND_SETUP_ADVANCE_DEG / WIND_ROTATION_DEG_PER_MINUTE
 
 # These values are deliberately isolated and labelled. Hoy uses its confirmed
 # beam-reach orientation. Been and Pembroke share a provisional 15-degree
@@ -37,6 +40,7 @@ PEMBROKE_PROXY_POINTS = ((0.0, 8.6), (15.0, 9.0), (45.0, 6.0), (75.0, 3.4), (90.
 class WindRoutePlan:
     route: WorldRouteResult
     ship: str
+    wind_when_charted_deg: float
     wind_at_departure_deg: float
     eta_minutes: float | None
     eta_status: str
@@ -68,7 +72,20 @@ def load_handoff() -> dict[str, Any]:
 
 
 def wind_toward_at_elapsed(wind_at_departure_deg: float, elapsed_minutes: float) -> float:
-    return (float(wind_at_departure_deg) + 6.0 * float(elapsed_minutes)) % 360.0
+    return (
+        float(wind_at_departure_deg)
+        + WIND_ROTATION_DEG_PER_MINUTE * float(elapsed_minutes)
+    ) % 360.0
+
+
+def wind_after_setup(wind_when_charted_deg: float) -> float:
+    """Wind expected once sail setting and initial course alignment finish."""
+    return (float(wind_when_charted_deg) + WIND_SETUP_ADVANCE_DEG) % 360.0
+
+
+def setup_wind_for_target(target_departure_wind_deg: float) -> float:
+    """Current wind at which to begin preparing for a desired departure wind."""
+    return (float(target_departure_wind_deg) - WIND_SETUP_ADVANCE_DEG) % 360.0
 
 
 def hud_arrow_to_world_wind(
@@ -315,7 +332,7 @@ def _apply_tacks(
 def choose_wind_route(
     candidates: list[WorldRouteResult],
     ship: str,
-    wind_at_departure_deg: float,
+    wind_when_charted_deg: float,
     *,
     pixels_per_nautical_mile: float | None = None,
 ) -> WindRoutePlan:
@@ -323,6 +340,8 @@ def choose_wind_route(
         raise ValueError("At least one safe route candidate is required.")
     if pixels_per_nautical_mile is not None and pixels_per_nautical_mile <= 0:
         pixels_per_nautical_mile = None
+    wind_when_charted = float(wind_when_charted_deg) % 360.0
+    wind_at_departure = wind_after_setup(wind_when_charted)
     strategy_specs = [
         ("direct_progress", False, 0.0),
         ("immediate_wind", True, 0.0),
@@ -351,7 +370,7 @@ def choose_wind_route(
             planned_route, score, minutes, rows = _apply_tacks(
                 candidate,
                 ship,
-                wind_at_departure_deg,
+                wind_at_departure,
                 pixels_per_nautical_mile,
                 strategy=strategy,
                 allow_tacks=allow_tacks,
@@ -416,7 +435,8 @@ def choose_wind_route(
     return WindRoutePlan(
         route=selected,
         ship=ship,
-        wind_at_departure_deg=float(wind_at_departure_deg) % 360.0,
+        wind_when_charted_deg=wind_when_charted,
+        wind_at_departure_deg=wind_at_departure,
         eta_minutes=eta_value,
         eta_status=eta_status,
         relative_time_score=relative_score,

@@ -16,7 +16,7 @@ from economy import calculate_trade, load_economy, save_economy, validate_econom
 from interface_v4 import run_interface
 from recommendations import generate_trade_recommendations
 from routing import RouteDiagnosticError, generate_world_route_candidates, load_regions, ports as geometry_ports, regional_to_world, render_unified_route, world_alignment, world_navigation_samples
-from wind import WIND_DISCLAIMER, choose_wind_route, hud_arrow_to_world_wind, load_handoff, wind_toward_at_elapsed
+from wind import WIND_DISCLAIMER, choose_wind_route, hud_arrow_to_world_wind, load_handoff, wind_after_setup, wind_toward_at_elapsed
 
 
 ROOT = Path(__file__).parent
@@ -369,6 +369,7 @@ def recommendation_figure(rows: list[dict]) -> go.Figure:
             row["profit_per_unit_gbp"], row["time_estimate"], row["wind_rating"],
             row["modeled_departure_speed_knots"], row["relative_wind_deviation_deg"],
             row["distance_source"], row["cargo_distance_m"], row["general_bearing_deg"],
+            row["wind_when_charted_deg"], row["effective_departure_wind_deg"],
         ] for row in rows],
         hovertemplate=(
             "<b>%{customdata[0]}</b> · %{customdata[1]}<br>"
@@ -379,7 +380,9 @@ def recommendation_figure(rows: list[dict]) -> go.Figure:
             "Departure wind: %{customdata[6]} (%{customdata[7]} kt model)<br>"
             "Wind deviation: %{customdata[8]}°<br>"
             "Distance basis: %{customdata[9]}<br>"
-            "General bearing: %{customdata[11]}°<extra>Select Route</extra>"
+            "General bearing: %{customdata[11]}°<br>"
+            "Wind while charting: %{customdata[12]:.0f}°<br>"
+            "Expected wind underway: %{customdata[13]:.0f}°<extra>Select Route</extra>"
         ),
     ))
     figure.update_layout(
@@ -424,7 +427,8 @@ def render_home(economy: dict) -> None:
         controls = st.columns([1.45, 1.0])
         origin = controls[0].selectbox("Port of origin", route_ports, key="home_origin")
         ship = controls[1].selectbox("Ship", [row["ship"] for row in economy["ships"]], key="home_ship")
-        wind_toward = st.slider("Wind heading at departure", 0, 359, 180, 1, key="home_wind")
+        wind_toward = st.slider("Current wind heading", 0, 359, 180, 1, key="home_wind")
+        st.caption(f"Expected wind once underway: {wind_after_setup(wind_toward):.0f}°")
     with compass_col:
         st.plotly_chart(
             wind_compass(0.0, float(wind_toward), height=270),
@@ -658,7 +662,11 @@ with route_tab:
                 st.caption("Precise knot-based ETA and time-driven wind rotation remain disabled until one verified map-distance scale is entered in Data & Debug.")
             else:
                 wind_end = wind_toward_at_elapsed(plan.wind_at_departure_deg, plan.eta_minutes)
-                st.caption(f"Wind: {plan.wind_at_departure_deg:.0f}° toward at departure → approximately {wind_end:.0f}° toward at arrival")
+                st.caption(
+                    f"Wind: {plan.wind_when_charted_deg:.0f}° while charting → "
+                    f"{plan.wind_at_departure_deg:.0f}° once underway → "
+                    f"approximately {wind_end:.0f}° at arrival"
+                )
             for warning in plan.warnings + payload["enemy_warnings"]:
                 st.warning(warning)
             if plan.sail_instructions:

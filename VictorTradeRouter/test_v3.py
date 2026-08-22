@@ -15,7 +15,7 @@ from routing import (
     load_regions,
     resolve_current_position,
 )
-from wind import choose_wind_route, wind_toward_at_elapsed
+from wind import choose_wind_route, setup_wind_for_target, wind_toward_at_elapsed
 
 
 class NavalTradeV3Tests(unittest.TestCase):
@@ -107,7 +107,7 @@ class NavalTradeV3Tests(unittest.TestCase):
         plan = choose_wind_route(
             self.louisbourg_to_port_royal,
             "Hoy",
-            0,
+            setup_wind_for_target(0),
             pixels_per_nautical_mile=100,
         )
         strategies = {row["strategy"] for row in plan.candidate_summaries}

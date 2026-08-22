@@ -5,7 +5,7 @@ from typing import Any
 
 from economy import calculate_trade
 from routing import load_regions, ports as geometry_ports, regional_to_world
-from wind import heading_bearing, modeled_speed_knots
+from wind import heading_bearing, modeled_speed_knots, wind_after_setup
 
 
 def _world_port_points(economy: dict[str, Any]) -> dict[str, tuple[int, int]]:
@@ -49,12 +49,16 @@ def generate_trade_recommendations(
     This fast Home-screen estimate does not run the obstacle pathfinder. It uses
     recorded Cargo Distance when available (otherwise direct unified-map
     distance), general voyage bearing, and the current direction-only ship
-    model. Selecting a result still runs the full route planner.
+    model. The entered wind is the condition while charting; ranking uses the
+    wind expected 10 degrees later once sails and course are set. Selecting a
+    result still runs the full route planner.
     """
     points = _world_port_points(economy)
     if origin not in points:
         return []
     origin_point = points[origin]
+    wind_when_charted = float(wind_toward_deg) % 360.0
+    effective_departure_wind = wind_after_setup(wind_when_charted)
     port_rows = {row["display_name"]: row for row in economy["ports"]}
     rows: list[dict[str, Any]] = []
     for destination, destination_point in points.items():
@@ -65,7 +69,7 @@ def generate_trade_recommendations(
         if profit is None or profit <= 0:
             continue
         bearing = heading_bearing(origin_point, destination_point)
-        model = modeled_speed_knots(ship, bearing, wind_toward_deg)
+        model = modeled_speed_knots(ship, bearing, effective_departure_wind)
         speed = float(model["speed_knots"])
         cargo_distance = trade.get("cargo_distance_m")
         if cargo_distance is None:
@@ -86,7 +90,9 @@ def generate_trade_recommendations(
             "destination": destination,
             "destination_region": port_rows[destination]["region"],
             "ship": ship,
-            "wind_toward_deg": float(wind_toward_deg) % 360.0,
+            "wind_toward_deg": wind_when_charted,
+            "wind_when_charted_deg": wind_when_charted,
+            "effective_departure_wind_deg": effective_departure_wind,
             "cargo": trade["cargo"],
             "cargo_units": trade["total_units"],
             "total_profit_gbp": int(profit),

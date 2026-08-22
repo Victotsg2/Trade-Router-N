@@ -18,7 +18,7 @@ The **Home** page takes only three inputs: origin port, ship, and departure wind
 - Hovering a voyage shows cargo, profit, wind burden, estimated length category, distance source, and general bearing.
 - Selecting a route opens the Route Planner with origin, destination, ship, and wind already loaded.
 - Time is deliberately shown as **Short / Moderate / Long / Very long**, not a false clock ETA.
-- Wind is shown as **Favorable / Manageable / Demanding / Difficult** using the general departure course.
+- Wind is shown as **Favorable / Manageable / Demanding / Difficult** using the general departure course and the expected wind after the 10° setup allowance.
 - Home ranking uses recorded game Cargo Distance when available and never substitutes it for the generated obstacle-safe path distance. The full pathfinder runs after selection.
 
 ## Route Planner
@@ -61,6 +61,7 @@ The former Data & Debug and Data Status pages are combined into one collapsed **
 ## Wind and sailing rules
 
 - Global wind direction rotates clockwise by **6° per elapsed minute**.
+- Suggestions and full routes treat the entered wind as the condition while charting. Sail setting, initial alignment, and acceleration receive a **10° clockwise wind allowance** (about 1 minute 40 seconds). For example, a voyage intended to get underway at 0° should begin setup at 350°.
 - Random wind strength, regional slow wind, gusts, and storms are intentionally excluded.
 - The Hoy uses the supplied preliminary measured direction curve around its confirmed beam-reach orientation: wind approximately 90° to either side is best, while sailing directly with or directly against the wind is poor.
 - Without a verified map scale, routing first prefers the fewest valid TP transfers, then compares departure-wind effort and safe tacking within corridors having that same transfer count. This prevents raw screenshot pixels from making an unnecessary multi-TP detour appear faster. Wind rotation and clock ETA remain unavailable until a scale is calibrated.
