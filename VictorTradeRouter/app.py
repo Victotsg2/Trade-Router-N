@@ -83,7 +83,9 @@ div.stButton > button {{
   color:#f2f3ef; background:linear-gradient(#173d56,#0b2436); border:1px solid #c9a84d;
   border-radius:2px; box-shadow:inset 0 0 0 1px rgba(255,255,255,.08); font-weight:700;
 }}
+div.stButton > button p, div.stButton > button span {{ color:#f2f3ef !important; }}
 div.stButton > button:hover {{ color:#fff4c9; border-color:#f0cf70; background:linear-gradient(#20516f,#103149); }}
+div.stButton > button:hover p, div.stButton > button:hover span {{ color:#fff4c9 !important; }}
 div[data-testid="stMetric"] {{ color:var(--windward-text); background:var(--windward-surface); border:1px solid var(--windward-border); border-top:3px solid #c0a04c; padding:10px 14px; }}
 div[data-testid="stMetric"] [data-testid="stMetricLabel"], div[data-testid="stMetric"] [data-testid="stMetricValue"] {{ color:var(--windward-text) !important; }}
 div[data-testid="stExpander"] {{ color:var(--windward-text); background:var(--windward-surface); border:1px solid var(--windward-border); border-radius:2px; }}
@@ -376,7 +378,7 @@ def recommendation_figure(rows: list[dict]) -> go.Figure:
     figure.update_layout(
         height=max(500, 39 * len(rows) + 80),
         margin=dict(l=12, r=12, t=20, b=18),
-        paper_bgcolor="rgba(0,0,0,0)",
+        paper_bgcolor="#0c2537",
         plot_bgcolor="#0c2537",
         clickmode="event+select",
         showlegend=False,

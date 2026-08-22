@@ -142,6 +142,15 @@ class NavalTradeV4Tests(unittest.TestCase):
         self.assertIn('[data-testid="stWidgetLabel"] p', app_source)
         self.assertIn("color:var(--windward-text) !important", app_source)
 
+    def test_navigation_and_recommendation_labels_have_visible_backgrounds(self):
+        app_source = Path(__file__).with_name("app.py").read_text(encoding="utf-8")
+        self.assertIn("div.stButton > button p, div.stButton > button span", app_source)
+        self.assertIn("color:#f2f3ef !important", app_source)
+        recommendation_source = app_source.split("def recommendation_figure", 1)[1]
+        recommendation_source = recommendation_source.split("def load_home_recommendation", 1)[0]
+        self.assertIn('paper_bgcolor="#0c2537"', recommendation_source)
+        self.assertIn('tickfont=dict(size=13, color="#e7ecec")', recommendation_source)
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
